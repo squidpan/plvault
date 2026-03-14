@@ -1,0 +1,45 @@
+---
+title: "The Weeknd - Starboy ft. Daft Punk (Official Video) ft. Daft Punk"
+source: "https://www.youtube.com/watch?v=34Na4j8AVgA&list=RDMM&index=17"
+author:
+  - "[[TheWeekndVEVO]]"
+published: 2016-09-28
+created: 2026-03-14
+description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+tags:
+  - "clippings"
+---
+![](https://www.youtube.com/watch?v=34Na4j8AVgA)
+
+Starboy ft. Daft Punk (Official Video)  
+Taken from the new album Starboy  
+http://theweeknd.co/StarboyYD  
+  
+Connect with The Weeknd:  
+http://www.facebook.com/theweeknd  
+http://instagram.com/theweeknd  
+https://soundcloud.com/theweeknd  
+https://twitter.com/TheWeeknd  
+https://www.theweeknd.com  
+  
+Directed by Grant Singer  
+Produced by Julien LeMaitre & Nina Soriano  
+For Anonymous Content  
+  
+Music video by The Weeknd performing Starboy ft. Daft Punk. © 2016 The Weeknd XO, Inc., Manufactured and Marketed by Republic Records, a Division of UMG Recordings, Inc.  
+  
+http://vevo.ly/dLp4gE
+
+## Transcript
+
+**0:00** · ♪ ♪
+
+**0:10** · ♪ ♪
+
+**0:24** · ♪ ♪
+
+**0:34** · ♪ ♪
+
+**0:46** · ♪♪♪
+
+**0:57** · ♪ I'M TRYNA PUT YOU IN THE WORST MOOD ♪ ♪ P1 CLEANER THAN YOUR CHURCH SHOES ♪ ♪ MILLI POINT 2 JUST TO HURT YOU ♪ ♪ ALL RED LAMB JUST TO TEASE YOU ♪ ♪ NONE OF THESE TOYS ON LEASE TOO ♪ ♪ MADE YOUR WHOLE YEAR IN A WEEK TOO ♪ ♪ MAIN BITCH OUT OF YOUR LEAGUE TOO ♪ ♪ SIDE BITCH OUT OF YOUR LEAGUE TOO ♪ ♪ HOUSE SO EMPTY NEED A CENTERPIECE ♪ ♪ 20 RACKS A TABLE CUT FROM EBONY ♪ ♪ SHE CUT THAT IVORY INTO SKINNY PIECES ♪ ♪ THEN SHE CLEAN IT WITH HER FACE MAN ♪ ♪ I LOVE MY BABY ♪ ♪ YOU TALKING MONEY NEED A HEARING AID ♪ ♪ YOU TALKING BOUT ME I CAN'T SEE THE SHADE ♪ ♪ SWITCH UP MY STYLE I TAKE ANY LANE ♪ ♪ SWITCH UP MY CUP I KILL ANY PAIN ♪ ♪♪♪ ♪ LOOK WHAT YOU DONE! ♪ ♪♪♪ ♪ I'M A MOTHER FUCKIN STARBOY ♪ ♪♪♪ ♪ LOOK WHAT YOU DONE! ♪ ♪♪♪ ♪ I'M A MOTHER FUCKIN STARBOY ♪ ♪ EVERY DAY A NIGGA TRY TO TEST ME ♪ ♪ EVERY DAY A NIGGA TRY TO END ME ♪ ♪ PULL OFF IN THAT ROADSTER SV ♪ ♪ POCKETS OVER WEIGHT GETTIN HEFTY ♪ ♪ COMING FOR THE KING THAT'S A FAR CRY ♪ ♪ I COME ALIVE IN THE FALL TIME ♪ ♪ NO COMPETITION I DON'T REALLY LISTEN ♪ ♪ I'M IN THE BLUE MULSANNE BUMPING NEW EDITION ♪ ♪ HOUSE SO EMPTY NEED A CENTERPIECE ♪ ♪ 20 RACKS A TABLE CUT FROM EBONY ♪ ♪ SHE CUT THAT IVORY INTO SKINNY PIECES ♪ ♪ THEN SHE CLEAN IT WITH HER FACE MAN ♪ ♪ I LOVE MY BABY ♪ ♪ YOU TALKING MONEY NEED A HEARING AID ♪ ♪ YOU TALKING BOUT ME I CAN'T SEE THE SHADE ♪ ♪ SWITCH UP MY STYLE I TAKE ANY LANE ♪ ♪ SWITCH UP MY CUP I KILL ANY PAIN ♪ ♪♪♪ ♪ LOOK WHAT YOU DONE! ♪ ♪ ♪ ♪ I'M A MOTHER FUCKIN STARBOY ♪ ♪♪♪ ♪ LOOK WHAT YOU DONE! ♪ ♪ ♪ ♪ I'M A MOTHER FUCKIN STARBOY ♪ ♪ LET A NIGGA BRAG PITT LEGEND OF THE FALL ♪ ♪ TOOK THE YEAR LIKE A BANDIT ♪ ♪ BOUGHT MOMMA A CRIB AND A BRAND NEW WAGON ♪ ♪ NOW SHE HIT THE GROCERY SHOP LOOKIN LAVISH ♪ ♪ STAR TREK ROOF IN THAT WRAITH OF KHAN ♪ ♪ GIRLS GET LOOSE WHEN THEY HEAR THE SONG ♪ ♪ 100 ON THE DASH GET ME CLOSE TO GOD ♪ ♪ WE DON'T PRAY FOR LOVE WE JUST PRAY FOR CARS ♪ ♪ HOUSE SO EMPTY NEED A CENTERPIECE ♪ ♪ 20 RACKS A TABLE CUT FROM EBONY ♪ ♪ SHE CUT THAT IVORY INTO SKINNY PIECES ♪ ♪ THEN SHE CLEAN IT WITH HER FACE ♪ ♪ MAN I LOVE MY BABY ♪ ♪ YOU TALKING MONEY NEED A HEARING AID ♪ ♪ YOU TALKING BOUT ME I CAN'T SEE THE SHADE ♪ ♪ SWITCH UP MY STYLE I TAKE ANY LANE ♪ ♪ SWITCH UP MY CUP I KILL ANY PAIN ♪ ♪ ♪ ♪ LOOK WHAT YOU DONE! ♪ ♪ ♪ ♪ I'M A MOTHER FUCKIN STARBOY ♪ ♪♪♪ ♪ LOOK WHAT YOU DONE! ♪ ♪ ♪ ♪ I'M A MOTHER FUCKIN STARBOY ♪ ♪♪♪ ♪ LOOK WHAT YOU DONE! ♪ ♪ ♪ ♪ I'M A MOTHER FUCKIN STARBOY ♪ ♪♪♪ ♪ LOOK WHAT YOU DONE! ♪ ♪ ♪ ♪ I'M A MOTHER FUCKIN STARBOY ♪

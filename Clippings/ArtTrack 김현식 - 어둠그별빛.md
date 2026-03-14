@@ -1,0 +1,31 @@
+---
+title: "[ArtTrack] 김현식 - 어둠그별빛"
+source: https://www.youtube.com/watch?v=mM0hH-8rop0
+author:
+  - "[[RIAK Official]]"
+published: 2018-11-11
+created: 2026-03-14
+description: "Album Title : 김현식 2집(사랑했어요/어둠 그별빛) Artist : 김현식 Song Track : 어둠그별빛 Release Date : 1984 Include : kpop Distributor : RIAK Distributor2 : 한국음반산업협회 Genre : 가요 / pop HashTag : #김현식_2집_사랑했어요/어둠_그별빛#김현식#어둠그별빛#kpop#1984#RIAK#한국음반산업협회#가요#pop#발라드한#애절한#- RIAK Homepage: http://www.riak.or.kr- RIAK Facebook: http://www.facebook.com/riakmusic- RIAK Post: http://naver.me/5shDatr5Supporting Korean Caption (한국어 자막 지원)"
+tags:
+  - clippings
+  - videos
+categories:
+  - "[[Clippings]]"
+---
+![](https://www.youtube.com/watch?v=mM0hH-8rop0)
+
+Album Title : 김현식 2집(사랑했어요/어둠 그별빛)  
+Artist : 김현식  
+Song Track : 어둠그별빛  
+Release Date : 1984  
+Include : kpop  
+Distributor : RIAK  
+Distributor2 : 한국음반산업협회  
+Genre : 가요 / pop  
+HashTag : #김현식\_2집\_사랑했어요/어둠\_그별빛#김현식#어둠그별빛#kpop#1984#RIAK#한국음반산업협회#가요#pop#발라드한#애절한#  
+  
+\- RIAK Homepage: http://www.riak.or.kr  
+\- RIAK Facebook: http://www.facebook.com/riakmusic  
+\- RIAK Post: http://naver.me/5shDatr5  
+  
+Supporting Korean Caption (한국어 자막 지원)
