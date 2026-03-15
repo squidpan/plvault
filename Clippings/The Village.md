@@ -5,12 +5,13 @@ author:
   - "[[Lee Ritenour - Topic]]"
 published: 2019-01-09
 created: 2026-03-14
-description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+description:
 tags:
   - clippings
   - videos
 categories:
   - "[[Clippings]]"
+url: https://www.youtube.com/watch?v=o1Ewq0GhyM4&list=RDMM&index=27
 ---
 ![](https://www.youtube.com/watch?v=o1Ewq0GhyM4)
 

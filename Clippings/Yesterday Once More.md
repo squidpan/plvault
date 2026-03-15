@@ -5,12 +5,13 @@ author:
   - "[[The Carpenters - Topic]]"
 published: 2018-07-18
 created: 2026-03-14
-description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+description:
 tags:
   - clippings
   - videos
 categories:
   - "[[Clippings]]"
+url: https://www.youtube.com/watch?v=wawbhXQX2TQ&list=RDMM&index=23
 ---
 ![](https://www.youtube.com/watch?v=wawbhXQX2TQ)
 

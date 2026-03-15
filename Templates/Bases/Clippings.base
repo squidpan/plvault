@@ -17,13 +17,27 @@ views:
     order:
       - file.name
       - author
-      - created
+      - description
+      - tags
+      - source
+      - url
       - published
+      - created
     sort:
+      - property: tags
+        direction: ASC
+      - property: description
+        direction: ASC
+      - property: author
+        direction: ASC
       - property: created
         direction: DESC
     columnSize:
-      note.author: 297
+      file.name: 80
+      note.author: 80
+      note.description: 87
+      note.source: 666
+      note.url: 670
   - type: table
     name: Author
     filters:
@@ -37,3 +51,12 @@ views:
     sort:
       - property: clipped
         direction: DESC
+  - type: table
+    name: youtube
+    filters:
+      and:
+        - file.tags.contains("videos")
+    order:
+      - file.name
+      - author
+      - image

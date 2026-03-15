@@ -5,12 +5,13 @@ author:
   - "[[Camel - Topic]]"
 published: 2019-12-05
 created: 2026-03-14
-description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+description:
 tags:
   - clippings
   - videos
 categories:
   - "[[Clippings]]"
+url: https://www.youtube.com/watch?v=KNJGkyCqtTU&list=RDSWj7daF8A3w&index=11
 ---
 ![](https://www.youtube.com/watch?v=KNJGkyCqtTU)
 

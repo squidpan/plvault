@@ -5,12 +5,13 @@ author:
   - "[[Greta Van Fleet - Topic]]"
 published: 2018-07-30
 created: 2026-03-14
-description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+description:
 tags:
   - clippings
   - videos
 categories:
   - "[[Clippings]]"
+url: https://www.youtube.com/watch?v=8cepUUKMp1g&list=RDSWj7daF8A3w&index=22
 ---
 ![](https://www.youtube.com/watch?v=8cepUUKMp1g)
 

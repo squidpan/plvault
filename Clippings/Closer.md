@@ -5,12 +5,13 @@ author:
   - "[[Kings Of Leon - Topic]]"
 published: 2017-01-25
 created: 2026-03-14
-description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+description:
 tags:
   - clippings
   - videos
 categories:
   - "[[Clippings]]"
+url: https://www.youtube.com/watch?v=K-5mcoaPc_U&list=RDGMEMJQXQAmqrnmK1SEjY_rKBGA&index=2
 ---
 ![](https://www.youtube.com/watch?v=K-5mcoaPc_U)
 

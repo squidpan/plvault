@@ -5,12 +5,13 @@ author:
   - "[[Jackson Browne - Topic]]"
 published: 2017-11-28
 created: 2026-03-14
-description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+description:
 tags:
   - clippings
   - videos
 categories:
   - "[[Clippings]]"
+url: https://www.youtube.com/watch?v=Aj3oy3IayM4&list=RDxzE4wDfJ1QA&index=7
 ---
 ![](https://www.youtube.com/watch?v=Aj3oy3IayM4)
 

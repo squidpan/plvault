@@ -5,11 +5,13 @@ author:
   - "[[Buckethead - Topic]]"
 published: 2020-02-01
 created: 2026-03-14
-description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+description:
 tags:
   - clippings
+  - videos
 categories:
   - "[[Clippings]]"
+url: https://www.youtube.com/watch?v=SWj7daF8A3w&list=RDSWj7daF8A3w&start_radio=1&rv=gkB9xkjF6n8
 ---
 ![](https://www.youtube.com/watch?v=SWj7daF8A3w)
 
