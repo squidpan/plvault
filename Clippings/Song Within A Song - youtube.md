@@ -2,7 +2,7 @@
 title: Camel - Song Within A Song
 source: https://www.youtube.com/watch?v=_k5xCkkQAEY&list=RDMM&index=27
 author:
-  - "[[rvanegasp]]"
+  - "[[Camel - Topic]]"
 published: 2008-05-11
 created: 2026-03-14
 description:

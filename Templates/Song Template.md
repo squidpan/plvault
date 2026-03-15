@@ -1,6 +1,8 @@
 ---
 categories:
   - "[[Songs]]"
+title:
+album:
 cover:
 genre: []
 author:
@@ -9,8 +11,8 @@ cast: []
 runtime:
 rating:
 year:
+created:
 last:
-  "{ date }":
 ---
 # About
 

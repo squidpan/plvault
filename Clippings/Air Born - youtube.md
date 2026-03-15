@@ -4,7 +4,6 @@ source: https://www.youtube.com/watch?v=KNJGkyCqtTU&list=RDSWj7daF8A3w&index=11
 author:
   - "[[Camel - Topic]]"
   - "[[Latimer]]"
-  - "[[Bardens]]"
 published: 2019-12-05
 created: 2026-03-14
 description:
