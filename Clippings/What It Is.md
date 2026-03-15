@@ -1,13 +1,16 @@
 ---
-title: "What It Is"
-source: "https://www.youtube.com/watch?v=VCP93emyJ-c&list=RDSWj7daF8A3w&index=4"
+title: What It Is
+source: https://www.youtube.com/watch?v=VCP93emyJ-c&list=RDSWj7daF8A3w&index=4
 author:
   - "[[Mark Knopfler - Topic]]"
 published: 2014-11-06
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+  - videos
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=VCP93emyJ-c)
 

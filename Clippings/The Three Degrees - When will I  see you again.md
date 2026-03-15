@@ -1,5 +1,5 @@
 ---
-title: -The Three Degrees- -When will I  see you again-
+title: The Three Degrees - When will I  see you again
 source: https://www.youtube.com/watch?v=T6fVDAjs9f0&list=RDEMcTJOHGrNjNSw76pSUDekCQ&index=9
 author:
   - "[[EasyMusic36]]"

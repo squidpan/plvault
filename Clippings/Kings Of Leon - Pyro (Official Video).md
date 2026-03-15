@@ -1,13 +1,15 @@
 ---
-title: "Kings Of Leon - Pyro (Official Video)"
-source: "https://www.youtube.com/watch?v=gFp7q-IJqno&list=RDMM&index=29"
+title: Kings Of Leon - Pyro (Official Video)
+source: https://www.youtube.com/watch?v=gFp7q-IJqno&list=RDMM&index=29
 author:
   - "[[kingsofleonVEVO]]"
 published: 2010-12-09
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=gFp7q-IJqno)
 

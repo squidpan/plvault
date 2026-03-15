@@ -1,13 +1,16 @@
 ---
-title: "The Hollies - Long Cool Woman (In a Black Dress) (Official Audio)"
-source: "https://www.youtube.com/watch?v=g8XiNKsKyVk&list=RDGMEMJQXQAmqrnmK1SEjY_rKBGA&index=38"
+title: The Hollies - Long Cool Woman (In a Black Dress) (Official Audio)
+source: https://www.youtube.com/watch?v=g8XiNKsKyVk&list=RDGMEMJQXQAmqrnmK1SEjY_rKBGA&index=38
 author:
   - "[[RHINO]]"
 published: 2019-05-24
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+  - videos
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=g8XiNKsKyVk)
 

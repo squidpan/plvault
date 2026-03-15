@@ -1,13 +1,15 @@
 ---
-title: "System Of A Down - Chop Suey! (Official HD Video)"
-source: "https://www.youtube.com/watch?v=CSvFpBOe8eY&list=RDGMEMJQXQAmqrnmK1SEjY_rKBGA&index=5"
+title: System Of A Down - Chop Suey! (Official HD Video)
+source: https://www.youtube.com/watch?v=CSvFpBOe8eY&list=RDGMEMJQXQAmqrnmK1SEjY_rKBGA&index=5
 author:
   - "[[systemofadownVEVO]]"
 published: 2009-10-03
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=CSvFpBOe8eY)
 

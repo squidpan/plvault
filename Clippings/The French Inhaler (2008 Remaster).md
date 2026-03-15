@@ -1,13 +1,15 @@
 ---
-title: "The French Inhaler (2008 Remaster)"
-source: "https://www.youtube.com/watch?v=OaA70iCSDJs&list=RDgtQW8Ehi1mE&index=27"
+title: The French Inhaler (2008 Remaster)
+source: https://www.youtube.com/watch?v=OaA70iCSDJs&list=RDgtQW8Ehi1mE&index=27
 author:
   - "[[Warren Zevon - Topic]]"
 published: 2014-11-08
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=OaA70iCSDJs)
 

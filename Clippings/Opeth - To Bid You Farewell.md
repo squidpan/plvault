@@ -1,13 +1,16 @@
 ---
-title: "Opeth - To Bid You Farewell"
-source: "https://www.youtube.com/watch?v=qxu1bku4wN0&list=RDMM&index=48"
+title: Opeth - To Bid You Farewell
+source: https://www.youtube.com/watch?v=qxu1bku4wN0&list=RDMM&index=48
 author:
   - "[[Dak Murdocks]]"
 published: 2014-09-21
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+  - videos
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=qxu1bku4wN0)
 

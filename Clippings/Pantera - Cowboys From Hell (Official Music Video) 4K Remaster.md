@@ -1,13 +1,16 @@
 ---
-title: "Pantera - Cowboys From Hell (Official Music Video) [4K Remaster]"
-source: "https://www.youtube.com/watch?v=i97OkCXwotE&list=RDMM&index=28"
+title: Pantera - Cowboys From Hell (Official Music Video) [4K Remaster]
+source: https://www.youtube.com/watch?v=i97OkCXwotE&list=RDMM&index=28
 author:
   - "[[Pantera]]"
 published: 2009-10-26
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+  - videos
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=i97OkCXwotE)
 

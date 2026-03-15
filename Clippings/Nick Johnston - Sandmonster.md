@@ -1,13 +1,16 @@
 ---
-title: "Nick Johnston - Sandmonster"
-source: "https://www.youtube.com/watch?v=h2RBJwHyiQk&list=RDEMEXc-YUwhULcXK1yj_E4-Cw&index=15"
+title: Nick Johnston - Sandmonster
+source: https://www.youtube.com/watch?v=h2RBJwHyiQk&list=RDEMEXc-YUwhULcXK1yj_E4-Cw&index=15
 author:
   - "[[Nick Johnston]]"
 published: 2013-07-19
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+  - videos
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=h2RBJwHyiQk)
 

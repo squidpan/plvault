@@ -1,13 +1,16 @@
 ---
-title: "The Patrolman"
-source: "https://www.youtube.com/watch?v=II9XLUmu1yI&list=RDSWj7daF8A3w&index=9"
+title: The Patrolman
+source: https://www.youtube.com/watch?v=II9XLUmu1yI&list=RDSWj7daF8A3w&index=9
 author:
   - "[[Buckethead - Topic]]"
 published: 2020-03-04
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+  - videos
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=II9XLUmu1yI)
 

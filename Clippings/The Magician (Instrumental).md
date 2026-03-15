@@ -1,13 +1,15 @@
 ---
-title: "The Magician (Instrumental)"
-source: "https://www.youtube.com/watch?v=JSR2GodsNAM&list=RDMM&index=10"
+title: The Magician (Instrumental)
+source: https://www.youtube.com/watch?v=JSR2GodsNAM&list=RDMM&index=10
 author:
   - "[[Return to Forever - Topic]]"
 published: 2015-04-20
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=JSR2GodsNAM)
 

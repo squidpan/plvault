@@ -1,13 +1,16 @@
 ---
-title: "TOOL - The Pot (Official Audio)"
-source: "https://www.youtube.com/watch?v=civuoU_NE38&list=RDSWj7daF8A3w&index=8"
+title: TOOL - The Pot (Official Audio)
+source: https://www.youtube.com/watch?v=civuoU_NE38&list=RDSWj7daF8A3w&index=8
 author:
   - "[[TOOLVEVO]]"
 published: 2019-08-02
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+  - videos
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=civuoU_NE38)
 

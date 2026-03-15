@@ -1,13 +1,15 @@
 ---
-title: "Technical Difficulties"
-source: "https://www.youtube.com/watch?v=s88FNBs3jqc&list=RD7v24zNx5Gaw&index=7"
+title: Technical Difficulties
+source: https://www.youtube.com/watch?v=s88FNBs3jqc&list=RD7v24zNx5Gaw&index=7
 author:
   - "[[Racer X - Topic]]"
 published: 2015-11-14
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=s88FNBs3jqc)
 

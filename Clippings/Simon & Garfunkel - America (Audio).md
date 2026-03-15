@@ -1,13 +1,15 @@
 ---
-title: "Simon & Garfunkel - America (Audio)"
-source: "https://www.youtube.com/watch?v=Eo2ZsAOlvEM&list=RDxzE4wDfJ1QA&index=3"
+title: Simon & Garfunkel - America (Audio)
+source: https://www.youtube.com/watch?v=Eo2ZsAOlvEM&list=RDxzE4wDfJ1QA&index=3
 author:
   - "[[SimonGarfunkelVEVO]]"
 published: 2017-05-19
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=Eo2ZsAOlvEM)
 

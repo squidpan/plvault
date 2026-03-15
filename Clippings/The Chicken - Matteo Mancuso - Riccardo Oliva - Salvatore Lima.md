@@ -1,13 +1,16 @@
 ---
-title: "The Chicken - Matteo Mancuso - Riccardo Oliva - Salvatore Lima"
-source: "https://www.youtube.com/watch?v=ST9--HWOTA8&list=RDEMJVNV-QG5rmzhUO_DiQTGuw&index=10"
+title: The Chicken - Matteo Mancuso - Riccardo Oliva - Salvatore Lima
+source: https://www.youtube.com/watch?v=ST9--HWOTA8&list=RDEMJVNV-QG5rmzhUO_DiQTGuw&index=10
 author:
   - "[[Matteo Mancuso]]"
 published: 2017-04-14
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+  - videos
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=ST9--HWOTA8)
 

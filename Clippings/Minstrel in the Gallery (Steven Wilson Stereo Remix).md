@@ -1,13 +1,16 @@
 ---
-title: "Minstrel in the Gallery (Steven Wilson Stereo Remix)"
-source: "https://www.youtube.com/watch?v=Lz1u2mgWdUA&list=OLAK5uy_mEQMSNJBIfjCn3np8FnRDuzdNOyAUgk88"
+title: Minstrel in the Gallery (Steven Wilson Stereo Remix)
+source: https://www.youtube.com/watch?v=Lz1u2mgWdUA&list=OLAK5uy_mEQMSNJBIfjCn3np8FnRDuzdNOyAUgk88
 author:
   - "[[Jethro Tull - Topic]]"
 published: 2017-01-07
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+  - videos
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=Lz1u2mgWdUA)
 

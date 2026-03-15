@@ -1,13 +1,16 @@
 ---
-title: "Foolish Games (Feat. Kelly Clarkson)"
-source: "https://www.youtube.com/watch?v=gtQW8Ehi1mE&list=RDscT-77nwRAo&index=13"
+title: Foolish Games (Feat. Kelly Clarkson)
+source: https://www.youtube.com/watch?v=gtQW8Ehi1mE&list=RDscT-77nwRAo&index=13
 author:
   - "[[Jewel - Topic]]"
 published: 2022-09-27
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+  - videos
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=gtQW8Ehi1mE)
 

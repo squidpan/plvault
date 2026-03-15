@@ -1,13 +1,15 @@
 ---
-title: "Passenger | Let Her Go (Official Video)"
-source: "https://www.youtube.com/watch?v=RBumgq5yVrA&list=RDgtQW8Ehi1mE&index=10"
+title: Passenger | Let Her Go (Official Video)
+source: https://www.youtube.com/watch?v=RBumgq5yVrA&list=RDgtQW8Ehi1mE&index=10
 author:
   - "[[Passenger]]"
 published: 2012-07-25
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=RBumgq5yVrA)
 

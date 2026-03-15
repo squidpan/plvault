@@ -23,7 +23,7 @@ views:
       - property: created
         direction: DESC
     columnSize:
-      note.author: 140
+      note.author: 297
   - type: table
     name: Author
     filters:

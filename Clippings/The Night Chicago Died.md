@@ -1,13 +1,16 @@
 ---
-title: "The Night Chicago Died"
-source: "https://www.youtube.com/watch?v=p-L0NpaErkk&list=RDEMcTJOHGrNjNSw76pSUDekCQ&index=37"
+title: The Night Chicago Died
+source: https://www.youtube.com/watch?v=p-L0NpaErkk&list=RDEMcTJOHGrNjNSw76pSUDekCQ&index=37
 author:
   - "[[elvis633]]"
 published: 2007-04-07
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+  - videos
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=p-L0NpaErkk)
 

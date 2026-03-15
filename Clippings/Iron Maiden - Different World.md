@@ -1,13 +1,16 @@
 ---
-title: "Iron Maiden - Different World"
-source: "https://www.youtube.com/watch?v=uGQZjnknOAI&list=PLEivWbown2xSg8OjYHkSWWr4i3QSKQaZT&index=1"
+title: Iron Maiden - Different World
+source: https://www.youtube.com/watch?v=uGQZjnknOAI&list=PLEivWbown2xSg8OjYHkSWWr4i3QSKQaZT&index=1
 author:
   - "[[Metal and More Channel]]"
 published: 2018-10-07
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+  - videos
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=uGQZjnknOAI)
 

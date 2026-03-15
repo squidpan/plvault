@@ -1,13 +1,16 @@
 ---
-title: "Kelly Clarkson - Breakaway (Official Video)"
-source: "https://www.youtube.com/watch?v=c-3vPxKdj6o&list=RDgtQW8Ehi1mE&index=36"
+title: Kelly Clarkson - Breakaway (Official Video)
+source: https://www.youtube.com/watch?v=c-3vPxKdj6o&list=RDgtQW8Ehi1mE&index=36
 author:
   - "[[kellyclarksonVEVO]]"
 published: 2009-10-03
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+  - videos
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=c-3vPxKdj6o)
 

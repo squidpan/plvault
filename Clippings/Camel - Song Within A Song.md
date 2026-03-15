@@ -1,13 +1,16 @@
 ---
-title: "Camel - Song Within A Song"
-source: "https://www.youtube.com/watch?v=_k5xCkkQAEY&list=RDMM&index=27"
+title: Camel - Song Within A Song
+source: https://www.youtube.com/watch?v=_k5xCkkQAEY&list=RDMM&index=27
 author:
   - "[[rvanegasp]]"
 published: 2008-05-11
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+  - videos
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=_k5xCkkQAEY)
 

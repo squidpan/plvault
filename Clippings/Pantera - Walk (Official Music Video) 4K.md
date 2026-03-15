@@ -1,13 +1,16 @@
 ---
-title: "Pantera - Walk (Official Music Video) [4K]"
-source: "https://www.youtube.com/watch?v=AkFqg5wAuFk&list=RDEMJLg00L68LYJAn1CZEQCi5Q&index=18"
+title: Pantera - Walk (Official Music Video) [4K]
+source: https://www.youtube.com/watch?v=AkFqg5wAuFk&list=RDEMJLg00L68LYJAn1CZEQCi5Q&index=18
 author:
   - "[[Pantera]]"
 published: 2009-10-26
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+  - videos
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=AkFqg5wAuFk)
 

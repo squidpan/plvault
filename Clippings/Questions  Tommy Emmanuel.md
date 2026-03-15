@@ -1,14 +1,17 @@
 ---
-title: "Questions | Tommy Emmanuel"
-source: "https://www.youtube.com/watch?v=DTFCVwQNHVQ&list=RDMM&index=11"
+title: Questions | Tommy Emmanuel
+source: https://www.youtube.com/watch?v=DTFCVwQNHVQ&list=RDMM&index=11
 author:
   - "[[Tommy Emmanuel]]"
   - "[[CGP]]"
 published: 2015-06-04
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+  - videos
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=DTFCVwQNHVQ)
 

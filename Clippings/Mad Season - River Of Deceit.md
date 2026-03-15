@@ -1,13 +1,16 @@
 ---
-title: "Mad Season - River Of Deceit"
-source: "https://www.youtube.com/watch?v=Fm72DPJCX58&list=RDSWj7daF8A3w&index=23"
+title: Mad Season - River Of Deceit
+source: https://www.youtube.com/watch?v=Fm72DPJCX58&list=RDSWj7daF8A3w&index=23
 author:
   - "[[MadSeasonVEVO]]"
 published: 2009-10-25
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+  - videos
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=Fm72DPJCX58)
 

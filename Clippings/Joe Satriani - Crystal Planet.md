@@ -1,13 +1,15 @@
 ---
-title: "Joe Satriani - Crystal Planet"
-source: "https://www.youtube.com/watch?v=Do7PdIQ2fkE&list=RDSWj7daF8A3w&index=7"
+title: Joe Satriani - Crystal Planet
+source: https://www.youtube.com/watch?v=Do7PdIQ2fkE&list=RDSWj7daF8A3w&index=7
 author:
   - "[[FogoLabs]]"
 published: 2014-02-07
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=Do7PdIQ2fkE)
 

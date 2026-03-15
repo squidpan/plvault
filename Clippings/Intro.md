@@ -1,13 +1,16 @@
 ---
-title: "Intro"
-source: "https://www.youtube.com/watch?v=gNNO63KZvQ4&list=RDSWj7daF8A3w&index=21"
+title: Intro
+source: https://www.youtube.com/watch?v=gNNO63KZvQ4&list=RDSWj7daF8A3w&index=21
 author:
   - "[[alt-J - Topic]]"
 published: 2017-01-25
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+  - videos
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=gNNO63KZvQ4)
 

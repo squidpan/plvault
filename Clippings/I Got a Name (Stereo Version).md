@@ -1,13 +1,16 @@
 ---
-title: "I Got a Name (Stereo Version)"
-source: "https://www.youtube.com/watch?v=O_BEFyNNIvM&list=RDxzE4wDfJ1QA&index=2"
+title: I Got a Name (Stereo Version)
+source: https://www.youtube.com/watch?v=O_BEFyNNIvM&list=RDxzE4wDfJ1QA&index=2
 author:
   - "[[Jim Croce - Topic]]"
 published: 2021-07-21
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+  - videos
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=O_BEFyNNIvM)
 

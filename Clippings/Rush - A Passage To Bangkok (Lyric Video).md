@@ -1,13 +1,15 @@
 ---
-title: "Rush - A Passage To Bangkok (Lyric Video)"
-source: "https://www.youtube.com/watch?v=Wy7cmGyKwek&list=OLAK5uy_miQ0aViBzxOZj7XbA6Q61Mo5FM84xvTdU"
+title: Rush - A Passage To Bangkok (Lyric Video)
+source: https://www.youtube.com/watch?v=Wy7cmGyKwek&list=OLAK5uy_miQ0aViBzxOZj7XbA6Q61Mo5FM84xvTdU
 author:
   - "[[RushVEVO]]"
 published: 2016-04-04
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=Wy7cmGyKwek)
 

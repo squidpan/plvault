@@ -1,13 +1,16 @@
 ---
-title: "Harry Styles - Sign of the Times (Official Video)"
-source: "https://www.youtube.com/watch?v=qN4ooNx77u0&list=RDMM&index=38"
+title: Harry Styles - Sign of the Times (Official Video)
+source: https://www.youtube.com/watch?v=qN4ooNx77u0&list=RDMM&index=38
 author:
   - "[[HarryStylesVEVO]]"
 published: 2017-05-08
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+  - videos
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=qN4ooNx77u0)
 

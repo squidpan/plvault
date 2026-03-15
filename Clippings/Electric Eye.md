@@ -1,13 +1,16 @@
 ---
-title: "Electric Eye"
-source: "https://www.youtube.com/watch?v=3dbRdzATXBE&list=RDGMEMJQXQAmqrnmK1SEjY_rKBGA&index=12"
+title: Electric Eye
+source: https://www.youtube.com/watch?v=3dbRdzATXBE&list=RDGMEMJQXQAmqrnmK1SEjY_rKBGA&index=12
 author:
   - "[[Judas Priest - Topic]]"
 published: 2017-02-20
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+  - videos
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=3dbRdzATXBE)
 

@@ -1,13 +1,16 @@
 ---
-title: "Cafo"
-source: "https://www.youtube.com/watch?v=K-FrlY1EG_I&list=RDSWj7daF8A3w&index=6"
+title: Cafo
+source: https://www.youtube.com/watch?v=K-FrlY1EG_I&list=RDSWj7daF8A3w&index=6
 author:
   - "[[Animals As Leaders - Topic]]"
 published: 2015-02-11
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+  - videos
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=K-FrlY1EG_I)
 

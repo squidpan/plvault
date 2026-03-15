@@ -1,13 +1,16 @@
 ---
-title: "Fountain Of Sorrow"
-source: "https://www.youtube.com/watch?v=xzE4wDfJ1QA&list=RDxzE4wDfJ1QA&start_radio=1&rv=Z3_HTGdLXL4"
+title: Fountain Of Sorrow
+source: https://www.youtube.com/watch?v=xzE4wDfJ1QA&list=RDxzE4wDfJ1QA&start_radio=1&rv=Z3_HTGdLXL4
 author:
   - "[[Jackson Browne - Topic]]"
 published: 2017-11-28
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+  - videos
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=xzE4wDfJ1QA)
 

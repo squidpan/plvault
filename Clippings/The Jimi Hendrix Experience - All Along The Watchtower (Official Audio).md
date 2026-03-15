@@ -1,13 +1,16 @@
 ---
-title: "The Jimi Hendrix Experience - All Along The Watchtower (Official Audio)"
-source: "https://www.youtube.com/watch?v=TLV4_xaYynY&list=RDscT-77nwRAo&index=9"
+title: The Jimi Hendrix Experience - All Along The Watchtower (Official Audio)
+source: https://www.youtube.com/watch?v=TLV4_xaYynY&list=RDscT-77nwRAo&index=9
 author:
   - "[[JimiHendrixVEVO]]"
 published: 2012-10-05
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+  - videos
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=TLV4_xaYynY)
 

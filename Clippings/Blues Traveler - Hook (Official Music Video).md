@@ -1,13 +1,16 @@
 ---
-title: "Blues Traveler - Hook (Official Music Video)"
-source: "https://www.youtube.com/watch?v=pdz5kCaCRFM&list=RDMM&index=15"
+title: Blues Traveler - Hook (Official Music Video)
+source: https://www.youtube.com/watch?v=pdz5kCaCRFM&list=RDMM&index=15
 author:
   - "[[BluesTravelerVEVO]]"
 published: 2009-10-09
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+  - videos
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=pdz5kCaCRFM)
 

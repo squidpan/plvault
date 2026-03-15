@@ -1,13 +1,16 @@
 ---
-title: "Drift Away Dobie Gray HD"
-source: "https://www.youtube.com/watch?v=URw11Td8Zy0&list=RDxzE4wDfJ1QA&index=11"
+title: Drift Away Dobie Gray HD
+source: https://www.youtube.com/watch?v=URw11Td8Zy0&list=RDxzE4wDfJ1QA&index=11
 author:
   - "[[Cat Man]]"
 published: 2015-08-11
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+  - videos
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=URw11Td8Zy0)
 

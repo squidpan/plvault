@@ -1,13 +1,16 @@
 ---
-title: "Skating Away (On the Thin Ice of the New Day) (Live at Palais Des Sports, Paris, 5/7/1975)..."
-source: "https://www.youtube.com/watch?v=4DAhu1kjs0M&list=OLAK5uy_mEQMSNJBIfjCn3np8FnRDuzdNOyAUgk88&index=26"
+title: Skating Away (On the Thin Ice of the New Day) (Live at Palais Des Sports, Paris, 5/7/1975)...
+source: https://www.youtube.com/watch?v=4DAhu1kjs0M&list=OLAK5uy_mEQMSNJBIfjCn3np8FnRDuzdNOyAUgk88&index=26
 author:
   - "[[Jethro Tull - Topic]]"
 published: 2017-01-07
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+  - videos
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=4DAhu1kjs0M)
 

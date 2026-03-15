@@ -1,13 +1,15 @@
 ---
-title: "Terminal Show"
-source: "https://www.youtube.com/watch?v=oVjtcTZmVCM&list=RDGMEMJQXQAmqrnmK1SEjY_rKBGA&index=43"
+title: Terminal Show
+source: https://www.youtube.com/watch?v=oVjtcTZmVCM&list=RDGMEMJQXQAmqrnmK1SEjY_rKBGA&index=43
 author:
   - "[[Motörhead - Topic]]"
 published: 2021-07-21
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=oVjtcTZmVCM)
 

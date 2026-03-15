@@ -1,13 +1,15 @@
 ---
-title: "Mona Lisas And Mad Hatters"
-source: "https://www.youtube.com/watch?v=zAKIOlZrLzw&list=RDgtQW8Ehi1mE&index=41"
+title: Mona Lisas And Mad Hatters
+source: https://www.youtube.com/watch?v=zAKIOlZrLzw&list=RDgtQW8Ehi1mE&index=41
 author:
   - "[[Elton John - Topic]]"
 published: 2018-07-31
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=zAKIOlZrLzw)
 

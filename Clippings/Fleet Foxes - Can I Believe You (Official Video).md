@@ -1,13 +1,16 @@
 ---
-title: "Fleet Foxes - \"Can I Believe You\" (Official Video)"
-source: "https://www.youtube.com/watch?v=L2E2DpWO3-Y&list=RDgtQW8Ehi1mE&index=11"
+title: Fleet Foxes - "Can I Believe You" (Official Video)
+source: https://www.youtube.com/watch?v=L2E2DpWO3-Y&list=RDgtQW8Ehi1mE&index=11
 author:
   - "[[Fleet Foxes]]"
 published: 2020-10-07
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+  - videos
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=L2E2DpWO3-Y)
 

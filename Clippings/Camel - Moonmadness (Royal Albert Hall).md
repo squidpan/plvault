@@ -1,13 +1,16 @@
 ---
-title: "Camel - Moonmadness (Royal Albert Hall)"
-source: "https://www.youtube.com/watch?v=fsWEbLkCvGE&list=RDfsWEbLkCvGE&start_radio=1"
+title: Camel - Moonmadness (Royal Albert Hall)
+source: https://www.youtube.com/watch?v=fsWEbLkCvGE&list=RDfsWEbLkCvGE&start_radio=1
 author:
   - "[[Ledones]]"
 published: 2025-07-18
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+  - videos
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=fsWEbLkCvGE)
 

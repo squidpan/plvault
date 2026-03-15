@@ -1,13 +1,16 @@
 ---
-title: "Cinderella Man"
-source: "https://www.youtube.com/watch?v=MrvPLbuHInM&list=RDMrvPLbuHInM&start_radio=1"
+title: Cinderella Man
+source: https://www.youtube.com/watch?v=MrvPLbuHInM&list=RDMrvPLbuHInM&start_radio=1
 author:
   - "[[Rush - Topic]]"
 published: 2018-07-26
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+  - videos
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=MrvPLbuHInM)
 

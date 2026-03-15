@@ -1,13 +1,16 @@
 ---
-title: "Jaco Pastorius - Come On, Come Over"
-source: "https://www.youtube.com/watch?v=PE6HmArln_k&list=RDMM&index=46"
+title: Jaco Pastorius - Come On, Come Over
+source: https://www.youtube.com/watch?v=PE6HmArln_k&list=RDMM&index=46
 author:
   - "[[RasputinStream]]"
 published: 2008-12-03
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+  - videos
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=PE6HmArln_k)
 

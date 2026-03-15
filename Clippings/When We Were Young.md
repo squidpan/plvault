@@ -1,13 +1,16 @@
 ---
-title: "When We Were Young"
-source: "https://www.youtube.com/watch?v=Xpc8mAJ_2nM&list=RDMM&index=30"
+title: When We Were Young
+source: https://www.youtube.com/watch?v=Xpc8mAJ_2nM&list=RDMM&index=30
 author:
   - "[[Adele - Topic]]"
 published: 2020-12-15
 created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 tags:
-  - "clippings"
+  - clippings
+  - videos
+categories:
+  - "[[Clippings]]"
 ---
 ![](https://www.youtube.com/watch?v=Xpc8mAJ_2nM)
 
