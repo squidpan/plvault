@@ -18,11 +18,8 @@ views:
       - file.name
       - author
       - description
-      - tags
       - source
       - url
-      - published
-      - created
     sort:
       - property: tags
         direction: ASC
@@ -33,8 +30,8 @@ views:
       - property: created
         direction: DESC
     columnSize:
-      file.name: 80
-      note.author: 80
+      file.name: 167
+      note.author: 191
       note.description: 87
       note.source: 666
       note.url: 670
