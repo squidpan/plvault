@@ -14,6 +14,7 @@ tags:
 categories:
   - "[[Clippings]]"
 url: https://www.youtube.com/watch?v=KNJGkyCqtTU&list=RDSWj7daF8A3w&index=11
+album: "[[Moonmadness]]"
 ---
 ![](https://www.youtube.com/watch?v=KNJGkyCqtTU)
 
