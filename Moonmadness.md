@@ -16,7 +16,7 @@ rating:
 3. Chord Change Written-By – Latimer*, Bardens*
 4. Spirit Of The Water Vocals – Peter Bardens Written-By – Bardens*
 5. Another Night Vocals – Andy Latimer* Written-By – Latimer*, Ward*, Ferguson*, Bardens*
-6. [[Air Born]] [[Air Born - youtube]]
+6. [[Air Born]]
 7. Lunar Sea Written-By – Latimer*, Bardens*
 
 [[Moonmadness -live]]

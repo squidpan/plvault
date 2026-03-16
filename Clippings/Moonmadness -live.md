@@ -2,7 +2,6 @@
 title: Camel - Moonmadness (Royal Albert Hall)
 source: https://www.youtube.com/watch?v=fsWEbLkCvGE&list=RDfsWEbLkCvGE&start_radio=1
 author:
-  - "[[Ledones]]"
   - "[[Camel - Topic]]"
 published: 2025-07-18
 created: 2026-03-14

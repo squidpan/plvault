@@ -4,8 +4,8 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": true,
-  "collapse-color-groups": true,
+  "showOrphans": false,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "[\"categories\":Songs]",
@@ -20,25 +20,18 @@
         "a": 1,
         "rgb": 14069084
       }
-    },
-    {
-      "query": "",
-      "color": {
-        "a": 1,
-        "rgb": 11392604
-      }
     }
   ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
+  "nodeSizeMultiplier": 1.325,
   "lineSizeMultiplier": 1,
-  "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
+  "collapse-forces": false,
+  "centerStrength": 0.552083333333333,
   "repelStrength": 10,
-  "linkStrength": 1,
+  "linkStrength": 0.53125,
   "linkDistance": 250,
-  "scale": 1,
-  "close": false
+  "scale": 1.0534979423868305,
+  "close": true
 }

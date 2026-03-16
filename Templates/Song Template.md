@@ -3,6 +3,7 @@ categories:
   - "[[Songs]]"
 title:
 album:
+description:
 cover:
 genre: []
 author:
