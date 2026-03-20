@@ -1,4 +1,7 @@
 ---
+categories:
+  - "[[Songs]]"
+  - "[[Clippings]]"
 title: "YouTube Video: (8) Angine de Poitrine - Full Performance (Live on KEXP) - YouTube"
 source: https://www.youtube.com/watch?v=0Ssi-9wS1so&list=RD0Ssi-9wS1so&start_radio=1&t=527s
 author:
@@ -12,7 +15,13 @@ tags:
   - videos
 url: https://www.youtube.com/watch?v=0Ssi-9wS1so&list=RD0Ssi-9wS1so&start_radio=1&t=527s
 album: album name
+versions:
 ---
+# About
+
+# Lyrics
+
+
 
 <iframe
   src="https://www.youtube-nocookie.com/embed/0Ssi-9wS1so?rel=0&modestbranding=1"

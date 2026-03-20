@@ -1,4 +1,7 @@
 ---
+categories:
+  - "[[Clippings]]"
+  - "[[Songs]]"
 title: Simon & Garfunkel - America (Audio)
 source: https://www.youtube.com/watch?v=Eo2ZsAOlvEM&list=RDxzE4wDfJ1QA&index=3
 author:
@@ -9,9 +12,6 @@ description:
 tags:
   - clippings
   - videos
-categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
 url: https://www.youtube.com/watch?v=Eo2ZsAOlvEM&list=RDxzE4wDfJ1QA&index=3
 ---
 ![](https://www.youtube.com/watch?v=Eo2ZsAOlvEM)

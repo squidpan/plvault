@@ -1,4 +1,7 @@
 ---
+categories:
+  - "[[Clippings]]"
+  - "[[Songs]]"
 title: ANIMALS AS LEADERS - Red Miso (Official Music Video)
 source: https://www.youtube.com/watch?v=gu-_kyU4dWk&list=RDgu-_kyU4dWk&start_radio=1
 author:
@@ -9,9 +12,6 @@ description:
 tags:
   - clippings
   - videos
-categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
 url: https://www.youtube.com/watch?v=gu-_kyU4dWk&list=RDgu-_kyU4dWk&start_radio=1
 ---
 ![](https://www.youtube.com/watch?v=gu-_kyU4dWk)
