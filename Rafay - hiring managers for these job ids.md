@@ -17,9 +17,9 @@ type:
 
 Hi Rafay,
 
-I hope everything is going well with you, your work, family and anything and everything you care about! I am sure that you are doing your magic everyday to keep NPQS moving forward like you always did. As for me, I am looking forward to what's coming next.
+I hope everything is going well with you, family,  work,  and anything and everything you care about! I know that you are doing your magic everyday to keep NPQS moving forward like you always do. As for me, I am looking forward to what's coming next.
 
-I am reaching out because a close friend's son, Alex Bieber, recently applied for 3 software engineering positions at the BANK on March 12. Alex cut his teeth at JP Morgan Chase for several years. He is a very bright and motivated individual with a strong background in Java, API security, AWS,etc. and I believe he would be a great fit for any of the positions.
+I am reaching out because a close friend's son, Alex Bieber, recently applied for 3 software engineering positions at the BANK on March 12. Alex cut his teeth at JP Morgan Chase for several years. He is a very bright and motivated individual with a strong background in Java, API security, AWS, etc. and I believe he would be a great fit for any of the positions.
 
 1. [R-0000031303: BMC/ServiceNow Discovery Engineer](https://rb.wd5.myworkdayjobs.com/en-US/FRS/job/DevOps-Engineer---IT-Discovery-Specialist_R-0000031303-1)
 2. [R-0000031432: Federal Reserve Financial Services Advanced Software Engineer](https://rb.wd5.myworkdayjobs.com/en-US/FRS/job/Federal-Reserve-Financial-Services-Advanced-Software-Engineer_R-0000031432-1)

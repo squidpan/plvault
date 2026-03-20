@@ -10,7 +10,10 @@ last: 2026-03-18
 ---
 ## So what kind of system did you work on over there?
 
-Pricing data hub API services deliver consolidated, cleansed streaming market data to BANK's internal systems operating on both on-premises and in-cloud. 
+Pricing REST API services deliver consolidated, cleansed streaming market price data feeds to BANK's internal consumer applications operating on both on-premises and in-cloud.
+
+## Can you describe the technology stack of (NPQS)?
+
 
 ## And what was your role?
 

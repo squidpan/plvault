@@ -4,11 +4,13 @@ categories:
 title: Air Born
 album:
   - "[[Moonmadness]]"
+  - "[[Latimer]]"
 cover:
 genre:
   - "[[Rock]]"
 author:
   - "[[Latimer]]"
+  - "[[Camel - Topic]]"
 artist:
   - "[[Camel - Topic]]"
 cast: []
@@ -17,9 +19,17 @@ rating: 6
 year: 1976
 last: 2026-03-15
 created: 2026-03-15
+description:
+versions:
+  - "[[Air Born - youtube]]"
 ---
 # About
-[[Air Born - youtube]]
+
+
+# Lyrics
+
+
+
 # Lyrics
 
 High flying diver, spread your wings  

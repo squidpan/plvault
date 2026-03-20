@@ -1,0 +1,12 @@
+filters:
+  and:
+    - categories.contains(link("Songs"))
+    - '!file.name.contains("Template")'
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - author
+      - versions
+      - album

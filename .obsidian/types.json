@@ -52,6 +52,7 @@
     "pages": "number",
     "acquired": "date",
     "artist": "multitext",
-    "album": "multitext"
+    "album": "multitext",
+    "versions": "multitext"
   }
 }

@@ -15,14 +15,14 @@
       }
     },
     {
-      "query": "[\"categories\":Albums",
+      "query": "[\"categories\":Albums]",
       "color": {
         "a": 1,
         "rgb": 14069084
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1.325,

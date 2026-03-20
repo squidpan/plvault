@@ -12,7 +12,7 @@ rating:
 # Tracks
 
 1. Aristillus Voice – Andy Ward (2) Written-By – Latimer*
-2. [[Song Within A Song]], [[Song Within A Song - youtube]] - Lead Vocals – Doug Ferguson Vocals – Andy Latimer* Written-By – Latimer*, Bardens*
+2. [[Song Within A Song]] - Lead Vocals – Doug Ferguson Vocals – Andy Latimer* Written-By – Latimer*, Bardens*
 3. Chord Change Written-By – Latimer*, Bardens*
 4. Spirit Of The Water Vocals – Peter Bardens Written-By – Bardens*
 5. Another Night Vocals – Andy Latimer* Written-By – Latimer*, Ward*, Ferguson*, Bardens*
