@@ -10,7 +10,7 @@ tags:
   - clippings
   - videos
 categories:
-  - "[[Clippings]]"
+  - "[[Clippings]], [[Songs]]"
 url: https://www.youtube.com/watch?v=-MqQE0ox60I&list=RDGMEMJQXQAmqrnmK1SEjY_rKBGA&index=37
 ---
 ![](https://www.youtube.com/watch?v=-MqQE0ox60I)

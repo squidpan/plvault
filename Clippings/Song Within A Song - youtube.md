@@ -10,7 +10,6 @@ tags:
   - clippings
   - videos
 categories:
-  - "[[Clippings]]"
 url: https://www.youtube.com/watch?v=_k5xCkkQAEY&list=RDMM&index=27
 ---
 ![](https://www.youtube.com/watch?v=_k5xCkkQAEY)

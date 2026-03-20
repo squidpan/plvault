@@ -18,9 +18,9 @@ views:
       - file.name
       - author
       - description
-      - source
-      - url
     sort:
+      - property: source
+        direction: ASC
       - property: tags
         direction: ASC
       - property: description

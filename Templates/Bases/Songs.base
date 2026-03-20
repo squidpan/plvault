@@ -10,3 +10,7 @@ views:
       - author
       - versions
       - album
+      - tags
+    columnSize:
+      note.author: 207
+      note.versions: 220

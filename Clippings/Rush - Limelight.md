@@ -11,6 +11,7 @@ tags:
   - videos
 categories:
   - "[[Clippings]]"
+  - "[[Songs]]"
 url: https://www.youtube.com/watch?v=ZiRuj2_czzw&start_radio=1
 ---
 ![](https://www.youtube.com/watch?v=ZiRuj2_czzw)

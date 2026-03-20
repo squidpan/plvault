@@ -11,6 +11,7 @@ tags:
   - videos
 categories:
   - "[[Clippings]]"
+  - "[[Songs]]"
 url: https://www.youtube.com/watch?v=34Na4j8AVgA&list=RDMM&index=17
 ---
 ![](https://www.youtube.com/watch?v=34Na4j8AVgA)

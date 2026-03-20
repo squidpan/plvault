@@ -11,6 +11,7 @@ tags:
   - videos
 categories:
   - "[[Clippings]]"
+  - "[[Songs]]"
 url: https://www.youtube.com/watch?v=ST9--HWOTA8&list=RDEMJVNV-QG5rmzhUO_DiQTGuw&index=10
 ---
 ![](https://www.youtube.com/watch?v=ST9--HWOTA8)

@@ -11,6 +11,7 @@ tags:
   - videos
 categories:
   - "[[Clippings]]"
+  - "[[Songs]]"
 url: https://www.youtube.com/watch?v=JSR2GodsNAM&list=RDMM&index=10
 ---
 ![](https://www.youtube.com/watch?v=JSR2GodsNAM)

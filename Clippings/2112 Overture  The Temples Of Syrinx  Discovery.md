@@ -1,4 +1,7 @@
 ---
+categories:
+  - "[[Clippings]]"
+  - "[[Songs]]"
 title: "2112: Overture / The Temples Of Syrinx / Discovery"
 source: https://www.youtube.com/watch?v=osN-dGs2d2A&list=OLAK5uy_miQ0aViBzxOZj7XbA6Q61Mo5FM84xvTdU&t=420s
 author:
@@ -9,8 +12,6 @@ description:
 tags:
   - clippings
   - videos
-categories:
-  - "[[Clippings]]"
 url: https://www.youtube.com/watch?v=osN-dGs2d2A&list=OLAK5uy_miQ0aViBzxOZj7XbA6Q61Mo5FM84xvTdU&t=420s
 ---
 ![](https://www.youtube.com/watch?v=osN-dGs2d2A)

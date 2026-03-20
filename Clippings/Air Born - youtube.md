@@ -1,6 +1,7 @@
 ---
 categories:
   - "[[Clippings]]"
+  - "[[Songs]]"
 title: Air Born
 source: https://www.youtube.com/watch?v=KNJGkyCqtTU&list=RDSWj7daF8A3w&index=11
 author:

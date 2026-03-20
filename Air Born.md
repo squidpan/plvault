@@ -4,7 +4,6 @@ categories:
 title: Air Born
 album:
   - "[[Moonmadness]]"
-  - "[[Latimer]]"
 cover:
 genre:
   - "[[Rock]]"

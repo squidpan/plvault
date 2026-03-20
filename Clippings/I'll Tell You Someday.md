@@ -11,6 +11,7 @@ tags:
   - videos
 categories:
   - "[[Clippings]]"
+  - "[[Songs]]"
 url: https://www.youtube.com/watch?v=ha3fizDeark&list=RDEMTpmjtntVtj7cYXJjebo_FA&index=8
 ---
 ![](https://www.youtube.com/watch?v=ha3fizDeark)

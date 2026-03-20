@@ -12,6 +12,7 @@ tags:
   - clippings
 categories:
   - "[[Clippings]]"
+  - "[[Songs]]"
 topics:
 url: https://www.youtube.com/watch?v=i7awbKm5BHk&list=RDi7awbKm5BHk&start_radio=1
 ---

@@ -1,4 +1,7 @@
 ---
+categories:
+  - "[[Clippings]]"
+  - "[[Songs]]"
 title: Mona Lisas And Mad Hatters
 source: https://www.youtube.com/watch?v=zAKIOlZrLzw&list=RDgtQW8Ehi1mE&index=41
 author:
@@ -9,8 +12,6 @@ description:
 tags:
   - clippings
   - videos
-categories:
-  - "[[Clippings]]"
 url: https://www.youtube.com/watch?v=zAKIOlZrLzw&list=RDgtQW8Ehi1mE&index=41
 ---
 ![](https://www.youtube.com/watch?v=zAKIOlZrLzw)

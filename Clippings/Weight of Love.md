@@ -11,6 +11,7 @@ tags:
   - videos
 categories:
   - "[[Clippings]]"
+  - "[[Songs]]"
 url: https://www.youtube.com/watch?v=ygdVEIrVnIk&list=RDSWj7daF8A3w&index=27
 ---
 ![](https://www.youtube.com/watch?v=ygdVEIrVnIk)

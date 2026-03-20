@@ -1,6 +1,7 @@
 ---
 categories:
   - "[[Songs]]"
+  - "[[Clippings]]"
 title:
 album:
 description:
