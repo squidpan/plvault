@@ -1,0 +1,14 @@
+filters:
+  and:
+    - categories.contains(link("Topics"))
+    - '!file.name.contains("Template")'
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - url
+      - created
+      - last
+      - type
+      - tags

@@ -1,0 +1,11 @@
+filters:
+  and:
+    - categories.isEmpty()
+    - '!file.tags.contains("daily")'
+    - '!file.name.contains("base")'
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - tags

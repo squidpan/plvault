@@ -6,6 +6,7 @@ created: 2026-01-27
 last: 2026-01-27
 type:
 tags:
+  - nutshell
 ---
 
 [What I Write in my Morning Pages - How to and Tips](https://www.youtube.com/watch?v=ysb0hnQSpt4)
