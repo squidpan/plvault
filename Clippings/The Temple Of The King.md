@@ -9,6 +9,7 @@ image: https://i.ytimg.com/vi/i7awbKm5BHk/maxresdefault.jpg
 created: 2026-03-14
 tags:
   - videos
+  - music
   - clippings
 categories:
   - "[[Clippings]]"

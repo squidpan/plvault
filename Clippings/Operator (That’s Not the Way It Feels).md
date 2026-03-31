@@ -7,8 +7,9 @@ published: 2024-04-22
 created: 2026-03-14
 description:
 tags:
-  - clippings
   - videos
+  - music
+  - clippings
 categories:
   - "[[Clippings]]"
   - "[[Songs]]"

@@ -10,8 +10,9 @@ published: 2017-05-19
 created: 2026-03-14
 description:
 tags:
-  - clippings
   - videos
+  - music
+  - clippings
 url: https://www.youtube.com/watch?v=Eo2ZsAOlvEM&list=RDxzE4wDfJ1QA&index=3
 ---
 ![](https://www.youtube.com/watch?v=Eo2ZsAOlvEM)

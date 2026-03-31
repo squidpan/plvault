@@ -16,9 +16,13 @@ views:
     name: Clippings
     order:
       - file.name
+      - tags
       - author
       - description
+      - file.ctime
     sort:
+      - property: file.ctime
+        direction: DESC
       - property: source
         direction: ASC
       - property: tags
@@ -32,9 +36,8 @@ views:
     columnSize:
       file.name: 167
       note.author: 191
-      note.description: 87
-      note.source: 666
-      note.url: 670
+      note.description: 357
+      file.ctime: 88
   - type: table
     name: Author
     filters:

@@ -2,5 +2,4 @@
 tags:
   - categories
 ---
-
 ![[Clippings.base]]

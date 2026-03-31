@@ -10,8 +10,9 @@ published: 2012-07-13
 created: 2026-03-14
 description: but mama that's where the fun is
 tags:
-  - clippings
   - videos
+  - music
+  - clippings
 url: https://www.youtube.com/watch?v=Rpq35wyDi7I&list=RDMM&index=28
 ---
 ![](https://www.youtube.com/watch?v=Rpq35wyDi7I)

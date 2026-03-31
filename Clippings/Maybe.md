@@ -6,8 +6,9 @@ created: 2026-03-15
 description: "Rainbow  - The Temple Of The King ( HQ 320 Kbps )Album: Ritchie Blackmore's Rainbow(1975)"
 published: 07/21/2021
 tags:
-  - clippings
   - videos
+  - music
+  - clippings
 categories:
   - "[[Clippings]]"
   - "[[Songs]]"

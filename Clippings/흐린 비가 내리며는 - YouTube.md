@@ -14,6 +14,7 @@ tags:
   - clippings
   - videos
   - korean
+  - music
 url: https://www.youtube.com/watch?v=trw5vddWnyk&list=PLBkMjA1mDP-Jsq4MNyO4SZLQ8I_XA2KZP&index=8
 album:
   - "[[부활 III]]"
