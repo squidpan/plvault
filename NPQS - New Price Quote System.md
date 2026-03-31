@@ -8,3 +8,10 @@ rating:
 NPQS distributes consolidated streaming market prices for fixed income assets both in real-time and as snapshot quotes to internal policy makers and Federal Reserve Systems. 
 
 It  operates on both on-premises and in-cloud data centers. It is a 24 x 7 hybrid market data pricing system, combining on-premises, colocation, and cloud infrastructure, ensures continuous operation, high availability, and workload flexibility.
+
+
+>[!tldr]
+>- 24x7 system that operates on both on-premises and in-cloud data centers.
+>- streaming vs realtime vs snapshot finalcial data
+>- federal reserve bank of new york Markets Group treasury data consumers
+>
