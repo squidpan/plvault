@@ -1,17 +1,17 @@
 ---
+categories:
+  - "[[Clippings]]"
+  - "[[Songs]]"
 title: Blinded by the Light ~ Manfred Mann's Earth Band with lyrics
 source: https://www.youtube.com/watch?v=Rpq35wyDi7I&list=RDMM&index=28
 author:
   - "[[joohop]]"
 published: 2012-07-13
 created: 2026-03-14
-description:
+description: but mama that's where the fun is
 tags:
   - clippings
   - videos
-categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
 url: https://www.youtube.com/watch?v=Rpq35wyDi7I&list=RDMM&index=28
 ---
 ![](https://www.youtube.com/watch?v=Rpq35wyDi7I)

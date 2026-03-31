@@ -21,7 +21,6 @@ views:
       and:
         - '!file.tags.contains("daily")'
         - '!file.tags.contains("monthly")'
-        - file.name != this.file.name
     order:
       - file.name
       - created

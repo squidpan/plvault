@@ -2,7 +2,7 @@
 categories:
   - "[[Clippings]]"
   - "[[Songs]]"
-title: Rush - A Passage To Bangkok (Lyric Video)
+title: Rush - A Passage To Bangkok
 source: https://www.youtube.com/watch?v=Wy7cmGyKwek&list=OLAK5uy_miQ0aViBzxOZj7XbA6Q61Mo5FM84xvTdU
 author:
   - "[[RushVEVO]]"

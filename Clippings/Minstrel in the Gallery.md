@@ -1,4 +1,7 @@
 ---
+categories:
+  - "[[Clippings]]"
+  - "[[Songs]]"
 title: Minstrel in the Gallery (Steven Wilson Stereo Remix)
 source: https://www.youtube.com/watch?v=Lz1u2mgWdUA&list=OLAK5uy_mEQMSNJBIfjCn3np8FnRDuzdNOyAUgk88
 author:
@@ -9,9 +12,6 @@ description:
 tags:
   - clippings
   - videos
-categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
 url: https://www.youtube.com/watch?v=Lz1u2mgWdUA&list=OLAK5uy_mEQMSNJBIfjCn3np8FnRDuzdNOyAUgk88
 ---
 ![](https://www.youtube.com/watch?v=Lz1u2mgWdUA)

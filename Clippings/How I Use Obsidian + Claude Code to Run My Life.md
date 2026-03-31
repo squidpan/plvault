@@ -1,14 +1,17 @@
 ---
-title: "YouTube Video: (17) How I Use Obsidian + Claude Code to Run My Life - YouTube"
-source: "https://www.youtube.com/watch?v=6MBq1paspVU"
-author: "[[Greg Isenberg]]"
-created: "2026-03-27"
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
-published: "02/23/2026"
-tags: ["clippings", "claude-code", "videos"]
-url: "https://www.youtube.com/watch?v=6MBq1paspVU"
-album: "album name"
 categories: "[[Clippings]]"
+title: "YouTube Video: (17) How I Use Obsidian + Claude Code to Run My Life - YouTube"
+source: https://www.youtube.com/watch?v=6MBq1paspVU
+author: "[[Greg Isenberg]]"
+created: 2026-03-27
+description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+published: 02/23/2026
+tags:
+  - clippings
+  - claude-code
+  - videos
+url: https://www.youtube.com/watch?v=6MBq1paspVU
+album: album name
 ---
 
 <iframe

@@ -3,6 +3,7 @@ title: Michael Kiwanuka - Cold Little Heart at Haldern Pop Festival 2016
 source: https://www.youtube.com/watch?v=Zsk6_NZQk7M&list=RDMM&index=27
 author:
   - "[[Far Out music for far-out people]]"
+  - "[[Michael Kiwanuka]]"
 published: 2022-03-10
 created: 2026-03-14
 description:
