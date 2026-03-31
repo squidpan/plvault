@@ -1,6 +1,6 @@
 filters:
   and:
-    - note.categories.contains(link("Clippings"))
+    - categories.contains(link("Clippings"))
     - '!file.name.contains("Template")'
 properties:
   file.name:
@@ -60,3 +60,33 @@ views:
       - file.name
       - author
       - image
+  - type: table
+    name: music
+    filters:
+      and:
+        - file.tags.contains("music")
+    order:
+      - file.name
+      - author
+      - file.ctime
+      - description
+    sort:
+      - property: file.ctime
+        direction: ASC
+      - property: tags
+        direction: ASC
+    columnSize:
+      file.name: 167
+      note.author: 191
+      file.ctime: 199
+      note.description: 357
+  - type: table
+    name: korean
+    filters:
+      and:
+        - file.tags.contains("music")
+        - file.tags.contains("korean")
+    order:
+      - file.name
+      - author
+      - tags
