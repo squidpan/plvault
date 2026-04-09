@@ -10,7 +10,7 @@ last: 2026-03-29
 ---
 ## So what kind of system did you work on over there?
 
-I worked on a system called NPQS that distributes consolidated pricing data (BID, ASK) for 8 asset classes to internal business units in the BANK. 
+I worked on a system called NPQS that distributes consolidated pricing data (BID, ASK) for 8 fixed income (i.e debt) asset securities to internal business units at the BANK. 
 Market data pricing services migrated from on-premises infrastructure that is linux based to in-cloud infrastructure running across Redhat Openshift4 and AWS EKS environment.
 
 
