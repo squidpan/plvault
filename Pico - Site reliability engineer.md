@@ -12,25 +12,45 @@ role: Site Reliability Engineer
 created: 2026-04-09
 ---
 [[Site reliability engineer interview prep prompts - chatgpt]]
+
+>[!google search]
+> is prometheus a monitoring tools
+> when is tcp used vs udp in case of market data feeds and trading platforms
+> when is tcp used vs udp in case of market data feeds and trading platforms
+> 
+> 
+> 
+>  
+
+
+
+[[Using Copilot for Obsidian plugin]]
+
 ## Interview questions
 
 During the interview I will ask these questions:
 
 1. Familiar with AWS?
 		I am familiar with AWS as the pricing app I worked on at the Fed runs on a hybrid both on-premises and in cloud
-		
->[!elaborate]
-> my experience
-
-
-		
 
 2. Do you familiar with market data (real time or historical reference)  
+		Yes. talk about NPQS
+		
 3. Did you ever worked supported any trading platforms? Trading APIs?  
+		Yes, prep using [[Site reliability engineer interview prep prompts - chatgpt]]
 4. Do you know c/c++, Java, python?  
+		Yes, c/c++ and Java. 
 5. UNIX? Command to check the disk space (df), Check running processes, (ps -ef, top, htop), Command to view the memory (free)?  
+>[!Elaborate]
+> df, ps -ef, top, htop, free, ftp, sftp, tcp udp
+> 
 6. FTP/SFTP protocols?  
-7. What monitoring applications or tools did you use?  
+		
+7. What monitoring applications or tools did you use?
+>[! Elaborate]
+> Prometheus, Grafana
+
+
 8. Difference between TCP and UDP?  
 9. Did you use Jira or Salesforce before? How about Confluence?  
 10. How do you deal with pressure?  
