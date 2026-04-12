@@ -1,0 +1,15 @@
+filters:
+  and:
+    - categories.contains(link("Jobs"))
+    - '!file.name.contains("Template")'
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - file.tags
+  - type: table
+    name: Pico
+    filters:
+      and:
+        - file.tags.contains("pico")

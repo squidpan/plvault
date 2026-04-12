@@ -90,3 +90,18 @@ views:
       - file.name
       - author
       - tags
+  - type: table
+    name: chatgpt
+    filters:
+      and:
+        - file.tags.contains("chatgpt/conversation")
+    order:
+      - file.name
+      - file.tags
+      - file.ctime
+    sort:
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 259
+      file.ctime: 88

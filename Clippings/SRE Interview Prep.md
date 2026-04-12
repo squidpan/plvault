@@ -1,269 +1,59 @@
 ---
 categories:
   - "[[Clippings]]"
-title: "Pico.net SRE Interview Prep"
-source: "https://chatgpt.com/c/69d911de-aa54-832b-8ec7-39dfbe3ca7b8"
+title: Pico.net SRE Interview Prep
+source: https://chatgpt.com/c/69d911de-aa54-832b-8ec7-39dfbe3ca7b8
 author:
 published:
 created: 2026-04-10
-description: "ChatGPT is your AI chatbot for everyday use. Chat with the most advanced AI to explore ideas, solve problems, and learn faster."
+description: Site Reliability Engineer (SRE) interview prep
 tags:
-  - "chatgpt/conversation"
+  - chatgpt/conversation
 ---
+# Summary
 
+Interview preparation for the role of Site Reliability Engineer (SRE) at [[Pico]] SRE tier 2/3 support to clients using Pico's Redline trading application products, Inrush Ticker Plant and Redline Feed.
   
-I need to prepare for an interview with a company called pico.net for the role of site reliability engineer that provides tier 2 and tier 3 support to clients using pico's Redline trading applications such as Inrush Ticker plant and Redline feed.
-
-  
-
-Here’s a **focused, interview-ready breakdown** tailored to your role (SRE, Tier 2/3 support) at Pico and their Redline platform.
-
 ---
 
-# 🧠 1. What Pico actually does (in simple terms)
-
-**Pico is a financial infrastructure + trading technology company** that provides:
-
-- Ultra-low latency **market data**
-    
-- **Order execution systems**
-    
-- **Global connectivity to exchanges**
-    
-- Managed infrastructure + monitoring
-    
-
-👉 Their customers are:
-
-- Investment banks
-    
-- Hedge funds
-    
-- Market makers
-    
-- Exchanges
-    
-
-These clients care about **speed (microseconds), reliability, and uptime**—this is where your SRE role comes in.
-
-📌 Key idea to say in interview:
-
-> “Pico operates mission-critical infrastructure where latency and availability directly impact trading profitability.”
-
+![[Pico#About]]
 ---
 
-# ⚡ 2. What Redline products actually do
+![[Pico#Customers]]
+![[Pico#Products]]
 
-## Core products you’ll support
-
-### 🟢 InRush Ticker Plant
-
-- A **market data feed handler**
-    
-- Ingests raw exchange feeds and builds order books
-    
-- Extremely optimized for **low latency + determinism**
-    
-
-👉 It:
-
-- Connects to **180+ trading venues globally** 
-    
-- Maintains **full-depth order books**
-    
-- Delivers data to trading apps in microseconds
-    
-
-💡 Think:
-
-> “It’s the engine that converts raw market data into usable trading signals.”
-
----
-
-### 🔵 RedlineFeed
-
-- Consolidates multiple feeds into one normalized stream
-    
-- Delivered as a **managed service**
-    
-
-💡 Think:
-
-> “A scalable distribution layer for market data across systems.”
-
----
-
-### 🔴 Order Execution Gateway
-
-- Sends orders to exchanges
-    
-- Handles execution at ultra-low latency
-    
-
----
-
-### 🟡 Other components
-
-- Pre-trade risk checks
-    
-- Historical market data (PCAP replay)
-    
-- Managed services + monitoring 
-    
-
----
-
-# 🔧 3. What YOU (SRE Tier 2/3) will actually do
-
-This is the **most important part for your interview**.
-
-## 🎯 Core responsibilities
-
-### 1. Production troubleshooting (Tier 2/3)
-
-- Investigate:
-    
-    - Feed drops
-        
-    - Latency spikes
-        
-    - Packet loss
-        
-    - Data inconsistencies (bad book states)
-        
-- Root cause analysis (RCA)
-    
-
-👉 Example answer:
-
-> “If market data latency spikes, I’d check NIC stats, packet drops, CPU pinning, and thread contention.”
-
----
-
-### 2. System reliability & uptime
-
-- Ensure:
-    
-    - High availability (HA)
-        
-    - Failover works correctly
-        
-    - Redundant feeds behave as expected
-        
-
-📌 InRush supports:
-
-- Gap detection
-    
-- Retransmission
-    
-- Failover between feeds 
-    
-
----
-
-### 3. Performance tuning (VERY important)
-
-- CPU affinity / NUMA tuning
-    
-- Kernel tuning (low latency Linux)
-    
-- Network optimization:
-    
-    - Multicast
-        
-    - UDP tuning
-        
-    - Kernel bypass (DPDK/Solarflare/OpenOnload likely)
-        
-
----
-
-### 4. Monitoring & observability
-
-- Metrics + alerting (often via Corvil or similar tools)
-    
-- Analyze:
-    
-    - Tick-to-trade latency
-        
-    - Message rates
-        
-    - Queue depth
-        
-
-👉 Pico integrates with analytics tools to monitor **nanosecond-level performance** 
-
----
-
-### 5. Client-facing support
-
-- Tier 2/3 = **you talk to clients**
-    
-- You’ll:
-    
-    - Debug client environments
-        
-    - Guide configuration
-        
-    - Explain issues clearly
-        
-
-📌 Key skill:
-
-> Translate deep technical issues into business impact
-
----
-
-# 🧩 4. Key technical topics you MUST know
+# Key technical topics you MUST know
 
 If you prepare nothing else, study these:
-
 ## 🔹 Linux (critical)
 
 - CPU pinning / taskset
-    
 - IRQ affinity
-    
 - HugePages
-    
 - NUMA
-    
 - Kernel tuning (`sysctl`)
-    
 
 ## 🔹 Networking (VERY critical)
 
-- TCP vs UDP (most feeds are UDP multicast)
-    
+- TCP vs UDP (most feeds are UDP multicast)    
 - Multicast basics
-    
 - Packet loss debugging (`netstat`, `ethtool`)
-    
 - Latency vs throughput tradeoffs
-    
-
 ## 🔹 Low-latency systems
 
 - Why microseconds matter
-    
 - Avoiding GC pauses, context switching
-    
 - Lock-free / high-performance systems (conceptual)
-    
 
 ## 🔹 Market data basics
 
 - Order book (bid/ask)
-    
 - Trades vs quotes
-    
 - Level 1 vs Level 2 data
-    
 
 ---
 
-# 🎯 5. How to sound strong in the interview
+# 5. How to sound strong in the interview
 
 ## 💬 Strong positioning statement
 
@@ -302,7 +92,7 @@ Answer structure:
 
 ---
 
-# 🧠 6. Smart questions YOU can ask them
+# 6. Smart questions YOU can ask them
 
 These impress a lot:
 
@@ -1282,3 +1072,1353 @@ I can:
     
 
 Just tell me 👍
+
+  
+
+they will ask my Unix/Linux experience and knowledge of commands including these: df, ps -ef, top, htop, free, ftp, sftp. Can you give me a refresher on what these commands do, how to use them with examples in the context of role of SRE at Pico. also any additional Unix commands that this SRE role might require to use
+
+  
+
+Perfect—this is **core SRE territory**, especially for a Pico / low-latency environment. You don’t need to be a Linux admin, but you _must sound comfortable diagnosing systems quickly_.
+
+I’ll give you:
+
+1. **Each command explained simply**
+    
+2. **How to use it (with examples)**
+    
+3. **How to frame it in an SRE / trading system context**
+    
+4. **Extra commands they LOVE to see**
+    
+
+---
+
+# 🧠 1. `df` — Disk Space
+
+## 🔹 What it does
+
+Shows disk usage (how full your filesystem is)
+
+## 🔹 Command
+
+df -h
+
+## 🔹 Example output
+
+Filesystem      Size  Used Avail Use% Mounted on  
+/dev/sda1        50G   45G   5G   90% /
+
+## 🔹 SRE context (VERY important)
+
+> “If a system is running slowly or failing, I’d check disk usage to ensure logs or data aren’t filling up storage.”
+
+👉 In trading systems:
+
+- Full disk = logs stop writing
+    
+- Can break market data ingestion
+    
+
+---
+
+# 🧠 2. `ps -ef` — Process List
+
+## 🔹 What it does
+
+Shows all running processes
+
+## 🔹 Command
+
+ps -ef | grep java
+
+## 🔹 Example
+
+user  1234  1  0 10:00 ?  00:00:05 java -jar marketdata.jar
+
+## 🔹 SRE context
+
+> “I use ps to identify running processes and verify if critical services like feed handlers are up.”
+
+---
+
+# 🧠 3. `top` — Real-time system monitoring
+
+## 🔹 What it does
+
+Shows CPU, memory, processes in real time
+
+## 🔹 Command
+
+top
+
+## 🔹 Key things to look at:
+
+- CPU usage
+    
+- Memory usage
+    
+- High CPU processes
+    
+
+## 🔹 SRE context
+
+> “If there’s latency in market data, I’d check top to see if CPU is saturated or if a process is consuming excessive resources.”
+
+---
+
+# 🧠 4. `htop` — Better version of top
+
+## 🔹 What it does
+
+Interactive, easier-to-read version of `top`
+
+## 🔹 Command
+
+htop
+
+## 🔹 Why better
+
+- Visual CPU usage
+    
+- Easier process management
+    
+
+## 🔹 SRE context
+
+> “I prefer htop for quickly identifying resource-heavy processes and thread-level behavior.”
+
+---
+
+# 🧠 5. `free` — Memory usage
+
+## 🔹 What it does
+
+Shows RAM usage
+
+## 🔹 Command
+
+free -h
+
+## 🔹 Example
+
+              total   used   free  
+Mem:           16G    12G    4G
+
+## 🔹 SRE context
+
+> “If performance degrades, I check memory usage to see if the system is under pressure or swapping.”
+
+---
+
+# 🧠 6. `ftp` — File transfer (older)
+
+## 🔹 What it does
+
+Transfers files over network (less secure)
+
+## 🔹 Command
+
+ftp server_ip
+
+## 🔹 SRE context
+
+> Rarely used in modern systems  
+> Mention awareness only
+
+---
+
+# 🧠 7. `sftp` — Secure file transfer
+
+## 🔹 What it does
+
+Secure file transfer over SSH
+
+## 🔹 Command
+
+sftp user@server
+
+## 🔹 Example
+
+put log.txt  
+get data.csv
+
+## 🔹 SRE context
+
+> “Used to securely transfer logs or configuration files between systems during troubleshooting.”
+
+---
+
+# 🔥 2. HIGH-VALUE COMMANDS (these impress interviewers)
+
+These are **more important than ftp** for Pico.
+
+---
+
+## 🔹 `netstat` / `ss` — Network connections
+
+netstat -tulnp
+
+or
+
+ss -tulnp
+
+👉 Shows:
+
+- Open ports
+    
+- Listening services
+    
+
+💬 Say:
+
+> “Useful to verify if services are listening on expected ports.”
+
+---
+
+## 🔹 `ping` — Connectivity
+
+ping hostname
+
+💬 SRE use:
+
+> “Quickly check network connectivity between systems.”
+
+---
+
+## 🔹 `traceroute` — Network path
+
+traceroute hostname
+
+💬 Use:
+
+> “Identify where latency occurs in the network path.”
+
+---
+
+## 🔹 `netstat -i` or `ethtool` — NIC stats (VERY IMPORTANT)
+
+ethtool -S eth0
+
+💬 Say:
+
+> “I’d use this to check for packet drops or errors—critical in market data systems.”
+
+🔥 This is **VERY impressive for Pico**
+
+---
+
+## 🔹 `tail` — Log monitoring
+
+tail -f application.log
+
+💬 SRE use:
+
+> “Monitor logs in real time during incidents.”
+
+---
+
+## 🔹 `grep` — Search logs
+
+grep ERROR application.log
+
+💬 Use:
+
+> “Quickly identify errors or patterns in logs.”
+
+---
+
+## 🔹 `df -i` — Inodes (advanced)
+
+👉 Disk can be “full” even if space exists
+
+💬 Bonus:
+
+> “I’d also check inode usage if files aren’t being created.”
+
+---
+
+## 🔹 `uptime`
+
+uptime
+
+Shows:
+
+- System load
+    
+- How long system has been running
+    
+
+---
+
+# 🎯 How to answer in interview
+
+## 💬 “What Linux commands are you familiar with?”
+
+Say something like:
+
+Writing
+
+I’m comfortable using core Linux commands for system monitoring and troubleshooting. For example, I use df to check disk usage, ps and top or htop to monitor processes and CPU utilization, and free to analyze memory usage.
+
+For troubleshooting, I also use tools like tail and grep to analyze logs, and network tools like netstat, ss, or ping to check connectivity and service availability.
+
+In an SRE context, I focus on using these tools to quickly identify issues such as resource bottlenecks, process failures, or network-related problems that could impact system performance and latency.
+
+---
+
+# 💥 Final tip (THIS is what they want to hear)
+
+Don’t just list commands.
+
+Always tie to:
+
+- **Latency**
+    
+- **Reliability**
+    
+- **Troubleshooting**
+    
+
+👉 Example:
+
+> “I’d use these commands to quickly isolate whether an issue is system, network, or application related.”
+
+---
+
+# 🚀 If you want next level prep
+
+I can:
+
+- Give you **real troubleshooting scenarios (like: feed delay, packet loss, CPU spike)**
+    
+- Or do a **rapid-fire Linux quiz like a real interviewer**
+    
+
+Just say 👍
+
+  
+
+Give you real troubleshooting scenarios (like: feed delay, packet loss, CPU spike)
+
+  
+
+Perfect—this is exactly what Pico will test. These scenarios are **very close to what you’ll actually do on the job**.
+
+I’ll give you **realistic SRE troubleshooting scenarios**, and for each:
+
+- What’s happening
+    
+- How to think
+    
+- Commands to use
+    
+- A **strong interview-style answer**
+    
+
+---
+
+# 🔥 SCENARIO 1 — Market Data Feed Delay
+
+## 🧠 Situation
+
+Client says:
+
+> “We are receiving delayed market data.”
+
+---
+
+## 🎯 How to think (structured approach)
+
+Break it into layers:
+
+1. **Upstream (exchange/feed)**
+    
+2. **Network**
+    
+3. **Server (CPU/memory)**
+    
+4. **Application (queue/backlog)**
+    
+
+---
+
+## 🔧 Commands to use
+
+top
+
+👉 Check CPU usage
+
+free -h
+
+👉 Memory pressure
+
+ping <feed_source>
+
+👉 Network latency
+
+netstat -i
+
+👉 Packet drops
+
+tail -f app.log
+
+👉 Processing delays / errors
+
+---
+
+## 💬 Interview answer
+
+> I would start by identifying where the delay is introduced in the pipeline.
+> 
+> First, I’d check system resources using tools like top and free to ensure the server isn’t CPU or memory constrained.
+> 
+> Then I’d verify network health using ping or netstat to check for latency or packet loss.
+> 
+> I’d also review application logs using tail to see if there are processing delays or queue backlogs.
+> 
+> The goal is to isolate whether the delay is upstream, network-related, or within the application itself.
+
+---
+
+# 🔥 SCENARIO 2 — Packet Loss in Market Data
+
+## 🧠 Situation
+
+Client reports:
+
+> “We are missing ticks / data gaps.”
+
+---
+
+## 🎯 Key concept
+
+👉 Market data often uses **UDP**  
+👉 Packet loss = missing data = broken order book
+
+---
+
+## 🔧 Commands
+
+netstat -i
+
+ethtool -S eth0
+
+👉 Look for:
+
+- RX dropped packets
+    
+- Errors
+    
+
+---
+
+## 💬 Interview answer
+
+> Packet loss is critical in market data systems because it can lead to gaps in the order book.
+> 
+> I’d start by checking NIC statistics using tools like netstat or ethtool to identify dropped packets or errors.
+> 
+> Then I’d investigate network congestion or hardware issues.
+> 
+> I’d also verify whether the application is handling gap detection and recovery properly, such as requesting retransmission or failing over to a redundant feed.
+
+---
+
+# 🔥 SCENARIO 3 — High CPU Usage (Latency Spike)
+
+## 🧠 Situation
+
+System latency increases suddenly.
+
+---
+
+## 🔧 Commands
+
+top
+
+or
+
+htop
+
+👉 Identify:
+
+- Which process is consuming CPU
+    
+
+ps -ef | grep <process>
+
+---
+
+## 💬 Interview answer
+
+> I’d use top or htop to identify processes consuming high CPU.
+> 
+> If a specific process is causing the issue, I’d investigate whether it’s due to increased load, inefficient processing, or a potential bug.
+> 
+> High CPU usage can directly impact latency in real-time systems, so isolating and resolving the root cause quickly is critical.
+
+---
+
+# 🔥 SCENARIO 4 — Application Not Running
+
+## 🧠 Situation
+
+Client:
+
+> “We are not receiving any data.”
+
+---
+
+## 🔧 Commands
+
+ps -ef | grep app_name
+
+👉 Check if process is running
+
+netstat -tulnp
+
+👉 Check if port is listening
+
+tail -f app.log
+
+---
+
+## 💬 Interview answer
+
+> I’d first verify whether the application is running using ps.
+> 
+> If it’s not running, I’d check logs to understand why it stopped.
+> 
+> If it is running, I’d verify that it’s listening on the correct ports and accepting connections using netstat.
+> 
+> Then I’d continue troubleshooting downstream or upstream dependencies.
+
+---
+
+# 🔥 SCENARIO 5 — Disk Full (Silent Failure)
+
+## 🧠 Situation
+
+System behaves strangely, logs stop updating.
+
+---
+
+## 🔧 Commands
+
+df -h
+
+df -i
+
+---
+
+## 💬 Interview answer
+
+> I’d check disk usage using df -h to ensure the system isn’t out of space.
+> 
+> If the disk is full, logs may stop writing and applications may fail silently.
+> 
+> I’d also check inode usage with df -i, since running out of inodes can cause similar issues.
+
+---
+
+# 🔥 SCENARIO 6 — Memory Pressure / Swapping
+
+## 🧠 Situation
+
+System is slow, inconsistent latency.
+
+---
+
+## 🔧 Commands
+
+free -h
+
+top
+
+👉 Look for:
+
+- High memory usage
+    
+- Swap usage
+    
+
+---
+
+## 💬 Interview answer
+
+> I’d check memory usage using free and top.
+> 
+> If the system is swapping, it can significantly impact performance and latency.
+> 
+> In a real-time system, avoiding swapping is critical, so I’d investigate memory leaks or high memory usage processes.
+
+---
+
+# 🔥 SCENARIO 7 — Network Connectivity Issue
+
+## 🧠 Situation
+
+Client cannot connect to service.
+
+---
+
+## 🔧 Commands
+
+ping server
+
+traceroute server
+
+netstat -tulnp
+
+---
+
+## 💬 Interview answer
+
+> I’d first verify basic connectivity using ping.
+> 
+> If that fails, I’d use traceroute to identify where the connection is breaking.
+> 
+> I’d also confirm that the service is running and listening on the expected port using netstat.
+
+---
+
+# 💥 MASTER ANSWER STRATEGY (THIS IS HUGE)
+
+No matter the question, follow this structure:
+
+### 🧠 1. Identify scope
+
+> “I’d determine where in the pipeline the issue occurs…”
+
+### 🔍 2. Check layers
+
+- System (CPU, memory, disk)
+    
+- Network
+    
+- Application
+    
+
+### 🔧 3. Use tools
+
+Mention commands naturally
+
+### 🎯 4. Isolate root cause
+
+---
+
+# 🚀 If you want FINAL LEVEL prep
+
+I can:
+
+- Run a **live mock where I act like interviewer and you answer**
+    
+- Or give you a **“cheat sheet” you can memorize before interview (1 page, high impact)**
+    
+
+Just tell me 👍
+
+  
+
+at FRBNY, the devops and operations support teams whom I worked with along the AWS devops team were using Prometheus and Granfana to monitor performance and diagnose latency from the time the consolidated price ticks leaves the on-prem applicatio to the time the ticks hit AWS. Suggest how to answer the question, did you wokd with any monitoring apps or tools?
+
+  
+
+This is actually a **huge strength in your background**—don’t downplay it.
+
+Even if you didn’t configure monitoring tools yourself, you **worked directly with them in a real production, low-latency system**, which is exactly what Pico cares about.
+
+---
+
+# ✅ Strong, interview-ready answer
+
+Writing
+
+Yes, I have experience working with monitoring tools, particularly Prometheus and Grafana in a production environment.
+
+In my role at the Federal Reserve Bank of New York, I worked closely with DevOps and operations teams who used Prometheus and Grafana to monitor performance and latency across a hybrid architecture. Specifically, we tracked the end-to-end flow of market data—from when consolidated price ticks left the on-prem application to when they were delivered through AWS to downstream consumers.
+
+While I wasn’t directly configuring dashboards, I regularly used Grafana to analyze metrics and identify latency issues, and collaborated with engineering teams to interpret the data and troubleshoot performance problems.
+
+This gave me a strong understanding of how monitoring and observability tools are used in real-time systems to detect issues, analyze latency, and ensure reliability.
+
+---
+
+# 🎯 Why this answer is powerful
+
+### ✅ 1. You confidently say “YES”
+
+You **did work with monitoring tools**—don’t qualify it too weakly.
+
+---
+
+### ✅ 2. You name-drop the right tools
+
+- Prometheus
+    
+- Grafana
+    
+
+👉 These are industry-standard and **highly relevant to SRE roles**
+
+---
+
+### ✅ 3. You emphasize WHAT matters most
+
+- Latency tracking
+    
+- End-to-end visibility
+    
+- Real-time systems
+    
+
+👉 This is exactly what Pico does with market data
+
+---
+
+# 🔥 If they push deeper (very likely)
+
+## 💬 “What kind of metrics were you looking at?”
+
+Strong answer:
+
+> We were primarily focused on latency metrics, such as the time it took for price ticks to move from the on-prem system into AWS and reach downstream consumers.
+> 
+> We also looked at throughput and system health indicators to identify bottlenecks or delays in the pipeline.
+
+---
+
+## 💬 “How did Grafana help you troubleshoot issues?”
+
+> Grafana provided visualization of real-time metrics, which made it easier to identify anomalies such as latency spikes or drops in throughput.
+> 
+> By correlating metrics across different parts of the system, we could narrow down where the issue was occurring.
+
+---
+
+## 💬 “What is Prometheus used for?”
+
+> Prometheus is used to collect and store time-series metrics, which can then be queried and visualized using tools like Grafana.
+
+---
+
+# 💡 Optional power upgrade (this is 🔥)
+
+Add this sentence if you want to stand out:
+
+> “That experience helped me understand the importance of observability in distributed systems, especially for diagnosing latency across system boundaries.”
+
+---
+
+# 🚀 How Pico will interpret your answer
+
+They won’t think:  
+❌ “He didn’t configure dashboards”
+
+They WILL think:  
+✅ “He understands how monitoring is used in real-time trading systems”
+
+---
+
+# 💥 Key insight (very important)
+
+For Pico SRE:
+
+👉 Using monitoring tools > configuring monitoring tools
+
+They care more about:
+
+- Can you **read metrics**
+    
+- Can you **interpret latency**
+    
+- Can you **debug systems using observability**
+    
+
+---
+
+# 🚀 If you want to go even deeper
+
+I can:
+
+- Give you a **quick crash course on Prometheus + Grafana (so you sound like a pro)**
+    
+- Or simulate a **full interview combining AWS + Linux + market data + monitoring**
+    
+
+Just say 👍
+
+  
+
+is refinitiv's TREP similar to pico's inrush ticker plant
+
+  
+
+Yes — **this is a very smart question**, and if you answer it well, it will _immediately signal domain knowledge_.
+
+Short answer:  
+👉 **Yes, they are conceptually similar — but not identical**
+
+Now let’s break it down so you can **explain it confidently in an interview**.
+
+---
+
+# 🧠 1. The short, interview-ready answer
+
+Writing
+
+Yes, at a high level they are similar in that both Refinitiv’s TREP and Pico’s InRush Ticker Plant function as market data feed handlers.
+
+They both ingest real-time market data from exchanges, normalize it, and distribute it to downstream systems for consumption.
+
+However, there are differences in design and focus. TREP is more of a comprehensive enterprise market data platform, while InRush is specifically optimized for ultra-low latency performance and deterministic behavior, which is critical for high-frequency trading environments.
+
+So while the core function is similar, InRush is more specialized for low-latency trading use cases.
+
+---
+
+# 🔍 2. Deeper comparison (so you truly understand it)
+
+## 🟢 Refinitiv TREP
+
+### What it is:
+
+- Enterprise market data platform
+    
+- Used by banks (very likely what FRBNY used indirectly)
+    
+
+### What it does:
+
+- Aggregates multiple data sources
+    
+- Normalizes and distributes data
+    
+- Supports:
+    
+    - Real-time data
+        
+    - Historical/reference data
+        
+    - Entitlements (who can see what)
+        
+
+### Key idea:
+
+👉 **Broad, enterprise-grade, feature-rich**
+
+---
+
+## 🔵 InRush Ticker Plant
+
+### What it is:
+
+- Ultra-low latency market data feed handler
+    
+
+### What it does:
+
+- Directly ingests exchange feeds
+    
+- Builds order books
+    
+- Delivers data with **microsecond latency**
+    
+
+### Key idea:
+
+👉 **Specialized for speed and performance**
+
+---
+
+# ⚖️ 3. Key differences (this is what impresses interviewers)
+
+|Feature|TREP|InRush|
+|---|---|---|
+|Focus|Enterprise data platform|Ultra-low latency trading|
+|Latency|Low (but not extreme)|Ultra-low (microseconds)|
+|Complexity|Broad feature set|Highly optimized|
+|Use case|Banks, data distribution|HFT, trading systems|
+
+---
+
+# 🎯 4. How YOU should position your experience
+
+This is the most important part.
+
+You can say:
+
+> “My experience is more aligned with enterprise-style market data systems like TREP, but I understand that InRush operates at a lower latency, more performance-optimized level.”
+
+🔥 This is powerful because:
+
+- You connect your experience
+    
+- You show awareness of the gap
+    
+- You show you understand Pico’s niche
+    
+
+---
+
+# 💥 5. Killer follow-up line (use this!)
+
+If you want to stand out, say:
+
+> “I’m particularly interested in how systems like InRush handle feed normalization and order book construction under strict latency constraints, compared to more general-purpose platforms like TREP.”
+
+👉 This shows:
+
+- Curiosity
+    
+- Technical thinking
+    
+- Alignment with role
+    
+
+---
+
+# 🚀 Final takeaway
+
+Don’t say:  
+❌ “Yes they’re the same”
+
+Say:  
+✅ “They serve similar roles, but InRush is optimized for ultra-low latency trading environments”
+
+---
+
+# 🚀 If you want to go even deeper
+
+I can:
+
+- Break down **how order books are actually built (step-by-step)**
+    
+- Or simulate a **super technical Pico interview (final round level)**
+    
+
+Just say 👍
+
+  
+
+are equities price ticks (can you say order book instead?) more high frequency trading than fixed-income price ticks?
+
+  
+
+Great question—this is exactly the kind of nuance that can **impress interviewers at Pico** if you answer it correctly.
+
+Short answer:  
+👉 **Yes—equities order books are generally much higher frequency than fixed income**  
+👉 And yes—you _should_ say **order book**, not just price ticks (more precise)
+
+---
+
+# 🧠 1. Clean interview-ready answer
+
+Writing
+
+Yes, generally equities market data—especially full order book data—is much higher frequency compared to fixed-income markets.
+
+Equities are traded on centralized exchanges with continuous order matching, which results in very high message rates and frequent updates to the order book.
+
+In contrast, fixed-income markets are often more OTC and less centralized, so updates tend to be less frequent and more quote-driven rather than continuous order book updates.
+
+So while both involve real-time price ticks, equities order books typically operate at much higher frequency and data volume.
+
+---
+
+# 🔍 2. Why this is true (simple explanation)
+
+## 🟢 Equities (stocks)
+
+- Centralized exchanges (NYSE, Nasdaq)
+    
+- Continuous trading
+    
+- Full order book visible (Level 2 / Level 3)
+    
+- Massive number of participants
+    
+
+👉 Result:  
+🔥 **Extremely high message rates (thousands–millions per second)**
+
+---
+
+## 🟡 Fixed Income (bonds)
+
+- Mostly OTC (over-the-counter)
+    
+- Dealer-to-client model
+    
+- Less transparent order books
+    
+- More quote-based (RFQ = request for quote)
+    
+
+👉 Result:  
+📉 **Lower frequency updates**
+
+---
+
+# ⚖️ 3. Key differences (simple table)
+
+|Feature|Equities|Fixed Income|
+|---|---|---|
+|Market structure|Centralized|Mostly OTC|
+|Order book|Full depth|Often limited / none|
+|Update frequency|Very high|Lower|
+|Data type|Continuous ticks|Quotes / trades|
+
+---
+
+# 🎯 4. Should you say “price ticks” or “order book”?
+
+👉 **Better to say:**
+
+- “Order book updates” ✅ (more precise, advanced)
+    
+- “Price ticks” ✅ (okay, but simpler)
+    
+
+💡 Best approach:
+
+> “order book updates (price ticks)”
+
+Example:
+
+> “Equities have much higher frequency order book updates compared to fixed income…”
+
+---
+
+# 🔥 5. How to tie this to Pico (THIS is the key)
+
+You can add:
+
+> “That’s why systems like InRush need to be highly optimized, because they are handling extremely high-frequency order book updates in equities markets.”
+
+👉 This directly connects:
+
+- Your knowledge
+    
+- Their product
+    
+- The job
+    
+
+---
+
+# 💥 6. Bonus: Advanced insight (very impressive)
+
+If you want to go one level deeper:
+
+> “In equities, even small delays can cause stale order books, which directly impacts trading decisions, especially in high-frequency trading environments.”
+
+🔥 That’s exactly what Pico cares about.
+
+---
+
+# 🚀 Final takeaway
+
+- Yes → equities = higher frequency
+    
+- Use → “order book updates”
+    
+- Tie → to latency + system performance
+    
+
+---
+
+# 🚀 If you want next level
+
+I can:
+
+- Explain **order book vs trade messages in detail (super useful)**
+    
+- Or give you **tricky domain questions they might use to test depth**
+    
+
+Just say 👍
+
+  
+
+Give you a quick crash course on Prometheus + Grafana
+
+  
+
+Perfect—this is exactly what will make you sound like a **real SRE instead of just “familiar”**.
+
+I’ll give you a **fast, high-impact crash course** focused on:
+
+- What they are
+    
+- How they work together
+    
+- What you actually _say in an interview_
+    
+- How it applies to **Pico / low-latency systems**
+    
+
+---
+
+# 🧠 1. What is Prometheus?
+
+## 🔹 Simple definition
+
+> Prometheus is a monitoring system that collects and stores time-series metrics from systems and applications.
+
+---
+
+## 🔹 What it actually does
+
+Prometheus:
+
+- Pulls metrics from systems (servers, apps)
+    
+- Stores them as **time-series data**
+    
+- Lets you query them (PromQL)
+    
+
+---
+
+## 🔹 Example metrics it collects
+
+- CPU usage
+    
+- Memory usage
+    
+- Network latency
+    
+- Message throughput
+    
+- Application-specific metrics (like tick processing time)
+    
+
+---
+
+## 🔹 Key concept (important to say)
+
+> “Prometheus is responsible for collecting and storing metrics.”
+
+---
+
+# 📊 2. What is Grafana?
+
+## 🔹 Simple definition
+
+> Grafana is a visualization tool used to display metrics collected by systems like Prometheus.
+
+---
+
+## 🔹 What it does
+
+Grafana:
+
+- Connects to Prometheus
+    
+- Builds dashboards
+    
+- Shows:
+    
+    - Graphs
+        
+    - Alerts
+        
+    - Real-time monitoring
+        
+
+---
+
+## 🔹 Key concept
+
+> “Grafana is used to visualize and analyze metrics.”
+
+---
+
+# 🔗 3. How they work together (THIS is critical)
+
+Application / Server → Prometheus → Grafana
+
+### Step-by-step:
+
+1. App exposes metrics (e.g., latency, throughput)
+    
+2. Prometheus collects them
+    
+3. Grafana visualizes them
+    
+
+---
+
+## 💬 Interview one-liner
+
+> “Prometheus collects and stores metrics, and Grafana visualizes them for analysis and monitoring.”
+
+🔥 Memorize this.
+
+---
+
+# ⚡ 4. What is “time-series data”?
+
+👉 This is often asked.
+
+> Time-series data is data recorded over time, such as CPU usage or latency measured every second.
+
+---
+
+# 🔍 5. What is PromQL? (basic awareness)
+
+👉 You don’t need to use it, just know it exists.
+
+> PromQL is the query language used in Prometheus to retrieve and analyze metrics.
+
+Example:
+
+rate(http_requests_total[5m])
+
+---
+
+# 🎯 6. How YOU used it (tailored to your experience)
+
+This is your strongest angle.
+
+## 💬 Answer
+
+> In my role, Grafana dashboards were used to monitor latency across the system—from when price ticks left the on-prem application to when they reached AWS consumers.
+> 
+> We used these dashboards to identify latency spikes and troubleshoot where delays were occurring in the pipeline.
+
+---
+
+# 🔥 7. What SREs actually look for in Grafana
+
+This is where you sound like a pro.
+
+## Key things to mention:
+
+### 🔹 Latency
+
+- End-to-end delay
+    
+- Tick delivery time
+    
+
+### 🔹 Throughput
+
+- Messages per second
+    
+
+### 🔹 Errors
+
+- Failed messages
+    
+- Dropped packets
+    
+
+### 🔹 System health
+
+- CPU, memory, network
+    
+
+---
+
+# 💥 8. How this applies to Pico (VERY important)
+
+Pico cares about:
+
+- Microsecond latency
+    
+- Market data delivery
+    
+- System performance
+    
+
+So you can say:
+
+> “In a system like Pico’s, Prometheus and Grafana would be critical for monitoring latency at each stage of the market data pipeline and quickly identifying bottlenecks.”
+
+---
+
+# 🚀 9. Example scenario (how you’d use it)
+
+## 🧠 Problem:
+
+Latency spike
+
+## 🔍 What you do:
+
+- Look at Grafana dashboard
+    
+- Identify:
+    
+    - Where latency increased
+        
+    - When it started
+        
+- Correlate:
+    
+    - CPU usage
+        
+    - Network metrics
+        
+
+## 💬 Interview answer:
+
+> I would use Grafana dashboards to identify where latency is increasing and correlate it with system metrics like CPU or network usage to isolate the root cause.
+
+---
+
+# 🧠 10. Bonus concepts (light awareness)
+
+You don’t need depth, just mention:
+
+### 🔹 Alerts
+
+- Prometheus can trigger alerts
+    
+- Example: latency > threshold
+    
+
+### 🔹 Exporters
+
+- Tools that expose metrics (e.g., node exporter)
+    
+
+---
+
+# 🎯 Final “perfect answer” (combine everything)
+
+Writing
+
+I’ve worked with Prometheus and Grafana in a production environment for monitoring real-time systems.
+
+Prometheus was used to collect and store time-series metrics, while Grafana provided visualization through dashboards.
+
+In my role, we used Grafana to monitor end-to-end latency of market data, from on-prem systems to AWS consumers, and to identify performance issues such as latency spikes or bottlenecks.
+
+This experience helped me understand how observability tools are used to troubleshoot distributed systems and ensure reliability, which I know is critical in low-latency environments like Pico’s.
+
+---
+
+# 💥 Final takeaway
+
+You don’t need to say:  
+❌ “I configured Prometheus”
+
+You want to say:  
+✅ “I used monitoring data to understand system behavior and diagnose latency”
+
+---
+
+# 🚀 If you want final prep
+
+I can:
+
+- Give you a **1-page cheat sheet to memorize before interview**
+    
+- Or do a **full mock interview (you answer, I critique like a hiring manager)**
+    
+
+Just say 👍

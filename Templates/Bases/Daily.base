@@ -23,9 +23,9 @@ views:
         - '!file.tags.contains("monthly")'
     order:
       - file.name
-      - created
-      - categories
       - tags
+      - categories
+      - created
     sort:
       - property: tags
         direction: ASC

@@ -1,6 +1,6 @@
 ---
 categories:
-  - "[[Jobs]]"
+  - "[[Topics]]"
 type: []
 org: []
 start:
