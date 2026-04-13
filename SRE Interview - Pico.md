@@ -18,6 +18,24 @@ tags:
 
 [[Pico]]
 
+## Meeting with Skarlet Goetchius
+
+- Skarlet is from HR and is not technical.
+- She asked me about
+	- my Python experience: I don't have experience but since I am familiar with Java, I told her that if needed, I should be able to understand the coded logic, make basic updates. I need to better undestand specific scenaros that require working with Python. Knowing this, I will be able to target my learning towards effectively supporting the tass
+	- c/c++: I have c/c++ experience: I explained that the formulas engine code used in Streaming market data price quote system I supported at the Fed is simiiar to C/C++.
+	- this is a new role that formalizes what the team always has been doing.
+	- I will be reporting to Olieen in Dublin who is Alex's manager also
+	- Skarlet will ping Olieen tomorrow to see if she can interview me and will let me know. I said I am open all week but need to remind her that I will not be available tomorrow Tuesdat from 2-3:30pm
+	- She said she will send me info on Redline product and this is the product I will be supporting. I think she means Redline feed product
+	- she asked me and I told her I was making $170k at Gresham and that $125k compensation for this role is fine. I told her I need insurance benefits (medical, dental, etc.)
+	- She reminded me that it is a big drop in income, and I said yes and am willing to work with that number. 
+	- It's because I need this job even though I will be in the hole every month like $3000+ compared to the 170k salary. 
+	- also the medical premium for me and jinie is like $800 to $1200/month.
+	- 
+- 
+
+
 
 ## Unix
 
