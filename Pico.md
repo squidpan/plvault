@@ -7,7 +7,7 @@ url: https://www.pico.net/
 ---
 # About
 
-Pico is a financial infrastructure + trading technology company. Pico operates mission-critical infrastructure where latency and availability directly impact trading profitability. It provides:
+**Pico is a financial infrastructure + trading technology company**. Pico operates mission-critical infrastructure where latency and availability directly impact trading profitability. It provides:
 
 - Ultra-low latency **market data**
 - **Order execution systems**
