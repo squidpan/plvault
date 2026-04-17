@@ -1,11 +1,13 @@
 ---
 categories:
-  - "[[Skills]]"
+  - "[[Indexes]]"
 type:
-loc:
+description:
+source:
 tags:
-  - skills
 created:
 last:
+status:
 ---
+
 

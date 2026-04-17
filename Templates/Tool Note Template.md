@@ -1,11 +1,13 @@
 ---
 categories:
-  - "[[Skills]]"
+  - "[[Tools]]"
 type:
-loc:
+description:
+source:
 tags:
-  - skills
 created:
 last:
+status:
 ---
+
 
