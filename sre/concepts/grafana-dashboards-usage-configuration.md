@@ -22,7 +22,7 @@ status: draft
 - Critical for SRE observability and rapid incident detection
 
 ## Key Points
-- Dashboards are composed of panels querying data sources like [[Prometheus]]
+- Dashboards are composed of panels querying data sources like [[sre-x/tools/prometheus]]
 - Key configuration elements:
   - data source selection (metrics backend)
   - query definitions (e.g., PromQL)
@@ -56,9 +56,9 @@ status: draft
 - Detecting microbursts or transient latency issues
 
 ## Related Notes
-- [[Grafana]]
+- [[sre-x/tools/grafana]]
 - [[Grafana Dashboards]]
-- [[Prometheus]]
+- [[sre-x/tools/prometheus]]
 - [[Monitoring Systems]]
-- [[Observability]]
+- [[sre-x/concepts/observability]]
 

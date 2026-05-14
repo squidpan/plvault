@@ -11,7 +11,97 @@ tags:
 ---
 # Background
 
-They will ask me about network level experience and knowledge to see if I can handle network related troubleshooting as an SRE when connecting to quantitative trading platforms and clients. help me out here.
+
+
+## Layer 2 Concepts - MAC address, tables, and switches
+
+```[!Question-1]
+
+Identify and explain Layer 2 concepts by accurately describing the purpose of MAC addresses. MAC tables, and how switches use them to forward Ethernet frames.
+```
+MAC addresses are unique hardware identifiers used to identify devices (NIC) on a local area network, and switches use them in their MAC tables to forward Ethernet frames to the correct port.
+
+Practice describing the switch process in order: 
+- learn the source MAC and incoming port
+- look up the destination MAC in the MAC table
+- forward out the matching port if found, 
+- or flood unknown destinations out all other ports if not found.
+
+## BUM traffic behavior
+
+- Broadaast
+- Unicast
+- Multicast
+
+When and how type occurs on an Ethernet network:
+
+Review the three BUM categories separately: 
+- broadcast goes to all devices in the broadcast domain
+- unknown unicast is sent when the destination MAC is not in the switch table
+- multicast is sent to a specific subscribed group of devices.
+
+
+## ARP request/response map IP to MAC on a LAN
+
+
+## OSI model
+
+Review the common mappings: 
+- switches and MAC addresses belong to Layer 2
+- IP addresses belong to Layer 3, TCP ports belong to Layer 4
+- Ethernet frames are Layer 2 data units.
+
+## Network devices: hubs, bridges, switch - collision domains and broadcast domains
+
+Study how each device behaves: 
+- hubs repeat signals to all ports
+- bridges segment collision domains
+- switches learn MAC addresses to forward frames efficiently while still keeping one broadcast domain unless VLANs are used.
+
+
+## Routing Behavior
+
+
+How do routers break up Layer 2 broadcast domains and prevent Ehternet broadcasts from crossing network segments.
+
+When asked about routers and broadcasts, say that routers connect different networks, stop Layer 2 broadcasts from crossing subnets, and keep broadcast traffic contained within each segment.
+
+## Default gateway logic: how computer sends traffic to a router when dest. IP is on diff subnet
+
+When the destination is outside your subnet, explain that your computer sends the packet to its configured default gateway, usually a router, which then forwards it onward.
+## Network commands
+I start by identifying the network interface using `ip link`, then check for packet drops using `ip -s link` or `ethtool -S`. I verify connectivity with `ping` and `traceroute`, and confirm multicast subscription using `netstat -g`. If needed, I use `tcpdump` to validate packet flow and determine whether the issue is at the network or application layer.
+
+---
+| Category                  | Command                        | What It Does                        | What You Look For            | When You Use It                 |
+| ------------------------- | ------------------------------ | ----------------------------------- | ---------------------------- | ------------------------------- |
+| **Interfaces**            | `ip link show`                 | Lists all network interfaces (NICs) | Interface names (eth0, ens3) | First step—identify NIC         |
+|                           | `ls /sys/class/net`            | Simple list of NICs                 | Interface names              | Quick lookup                    |
+|                           | `ifconfig -a`                  | Legacy interface info               | IP + status                  | Older systems                   |
+|                           |                                |                                     |                              |                                 |
+| **Basic NIC Stats**       | `ip -s link`                   | Shows RX/TX stats per interface     | `dropped`, `errors`          | Check packet loss quickly       |
+|                           |                                |                                     |                              |                                 |
+| **Detailed NIC Stats**    | `ethtool -S eth0`              | Deep NIC/driver stats               | `rx_dropped`, `rx_errors`    | Diagnose packet loss at NIC     |
+|                           |                                |                                     |                              |                                 |
+| **Connectivity**          | `ping <host>`                  | Tests reachability + latency        | packet loss, RTT             | Quick connectivity check        |
+|                           | `traceroute <host>`            | Shows network path (hops)           | delays between hops          | Find where latency occurs       |
+|                           | `mtr <host>`                   | Real-time ping + traceroute         | packet loss + latency trends | Better version of traceroute    |
+|                           |                                |                                     |                              |                                 |
+| **Interface Stats**       | `netstat -i`                   | Interface-level statistics          | drops/errors per interface   | Quick network health check      |
+|                           |                                |                                     |                              |                                 |
+| **Sockets / Connections** | `ss -i`                        | Shows active connections + stats    | connection issues            | Debug connectivity              |
+|                           | `ss -ulpn`                     | Shows UDP listeners                 | ports/services               | Verify multicast/listeners      |
+|                           |                                |                                     |                              |                                 |
+| **Multicast**             | `netstat -g`                   | Shows multicast group membership    | joined groups                | Verify feed subscription        |
+|                           |                                |                                     |                              |                                 |
+| **Packet Capture**        | `tcpdump -i eth0`              | Live packet capture                 | packet flow                  | Check if data is arriving       |
+|                           | `tcpdump -i eth0 -w file.pcap` | Capture to file                     | full packet data             | Deep debugging / replay         |
+|                           | `tcpdump -r file.pcap`         | Read captured packets               | sequence / flow              | Analyze past traffic            |
+|                           |                                |                                     |                              |                                 |
+| **Interrupts (NIC/CPU)**  | `cat /proc/interrupts`         | Shows IRQ distribution across CPUs  | imbalance                    | Diagnose CPU/network contention |
+|                           |                                |                                     |                              |                                 |
+| **System View (related)** | `top`                          | CPU/memory usage                    | high CPU/system load         | Check system bottlenecks        |
+|                           | `vmstat 1`                     | System performance stats            | CPU wait, memory pressure    | Deeper system analysis          |
 
 ---
 

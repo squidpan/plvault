@@ -1,6 +1,5 @@
 ---
 categories:
-  - "[[Concepts]]"
 type:
 description:
 source:
@@ -12,5 +11,3 @@ origin:
 run_id:
 input_prompt:
 ---
-
-

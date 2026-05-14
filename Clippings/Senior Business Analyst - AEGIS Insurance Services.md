@@ -1,0 +1,76 @@
+---
+categories:
+  - "[[Clippings]]"
+title: "Senior Business Analyst"
+source: "https://aegislimited.wd1.myworkdayjobs.com/en-US/Careers/job/Senior-Business-Analyst_JR-11"
+author:
+published:
+created: 2026-05-14
+description: "AEGIS Insurance Services Inc. has an immediate opening for: Senior Business Analyst Job Description: AEGIS Insurance Services, Inc. (“AEGIS”) has an immediate opening for a Senior Business Analyst responsible for the delivery and management of one or more business applications and/or financial systems. The individual works closely with the Lead Business Analyst and/or the business to understand, prioritize, document requirements, and manage the configuration and implementation of business applications. The Senior Business Analyst also ensures that the development or configuration team fully understands the requirements, and oversees the coding/configuration, testing, and deployment of all application changes. Job Requirements: Minimum 8 years of business analysis experience; insurance industry experience Undergraduate Degree in Information Technology, Systems Management, or related field ServiceNow system experience is a plus Experience with application support, requirements definition, test plan development, QA/UAT test coordination, and testing prior to UAT Experience with project management and/or implementation of system requirements based on changes in workflow or changes in business requirements Experience in writing detailed application requirements with detailed scopes of work PEGA (or other BPM solution), Workday, ServiceNow and/or reinsurance system experience a plus Demonstrated ability to effectively plan, facilitate, and participate in meetings with employees from all organizational levels Demonstrated analytical thinking for problem resolution and process development Strong skills in prioritization and reprioritization to react to a dynamic environment Ability to work cross-functionally and think creatively, critically, and strategically Ability to translate business needs into efficient technology solutions Candidate Attributes: Collaborative Communications and Behavior: Develops and maintains effective working relationships as a team member and across divisions; readily collaborates and shares information, seeks and provides constructive feedback, and supports a respectful workplace Initiative and Accountability: Proactively addresses opportunities to enhance AEGIS’ people, processes, products, and services, takes ownership for one’s responsibilities by acting with integrity and in the best interest of the organization and stakeholders Quality-Focused: Demonstrates a solution-focus, displays thoroughness and accuracy through quality deliverables, and demonstrates persistence and perseverance in achieving concrete and tangible outcomes Service-Oriented: Conveys a genuine desire and ability to anticipate and meet customer needs and creates and nurtures mutually beneficial relationships within AEGIS and with AEGIS Members and brokers Essential Job Functions: Relationship Management and Customer Support Gain a clear understanding of the business applications and operational needs of the divisions supported Work closely with the business and other Business Analysts to identify requirements, prioritize the needs, document requirements, and manage them to final deployment Create and/or review job aids and conduct demos/training for complex functionality Collaborate with other IT teams for impact analysis of new and updated functionality Program/Project Management and Support Provide application support and QA management, including test plan development, and QA/UAT test coordination Define requirements, test plans, and deployment plans in support of the business unit Plan, coordinate, and monitor the progress of development projects to ensure their ongoing alignment with business goals Facilitate discussions and consensus among various project stakeholders, such as analysts, application programmers and business users May work individually or as part of BA team Quality Assurance and Continuous Improvement Provide a strong focus on overall quality, performance, and user experience of business applications or financial systems www.aegislink.com EOE AEGIS Insurance Services, Inc. participates in E-Verify We expect to pay a starting salary between $130,000 and $150,000. An applicant’s placement within this range is based on their individual qualifications and professional experience. In addition to base salary, AEGIS employees are eligible to participate in the Company’s annual incentive program, with competitive awards based on corporate and individual performance. In addition, we offer a comprehensive and competitive suite of options for health & wellness, retirement, income protection, time off and additional benefits: Health & Wellness: Medical, dental, vision, mental health support and employee assistance programs Retirement: 401(k) with matching contribution Income Protection: Life, disability, accident and critical illness insurance Time Off: Vacation days, sick days, holidays and family/military leave options Other: Commuter benefits, pet insurance, hybrid work schedule Growth: Tuition assistance and professional development opportunities We will consider this application carefully, but it does not guarantee employment. Selection is on a competitive basis. In addition, you must meet employment standards and specific position requirements. Qualified applicants will receive consideration for employment without regard to race, creed, color, sex, sexual orientation, age, marital status, disability, national origin, veteran status or any other legally protected status. AEGIS Insurance Services, Inc. participates in E-Verify. Accounting Our Accounting Division is the financial core of AEGIS, ensuring every transaction is accurately recorded, reported and monitored. Their precision enables our organization to maintain a strong financial foundation and make informed, strategic choices. Actuarial The Actuarial Division plays a critical role in assessing and pricing risk, essential to our mission of protecting members. By applying advanced mathematical and statistical models, our actuaries and analysts help guide strategic planning and develop effective risk management solutions. Business Analytics The Business Analytics Division supports the enterprise-wide analytics strategy, enabling data-informed decision-making across key business functions through the use of internal and external data. The team helps support business initiatives, enhance reporting consistency, and improve operational efficiency. Claims AEGIS members consistently describe our Claims Division as fair, responsive and collaborative. We work closely with members, brokers and legal counsel to resolve claims efficiently. From litigation support to industry-wide claims insights, we help mitigate risk, control costs and strengthen long-term stability. Human Resources Our employees are our greatest asset. The Human Resources Division manages AEGIS’ most valuable resource — its people. From benefits and professional development to culture and support, HR ensures every team member has what they need to thrive and deliver exceptional service to our members. Information Technology In a constantly evolving digital world, our IT Division ensures AEGIS stays ahead. From enhancing communication and securing data to streamlining operations and supporting informed decision-making, IT provides enterprise-wide solutions tailored to the dynamic needs of each division — driving efficiency, agility, and security across the organization. Internal Audit The Internal Audit Division delivers independent, objective assurance to improve AEGIS’ operations and internal controls. Through a systematic, disciplined approach, this team evaluates risk management, control processes and governance practices — enhancing transparency and ensuring accountability throughout the organization. Investment AEGIS' long-term financial strength is rooted in the work of our Investment Division. This expert team manages and monitors the investment portfolios of both AEGIS and AEGIS London, ensuring liquidity, managing risk and building strong banking relationships. Their disciplined approach earns us consistent high ratings from credit agencies — a reflection of our financial resilience. Legal Our Legal Division is staffed by attorneys with deep expertise in the insurance and energy sectors. They provide timely, practical legal support to AEGIS and its affiliates — helping ensure compliance, manage risk and support business objectives with clarity and confidence. Loss Control The Loss Control Division partners with members to reduce risk across the utility industry. Through site visits, risk assessments, training, webinars and publications, their team delivers a full suite of services unmatched by commercial insurers. They turn decades of experience into safer, smarter outcomes — for everyone. Marketing & Communications Our Marketing & Communications Division shapes how AEGIS connects with members and the broader industry. From our website and annual review to member emails, our policyholders’ conference and cross-division projects, this team ensures our message is consistent, impactful and aligned with our mission. Operations The Operations Division is the backbone of our day-to-day success. From managing facilities and supplies to supporting every department’s logistical needs, they ensure our internal systems function smoothly so our teams can focus on serving our members. Underwriting Our Underwriting Division evaluates each risk on its own merit, leveraging detailed financial and claims data to offer fair, customized coverage. With deep expertise in the utility industry and a commitment to equity and stability, our underwriters help preserve long-term capacity — reinforcing AEGIS’ reputation as a market leader."
+tags:
+  - "clippings"
+url: "https://aegislimited.wd1.myworkdayjobs.com/en-US/Careers/job/Senior-Business-Analyst_JR-11"
+---
+**Job Description:**
+
+AEGIS Insurance Services, Inc. (“AEGIS”) has an immediate opening for a **Senior Business Analyst** responsible for the delivery and management of one or more business applications and/or financial systems. The individual works closely with the Lead Business Analyst and/or the business to understand, prioritize, document requirements, and manage the configuration and implementation of business applications. The Senior Business Analyst also ensures that the development or configuration team fully understands the requirements, and oversees the coding/configuration, testing, and deployment of all application changes.
+
+**Job Requirements:**
+
+- Minimum 8 years of business analysis experience; insurance industry experience
+- Undergraduate Degree in Information Technology, Systems Management, or related field
+- ServiceNow system experience is a plus
+- Experience with application support, requirements definition, test plan development, QA/UAT test coordination, and testing prior to UAT
+- Experience with project management and/or implementation of system requirements based on changes in workflow or changes in business requirements
+- Experience in writing detailed application requirements with detailed scopes of work
+- PEGA (or other BPM solution), Workday, ServiceNow and/or reinsurance system experience a plus
+- Demonstrated ability to effectively plan, facilitate, and participate in meetings with employees from all organizational levels
+- Demonstrated analytical thinking for problem resolution and process development
+- Strong skills in prioritization and reprioritization to react to a dynamic environment
+- Ability to work cross-functionally and think creatively, critically, and strategically
+- Ability to translate business needs into efficient technology solutions
+
+**Candidate Attributes:**
+
+- Collaborative Communications and Behavior: Develops and maintains effective working relationships as a team member and across divisions; readily collaborates and shares information, seeks and provides constructive feedback, and supports a respectful workplace
+- Initiative and Accountability: Proactively addresses opportunities to enhance AEGIS’ people, processes, products, and services, takes ownership for one’s responsibilities by acting with integrity and in the best interest of the organization and stakeholders
+- Quality-Focused: Demonstrates a solution-focus, displays thoroughness and accuracy through quality deliverables, and demonstrates persistence and perseverance in achieving concrete and tangible outcomes
+- Service-Oriented: Conveys a genuine desire and ability to anticipate and meet customer needs and creates and nurtures mutually beneficial relationships within AEGIS and with AEGIS Members and brokers
+
+**Essential Job Functions:**
+
+*Relationship Management and Customer Support*
+
+- Gain a clear understanding of the business applications and operational needs of the divisions supported
+- Work closely with the business and other Business Analysts to identify requirements, prioritize the needs, document requirements, and manage them to final deployment
+- Create and/or review job aids and conduct demos/training for complex functionality
+- Collaborate with other IT teams for impact analysis of new and updated functionality
+
+*Program/Project Management and Support*
+
+- Provide application support and QA management, including test plan development, and QA/UAT test coordination
+- Define requirements, test plans, and deployment plans in support of the business unit
+- Plan, coordinate, and monitor the progress of development projects to ensure their ongoing alignment with business goals
+- Facilitate discussions and consensus among various project stakeholders, such as analysts, application programmers and business users
+- May work individually or as part of BA team
+
+*Quality Assurance and Continuous Improvement*
+
+- Provide a strong focus on overall quality, performance, and user experience of business applications or financial systems
+
+[www.aegislink.com](http://www.aegislink.com)
+
+EOE
+
+AEGIS Insurance Services, Inc. participates in E-Verify
+
+We expect to pay a starting salary between $130,000 and $150,000. An applicant’s placement within this range is based on their individual qualifications and professional experience. In addition to base salary, AEGIS employees are eligible to participate in the Company’s annual incentive program, with competitive awards based on corporate and individual performance.
+
+In addition, we offer a comprehensive and competitive suite of options for health & wellness, retirement, income protection, time off and additional benefits:
+
+- Health & Wellness: Medical, dental, vision, mental health support and employee assistance programs
+- Retirement: 401(k) with matching contribution
+- Income Protection: Life, disability, accident and critical illness insurance
+- Time Off: Vacation days, sick days, holidays and family/military leave options
+- Other: Commuter benefits, pet insurance, hybrid work schedule
+- Growth: Tuition assistance and professional development opportunities

@@ -9,10 +9,223 @@ url:
 status:
 ---
 
+
 >[!Goal]
 >Build a **manual system first**, but design it so it can later become **automated without changing outputs**.
 >	
 >	create copy/paste-ready prompt modules
+
+
+
+## Chatgpt Input Prompt redesign
+
+OK, that's great!. So I have some more observations from the previous versions so help me refactor things back into the process flow and files. Show me how you would address it where but don't show me the code, etc in its entirely until I ask it. 
+
+## Standard Input prompt Revsion
+1. I need to refine the standard input prompt template ( maybe I will have more than one, keep track of them in a folder, input-prompts and have it stored in a note's property (you suggested it, was it source field?)
+2. I will upload master-skill.md and input prompts.md file into chatgpt.
+3. I want the name of the input prompt file name reflect the skill, topic, context, concept, tool, as best as it can (something like you already suggested)
+4. how would would you 
+		a. Rephrase the following verbose input prompt in a concise, clear, succinct  plain English - rephase it better here!
+		b. break down the following verbose input prompt in terms of categories, topic, context, scope and once you have done that how would the standard input prompt template look like from it?
+
+here is the verbose input prompt that I want you to make it better:
+
+---
+
+Research skills for required for the role of Site Reliability Engineer at Pico.net, a financial infrastructure and trading technology company, serving the quantitative trading industry (market data) with their product suites, In Rush Ticker Plant, Redline feed, etc. Performance and reliability are key areas the an SRE need to have firm control on. Focus on performance monitoring, alerting concepts and tools such Grafana, Prometheus with key use cases that an sre at pico should know and will encounter while ensuring low latency performance, and diagnose and mitigate data loss.
+
+---
+
+| input-prompt-file-name                        | Note-type | Category | Topic                               | Scope                                                   | Context                                                     | input-prompt-file-content                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| --------------------------------------------- | --------- | -------- | ----------------------------------- | ------------------------------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| sre-pico-low-latency-monitoring-skill-vng1.md | Skill     | SRE      | Low latency monitoring & alerting   | Grafana, Prometheus, latency, data loss, observability  | Pico.net market data infrastructure (Redline, ticker plant) | # INPUT\n\n## NOTE TYPE\nSkill\n\n## TEMPLATE\nSkill Template\n\n## TITLE\nSRE Low Latency Monitoring and Alerting for Market Data Systems\n\n## INPUT PROMPT ID\nsre-pico-low-latency-monitoring-skill-vng1\n\n## CATEGORY\nSRE\n\n## CONTEXT\nPico.net financial infrastructure, market data systems, low latency trading environments\n\n## TOPIC\nMonitoring, alerting, and observability for low latency systems\n\n## SCOPE\n- Grafana dashboards\n- Prometheus metrics\n- latency monitoring\n- throughput tracking\n- data loss detection\n- alerting strategies\n- reliability engineering\n\n## TEMPLATE PROPERTY VALUES\ndescription: Monitoring and alerting strategies for low latency trading systems using Grafana and Prometheus.\nsource: chatgpt\ntags:\n  - sre\n  - grafana\n  - prometheus\n  - monitoring\n  - alerting\n  - low-latency\ncreated: 2026-04-17\nlast: 2026-04-17\nstatus: draft\n\n## OUTPUT STRUCTURE\n- Generate one Skill note\n- Generate supporting Concept, Tool, Usecase, Process notes\n- Link all notes bidirectionally\n\n## BODY INSTRUCTIONS\n- Emphasize real-world SRE scenarios\n- Focus on latency and reliability tradeoffs |
+| sre-pico-grafana-prometheus-concepts-vng1.md  | Concept   | SRE      | Monitoring & Observability Concepts | dashboards, metrics, alerting, golden signals           | Pico market data systems                                    | # INPUT\n\n## NOTE TYPE\nConcept\n\n## TEMPLATE\nConcept Template\n\n## TITLE\nMonitoring and Observability Concepts for Low Latency Systems\n\n## INPUT PROMPT ID\nsre-pico-grafana-prometheus-concepts-vng1\n\n## CATEGORY\nSRE\n\n## CONTEXT\nLow latency financial systems and market data infrastructure\n\n## TOPIC\nCore monitoring and observability concepts\n\n## SCOPE\n- metrics vs logs vs traces\n- golden signals\n- alerting principles\n- latency vs throughput\n- data loss detection\n\n## TEMPLATE PROPERTY VALUES\ndescription: Core observability concepts for monitoring low latency trading systems.\nsource: chatgpt\ntags:\n  - monitoring\n  - observability\n  - sre\n  - latency\ncreated: 2026-04-17\nlast: 2026-04-17\nstatus: draft\n\n## OUTPUT INSTRUCTIONS\n- Generate atomic concept notes\n- Link to tools like Grafana and Prometheus\n\n## BODY INSTRUCTIONS\n- Keep explanations interview-focused\n- Use real-world examples                                                                                                                                                                                                             |
+| sre-pico-grafana-prometheus-tools-vng1.md     | Tool      | SRE      | Grafana & Prometheus Usage          | dashboards, metrics pipelines, alerting configs         | Pico low latency monitoring stack                           | # INPUT\n\n## NOTE TYPE\nTool\n\n## TEMPLATE\nTool Template\n\n## TITLE\nGrafana and Prometheus for Low Latency Monitoring\n\n## INPUT PROMPT ID\nsre-pico-grafana-prometheus-tools-vng1\n\n## CATEGORY\nSRE\n\n## CONTEXT\nMonitoring stack for financial trading systems\n\n## TOPIC\nTooling for observability and alerting\n\n## SCOPE\n- Grafana dashboards\n- Prometheus architecture\n- metric pipelines\n- alerting rules\n- performance tuning\n\n## TEMPLATE PROPERTY VALUES\ndescription: Tools used for monitoring and alerting in low latency systems.\nsource: chatgpt\ntags:\n  - grafana\n  - prometheus\n  - monitoring\n  - tools\ncreated: 2026-04-17\nlast: 2026-04-17\nstatus: draft\n\n## OUTPUT INSTRUCTIONS\n- Generate one note per tool\n- Link tools to concepts and usecases\n\n## BODY INSTRUCTIONS\n- Focus on how tools are used in practice                                                                                                                                                                                                                                                                                                       |
+| sre-pico-monitoring-process-vng1.md           | Process   | SRE      | Monitoring & Alerting Workflow      | metric collection → visualization → alerting → response | trading system operations                                   | # INPUT\n\n## NOTE TYPE\nProcess\n\n## TEMPLATE\nProcess Template\n\n## TITLE\nMonitoring and Alerting Workflow for Low Latency Systems\n\n## INPUT PROMPT ID\nsre-pico-monitoring-process-vng1\n\n## CATEGORY\nSRE\n\n## CONTEXT\nProduction monitoring of trading infrastructure\n\n## TOPIC\nEnd-to-end monitoring workflow\n\n## SCOPE\n- metric ingestion\n- dashboard visualization\n- alert triggering\n- incident response\n\n## TEMPLATE PROPERTY VALUES\ndescription: End-to-end workflow for monitoring and alerting in SRE systems.\nsource: chatgpt\ntags:\n  - monitoring\n  - process\n  - alerting\ncreated: 2026-04-17\nlast: 2026-04-17\nstatus: draft\n\n## OUTPUT INSTRUCTIONS\n- Create structured process steps\n- Link to tools and runbooks\n\n## BODY INSTRUCTIONS\n- Emphasize flow and dependencies                                                                                                                                                                                                                                                                                                                                                    |
+| sre-pico-latency-incident-runbook-vng1.md     | Runbook   | SRE      | Latency Incident Response           | detection, triage, mitigation                           | Pico market data outages                                    | # INPUT\n\n## NOTE TYPE\nRunbook\n\n## TEMPLATE\nRunbook Template\n\n## TITLE\nLatency Incident Response Runbook for Market Data Systems\n\n## INPUT PROMPT ID\nsre-pico-latency-incident-runbook-vng1\n\n## CATEGORY\nSRE\n\n## CONTEXT\nProduction incident response in low latency trading systems\n\n## TOPIC\nHandling latency spikes and degradation\n\n## SCOPE\n- detection via alerts\n- triage steps\n- root cause analysis\n- mitigation strategies\n\n## TEMPLATE PROPERTY VALUES\ndescription: Runbook for diagnosing and resolving latency issues in trading systems.\nsource: chatgpt\ntags:\n  - runbook\n  - latency\n  - incident-response\ncreated: 2026-04-17\nlast: 2026-04-17\nstatus: draft\n\n## OUTPUT INSTRUCTIONS\n- Provide step-by-step actions\n- Include decision points\n\n## BODY INSTRUCTIONS\n- Make it executable and practical                                                                                                                                                                                                                                                                                                               |
+| sre-pico-market-data-usecases-vng1.md         | Usecase   | SRE      | Real-world SRE Scenarios            | latency spikes, data loss, throughput issues            | Pico Redline / ticker plant systems                         | # INPUT\n\n## NOTE TYPE\nUsecase\n\n## TEMPLATE\nUsecase Template\n\n## TITLE\nSRE Usecases for Market Data Systems\n\n## INPUT PROMPT ID\nsre-pico-market-data-usecases-vng1\n\n## CATEGORY\nSRE\n\n## CONTEXT\nLow latency trading infrastructure and market data feeds\n\n## TOPIC\nReal-world SRE scenarios\n\n## SCOPE\n- latency spike detection\n- data loss events\n- throughput bottlenecks\n- alert fatigue\n\n## TEMPLATE PROPERTY VALUES\ndescription: Real-world scenarios encountered by SREs in market data systems.\nsource: chatgpt\ntags:\n  - usecase\n  - sre\n  - market-data\ncreated: 2026-04-17\nlast: 2026-04-17\nstatus: draft\n\n## OUTPUT INSTRUCTIONS\n- Generate multiple usecase notes\n- Link to tools and runbooks\n\n## BODY INSTRUCTIONS\n- Focus on realistic scenarios and lessons learned                                                                                                                                                                                                                                                                                                                                                   |
+
+---
+
+
+After we are done refining and standardizing the input prompt, we will move on to introducing 'Skill' category as the main category in addition to the once you already implemented
+## Skill category as Top level category
+
+- Role, Site Reliability Engineer, is a skill so the Obsidian note should be created using the Template file, called `Skill Template` in the obsidian vault's `Templates` directory.
+- I want all the good practices from previous versions of standard input prompts to be taken into account in this design.
+## Skill Template
+```
+---
+
+categories:
+- "[[Skills]]"
+
+type:
+
+loc:
+
+tags:
+
+- skills
+
+created:
+
+last:
+
+---
+```
+
+## Folder structure
+
+your-vault/  
+├── prompts-input/
+│   └── 01_sre-monitoring-alerting-grafana-dashboards-use-cases.sh
+├── inbox/  
+│   └── chatgpt-grafana-sre-interview-prep-batch.md  
+├── scripts/  
+│   └── split-obsidian-batch.sh  
+└── sre/  
+	├── skills/  
+    ├── concepts/  
+    ├── tools/  
+    ├── processes/  
+    ├── runbooks/  
+    └── indexes/
+
+
+
+
+- 
+- Skillcategory of the role, Site Reliability Engineer, is Skill
+
+
+## 🔹 Version 1
+
+
+```
+# - 1
+INPUT:  
+  
+Topic: Grafana for SRE interview prep  
+  
+Context:  
+- Focus on monitoring, observability, networking, and real-world usage  
+  
+Scope:  
+- Include: dashboards, alerting, Prometheus integration, use cases  
+- Exclude: UI customization details  
+  
+Instructions:  
+- Generate atomic notes where appropriate  
+- Create an index note if helpful  
+- Emphasize interview-relevant explanations  
+  
+Date: 2026-04-17
+
+```
+
+
+## 🔹 Variant A — Deep Research Mode
+
+
+```
+INPUT:  
+  
+Topic: Incident Response in SRE  
+  
+Context:  
+- Deep understanding for interviews and practical usage  
+  
+Scope:  
+- Include: lifecycle, roles, severity levels, tooling, postmortems  
+- Include examples where helpful  
+  
+Instructions:  
+- Generate detailed atomic notes  
+- Create index note  
+- Link related concepts  
+  
+Date: 2026-04-17
+
+```
+
+---
+
+## 🔥 Recommended Input Prompt (v1 — Daily Use)
+
+Paste this **after your `master-skill.md v3`**:
+
+Writing
+
+```
+INPUT:
+
+Topic: <what you're researching or working on>
+
+Context:
+
+- <optional: where this is used (SRE, interview prep, project, etc.)>
+- <optional: constraints or focus areas>
+
+Scope:
+
+- Include:
+- Exclude:
+
+Instructions:
+
+- Generate atomic notes where appropriate
+- Create an index note if helpful
+- Follow all properties, category, and template rules
+
+Date:
+
+```
+---
+
+# 🧪 Example (Your Use Case)
+
+
+---
+
+# ⚙️ Why This Works
+
+This structure controls:
+
+| Field        | Purpose                    |
+| ------------ | -------------------------- |
+| Topic        | anchors the output         |
+| Context      | guides depth and tone      |
+| Scope        | prevents irrelevant notes  |
+| Instructions | reinforces behavior        |
+| Date         | stabilizes `created` field |
+
+---
+## 🔹 Variant B — Incremental Expansion
+
+INPUT:  
+  
+Topic: Expand existing notes on Grafana  
+  
+Context:  
+- Add missing concepts and improve coverage  
+  
+Instructions:  
+- Do not duplicate existing notes  
+- Add only new atomic notes  
+- Link to existing concepts  
+  
+Date: 2026-04-17
+
+
+
+
+---
+
+---
+
+
 
 # 🧠 OVERALL ARCHITECTURE (What You’re Building)
 
@@ -520,73 +733,6 @@ Use a **lightweight structured input block** every time.
 
 ---
 
-# 🔥 Recommended Input Prompt (v1 — Daily Use)
-
-Paste this **after your `master-skill.md v3`**:
-
-Writing
-
-```
-INPUT:
-
-Topic: <what you're researching or working on>
-
-Context:
-
-- <optional: where this is used (SRE, interview prep, project, etc.)>
-- <optional: constraints or focus areas>
-
-Scope:
-
-- Include:
-- Exclude:
-
-Instructions:
-
-- Generate atomic notes where appropriate
-- Create an index note if helpful
-- Follow all properties, category, and template rules
-
-Date:
-
-```
----
-
-# 🧪 Example (Your Use Case)
-
-INPUT:  
-  
-Topic: Grafana for SRE interview prep  
-  
-Context:  
-- Focus on monitoring, observability, networking, and real-world usage  
-  
-Scope:  
-- Include: dashboards, alerting, Prometheus integration, use cases  
-- Exclude: UI customization details  
-  
-Instructions:  
-- Generate atomic notes where appropriate  
-- Create an index note if helpful  
-- Emphasize interview-relevant explanations  
-  
-Date: 2026-04-17
-
----
-
-# ⚙️ Why This Works
-
-This structure controls:
-
-|Field|Purpose|
-|---|---|
-|Topic|anchors the output|
-|Context|guides depth and tone|
-|Scope|prevents irrelevant notes|
-|Instructions|reinforces behavior|
-|Date|stabilizes `created` field|
-
----
 
 # 🚀 Power Variants (Use When Needed)
 
@@ -1064,3 +1210,4 @@ I can next revise your master-skill output format so it is fully aligned with th
 
 ---
 
+# 

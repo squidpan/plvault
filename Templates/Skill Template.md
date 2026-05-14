@@ -2,10 +2,14 @@
 categories:
   - "[[Skills]]"
 type:
-loc:
+description:
+source:
 tags:
-  - skills
 created:
 last:
+status:
+prompts:
+origin:
+run_id:
+input_prompt:
 ---
-

@@ -1,6 +1,6 @@
 ---
 categories:
-  - "[[Concepts]]"
+  - "[[Processes]]"
 type:
 description:
 source:

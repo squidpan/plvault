@@ -1,6 +1,6 @@
 ---
 categories:
-  - "[[Concepts]]"
+  - "[[Runbooks]]"
 type:
 description:
 source:
