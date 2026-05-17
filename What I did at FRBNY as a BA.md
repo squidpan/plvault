@@ -8,6 +8,14 @@ tags:
 created: 2026-03-18
 last: 2026-03-29
 ---
+
+## What is NPQS again?
+- ticker pricing application that distributes streaming market data pricing (bid/ask) to internal Fed Systems both in real-time and snapshot formats.
+- architecturally, it is a client server system operating on 2 nodes failover configuration where redundancy is at the database and the application levels.
+- asset classes such as Bills, Bonds, Notes, Coupons,etc.
+- 
+
+
 ## So what kind of system did you work on over there?
 
 I worked on a system called NPQS that distributes consolidated pricing data (BID, ASK) for 8 fixed income (i.e debt) asset securities to internal business units at the BANK. 

@@ -12,30 +12,23 @@ subject:
 recipients:
 type:
 ---
-# Hello
-Paul Lyu  
-551-200-0709  
-[paulchlyu@gmail.com](mailto:paulchlyu@gmail.com)  
-linkedin.com/in/paul-lyu-232719
+May 15, 2026
 
-May 14, 2026
-
-Hiring Manager  
 AEGIS Insurance Services, Inc.
 
 Dear Hiring Manager,
 
-I am writing to express my interest in the Senior Business Analyst position at AEGIS Insurance Services. With extensive experience supporting enterprise business applications, coordinating SDLC delivery, and managing QA/UAT and production release activities within insurance and financial services environments, I believe my background aligns well with the requirements of this role.
+Thank you for considering my application for the Senior Business Analyst position at AEGIS Insurance Services. Ahead of the virtual interview scheduled for Monday next week, I wanted to provide an updated copy of my resume along with additional background information relevant to the role.
 
-Throughout my career, I have worked at the intersection of business operations, application support, and technology delivery. Most recently, at the Federal Reserve Bank of New York through Gresham Technologies, I supported business-critical financial market data applications operating across Linux, Oracle, and AWS environments. My responsibilities included production application support, release coordination, deployment validation, QA testing support, requirements prioritization, and cross-functional coordination between business, infrastructure, database, and operations teams.
+Since initially applying in March, I have refined my resume to better reflect the breadth of my experience supporting enterprise business applications, application support operations, QA/UAT coordination, SDLC delivery, and production release management within both insurance and financial services environments.
 
-In addition to my financial systems experience, I also bring several years of direct insurance industry experience through roles at AIG Property Casualty PMO, AIG Travel Guard Worldwide, and EmblemHealth. In these positions, I supported enterprise business applications, managed enhancement requests, coordinated UAT activities, developed requirements and test plans, facilitated stakeholder communications, and supported operational workflow improvements. These experiences helped me develop a strong understanding of enterprise application delivery within highly regulated environments.
+Throughout my career, I have worked at the intersection of business operations, application support, and technology delivery. Most recently, at the Federal Reserve Bank of New York through Gresham Technologies, I supported business-critical financial market data applications operating across Linux, Oracle, and AWS environments. My responsibilities included production application support, release coordination, deployment validation, requirements prioritization, QA testing support, and cross-functional coordination between business, infrastructure, database, and operations teams.
 
-I am particularly drawn to AEGIS because of the opportunity to contribute to a collaborative organization focused on operational quality, application support, and continuous improvement. I enjoy working closely with both business and technical teams to translate operational needs into practical solutions while ensuring successful implementation and user adoption.
+In addition, I bring direct insurance industry experience through positions at AIG Property Casualty PMO, AIG Travel Guard Worldwide, and EmblemHealth. In these roles, I supported enterprise business applications, managed enhancement requests, coordinated UAT activities, developed requirements and test plans, facilitated stakeholder communications, and contributed to operational workflow improvements within regulated enterprise environments.
 
-I would welcome the opportunity to discuss how my background in application support, business analysis, QA/UAT coordination, and enterprise operations can contribute to AEGIS and your technology initiatives.
+I am very interested in the opportunity to contribute to AEGIS and believe my background aligns well with the collaborative, operational, and application support-oriented nature of the role. I look forward to discussing my experience further during the interview process.
 
-Thank you for your time and consideration. I look forward to speaking with you.
+Thank you again for your time and consideration.
 
 Sincerely,
 
