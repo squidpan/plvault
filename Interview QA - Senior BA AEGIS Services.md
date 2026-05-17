@@ -16,32 +16,25 @@ input_prompt:
 ## Practice Questions + Draft Answers
 
 ### 1. Tell me about yourself.
-**Draft answer:**
-
-
 >[!Mine] 
 >
->I'm a senior business analyst and Application support professional with experience in supporting enterprise applications across insurance, financial systems environments. 
+>I'm a senior **business analyst** and **Application support professional** with experience in supporting **enterprise applications across insurance, financial systems environments**. 
 >
 >Throughout my career, I’ve worked at the intersection of business operations, QA/UAT, application support, and production release coordination.
 >
->Most recently, at the Federal Reserve Bank of New York through Gresham Technologies, I supported a large-scale streaming market data application responsible for ingesting, processing, and distributing real-time pricing data to downstream trading and financial systems. 
+>Most recently, at the Federal Reserve Bank of New York through Gresham Technologies, I supported **a large-scale streaming market data application** responsible for i**ngesting, processing, and distributing real-time pricing data to downstream** trading and financial systems. 
 >
->My responsibilities included requirements coordination, QA/UAT testing, deployment validation, production readiness, troubleshooting support, and cross-functional coordination between business, infrastructure, database, and operations teams.
+>My responsibilities included **requirements coordination**, PreQA/UAT deployment and testing,  production readiness, troubleshooting support, and cross-functional coordination between business, infrastructure, database, and operations teams.
 >
-  At AIG, I worked on rolling out travel insurance products and policies for the APAC region. 
+  At AIG, I worked on **rolling out travel insurance products and policies** for the APAC region. 
 
-### 2. Why are you interested in AEGIS and this Senior Business Analyst role?
-**Draft answer:**
-
+### 2. Why are you interested in AEGIS and this Senior Business Analyst role?****
 > [!m]
 > The role is very close to the work I've done throughout my career. I see this as an opportunity to bring together my insurance background and my more recent hands-on application support and release coordination experience. 
 
 ---
 
 ### 3. Describe your experience with application support.
-**Draft answer:**
-
   >[!m] 
   >At FRBNY, the application operates across on-prem (Liux, Oracle) and AWS cloud infrastructure. 
   >
@@ -55,8 +48,6 @@ input_prompt:
 
 ---
 ### 4. Tell me about your experience with QA and UAT.
-**Draft answer:**
-
 >[!m]
 >QA and UAT have been a significant part of my work throughout my career, especially in highly regulated financial and insurance environments.
 >
@@ -69,8 +60,6 @@ input_prompt:
 >Overall, my approach to QA/UAT focuses on ensuring that functionality, data quality, workflows, and operational readiness are fully validated before production deployment.
 
 ### 5. How do you gather and manage requirements?
-**Draft answer:****
-
 >[!m]
 >One of the largest requirements initiatives I worked on was a **multi-year effort to migrate** a streaming market data application **from a legacy on-premises environment to AWS cloud infrastructure**. The application distributed real-time pricing data to multiple downstream **consumer** systems, so **one of the key business requirements** was ensuring that consumers could **cut over to the cloud platform without losing data integrity or changing the pricing data they received**.
 >
@@ -83,53 +72,57 @@ input_prompt:
 >
 
 ### 6. How have you worked with technical teams?
-**Draft answer:**
-I’m comfortable working closely with developers, database teams, infrastructure, DevOps, operations, and business users. My role is often to make sure the business need is clearly understood, the technical teams have enough detail to implement, and the business users can validate the result.
 
-For example, in my most recent role, I coordinated deployment activities between business users, infrastructure, database, and operations teams to support successful production releases.
+>[!m]
+>I’m comfortable working closely with developers, database teams, infrastructure, DevOps, operations, and business users. My role is often to make sure the business need is clearly understood, the technical teams have enough detail to implement, and the business users can validate the result.
+>
+>For example, in my most recent role, I coordinated deployment activities between business users, infrastructure, database, and operations teams to support successful production releases.
 
 ---
 ### 7. What is your ServiceNow experience?
-****Draft answer:**
-
 >[!m]
 >My ServiceNow experience has been from the **operational and workflow side rather than as a platform administrator**. I used ServiceNow to coordinate software access, tooling, infrastructure requests, and support/change workflows. In that sense, I understand ServiceNow as more than just a ticketing tool — it supports enterprise workflows, approvals, task assignment, audit trail, and operational coordination.
 
 ---
 ### 8. Tell me about your insurance industry experience.
-**Draft answer:**
-
-I have direct insurance experience through EmblemHealth, AIG Property Casualty PMO, and AIG Travel Guard. At EmblemHealth, I worked in EPMO Operations supporting requirements, test plans, UAT, reporting metrics, rollout materials, and funding workflow realignment. At AIG Property Casualty PMO, I worked on HP PPM and Business Objects enhancement requests, requirements clarification, UAT planning, and stakeholder communication. At AIG Travel Guard, I supported global travel insurance system enhancements, e-business operations, distribution channels, and project closure activities.
+>[!m]
+>I have direct insurance experience through EmblemHealth and AIG. 
+>
+>At EmblemHealth and at **AIG Property Casualty PMO**, I worked on **HP PPM and Business Objects enhancement requests**, requirements clarification, UAT planning, and stakeholder communication. 
+>
+>At **AIG Travel Guard**, I supported **global travel insurance system enhancements, e-business operations, distribution channels,** and project closure activities.
 
 ---
 
 ### 9. Tell me about a time you had to manage changing priorities.
 
-**Draft answer:**
-
-In release and application support work, **priorities can change quickly because production readiness, QA defects, business needs**, and infrastructure constraints all compete for attention. I handled that by keeping a clear view of release scope, risk, dependencies, and stakeholder impact.
-
-At Gresham/Federal Reserve, I **prioritized functional and non-functional requirements from business, infrastructure, and architecture teams into release**s. When issues came up, I make sure to confer the issue with the team and stay focused **nn impact, urgency, dependencies,** and whether the change affected production readiness or user acceptance.
+>[!m]
+>In release and application support work, **priorities can change quickly because production readiness, QA defects, business needs**, and **infrastructure constraints all compete for attention**. I handled that by keeping a clear view of release scope, risk, dependencies, and stakeholder impact. 
+>
+>At Gresham/Federal Reserve, I **prioritized functional and non-functional requirements from business, infrastructure, and architecture teams into release**s. When issues came up, I make sure to confer the issue with the team and stay focused **nn impact, urgency, dependencies,** and whether the change affected production readiness or user acceptance.
 
 ---
 ### 10. How do you ensure quality in application changes?
-**Draft answer:**
-I focus on quality throughout the lifecycle, not just at the end. That means **clear requirements, acceptance criteria, testable user stories,** QA test plans, UAT coordination, deployment validation, and post-release checks.
-
-In my recent role, I created Pre-QA test plans, tested deployment steps and scripts, validated post-release health checks, and maintained runbooks and troubleshooting procedures. That helped reduce ambiguity and made releases more repeatable.
+>[!m]
+>I focus on quality throughout the lifecycle, not just at the end. That means **clear requirements, acceptance criteria, testable user stories,** QA test plans, UAT coordination, deployment validation, and post-release checks. 
+>
+>In my recent role, I created Pre-QA test plans, tested deployment steps and scripts, validated post-release health checks, and maintained runbooks and troubleshooting procedures. That helped reduce ambiguity and made releases more repeatable.
 
 ---
 ### 11. What is your experience creating documentation, job aids, or training materials?
-**Draft answer:**
-I’ve created several types of documentation, including operational **runbooks**, deployment documentation, **troubleshooting procedures,** support knowledge bases, rollout materials, **quick reference guides,** and **user training materials** as needed.
 
-At AIG, I published a **Business Objects Quick Reference Guide for self-service training**. At EmblemHealth, I prepared rollout materials and training for the PPM Resource Management module. More recently, I maintained runbooks and support documentation using Confluence and Visio.
+>[!m]
+>
+>I’ve created several types of documentation, including operational **runbooks**, deployment documentation, **troubleshooting procedures,** support knowledge bases, rollout materials, **quick reference guides,** and **user training materials** as needed. 
+>
+>At AIG, I published a **Business Objects Quick Reference Guide for self-service training**. At EmblemHealth, I prepared rollout materials and training for the PPM Resource Management module. More recently, I maintained runbooks and support documentation using Confluence and Visio.
 
 ---
-
 ### 12. What would you say is your biggest strength for this role?
 
-**Draft answer:**
+>[!m]
+>
+>
 My biggest strength is that I can **operate comfortably between business users and technical teams**. I understand requirements, workflows, testing, production support, and release coordination. **I also have prior insurance experience, so I’m familiar with regulated enterprise environments where documentation, approvals, quality, and stakeholder communication matte**r.
 
 ---
