@@ -44,6 +44,6 @@ input_prompt: 01_ba-aegis-application-support-skill-v1.md
 - [[Senior Business Analyst and Application Support Professional]]
 - [[Release Management Workflow]]
 - [[Production Application Support]]
-- [[ServiceNow]]
+- [[_jick/xbusiness-analysis/tools/servicenow]]
 
 

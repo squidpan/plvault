@@ -44,6 +44,6 @@ input_prompt: 01_ba-aegis-application-support-skill-v1.md
 - [[Senior Business Analyst and Application Support Professional]]
 - [[Incident Escalation Workflow]]
 - [[Failed Deployment Recovery]]
-- [[ServiceNow]]
+- [[_jick/xbusiness-analysis/tools/servicenow]]
 
 

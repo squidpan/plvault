@@ -43,7 +43,7 @@ input_prompt: 01_ba-aegis-application-support-skill-v1.md
 ## Related Notes
 - [[Senior Business Analyst and Application Support Professional]]
 - [[Production Application Support]]
-- [[ServiceNow]]
+- [[_jick/xbusiness-analysis/tools/servicenow]]
 - [[Failed Deployment Recovery]]
 
 
