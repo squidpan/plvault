@@ -13,36 +13,36 @@ origin:
 run_id:
 input_prompt:
 ---
-## Practice Questions + Draft Answers
+## Practice Questions + Answers
 
 ### 1. Tell me about yourself.
 >[!Mine] 
->
 >I'm a senior **business analyst** and **Application support professional** with experience in supporting **enterprise applications across insurance, financial systems environments**. 
 >
 >Throughout my career, I’ve worked at the intersection of business operations, QA/UAT, application support, and production release coordination.
 >
->Most recently, at the Federal Reserve Bank of New York through Gresham Technologies, I supported **a large-scale streaming market data application** responsible for i**ngesting, processing, and distributing real-time pricing data to downstream** trading and financial systems. 
+>Most recently, at the Federal Reserve Bank of New York, I supported **a large-scale streaming market data application** responsible for **ingesting, processing, and distributing real-time pricing data to downstream** trading and financial systems. 
 >
->My responsibilities included **requirements coordination**, PreQA/UAT deployment and testing,  production readiness, troubleshooting support, and cross-functional coordination between business, infrastructure, database, and operations teams.
+>My responsibilities included **requirements gathering and coordination**, PreQA/UAT deployment and testing,  production readiness, troubleshooting support, and **cross-functional coordination** between business, infrastructure, database, and operations teams.
 >
   At AIG, I worked on **rolling out travel insurance products and policies** for the APAC region. 
 
-### 2. Why are you interested in AEGIS and this Senior Business Analyst role?****
+---
+****### 2. Why are you interested in AEGIS and this Senior Business Analyst role?****
 > [!m]
-> The role is very close to the work I've done throughout my career. I see this as an opportunity to bring together my insurance background and my more recent hands-on application support and release coordination experience. 
+> 
+> The role is very **close to the work I've done** throughout my career. I see this as an opportunity to **bring together my insurance background and my more recent hands-on application support and release coordination experience**. 
 
 ---
-
 ### 3. Describe your experience with application support.
   >[!m] 
-  >At FRBNY, the application operates across on-prem (Liux, Oracle) and AWS cloud infrastructure. 
+  >At FRBNY, the application operates across on-prem (Linux, Oracle) and AWS cloud infrastructure. 
   >
   >A **typical release cycle** ranged from about **two to six months** depending on the **complexity of the business, infrastructure, and architectural requirements**. 
   >
   >Enhancements and new functionality were **managed in Jira as user stories** with acceptance **criteria** and **categorized as functional or non-functional** requirements.
   >
-  >I worked closely with **business users, development teams, DevOps, infrastructure, and operations teams to coordinate release planning** and **ensure enough time was allocated for QA/UAT** testing before production deployment. One of our goals was to provide the business with at least three weeks of testing time in QA/UAT environments before production releases.
+  >I worked closely with **business users, development teams, DevOps, infrastructure, and operations teams to coordinate release planning** and **ensure enough time was allocated for QA/UAT** testing before production deployment. One of our goals was to provide the business with ==at least three weeks== of testing time in QA/UAT environments before production releases.
   >
   >My responsibilities included **maintaining deployment runbooks, documenting step-by-step implementation procedures, executing and troubleshooting deployments, validating key functional workflows, performing post-release health checks**, and coordinating with DevOps teams to ensure successful deployments across UAT and production environments.
 
@@ -65,7 +65,7 @@ input_prompt:
 >
 >I usually begin requirements gathering by understanding **the business problem, the current workflow, the impacted users, operational pain points, and any downstream dependencies.** From there, I work with business users and technical teams to **translate those needs into user stories, acceptance criteria, test scenarios,** and implementation requirements.
 >
->In this particular project, a significant portion of the requirements effort focused on **mapping legacy Oracle pricing table schemas into API-friendly JSON payloads for REST-based distribution** through the cloud platform. We needed to **ensure that the cleansed pricing data distributed through the new REST APIs matched the data previously delivered through the legacy on-premises Oracle environment**. 
+>In this particular project, a significant portion of the requirements effort focused on **mapping legacy Oracle pricing table schema into API-friendly JSON payloads for REST-based distribution** through the cloud platform. We needed to **ensure that the cleansed pricing data distributed through the new REST APIs matched the data previously delivered through the legacy on-premises Oracle environment**. 
 >
 >**The acceptance criteria** included validating **pricing counts, values, and downstream distribution behavior between both environments to ensure consistency and operational readiness before migration**. I worked closely with business users, developers, DevOps, database teams, and downstream consumers throughout the process to coordinate requirements, testing, and deployment readiness. 
 >
@@ -74,7 +74,7 @@ input_prompt:
 ### 6. How have you worked with technical teams?
 
 >[!m]
->I’m comfortable working closely with developers, database teams, infrastructure, DevOps, operations, and business users. My role is often to make sure the business need is clearly understood, the technical teams have enough detail to implement, and the business users can validate the result.
+>I’m comfortable working closely with developers, database teams, infrastructure, DevOps, operations, and business users. **My role is often to make sure the business need is clearly understood**, the technical teams have enough detail to implement, and the business users can validate the result.
 >
 >For example, in my most recent role, I coordinated deployment activities between business users, infrastructure, database, and operations teams to support successful production releases.
 
@@ -93,13 +93,12 @@ input_prompt:
 >At **AIG Travel Guard**, I supported **global travel insurance system enhancements, e-business operations, distribution channels,** and project closure activities.
 
 ---
-
 ### 9. Tell me about a time you had to manage changing priorities.
 
 >[!m]
 >In release and application support work, **priorities can change quickly because production readiness, QA defects, business needs**, and **infrastructure constraints all compete for attention**. I handled that by keeping a clear view of release scope, risk, dependencies, and stakeholder impact. 
 >
->At Gresham/Federal Reserve, I **prioritized functional and non-functional requirements from business, infrastructure, and architecture teams into release**s. When issues came up, I make sure to confer the issue with the team and stay focused **nn impact, urgency, dependencies,** and whether the change affected production readiness or user acceptance.
+>At Gresham/Federal Reserve, I **prioritized functional and non-functional requirements from business, infrastructure, and architecture teams into release**s. When issues came up, I make sure to confer the issue with the team and stay focused **on impact, urgency, dependencies,** and whether the change affected production readiness or user acceptance.
 
 ---
 ### 10. How do you ensure quality in application changes?
@@ -126,14 +125,3 @@ input_prompt:
 My biggest strength is that I can **operate comfortably between business users and technical teams**. I understand requirements, workflows, testing, production support, and release coordination. **I also have prior insurance experience, so I’m familiar with regulated enterprise environments where documentation, approvals, quality, and stakeholder communication matte**r.
 
 ---
-## Best Starting Practice Order
-
-Start with these five:
-
-1. Tell me about yourself.
-2. Why AEGIS?
-3. Describe your application support experience.
-4. Tell me about QA/UAT experience.
-5. What is your ServiceNow experience?
-
-Send me your answer to question 1 first, and I’ll tighten it.
