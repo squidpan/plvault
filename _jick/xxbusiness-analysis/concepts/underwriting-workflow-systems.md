@@ -42,7 +42,7 @@ input_prompt: 01_ba-aegis-application-support-skill-v1.md
 ## Related Notes
 - [[_jick/xxbusiness-analysis/skills/senior-business-analyst-and-application-support-professional]]
 - [[_jick/xxbusiness-analysis/tools/pega-platform]]
-- [[References/Chatgpt/business-analysis/concepts/low-code-application-platforms]]
+- [[_jick/xxbusiness-analysis/concepts/low-code-application-platforms]]
 - [[_jick/xxbusiness-analysis/usecases/insurance-workflow-failure]]
 
 
