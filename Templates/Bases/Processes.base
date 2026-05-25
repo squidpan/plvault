@@ -1,0 +1,34 @@
+filters:
+  and:
+    - categories == ["[[Processes]]"]
+    - '!file.folder.contains("_jick")'
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - created
+      - source
+    sort:
+      - property: source
+        direction: ASC
+  - type: table
+    name: chatgpt-skills
+    filters:
+      and:
+        - source == "chatgpt"
+    order:
+      - file.name
+      - source
+      - file.folder
+  - type: table
+    name: chatgpt-motorweb
+    filters:
+      and:
+        - source == "chatgpt-manual"
+    order:
+      - file.name
+      - source
+    sort:
+      - property: source
+        direction: ASC

@@ -1,0 +1,6 @@
+filters:
+  and:
+    - categories == ["[[Skills]]"]
+views:
+  - type: table
+    name: Table

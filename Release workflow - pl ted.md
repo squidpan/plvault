@@ -3,7 +3,7 @@ categories:
   - "[[Processes]]"
 type:
 description:
-source:
+source: chatgpt-manual
 tags:
 created: 2026-05-24
 last: 2026-05-24
