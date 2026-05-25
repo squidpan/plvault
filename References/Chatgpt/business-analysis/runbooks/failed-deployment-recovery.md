@@ -2,48 +2,34 @@
 categories:
   - "[[Runbooks]]"
 type: runbook
-description: Operational recovery procedure for handling failed enterprise application deployments.
+description: Failed Deployment Recovery knowledge note.
 source: chatgpt
 tags:
   - deployment
   - recovery
-  - runbook
-created: 2026-05-20
-last: 2026-05-20
+created: 2026-05-21
+last: 2026-05-21
 status: draft
 origin: chatgpt
-run_id: run-2026-05-20-ba-core-v1
-input_prompt: 01_ba-aegis-application-support-skill-v1.md
+run_id: run-2026-05-21-ba-core-v3
+input_prompt: 01_ba-aegis-application-support-skill-v3.md
 ---
 
 # Failed Deployment Recovery
 
 ## Summary
-- Provides recovery steps for failed production deployments
-- Supports rollback, validation, and operational stabilization
-- Minimizes business disruption during release failures
+- Enterprise modernization and operational support topic.
 
 ## Key Points
-- Confirm deployment failure conditions
-- Coordinate rollback and recovery actions
-- Validate application and workflow health
-- Communicate operational status to stakeholders
-- Document resolution activities and follow-up items
+- Supports workflow modernization.
+- Emphasizes operational readiness and coordination.
 
 ## Interview Insights
-- Recovery procedures require calm coordination and operational discipline
-- Clear runbooks reduce confusion during production incidents
-- Operational validation is critical after recovery activities
+- Focus on business and technical coordination.
 
 ## Real-World Usage
-- Recovering failed workflow deployments
-- Coordinating production rollback activities
-- Managing operational recovery during modernization projects
+- Used in enterprise insurance workflow environments.
 
 ## Related Notes
-- [[_jick/xxbusiness-analysis/skills/senior-business-analyst-and-application-support-professional]]
-- [[_jick/xxbusiness-analysis/processes/release-management-workflow]]
-- [[_jick/xxbusiness-analysis/concepts/production-application-support]]
-- [[_jick/xxbusiness-analysis/tools/servicenow]]
-
-
+- [[release-management-workflow]]
+- [[servicenow]]

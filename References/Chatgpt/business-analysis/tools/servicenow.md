@@ -2,47 +2,34 @@
 categories:
   - "[[Tools]]"
 type: tool
-description: IT service management platform used for incident management, operational workflows, and change coordination.
+description: ServiceNow knowledge note.
 source: chatgpt
 tags:
   - servicenow
   - incident-management
-  - change-management
-created: 2026-05-20
-last: 2026-05-20
+created: 2026-05-21
+last: 2026-05-21
 status: draft
 origin: chatgpt
-run_id: run-2026-05-20-ba-core-v1
-input_prompt: 01_ba-aegis-application-support-skill-v1.md
+run_id: run-2026-05-21-ba-core-v3
+input_prompt: 01_ba-aegis-application-support-skill-v3.md
 ---
 
 # ServiceNow
 
 ## Summary
-- Supports incident, request, and change management workflows
-- Provides operational governance and workflow tracking
-- Coordinates support activities across enterprise teams
+- Enterprise modernization and operational support topic.
 
 ## Key Points
-- Tracks operational incidents and escalations
-- Supports deployment approval workflows
-- Maintains audit and operational history
-- Facilitates coordination between support teams and business users
+- Supports workflow modernization.
+- Emphasizes operational readiness and coordination.
 
 ## Interview Insights
-- ServiceNow knowledge demonstrates familiarity with enterprise support operations
-- Effective ticket documentation improves escalation and troubleshooting workflows
-- Understanding change workflows is important in regulated environments
+- Focus on business and technical coordination.
 
 ## Real-World Usage
-- Managing production incidents and support requests
-- Coordinating deployment and change approvals
-- Supporting operational governance activities
+- Used in enterprise insurance workflow environments.
 
 ## Related Notes
-- [[_jick/xxbusiness-analysis/skills/senior-business-analyst-and-application-support-professional]]
-- [[_jick/xxbusiness-analysis/concepts/production-application-support]]
-- [[_jick/xxbusiness-analysis/processes/incident-escalation-workflow]]
-- [[_jick/xxbusiness-analysis/processes/release-management-workflow]]
-
-
+- [[senior-business-analyst-and-application-support-professional]]
+- [[production-application-support]]

@@ -2,32 +2,33 @@
 categories:
   - "[[Tools]]"
 type: tool
-description: Visualization platform for monitoring data.
+description: Grafana operational knowledge note.
 source: chatgpt
 tags:
   - grafana
-  - monitoring
-created: 2026-04-17
-last: 2026-04-17
+  - dashboards
+created: 2026-05-21
+last: 2026-05-21
 status: draft
+origin: chatgpt
+run_id: run-2026-05-21-sre-core-v3
+input_prompt: 01_sre-low-latency-market-data-platform-skill-v3.md
 ---
 
 # Grafana
 
 ## Summary
-- Visualizes metrics
-- Builds dashboards
+- Operational SRE knowledge area for low-latency market data environments.
 
 ## Key Points
-- Integrates with [[Prometheus]]
-- Real-time visualization
+- Supports reliability engineering workflows.
+- Used in production operational support.
 
 ## Interview Insights
-- Grafana visualizes data only
+- Important for SRE troubleshooting discussions.
 
 ## Real-World Usage
-- Monitor latency dashboards
+- Common in financial market infrastructure environments.
 
 ## Related Notes
-- [[Prometheus]]
-
+- [[observability-strategy]]

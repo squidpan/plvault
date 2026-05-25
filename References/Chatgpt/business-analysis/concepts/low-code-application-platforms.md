@@ -2,46 +2,34 @@
 categories:
   - "[[Concepts]]"
 type: concept
-description: Platforms that support enterprise application and workflow development using configuration-driven approaches rather than extensive custom coding.
+description: Low-Code Application Platforms knowledge note.
 source: chatgpt
 tags:
   - low-code
   - workflow
-  - bpm
-created: 2026-05-20
-last: 2026-05-20
+created: 2026-05-21
+last: 2026-05-21
 status: draft
 origin: chatgpt
-run_id: run-2026-05-20-ba-core-v1
-input_prompt: 01_ba-aegis-application-support-skill-v1.md
+run_id: run-2026-05-21-ba-core-v3
+input_prompt: 01_ba-aegis-application-support-skill-v3.md
 ---
 
 # Low-Code Application Platforms
 
 ## Summary
-- Enable rapid delivery of enterprise workflow applications
-- Focus on configuration and workflow rules over custom code
-- Commonly used in BPM and operational workflow systems
+- Enterprise modernization and operational support topic.
 
 ## Key Points
-- Use workflow models, business rules, and forms
-- Accelerate business process modernization
-- Require disciplined QA/UAT and release governance
-- Support integration with enterprise systems and APIs
+- Supports workflow modernization.
+- Emphasizes operational readiness and coordination.
 
 ## Interview Insights
-- Low-code platforms still require structured SDLC discipline
-- Workflow configuration changes can have broad operational impact
-- BA professionals often help define workflow logic and acceptance criteria
+- Focus on business and technical coordination.
 
 ## Real-World Usage
-- Supporting workflow modernization programs
-- Building enterprise approval and case management systems
-- Managing workflow automation initiatives
+- Used in enterprise insurance workflow environments.
 
 ## Related Notes
-- [[_jick/xxbusiness-analysis/skills/senior-business-analyst-and-application-support-professional]]
-- [[_jick/xxbusiness-analysis/tools/pega-platform]]
-- [[References/Chatgpt/business-analysis/concepts/underwriting-workflow-systems]]
-
-
+- [[senior-business-analyst-and-application-support-professional]]
+- [[pega-platform]]

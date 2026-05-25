@@ -2,47 +2,34 @@
 categories:
   - "[[Tools]]"
 type: tool
-description: Enterprise BPM and low-code workflow platform used to build business process automation and case management applications.
+description: PEGA Platform knowledge note.
 source: chatgpt
 tags:
   - pega
   - bpm
-  - low-code
-created: 2026-05-20
-last: 2026-05-20
+created: 2026-05-21
+last: 2026-05-21
 status: draft
 origin: chatgpt
-run_id: run-2026-05-20-ba-core-v1
-input_prompt: 01_ba-aegis-application-support-skill-v1.md
+run_id: run-2026-05-21-ba-core-v3
+input_prompt: 01_ba-aegis-application-support-skill-v3.md
 ---
 
 # PEGA Platform
 
 ## Summary
-- Enterprise BPM and low-code workflow platform
-- Supports workflow automation and case management
-- Commonly used in insurance and financial services modernization
+- Enterprise modernization and operational support topic.
 
 ## Key Points
-- Uses configuration-driven workflow development
-- Supports workflow routing, approvals, and business rules
-- Integrates with enterprise APIs and backend systems
-- Requires structured testing and operational governance
+- Supports workflow modernization.
+- Emphasizes operational readiness and coordination.
 
 ## Interview Insights
-- PEGA environments require strong workflow and operational understanding
-- BA professionals often coordinate requirements, testing, and release readiness
-- Production support issues may involve workflow logic, integration, or data dependencies
+- Focus on business and technical coordination.
 
 ## Real-World Usage
-- Supporting underwriting workflow systems
-- Coordinating BPM modernization projects
-- Managing operational workflow automation
+- Used in enterprise insurance workflow environments.
 
 ## Related Notes
-- [[_jick/xxbusiness-analysis/skills/senior-business-analyst-and-application-support-professional]]
-- [[_jick/xxbusiness-analysis/concepts/underwriting-workflow-systems]]
-- [[_jick/xxbusiness-analysis/concepts/low-code-application-platforms]]
-- [[_jick/xxbusiness-analysis/usecases/insurance-workflow-failure]]
-
-
+- [[senior-business-analyst-and-application-support-professional]]
+- [[underwriting-workflow-systems]]

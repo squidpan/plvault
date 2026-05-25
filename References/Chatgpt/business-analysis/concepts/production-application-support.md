@@ -2,48 +2,34 @@
 categories:
   - "[[Concepts]]"
 type: concept
-description: Operational support activities required to maintain stability, usability, and production readiness of enterprise business applications.
+description: Production Application Support knowledge note.
 source: chatgpt
 tags:
   - application-support
-  - production-support
   - operations
-created: 2026-05-20
-last: 2026-05-20
+created: 2026-05-21
+last: 2026-05-21
 status: draft
 origin: chatgpt
-run_id: run-2026-05-20-ba-core-v1
-input_prompt: 01_ba-aegis-application-support-skill-v1.md
+run_id: run-2026-05-21-ba-core-v3
+input_prompt: 01_ba-aegis-application-support-skill-v3.md
 ---
 
 # Production Application Support
 
 ## Summary
-- Supports stable operation of enterprise business applications
-- Coordinates issue resolution and operational readiness
-- Bridges users and technical support teams
+- Enterprise modernization and operational support topic.
 
 ## Key Points
-- Investigates production incidents and workflow failures
-- Coordinates support activities across multiple teams
-- Validates production deployments and operational health
-- Supports incident escalation and troubleshooting workflows
-- Maintains operational documentation and support procedures
+- Supports workflow modernization.
+- Emphasizes operational readiness and coordination.
 
 ## Interview Insights
-- Production support requires operational ownership and communication discipline
-- Strong support professionals understand both business impact and technical dependencies
-- Troubleshooting and prioritization skills are highly valued
+- Focus on business and technical coordination.
 
 ## Real-World Usage
-- Supporting underwriting and workflow applications
-- Coordinating production issue resolution
-- Validating releases after deployment
+- Used in enterprise insurance workflow environments.
 
 ## Related Notes
-- [[_jick/xxbusiness-analysis/skills/senior-business-analyst-and-application-support-professional]]
-- [[_jick/xxbusiness-analysis/processes/incident-escalation-workflow]]
-- [[_jick/xxbusiness-analysis/runbooks/failed-deployment-recovery]]
-- [[_jick/xxbusiness-analysis/tools/servicenow]]
-
-
+- [[senior-business-analyst-and-application-support-professional]]
+- [[incident-escalation-workflow]]

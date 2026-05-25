@@ -2,43 +2,46 @@
 categories:
   - "[[Skills]]"
 type: skill
-description: Core Site Reliability Engineering skills for monitoring and maintaining low latency market data systems using Grafana and Prometheus.
+description: Site Reliability Engineer operational knowledge note.
 source: chatgpt
 tags:
   - sre
-  - grafana
-  - prometheus
-  - monitoring
-  - alerting
   - low-latency
   - market-data
-created: 2026-04-19
-last: 2026-04-19
+  - observability
+  - linux
+created: 2026-05-21
+last: 2026-05-21
 status: draft
-prompts:
-  - master-skill-v2.md
-  - 01_sre-pico-low-latency-monitoring-skill-v2.md
 origin: chatgpt
-run_id: run-2026-04-19-sre-core-v2
-input_prompt: 01_sre-pico-low-latency-monitoring-skill-v2.md
+run_id: run-2026-05-21-sre-core-v3
+input_prompt: 01_sre-low-latency-market-data-platform-skill-v3.md
+prompts:
+  - master-skill-v3.md
+  - 01_sre-low-latency-market-data-platform-skill-v3.md
 ---
 
 # Site Reliability Engineer
 
 ## Summary
-- Ensures reliability and performance of low-latency trading systems
-- Focuses on monitoring, alerting, and observability
+- Operational SRE knowledge area for low-latency market data environments.
 
 ## Key Points
-- Uses [[Prometheus]] and [[Grafana]]
-- Tracks latency and throughput
+- Supports reliability engineering workflows.
+- Used in production operational support.
 
 ## Interview Insights
-- Monitoring prevents outages
+- Important for SRE troubleshooting discussions.
 
 ## Real-World Usage
-- Trading systems monitoring
+- Common in financial market infrastructure environments.
 
 ## Related Notes
-- [[Monitoring Systems]]
-
+- [[low-latency-networking]]
+- [[multicast-market-data]]
+- [[observability-strategy]]
+- [[grafana]]
+- [[prometheus]]
+- [[latency-troubleshooting-workflow]]
+- [[packet-loss-investigation]]
+- [[exchange-market-data-latency-spike]]

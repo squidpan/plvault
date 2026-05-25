@@ -2,48 +2,34 @@
 categories:
   - "[[Processes]]"
 type: process
-description: Workflow used to coordinate enterprise application releases, deployment readiness, and post-release validation activities.
+description: Release Management Workflow knowledge note.
 source: chatgpt
 tags:
   - release-management
   - deployment
-  - operations
-created: 2026-05-20
-last: 2026-05-20
+created: 2026-05-21
+last: 2026-05-21
 status: draft
 origin: chatgpt
-run_id: run-2026-05-20-ba-core-v1
-input_prompt: 01_ba-aegis-application-support-skill-v1.md
+run_id: run-2026-05-21-ba-core-v3
+input_prompt: 01_ba-aegis-application-support-skill-v3.md
 ---
 
 # Release Management Workflow
 
 ## Summary
-- Coordinates deployment readiness and release execution
-- Aligns business, QA, development, and operations teams
-- Supports controlled production deployments
+- Enterprise modernization and operational support topic.
 
 ## Key Points
-- Validate testing and deployment readiness
-- Coordinate release approvals and scheduling
-- Execute operational readiness validation
-- Verify post-release application behavior
-- Support rollback and recovery coordination when necessary
+- Supports workflow modernization.
+- Emphasizes operational readiness and coordination.
 
 ## Interview Insights
-- Strong release coordination reduces operational risk and production incidents
-- Communication and stakeholder alignment are critical during releases
-- BA/Application Support professionals often coordinate operational readiness activities
+- Focus on business and technical coordination.
 
 ## Real-World Usage
-- Coordinating underwriting workflow releases
-- Supporting enterprise modernization deployments
-- Managing production validation activities
+- Used in enterprise insurance workflow environments.
 
 ## Related Notes
-- [[_jick/xxbusiness-analysis/skills/senior-business-analyst-and-application-support-professional]]
-- [[_jick/xxbusiness-analysis/concepts/production-application-support]]
-- [[_jick/xxbusiness-analysis/tools/servicenow]]
-- [[_jick/xxbusiness-analysis/runbooks/failed-deployment-recovery]]
-
-
+- [[senior-business-analyst-and-application-support-professional]]
+- [[failed-deployment-recovery]]
