@@ -3,7 +3,7 @@ categories:
   - "[[Processes]]"
 type: process
 description: Production Release Coordination operational knowledge note.
-source: chatgpt
+source: chatgpt-batch
 tags:
   - release-management
   - operations

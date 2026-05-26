@@ -3,7 +3,7 @@ categories:
   - "[[Processes]]"
 type: process
 description: Workflow for monitoring and alerting.
-source: chatgpt
+source: chatgpt-batch
 tags:
   - monitoring
   - process

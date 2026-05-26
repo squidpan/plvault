@@ -1,12 +1,12 @@
 ---
 categories:
-  - "[[Processes]]"
-type: process
-description: Release Management Workflow knowledge note.
-source: chatgpt-batch
+  - "[[Runbooks]]"
+type: runbook
+description: Failed Deployment Recovery knowledge note.
+source: chatgpt
 tags:
-  - release-management
   - deployment
+  - recovery
 created: 2026-05-21
 last: 2026-05-21
 status: draft
@@ -15,7 +15,7 @@ run_id: run-2026-05-21-ba-core-v3
 input_prompt: 01_ba-aegis-application-support-skill-v3.md
 ---
 
-# Release Management Workflow
+# Failed Deployment Recovery
 
 ## Summary
 - Enterprise modernization and operational support topic.
@@ -31,5 +31,5 @@ input_prompt: 01_ba-aegis-application-support-skill-v3.md
 - Used in enterprise insurance workflow environments.
 
 ## Related Notes
-- [[senior-business-analyst-and-application-support-professional]]
-- [[failed-deployment-recovery]]
+- [[release-management-workflow]]
+- [[servicenow]]

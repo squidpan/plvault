@@ -47,13 +47,14 @@ because shorter usernames are easier in shell work.
 You are going to build:
 
 ```
-User: basPurpose: Clean developer workstationApproach: Minimal + modular + reproducible
+User: bas
+Purpose: Clean developer workstationApproach: Minimal + modular + reproducible
 ```
 
 The idea is:
 
 ```
-OS  -> clean user      -> shell framework          -> dev tooling              -> projects                  -> containers/venvs
+OS -> clean user -> shell framework -> dev tooling -> projects-> containers/venvs
 ```
 
 ---
@@ -103,7 +104,15 @@ or logout/login graphically.
 Inside `/home/bas`:
 
 ```
-mkdir -p ~/pjsmkdir -p ~/binmkdir -p ~/.config/shellmkdir -p ~/pjs/reposmkdir -p ~/pjs/vaultsmkdir -p ~/pjs/labsmkdir -p ~/pjs/pythonmkdir -p ~/pjs/webmkdir -p ~/pjs/scripts
+mkdir -p ~/pjs
+mkdir -p ~/bin
+mkdir -p ~/.config/shell
+mkdir -p ~/pjs/repos
+mkdir -p ~/pjs/vaults
+mkdir -p ~/pjs/labs
+mkdir -p ~/pjs/python
+mkdir -p ~/pjs/web
+mkdir -p ~/pjs/scripts
 ```
 
 This is your foundation.
@@ -127,7 +136,16 @@ Instead of giant `.profile` and `.bashrc` files:
 # Recommended Structure
 
 ```
-~/.config/shell/    env.sh    paths.sh    aliases.sh    functions.sh    java.sh    python.sh    node.sh    git.sh    prompt.sh
+~/.config/shell/    
+	env.sh
+	paths.sh
+	aliases.sh
+	functions.sh
+	java.sh
+	python.sh
+	node.sh
+	git.sh
+	prompt.sh
 ```
 
 This is clean and scalable.
@@ -145,7 +163,8 @@ nano ~/.profile
 Use:
 
 ```
-# load shell environment[ -f "$HOME/.config/shell/env.sh" ] && \    source "$HOME/.config/shell/env.sh"[ -f "$HOME/.config/shell/paths.sh" ] && \    source "$HOME/.config/shell/paths.sh"
+# load shell environment[ -f "$HOME/.config/shell/env.sh" ] && \
+source "$HOME/.config/shell/env.sh"[ -f "$HOME/.config/shell/paths.sh" ] && \    source "$HOME/.config/shell/paths.sh"
 ```
 
 That’s it.
@@ -166,7 +185,10 @@ nano ~/.bashrc
 Use:
 
 ```
-# interactive shell config[ -f "$HOME/.config/shell/aliases.sh" ] && \    source "$HOME/.config/shell/aliases.sh"[ -f "$HOME/.config/shell/functions.sh" ] && \    source "$HOME/.config/shell/functions.sh"[ -f "$HOME/.config/shell/prompt.sh" ] && \    source "$HOME/.config/shell/prompt.sh"
+# interactive shell config[ -f "$HOME/.config/shell/aliases.sh" ] && \
+source "$HOME/.config/shell/aliases.sh"[ -f "$HOME/.config/shell/functions.sh" ] && \
+source "$HOME/.config/shell/functions.sh"[ -f "$HOME/.config/shell/prompt.sh" ] && \
+source "$HOME/.config/shell/prompt.sh"
 ```
 
 Again:  
@@ -205,7 +227,11 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 Example:
 
 ```
-alias ll='ls -lah'alias gs='git status'alias cdp='cd $PJS_ROOT'alias cdr='cd $REPOS_ROOT'alias cdv='cd $VAULTS_ROOT'
+alias ll='ls -lah'
+alias gs='git status'
+alias cdp='cd $PJS_ROOT'
+alias cdr='cd $REPOS_ROOT'
+alias cdv='cd $VAULTS_ROOT'
 ```
 
 ---
@@ -323,7 +349,13 @@ Create:
 Example:
 
 ```
-#!/usr/bin/env bashecho "--- java ---"java --versionecho "--- python ---"python --versionecho "--- node ---"node --version
+#!/usr/bin/env bash
+echo "--- java ---"
+java --version
+echo "--- python ---"
+python --version
+echo "--- node ---"
+node --version
 ```
 
 Then:
@@ -383,7 +415,18 @@ This cleanup is incredibly valuable.
 Your future setup should look like:
 
 ```
-~/pjs/repos/    motorweb/    motorweb-ui/    scripts/~/pjs/labs/    docker/    python/    ai/~/pjs/vaults/    obsidian/
+~/pjs/repos/    
+	motorweb/
+	motorweb-ui/
+	scripts/
+
+~/pjs/labs/
+	docker/
+	python/
+	ai/
+
+~/pjs/vaults/
+	obsidian/
 ```
 
 ---

@@ -3,7 +3,7 @@ categories:
   - "[[Processes]]"
 type: process
 description: Deployment Validation Workflow operational knowledge note.
-source: chatgpt
+source: chatgpt-batch
 tags:
   - deployment
   - validation

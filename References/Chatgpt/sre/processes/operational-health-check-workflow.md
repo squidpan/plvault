@@ -3,7 +3,7 @@ categories:
   - "[[Processes]]"
 type: process
 description: Operational Health Check Workflow operational knowledge note.
-source: chatgpt
+source: chatgpt-batch
 tags:
   - health-check
   - operations

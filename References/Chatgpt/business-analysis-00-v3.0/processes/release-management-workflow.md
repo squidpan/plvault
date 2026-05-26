@@ -3,7 +3,7 @@ categories:
   - "[[Processes]]"
 type: process
 description: Release Management Workflow knowledge note.
-source: chatgpt-batch
+source: chatgpt
 tags:
   - release-management
   - deployment

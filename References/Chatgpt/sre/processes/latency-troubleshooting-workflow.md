@@ -3,7 +3,7 @@ categories:
   - "[[Processes]]"
 type: process
 description: Latency Troubleshooting Workflow operational knowledge note.
-source: chatgpt
+source: chatgpt-batch
 tags:
   - latency
   - troubleshooting

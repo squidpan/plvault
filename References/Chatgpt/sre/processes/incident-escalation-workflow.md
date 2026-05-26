@@ -3,7 +3,7 @@ categories:
   - "[[Processes]]"
 type: process
 description: Incident Escalation Workflow operational knowledge note.
-source: chatgpt
+source: chatgpt-batch
 tags:
   - incident
   - operations

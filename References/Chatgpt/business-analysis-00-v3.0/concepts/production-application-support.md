@@ -1,12 +1,12 @@
 ---
 categories:
-  - "[[Processes]]"
-type: process
-description: Release Management Workflow knowledge note.
-source: chatgpt-batch
+  - "[[Concepts]]"
+type: concept
+description: Production Application Support knowledge note.
+source: chatgpt
 tags:
-  - release-management
-  - deployment
+  - application-support
+  - operations
 created: 2026-05-21
 last: 2026-05-21
 status: draft
@@ -15,7 +15,7 @@ run_id: run-2026-05-21-ba-core-v3
 input_prompt: 01_ba-aegis-application-support-skill-v3.md
 ---
 
-# Release Management Workflow
+# Production Application Support
 
 ## Summary
 - Enterprise modernization and operational support topic.
@@ -32,4 +32,4 @@ input_prompt: 01_ba-aegis-application-support-skill-v3.md
 
 ## Related Notes
 - [[senior-business-analyst-and-application-support-professional]]
-- [[failed-deployment-recovery]]
+- [[incident-escalation-workflow]]
