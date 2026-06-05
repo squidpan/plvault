@@ -55,6 +55,7 @@
     "album": "multitext",
     "versions": "multitext",
     "promts": "multitext",
-    "prompts": "multitext"
+    "prompts": "multitext",
+    "role_qualifiers": "multitext"
   }
 }
