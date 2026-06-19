@@ -1,0 +1,27 @@
+{
+  "type": "candidate_match",
+  "status": "draft",
+  "run_id": "run-2026-06-08-candidate-matching-v4",
+  "source": "career-system",
+  "company": "Cursor",
+  "title": "Support Operations Systems Lead",
+  "source_title": "Support Operations Systems Lead",
+  "role_code": "support-ops-lead",
+  "resume_family": "support",
+  "score": 96,
+  "recommendation": "apply_now",
+  "strengths": [
+    "application support",
+    "data validation",
+    "devops",
+    "incident",
+    "monitoring",
+    "operations",
+    "production support",
+    "release",
+    "runbook",
+    "stakeholder"
+  ],
+  "gaps": [],
+  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-cursor-support-ops-lead-2026.json"
+}

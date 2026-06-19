@@ -1,0 +1,27 @@
+{
+  "type": "candidate_match",
+  "status": "draft",
+  "run_id": "run-2026-06-08-candidate-matching-v4",
+  "source": "career-system",
+  "company": "Dow Jones",
+  "title": "AI Enablement Business Analyst, Senior",
+  "source_title": "AI Enablement Business Analyst, Senior",
+  "role_code": "ba-ai",
+  "resume_family": "ba",
+  "score": 96,
+  "recommendation": "apply_now",
+  "strengths": [
+    "application support",
+    "business analyst",
+    "deployment",
+    "devops",
+    "financial",
+    "incident",
+    "jira",
+    "market data",
+    "release",
+    "requirements"
+  ],
+  "gaps": [],
+  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-dow-jones-ba-ai-2026.json"
+}

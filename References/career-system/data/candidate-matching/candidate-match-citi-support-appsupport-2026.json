@@ -1,0 +1,27 @@
+{
+  "type": "candidate_match",
+  "status": "draft",
+  "run_id": "run-2026-06-08-candidate-matching-v4",
+  "source": "career-system",
+  "company": "Citi",
+  "title": "Application and Production Support Lead",
+  "source_title": "Application and Production Support Lead",
+  "role_code": "support-appsupport",
+  "resume_family": "support",
+  "score": 96,
+  "recommendation": "apply_now",
+  "strengths": [
+    "application support",
+    "data validation",
+    "deployment",
+    "devops",
+    "incident",
+    "monitoring",
+    "operations",
+    "production support",
+    "release",
+    "requirements"
+  ],
+  "gaps": [],
+  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-citi-support-appsupport-2026.json"
+}

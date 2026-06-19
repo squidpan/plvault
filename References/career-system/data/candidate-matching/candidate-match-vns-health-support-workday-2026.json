@@ -1,0 +1,30 @@
+{
+  "type": "candidate_match",
+  "status": "draft",
+  "run_id": "run-2026-06-08-candidate-matching-v4",
+  "source": "career-system",
+  "company": "VNS Health",
+  "title": "Enterprise Applications Analyst (Workday & Enterprise Systems)",
+  "source_title": "Enterprise Applications Analyst (Workday & Enterprise Systems)",
+  "role_code": "support-workday",
+  "resume_family": "support",
+  "score": 76,
+  "recommendation": "possible_but_tailor_carefully",
+  "strengths": [
+    "api",
+    "application support",
+    "deployment",
+    "devops",
+    "incident",
+    "production support",
+    "release",
+    "requirements",
+    "runbook",
+    "stakeholder"
+  ],
+  "gaps": [
+    "hris",
+    "workday"
+  ],
+  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-vns-health-support-workday-2026.json"
+}

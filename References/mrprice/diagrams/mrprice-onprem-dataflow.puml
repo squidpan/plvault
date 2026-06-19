@@ -1,0 +1,37 @@
+@startuml
+
+title MRPrice On-Prem Market Data Flow
+
+rectangle "Bloomberg\nBPIPE/CBBT" as Bloomberg
+
+rectangle "Reuters\nTREP" as Reuters
+
+rectangle "TMKR" as TMKR
+
+rectangle "TWEB" as TWEB
+
+rectangle "Vendor\nNormalization" as Norm
+
+rectangle "Tick\nConsolidation" as Consolidation
+
+rectangle "Validation\nFramework" as Validation
+
+rectangle "Benchmark\nWorkflow" as Benchmark
+
+database "Oracle" as Oracle
+
+rectangle "Consumer\nApplications" as Consumers
+
+Bloomberg --> Norm
+Reuters --> Norm
+TMKR --> Norm
+TWEB --> Norm
+
+Norm --> Consolidation
+Consolidation --> Validation
+Validation --> Benchmark
+Benchmark --> Oracle
+Oracle --> Consumers
+
+@enduml
+

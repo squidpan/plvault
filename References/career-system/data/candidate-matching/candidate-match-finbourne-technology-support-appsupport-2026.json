@@ -1,0 +1,31 @@
+{
+  "type": "candidate_match",
+  "status": "draft",
+  "run_id": "run-2026-06-08-candidate-matching-v4",
+  "source": "career-system",
+  "company": "FINBOURNE Technology",
+  "title": "Senior Application Support Analyst",
+  "source_title": "Senior Application Support Analyst",
+  "role_code": "support-appsupport",
+  "resume_family": "support",
+  "score": 96,
+  "recommendation": "apply_now",
+  "strengths": [
+    "api",
+    "application support",
+    "aws",
+    "data validation",
+    "deployment",
+    "devops",
+    "financial",
+    "incident",
+    "jira",
+    "market data"
+  ],
+  "gaps": [
+    "gis",
+    "hris",
+    "workday"
+  ],
+  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-finbourne-technology-support-appsupport-2026.json"
+}

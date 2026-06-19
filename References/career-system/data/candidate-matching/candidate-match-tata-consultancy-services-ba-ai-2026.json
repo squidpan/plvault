@@ -1,0 +1,27 @@
+{
+  "type": "candidate_match",
+  "status": "draft",
+  "run_id": "run-2026-06-08-candidate-matching-v4",
+  "source": "career-system",
+  "company": "Tata Consultancy Services",
+  "title": "Business Analyst -Artificial Intelligence",
+  "source_title": "Business Analyst -Artificial Intelligence",
+  "role_code": "ba-ai",
+  "resume_family": "ba",
+  "score": 96,
+  "recommendation": "apply_now",
+  "strengths": [
+    "application support",
+    "business analyst",
+    "deployment",
+    "devops",
+    "incident",
+    "jira",
+    "release",
+    "requirements",
+    "runbook",
+    "stakeholder"
+  ],
+  "gaps": [],
+  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-tata-consultancy-services-ba-ai-2026.json"
+}

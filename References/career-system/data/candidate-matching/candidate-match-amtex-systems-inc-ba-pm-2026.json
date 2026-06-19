@@ -1,0 +1,31 @@
+{
+  "type": "candidate_match",
+  "status": "draft",
+  "run_id": "run-2026-06-08-candidate-matching-v4",
+  "source": "career-system",
+  "company": "Amtex Systems Inc",
+  "title": "Business Analyst / Project Manager with financial benchmark data Experience",
+  "source_title": "Business Analyst / Project Manager with financial benchmark data Experience",
+  "role_code": "ba-pm",
+  "resume_family": "ba",
+  "score": 83,
+  "recommendation": "apply_selectively",
+  "strengths": [
+    "api",
+    "application support",
+    "business analyst",
+    "data validation",
+    "deployment",
+    "devops",
+    "financial",
+    "incident",
+    "jira",
+    "production support"
+  ],
+  "gaps": [
+    "gis",
+    "hris",
+    "workday"
+  ],
+  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-amtex-systems-inc-ba-pm-2026.json"
+}

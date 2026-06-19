@@ -1,0 +1,31 @@
+{
+  "type": "candidate_match",
+  "status": "draft",
+  "run_id": "run-2026-06-08-candidate-matching-v4",
+  "source": "career-system",
+  "company": "Grapevine Technologies Inc",
+  "title": "Sr. Operations Analyst",
+  "source_title": "Sr. Operations Analyst",
+  "role_code": "ops",
+  "resume_family": "ops",
+  "score": 77,
+  "recommendation": "possible_but_tailor_carefully",
+  "strengths": [
+    "api",
+    "application support",
+    "data validation",
+    "financial",
+    "operations",
+    "release",
+    "requirements",
+    "stakeholder",
+    "uat",
+    "workflow"
+  ],
+  "gaps": [
+    "gis",
+    "hris",
+    "workday"
+  ],
+  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-grapevine-technologies-inc-ops-2026.json"
+}

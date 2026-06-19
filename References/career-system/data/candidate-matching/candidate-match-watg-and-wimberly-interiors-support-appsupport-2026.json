@@ -1,0 +1,31 @@
+{
+  "type": "candidate_match",
+  "status": "draft",
+  "run_id": "run-2026-06-08-candidate-matching-v4",
+  "source": "career-system",
+  "company": "WATG and Wimberly Interiors",
+  "title": "Senior IT Support Specialist",
+  "source_title": "Senior IT Support Specialist",
+  "role_code": "support-appsupport",
+  "resume_family": "support",
+  "score": 81,
+  "recommendation": "apply_selectively",
+  "strengths": [
+    "api",
+    "application support",
+    "data validation",
+    "deployment",
+    "devops",
+    "incident",
+    "production support",
+    "release",
+    "requirements",
+    "runbook"
+  ],
+  "gaps": [
+    "gis",
+    "hris",
+    "workday"
+  ],
+  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-watg-and-wimberly-interiors-support-appsupport-2026.json"
+}

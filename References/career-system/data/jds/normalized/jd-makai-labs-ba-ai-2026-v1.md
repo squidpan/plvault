@@ -2,7 +2,7 @@
 id: jd-makai-labs-ba-ai-2026-v1
 slug: makai-labs-ba-ai-2026
 type: jd
-title: Business Analyst for AI Startup - Makai Labs
+title: Business Analyst - Makai Labs
 categories:
   - [[Clippings]]
   - [[Careers]]
@@ -22,10 +22,10 @@ source_system: teal
 source_file: 
 source_url: https://app.tealhq.com/job-tracker/3386b09b-462b-4f7f-84eb-da9f2ff526b3
 origin: webclipper
-run_id: run-2026-06-01-jd-normalize-v3
+run_id: run-2026-06-08-jd-normalization-v5
 captured_date: 2026-06-01
 source_title: Business Analyst
-normalized_title: Business Analyst for AI Startup
+normalized_title: Business Analyst
 role_id: role-makai-labs-ba-ai-2026
 role_family: ba
 role_level: 
@@ -42,7 +42,7 @@ normalization_status: normalized
 normalized_jd_id: jd-makai-labs-ba-ai-2026-v1
 ---
 
-# Business Analyst for AI Startup - Makai Labs
+# Business Analyst - Makai Labs
 
 ## Capture Metadata
 

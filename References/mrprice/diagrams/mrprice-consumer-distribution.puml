@@ -1,0 +1,56 @@
+@startuml
+
+title MRPrice Consumer Distribution Evolution
+
+skinparam backgroundColor white
+
+package "On-Prem Distribution" {
+
+database "MRPRICE_TICKER" as MASTER
+
+database "MRPRICE_TICKER_FTR" as FTR
+
+database "MRPRICE_TICKER_COPS" as COPS
+
+database "MRPRICE_TICKER_SPLINE" as SPLINE
+
+rectangle "Consumer\nApplications" as CONSUMERS
+
+MASTER --> FTR
+MASTER --> COPS
+MASTER --> SPLINE
+
+FTR --> CONSUMERS
+COPS --> CONSUMERS
+SPLINE --> CONSUMERS
+
+}
+
+package "Cloud Distribution Model" {
+
+database "Master Pricing Data" as MASTER2
+
+rectangle "Business Services" as SERVICES
+
+rectangle "REST APIs" as API
+
+rectangle "Consumer Applications" as CONSUMERS2
+
+MASTER2 --> SERVICES
+SERVICES --> API
+API --> CONSUMERS2
+
+}
+
+note bottom
+
+Consumer-specific Oracle views evolved into
+consumer-specific REST API payloads.
+
+Both patterns provide tailored access
+to the same underlying pricing data.
+
+end note
+
+@enduml
+

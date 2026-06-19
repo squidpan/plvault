@@ -1,0 +1,52 @@
+@startuml
+
+title MRPrice Modernization Journey
+
+skinparam backgroundColor white
+
+rectangle "Legacy Market Data Platform" as Legacy
+
+rectangle "AC Server\n(Custom Code)" as ACServer
+
+rectangle "Technical Refresh" as Refresh
+
+rectangle "ACPlus\n(OOB Functionality)" as ACPlus
+
+rectangle "Cloud Migration" as Cloud
+
+rectangle "Alveo Target Architecture" as Alveo
+
+Legacy --> ACServer
+
+ACServer --> Refresh
+
+Refresh --> ACPlus
+
+ACPlus --> Cloud
+
+Cloud --> Alveo
+
+note right of Refresh
+
+Major Activities
+
+* Reduce custom code
+* Redesign ksh processing
+* Improve maintainability
+* Adopt OOB functionality
+
+end note
+
+note right of Cloud
+
+Major Activities
+
+* REST APIs
+* Service Layer
+* Consumer Decoupling
+* Cloud Readiness
+
+end note
+
+@enduml
+

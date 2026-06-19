@@ -1,0 +1,25 @@
+{
+  "type": "candidate_match",
+  "status": "draft",
+  "run_id": "run-2026-06-08-candidate-matching-v4",
+  "source": "career-system",
+  "company": "NBCUniversal",
+  "title": "Associate AI Solutions & Programs Lead",
+  "source_title": "Associate AI Solutions & Programs Lead",
+  "role_code": "ops",
+  "resume_family": "ops",
+  "score": 94,
+  "recommendation": "apply_now",
+  "strengths": [
+    "application support",
+    "devops",
+    "incident",
+    "production support",
+    "release",
+    "requirements",
+    "stakeholder",
+    "uat"
+  ],
+  "gaps": [],
+  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-nbcuniversal-ops-2026.json"
+}

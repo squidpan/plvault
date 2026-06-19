@@ -1,0 +1,27 @@
+{
+  "type": "candidate_match",
+  "status": "draft",
+  "run_id": "run-2026-06-08-candidate-matching-v4",
+  "source": "career-system",
+  "company": "Makai Labs",
+  "title": "Business Analyst",
+  "source_title": "Business Analyst",
+  "role_code": "ba-ai",
+  "resume_family": "ba",
+  "score": 96,
+  "recommendation": "apply_now",
+  "strengths": [
+    "application support",
+    "business analyst",
+    "devops",
+    "incident",
+    "jira",
+    "release",
+    "requirements",
+    "runbook",
+    "stakeholder",
+    "uat"
+  ],
+  "gaps": [],
+  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-makai-labs-ba-ai-2026.json"
+}
