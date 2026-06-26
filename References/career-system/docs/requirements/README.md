@@ -1,126 +1,85 @@
----
-id: RS-CS-README-001
-type: requirements-readme
-project: career-system
-status: draft
-created: 2026-06-14
-updated: 2026-06-14
-tags:
-  - requirements
-  - career-system
-  - motorweb
-  - markdown
----
+# Career System Engineering Framework
 
-# Career System Requirements System v0.1
+Status: Draft
 
 ## Purpose
 
-The Requirements System is a Requirements-as-Markdown framework for capturing useful, traceable requirements that can support real project delivery.
+The Career System repository is the reference implementation of an engineering framework used across multiple projects.
 
-Markdown files are the source of truth. Trello, Jira, Confluence, OpenAPI, dashboards, and reports are generated or downstream views.
+The framework captures not only business requirements, but also architecture, engineering decisions, standards, operational procedures, learning artifacts, and implementation history.
 
-## Primary Business Goal
+## Framework Layers
 
-The top-level Career System business objective is to help Paul obtain suitable employment by producing high-quality application packages and supporting artifacts.
+Business Layer
 
-This includes:
+- Principles
+- Context
+- Epics
+- Stories
+- Acceptance Criteria
 
-- job opportunity evaluation
-- gap analysis
-- application prioritization
-- resume tailoring
-- application package generation
-- interview preparation
-- skills and glossary development
+Architecture Layer
 
-## Motorweb Relationship
+- Architecture
+- Architecture Decision Records
+- Data Models
+- OpenAPI
+- PlantUML Diagrams
 
-Motorweb is the technical implementation platform that consumes Career System data and requirements.
+Operations Layer
 
-Motorweb initially provides access to Career System data through:
+- Standards
+- Runbooks
+- Releases
+- Sprints
+- Bugs
+- UAT
 
-- command line workflows
-- PostgreSQL tables and SQL queries
-- REST APIs
-- OpenAPI contracts
-- dashboard/table views
-- future React frontend
-- future JD ingestion UI
+Knowledge Layer
 
-## Source of Truth
+- Glossary
+- Reference
+- Learning
+- Traceability
 
-```text
-Career System Requirements Markdown
+## Engineering Workflow
+
+Business Need
         ↓
-Generated / downstream artifacts
+Context
         ↓
-Trello, Jira, OpenAPI, SQL, dashboards, documentation
-```
-
-## Folder Structure
-
-```text
-docs/requirements/
-├── README.md
-├── epics/
-├── stories/
-├── prerequisites/
-├── acceptance-criteria/
-├── uat/
-├── releases/
-├── indexes/
-├── reference/
-├── glossary/
-├── architecture/
-│   └── adr/
-├── data-model/
-├── openapi/
-└── trello/
-```
-
-## Artifact Types
-
-| Type | Prefix | Purpose |
-|---|---|---|
-| Business Requirement | BR | Business outcome or need |
-| Functional Requirement | FR | System behavior needed to support a business outcome |
-| Technical Requirement | TR | Implementation/platform requirement |
-| Epic | EPIC | Large business or platform objective |
-| User Story | US | Deliverable unit of work |
-| Prerequisite | PREREQ | Required condition before a story can proceed |
-| Acceptance Criteria | AC | Objective completion criteria |
-| UAT | UAT | User/business validation procedure |
-| Release | REL | Group of stories delivered together |
-| Data Model | DM | Data entities and relationships |
-| API Requirement | API | REST/OpenAPI requirement |
-| Architecture Decision Record | ADR | Design decision and rationale |
-| Glossary Term | TERM | Shared project vocabulary |
-
-## Traceability Goal
-
-```text
 Epic
- ↓
+        ↓
 Story
- ↓
-Prerequisite
- ↓
+        ↓
 Acceptance Criteria
- ↓
-UAT
- ↓
-Data Model / API / Implementation
- ↓
-Dashboard / Operational Use
-```
+        ↓
+Implementation
+        ↓
+Validation
+        ↓
+Release
+        ↓
+Operations
+        ↓
+Learning
+        ↓
+Continuous Improvement
 
-## Initial Scope
+## Design Principles
 
-Initial implementation scope:
+The framework is based on the following principles:
 
-- `EPIC-CS-001 Employment Acceleration System`
-- `EPIC-MW-001 Career Center Platform`
-- `REL-MW-0.1 PostgreSQL POC`
-- `US-MW-001 PostgreSQL Environment Ready`
+- Requirements before implementation
+- Small incremental changes
+- Traceability across artifacts
+- Operational readiness
+- Architecture evolves incrementally
+- Learning is captured, not lost
+- Documentation is part of the product
 
+## Vision
+
+Career System serves as the proving ground for the engineering framework.
+
+Motorweb, Linux Dev Environment, and future repositories should adopt compatible engineering practices while remaining independent projects.
