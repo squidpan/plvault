@@ -41,10 +41,13 @@ Rejected because it increases duplication and inconsistency.
 
 ## Related Artifacts
 
-EPIC-CS-002
+[[EPIC-CS-002-application-artifact-management]]
+[[EPIC-CS-002-requirements-engineering-framework]]
 
-CTX-CS-002
+[[CTX-CS-002-engineering-knowledge-framework]]
+[[CTX-CS-002-application-tracking-architecture]]
 
-PR-CS-001
+[[PR-CS-001-small-incremental-changes]]
 
-PR-CS-002
+[[PR-CS-002-learn-by-building]]
+

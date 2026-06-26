@@ -36,7 +36,12 @@ Motorweb will continue the same philosophy.
 ## Related Principles
 
 - PR-CS-001 Small Incremental Changes
+- [[PR-CS-001 Small Incremental Changes]]
+- PR-CS-002-learn-by-building
+- [[PR-CS-002-learn-by-building]]
 
 ## Related Context
 
 - CTX-CS-002 Engineering Knowledge Framework
+- ![[CTX-CS-002-engineering-knowledge-framework#^216022]]
+- [[CTX-CS-002-application-tracking-architecture]]
