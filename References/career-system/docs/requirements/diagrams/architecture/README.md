@@ -2,19 +2,31 @@
 
 Status: Draft
 
-## Purpose
+## TL;DR
 
-This folder contains PlantUML diagrams for the Career System Engineering Operating System and related architecture views.
+- This folder contains PlantUML architecture diagrams for EOS, EKF, authoring, validation, adapters, and lifecycle views.
+- PlantUML source files are authoritative.
+- Generated SVG or PNG files should be treated as derived artifacts.
 
-## Diagrams
+---
 
-- `EOS-overview.puml` — high-level Engineering Operating System loop
+# Diagrams
 
-## Future Diagrams
+- `EOS-overview.puml` — Engineering Operating System overview
+- `EKF-overview.puml` — Engineering Knowledge Framework overview
+- `EKF-authoring-pipeline.puml` — artifact authoring flow
+- `EKF-validation-pipeline.puml` — artifact validation flow
+- `EKF-adapter-pipeline.puml` — publication adapter flow
+- `EKF-knowledge-lifecycle.puml` — engineering knowledge lifecycle
 
-- Career System platform architecture
-- Motorweb reference architecture
-- Service account topology
-- API Gateway topology
-- PostgreSQL topology
-- Deployment promotion topology
+---
+
+# Related Data Model Diagrams
+
+- `../data-model/ekf-meta-model.puml`
+
+---
+
+# Notes
+
+Diagrams should be generated from PlantUML source rather than duplicated manually inside Markdown notes.

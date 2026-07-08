@@ -8,25 +8,25 @@ Define standard engineering artifact types, prefixes, and purposes used by the C
 
 ## Artifact Types
 
-| Prefix | Artifact Type                | Primary Question                            |
-| ------ | ---------------------------- | ------------------------------------------- |
-| PR     | Principle                    | What do we believe?                         |
-| CTX    | Context                      | Why does this exist?                        |
-| EPIC   | Epic                         | What business outcome do we want?           |
-| US     | User Story                   | What should be built?                       |
-| AC     | Acceptance Criteria          | How do we know it is done?                  |
-| ARCH   | Architecture                 | How does it fit together?                   |
-| ADR    | Architecture Decision Record | Why did we choose this approach?            |
-| STD    | Standard                     | What rules should we follow?                |
-| DM     | Data Model                   | What information exists?                    |
-| API    | API Contract                 | How do systems communicate?                 |
-| UAT    | User Acceptance Test         | How is user-facing behavior validated?      |
-| BUG    | Bug                          | What is broken?                             |
-| SPR    | Sprint                       | What did we accomplish during an iteration? |
-| REL    | Release                      | What version was delivered?                 |
-| RB     | Runbook                      | How do we operate or recover it?            |
-| GLO    | Glossary                     | What does this term mean?                   |
-| SPK    | Spike                        | What do we need to research or prove?       |
+| Prefix | Artifact Type | Primary Question |
+|---|---|---|
+| PR | Principle | What do we believe? |
+| CTX | Context | Why does this exist? |
+| EPIC | Epic | What business outcome do we want? |
+| US | User Story | What should be built? |
+| AC | Acceptance Criteria | How do we know it is done? |
+| ARCH | Architecture | How does it fit together? |
+| ADR | Architecture Decision Record | Why did we choose this approach? |
+| STD | Standard | What rules should we follow? |
+| DM | Data Model | What information exists? |
+| API | API Contract | How do systems communicate? |
+| UAT | User Acceptance Test | How is user-facing behavior validated? |
+| BUG | Bug | What is broken? |
+| SPR | Sprint | What did we accomplish during an iteration? |
+| REL | Release | What version was delivered? |
+| RB | Runbook | How do we operate or recover it? |
+| GLO | Glossary | What does this term mean? |
+| SPK | Spike | What do we need to research or prove? |
 
 ## Naming Convention
 

@@ -28,8 +28,5 @@ They reduce implementation risk and improve learning.
 
 ## Related Artifacts
 
-- EPIC-CS-002 [[EPIC-CS-002-application-artifact-management]] 
-- [[EPIC-CS-002-application-artifact-management]]
-- [[EPIC-CS-002-application-tracking-and-continuous-improvement]]
-
+- EPIC-CS-002
 - US-MW-011A through US-MW-011E

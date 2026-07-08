@@ -4,7 +4,7 @@ Status: Draft
 
 ## Purpose
 
-Career System has evolved beyond an employment acceleration application. ^216022
+Career System has evolved beyond an employment acceleration application.
 
 The repository now serves two complementary purposes:
 
@@ -56,8 +56,3 @@ Career System becomes the reference implementation of an engineering methodology
 - documentation
 - operational excellence
 - AI-assisted learning
-
-## Review notes
-
-- diff between `Employment Acceleration System` and `Career System`
-- 
