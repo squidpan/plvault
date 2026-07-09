@@ -1,0 +1,339 @@
+---
+id:
+slug:
+type:
+  - "jd"
+title:
+categories:
+  - "[[Clippings]]"
+  - "[[Careers]]"
+  - "[[JDs]]"
+tags:
+  - "clippings"
+  - "career"
+  - "jd"
+  - "raw"
+status: "raw"
+version: "v1"
+created: 2026-07-08
+last: 2026-07-08
+company:
+company_slug:
+source_system: "teal"
+source_file:
+source_url: "https://www.linkedin.com/jobs/view/4437431533/"
+origin: "webclipper"
+run_id:
+captured_date: 2026-07-08
+source_title:
+normalized_title:
+role_id:
+role_family:
+role_level:
+role_qualifiers:
+role_code:
+role_code_confidence:
+role_summary:
+jd_file_name:
+jd_source_type: "clipped"
+jd_text_status: "raw"
+role_source_type: "jd"
+normalization_status: "pending"
+normalized_jd_id:
+---
+# Raw JD Capture
+
+## Capture Metadata
+
+- Source URL: https://www.linkedin.com/jobs/view/4437431533/
+- Captured Date: 2026-07-08
+- Browser Page Title: Associate, Business Transformation Project Manager | Nearwater Capital
+- Source System: teal
+
+## Clipped Content
+
+Associate, Business Transformation Project Manager
+
+New York City Metropolitan Area · 1 day ago · 87 people clicked apply
+
+[On-site](https://www.linkedin.com/jobs/view/4437431533/)
+
+[Full-time](https://www.linkedin.com/jobs/view/4437431533/)
+
+[Apply](https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fgrnh%2Ese%2Fx4gnwdby9us&urlhash=1knI&mt=quvwIvl491RknbI9kR3dysbJ52JapQL8iCpPEY7vdHtpbPglpx9BIOFgiyfsUDUgaE03_bGq5jrwXvW-rmNazJ7b&isSdui=true)
+
+## Use AI to assess how you fit
+
+Get AI-powered advice on this job and more exclusive features with Premium. [Try Premium for $0](https://www.linkedin.com/premium/products/?upsellOrderOrigin=Tracking%3Av1%3Apremium_job_details_how_you_fit_upsell%3AJob+Seeker%3AIn-Product&utype=coach_job&referenceId=TLn08JewQyyLhQ0F9YgmWw%3D%3D&isSS=false&upsellSlotId=JOB_DETAILS_HOW_YOU_FIT)
+
+## About the job
+
+**The Opportunity**
+
+The Business Transformation Project Manager will play a central role in driving cross-functional initiatives that enhance the scalability, efficiency, and control environment of the firm.
+
+You will partner cross functionally to design and implement process improvements and transformation initiatives. You will be responsible for translating strategic priorities into executable plans, ensuring that projects are delivered effectively and aligned with the firm’s broader objectives.
+
+The role carries end-to-end responsibility for driving complex initiatives—from initial problem definition through execution—while building scalable processes and frameworks that support the firm’s continued growth.
+
+**What You'll Do**
+
+**Project Management & Execution**
+
+- Identify, mobilize and drive cross-functional projects from conception through completion
+- Manage project timelines, resources, and stakeholder communications
+- Coordinate with various departments including Technology, Operations, Compliance, Risk, Finance, Legal
+- Track project metrics and provide regular status updates to senior leadership
+- Ensure projects align with strategic business objectives and regulatory requirements
+
+**Process Optimization & Analysis**
+
+- Conduct comprehensive process mapping and workflow analysis across departments
+- Identify bottlenecks, redundancies, and optimization opportunities using data-driven approaches
+- Develop visual process maps and workflows to drive decision-making
+- Break down complex operational challenges into manageable, actionable components
+- Design and implement streamlined processes that enhance efficiency and reduce operational risk
+
+**Technology & Systems Integration**
+
+- Support with technology-driven transformation initiatives
+- Document standard operating procedures (SOPs) and training materials
+
+**Strategic Support**
+
+- Support OKR (Objectives and Key Results) framework implementation and tracking
+- Contribute to strategic planning initiatives across all business pillars and functions
+
+**What We're Looking For**
+
+**Experience & Background**
+
+- 3+ years of project management and/or business transformation experience
+- Financial Services industry experience required
+- Proven track record in structured finance, capital markets, or fintech environments preferred
+- Process Mapping Expertise: Proficient in creating visual workflows using tools like Visio, Lucidchart, or similar platforms
+- Project Management: Experience with managing and executing multiple projects at once
+- Problem Decomposition: Ability to break complex problems into smaller, manageable work streams
+- Data Analysis: Comfortable with Excel, process analytics tools, and basic SQL knowledge preferred
+- Documentation: Strong technical writing and process documentation skills for creating documentation, process guides, and training materials
+- Preferred
+- PMP or Prince2 Qualifications
+- Knowledge of structured finance products (commercial paper, swaps, derivatives)
+- Experience with regulatory frameworks (SEC, MiFID 2, SBSD, CFTC) a plus
+
+**How You Work**
+
+- You operate as a self-starter, taking initiative and driving work forward independently while maintaining strong alignment with stakeholders.
+- You approach problems with a structured, solutions-oriented mindset, proactively identifying inefficiencies and driving practical, effective resolutions.
+- You are highly execution-focused, with a hands-on approach and a bias toward delivering outcomes rather than just coordinating activity.
+- You maintain a high level of attention to detail, ensuring accuracy and consistency even in fast-paced, high-pressure environments.
+- You communicate clearly and effectively across all levels of the organization, translating complexity into actionable insights and maintaining transparency on progress and risks.
+- You are adaptable and responsive, able to operate effectively in a dynamic environment with evolving priorities and competing demands.
+
+---
+
+Featured benefits
+
+Medical insurance, Vision insurance, Dental insurance, Paid paternity leave, Paid maternity leave, Commuter benefits
+
+## Set alert for similar jobs
+
+Business Project Manager, New York City Metropolitan Area
+
+Off 
+
+Job search faster with Premium
+
+Access company insights like strategic priorities, headcount trends, and more
+
+Chris and millions of other members use Premium
+
+[Try Premium for $0](https://www.linkedin.com/premium/products/?upsellOrderOrigin=Tracking%3Av1%3Ajdp_aiq_company_insights_static%3AJob+Seeker%3AIn-Product&utype=job&referenceId=RosNzw0NT2msauxY29ntpA%3D%3D&isSS=false&upsellSlotId=JDP_AIQ_COMPANY_INSIGHTS_STATIC)
+
+1-month free trial. Easy to cancel. We’ll remind you 7 days before your trial ends.
+
+## More jobs[TPG](https://www.linkedin.com/jobs/search-results/?keywords=Associate%2C+Business+Transformation+Project+Manager&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4413148268&originToLandingJobPostings=4413148268&trackingId=ua3FQWyEpP8nlrYtn1CbYA%3D%3D&eBP=CwEAAAGfQjOfNNVoMG-h-YDUoFDXRxOwpPjAnNiGVMREXOeIZh4K1jKf5Ld6oq6EWmvlUkrMjRMWRawnxAvr9tr_9QnUL9Yf8v_1L1_6G5KLV2W8bwELGLDKS17ITPVLqUD-_mpxPota0qUY8slLh8sT3a-JdpI38tHDx7vu4Pr9-ZKc3vdItGb0oAa64hOZ41UhtylJkns51dG-wLmXvmHKPJAm8DZxi8GGgDx5ss4NEm-bny0Z4aWAmbMp8xFX48-ZSDO_cCEVpT9EK6dn-8itYWH7dWWX-yNXGSxB8fhiRCp1_7jMY3lnPOO68zgdp84IMLJOTsyjsBAGij4oYy1y3xxi8w5MrQzVtfnvHm4V8tt8qzPoxthsORk5Rz_jBDKrqivQQE4CaRY97eJtOh78GWc9N36Uo8T9USamAdBm4objeOtB2OuNaxlze91Xc_SPhffZSOfSgogyEHo2455ClnecR3QZgGnpw9EO73_59pTNOWkLl6xT37sl3_7VTGYQVw&geoId=103644278)
+
+[
+
+New York, NY (On-site)
+
+7 benefits
+
+3 school alumni work here
+
+Promoted
+
+·
+
+Posted 1 month ago
+
+](https://www.linkedin.com/jobs/search-results/?keywords=Associate%2C+Business+Transformation+Project+Manager&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4413148268&originToLandingJobPostings=4413148268&trackingId=ua3FQWyEpP8nlrYtn1CbYA%3D%3D&eBP=CwEAAAGfQjOfNNVoMG-h-YDUoFDXRxOwpPjAnNiGVMREXOeIZh4K1jKf5Ld6oq6EWmvlUkrMjRMWRawnxAvr9tr_9QnUL9Yf8v_1L1_6G5KLV2W8bwELGLDKS17ITPVLqUD-_mpxPota0qUY8slLh8sT3a-JdpI38tHDx7vu4Pr9-ZKc3vdItGb0oAa64hOZ41UhtylJkns51dG-wLmXvmHKPJAm8DZxi8GGgDx5ss4NEm-bny0Z4aWAmbMp8xFX48-ZSDO_cCEVpT9EK6dn-8itYWH7dWWX-yNXGSxB8fhiRCp1_7jMY3lnPOO68zgdp84IMLJOTsyjsBAGij4oYy1y3xxi8w5MrQzVtfnvHm4V8tt8qzPoxthsORk5Rz_jBDKrqivQQE4CaRY97eJtOh78GWc9N36Uo8T9USamAdBm4objeOtB2OuNaxlze91Xc_SPhffZSOfSgogyEHo2455ClnecR3QZgGnpw9EO73_59pTNOWkLl6xT37sl3_7VTGYQVw&geoId=103644278)[Blossom](https://www.linkedin.com/jobs/search-results/?keywords=Associate%2C+Business+Transformation+Project+Manager&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4394979504&originToLandingJobPostings=4394979504&trackingId=Jw28RyMZshes2D4gd%2B0d8w%3D%3D&eBP=CwEAAAGfQjOfNPiziXLjenhcY-ntDLxdVu50QhzU4WO_wyTl5saT6EOxnV42MsSogRqDQ9eUwHSkPiKBkWbP_u58n9IXp7ucwRUpoc_90zvyGwjZ5y3yvPKLOBJkq96wdzCwslJhnNPlzZT6q6TY-16XxD5vg9y4BpJX6xKDKmlsIj5K_ONjh7sb_JdlctmuAsePs8_8wLsN9JYzEBNuRVH6oGtKeDhOwyseAaRAVVQt5x8FxUhZHd77BhjC2CTzctzEUWtufzv--lM_fKIrQkQlcAeJ_2Um59-b0XVG7_klsN38WNj7BmHVQnPQyzE4V76EsBvO-vSx3CKT_v7JVbZvvvskiG1b6ixehLzjCQMc1uoVk4yqSnHeFNqhi7W17rTyA34Dox4FShrClfR0cfm44CF8UZMeTjCG8XHJsbR-H2cOeQtRggfHp_raEO8rwqnlvFtOFeWZTV7l8KjRHRYyh4vHYj5icqBPZ4vrOYz3geNxi6gh&geoId=103644278)
+
+[
+
+New York, NY (On-site)
+
+$100K/yr - $150K/yr
+
+•
+
+Vision benefit
+
+Promoted
+
+·
+
+Posted 1 week ago
+
+](https://www.linkedin.com/jobs/search-results/?keywords=Associate%2C+Business+Transformation+Project+Manager&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4394979504&originToLandingJobPostings=4394979504&trackingId=Jw28RyMZshes2D4gd%2B0d8w%3D%3D&eBP=CwEAAAGfQjOfNPiziXLjenhcY-ntDLxdVu50QhzU4WO_wyTl5saT6EOxnV42MsSogRqDQ9eUwHSkPiKBkWbP_u58n9IXp7ucwRUpoc_90zvyGwjZ5y3yvPKLOBJkq96wdzCwslJhnNPlzZT6q6TY-16XxD5vg9y4BpJX6xKDKmlsIj5K_ONjh7sb_JdlctmuAsePs8_8wLsN9JYzEBNuRVH6oGtKeDhOwyseAaRAVVQt5x8FxUhZHd77BhjC2CTzctzEUWtufzv--lM_fKIrQkQlcAeJ_2Um59-b0XVG7_klsN38WNj7BmHVQnPQyzE4V76EsBvO-vSx3CKT_v7JVbZvvvskiG1b6ixehLzjCQMc1uoVk4yqSnHeFNqhi7W17rTyA34Dox4FShrClfR0cfm44CF8UZMeTjCG8XHJsbR-H2cOeQtRggfHp_raEO8rwqnlvFtOFeWZTV7l8KjRHRYyh4vHYj5icqBPZ4vrOYz3geNxi6gh&geoId=103644278)[The Depository Trust & Clearing Corporation (DTCC)](https://www.linkedin.com/jobs/search-results/?keywords=Associate%2C+Business+Transformation+Project+Manager&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4377873486&originToLandingJobPostings=4377873486&trackingId=49hrBw9icBc8ALkyR%2B7ikQ%3D%3D&eBP=CwEAAAGfQjOfNPNzXhi0S58uovDkpdnk4xttnisIWSMgZDO7zvGFKPVjEB6-6MymUlwpIb1-I7A2Ahyj6WbOBi0cC6dWumruSyTjtG9iklT-vkj3Nm3fxseqfgeTi3jpJ7ttdT7HLf5HjMTnzhq87LM1ind0ACnVxKVKieb3vuL36fApOWcM0_QtgP2U7Fuqcj0BKsvPh7gM9vIdwbMHlykAKpxiWl6T0o5qKzyP5VSqYdwvXULhJaLNHbszkH0kuDYzMZ-iRdyiiiwPSoEFhcno3x_GOiG25pMqdptWg2hmF3n0-tJrgNjBS_9diMKq-CEjSuXmz65IGnTZJ6daAr3s5OQ6uSZbGwchGtWXdfsKVOM6pUiW9-VcRF_R5OhURmK86GBpsF9Xge91e1deT__1bVkUl3sWRgdvz2rK0f76Wn6OYYyYAQ2RLFmxzMLE3IsJtYVHdNTEHTYxR3vhy8q-G1KIg7yKcvsPvw-r6p0YK-d5bITeAPA&geoId=103644278)
+
+[
+
+Jersey City, NJ (Hybrid)
+
+25 school alumni work here
+
+Promoted
+
+·
+
+Posted 2 days ago
+
+](https://www.linkedin.com/jobs/search-results/?keywords=Associate%2C+Business+Transformation+Project+Manager&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4377873486&originToLandingJobPostings=4377873486&trackingId=49hrBw9icBc8ALkyR%2B7ikQ%3D%3D&eBP=CwEAAAGfQjOfNPNzXhi0S58uovDkpdnk4xttnisIWSMgZDO7zvGFKPVjEB6-6MymUlwpIb1-I7A2Ahyj6WbOBi0cC6dWumruSyTjtG9iklT-vkj3Nm3fxseqfgeTi3jpJ7ttdT7HLf5HjMTnzhq87LM1ind0ACnVxKVKieb3vuL36fApOWcM0_QtgP2U7Fuqcj0BKsvPh7gM9vIdwbMHlykAKpxiWl6T0o5qKzyP5VSqYdwvXULhJaLNHbszkH0kuDYzMZ-iRdyiiiwPSoEFhcno3x_GOiG25pMqdptWg2hmF3n0-tJrgNjBS_9diMKq-CEjSuXmz65IGnTZJ6daAr3s5OQ6uSZbGwchGtWXdfsKVOM6pUiW9-VcRF_R5OhURmK86GBpsF9Xge91e1deT__1bVkUl3sWRgdvz2rK0f76Wn6OYYyYAQ2RLFmxzMLE3IsJtYVHdNTEHTYxR3vhy8q-G1KIg7yKcvsPvw-r6p0YK-d5bITeAPA&geoId=103644278)[The HT Group](https://www.linkedin.com/jobs/search-results/?keywords=Associate%2C+Business+Transformation+Project+Manager&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4426511397&originToLandingJobPostings=4426511397&trackingId=oBLPrdQmNSNgu6SfLRUuMQ%3D%3D&eBP=CwEAAAGfQjOfNIFfp5VGicIuTAsfOAI6nTpPkJHzXJGSxtfzuKwHvKuFKUexI8h1Do_Fn0OyestJibUNjR9FyXZ1BoeSWTmr_f7TMrdLdG_CsfUKGccBxFh7u1QWYseBEYP6RSiCruGAQrbPqEIoiWa4LxuAC8swPTtWFDHREhzMmjQxqZUsgWqkV6Y5FRa1fJLnXMmYMNMIOgqQ_ipdCN828hkcLTYVN8BHgu2PLa0k-60-UQjCrNlbGXZU449rgiW7j4eYoTVVJ6bPAdMIGBHft1POJ-LjFAAsZ3uj4KCYJ8wvMejbQq-EfouDd7L7JspBmLmQxOuVvRqVnICZwdJh0TVtxKc57FXSSUGZAfkYc-oyF6q6NSEPm9AuFzZtfdBQiJQzPn3PINXFRluPzjpOGDJo7bVZ3S9Pwv3GcR5XYfSzqSUcEPuI_NXiYmxHmbOYgggXjahJLLvin58Kdzya0T_nFJ1OeVXMRbd20WeyJ2otvg&geoId=103644278)
+
+[
+
+Atlanta, GA (On-site)
+
+Actively reviewing applicants
+
+Promoted
+
+·
+
+Posted 1 month ago
+
+·
+
+Easy Apply
+
+](https://www.linkedin.com/jobs/search-results/?keywords=Associate%2C+Business+Transformation+Project+Manager&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4426511397&originToLandingJobPostings=4426511397&trackingId=oBLPrdQmNSNgu6SfLRUuMQ%3D%3D&eBP=CwEAAAGfQjOfNIFfp5VGicIuTAsfOAI6nTpPkJHzXJGSxtfzuKwHvKuFKUexI8h1Do_Fn0OyestJibUNjR9FyXZ1BoeSWTmr_f7TMrdLdG_CsfUKGccBxFh7u1QWYseBEYP6RSiCruGAQrbPqEIoiWa4LxuAC8swPTtWFDHREhzMmjQxqZUsgWqkV6Y5FRa1fJLnXMmYMNMIOgqQ_ipdCN828hkcLTYVN8BHgu2PLa0k-60-UQjCrNlbGXZU449rgiW7j4eYoTVVJ6bPAdMIGBHft1POJ-LjFAAsZ3uj4KCYJ8wvMejbQq-EfouDd7L7JspBmLmQxOuVvRqVnICZwdJh0TVtxKc57FXSSUGZAfkYc-oyF6q6NSEPm9AuFzZtfdBQiJQzPn3PINXFRluPzjpOGDJo7bVZ3S9Pwv3GcR5XYfSzqSUcEPuI_NXiYmxHmbOYgggXjahJLLvin58Kdzya0T_nFJ1OeVXMRbd20WeyJ2otvg&geoId=103644278)[HarbourVest](https://www.linkedin.com/jobs/search-results/?keywords=Associate%2C+Business+Transformation+Project+Manager&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4411025000&originToLandingJobPostings=4411025000&trackingId=qKsx4sB7QF5FZ1V1lZjdyQ%3D%3D&eBP=CwEAAAGfQjOfNMvMXTiRiR5QJ77soPYxuK6ylh3Kfni8MlAR15oVUhcNqSmutUxPTLycEgvNPbG_H1HB8N5jOOkwZRZ_5gtV_YcrL6fEoOVLU0UrPKJUvi9ywVMrkmiKZF15ACX3DlKfKNEM_xP8sCh3DR-43D2dmOe5JvvAs6uPohYdWHvYupVchVUgd76NaA5XKDBSTET6vbaAp97XGLzLczRFgaAZxQF9R408jiS0RkoWxa8cqusUSPsIcd_597LJMRNKyrVrwcns0XABRCbGd6HH4144t-_jSEPYs44xPF8eJLlCphYxo-YsG2pqpxDEZadndGrMf2dMOgcVJOiCAJ-LvQuW5Xd0ROsAtmz-0D31Vj_hqjLJr0hP3Mt3HJi9687KlpTKc7G1iojHoysTCnJ4EhLxd31urwB_FEWVj8AcYm0co5x2QHdhjYhqmcZDC1aGbQoPJzyGw8xbChT-IODhZmfgRf_0Psr1AlHc2pt0UgN3&geoId=103644278)
+
+[
+
+Boston, MA (Hybrid)
+
+28 school alumni work here
+
+Promoted
+
+·
+
+Posted 2 weeks ago
+
+](https://www.linkedin.com/jobs/search-results/?keywords=Associate%2C+Business+Transformation+Project+Manager&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4411025000&originToLandingJobPostings=4411025000&trackingId=qKsx4sB7QF5FZ1V1lZjdyQ%3D%3D&eBP=CwEAAAGfQjOfNMvMXTiRiR5QJ77soPYxuK6ylh3Kfni8MlAR15oVUhcNqSmutUxPTLycEgvNPbG_H1HB8N5jOOkwZRZ_5gtV_YcrL6fEoOVLU0UrPKJUvi9ywVMrkmiKZF15ACX3DlKfKNEM_xP8sCh3DR-43D2dmOe5JvvAs6uPohYdWHvYupVchVUgd76NaA5XKDBSTET6vbaAp97XGLzLczRFgaAZxQF9R408jiS0RkoWxa8cqusUSPsIcd_597LJMRNKyrVrwcns0XABRCbGd6HH4144t-_jSEPYs44xPF8eJLlCphYxo-YsG2pqpxDEZadndGrMf2dMOgcVJOiCAJ-LvQuW5Xd0ROsAtmz-0D31Vj_hqjLJr0hP3Mt3HJi9687KlpTKc7G1iojHoysTCnJ4EhLxd31urwB_FEWVj8AcYm0co5x2QHdhjYhqmcZDC1aGbQoPJzyGw8xbChT-IODhZmfgRf_0Psr1AlHc2pt0UgN3&geoId=103644278)[JPMorgan - XML](https://www.linkedin.com/jobs/search-results/?keywords=Associate%2C+Business+Transformation+Project+Manager&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4401037753&originToLandingJobPostings=4401037753&trackingId=hV2kJzkv5w4UJhsc6eu0PA%3D%3D&eBP=CwEAAAGfQjOfNGJDkQEPHYVEP7rrDWNlQEsERVF1dsIDSGcOU_HFSeB63nB83E_kwugQijAWjGBy4vt2MlJUFUv0KQP72wS8YG4br0hr2Z610cwMMF9TQ4fbMbQs9CWlqk_HSVBhtwWSSLCremBbiBAcjtq2nrMwK3lumw9BV2vuc9eSMMrvnfEK2W0ruHeHe35SxqPlL0H-cNuHmRj7qZ8OlSipP5rKRYw-Z2Bm-TgpulZh7kmZAk3jMvCHCtfJ7LXSi7yq08cZ6Po2v1xj_Fvrf4HgZhUNb1-K8saQBCo5dr06RP3nbRZvUfaIw8UqLNYnTMS7U7maWa0qYkunAgu55pm9jATvigV8Yp4YW2y39D4l9Jm4BoVlLc0YCcrYU0nKX0ZiTZ7nkX11Zf050MT96FxRcRiXZPry3CC9XoDCBp1DuuhKXTSVXjq_gd6vh9R98wm5XfKKJgztc-UWmxQy6PLG1W7seC8uh-V9mRPqAP3EKNDD&geoId=103644278)
+
+[
+
+Plano, TX (On-site)
+
+1 company alumni works here
+
+Promoted
+
+·
+
+Posted 1 week ago
+
+](https://www.linkedin.com/jobs/search-results/?keywords=Associate%2C+Business+Transformation+Project+Manager&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4401037753&originToLandingJobPostings=4401037753&trackingId=hV2kJzkv5w4UJhsc6eu0PA%3D%3D&eBP=CwEAAAGfQjOfNGJDkQEPHYVEP7rrDWNlQEsERVF1dsIDSGcOU_HFSeB63nB83E_kwugQijAWjGBy4vt2MlJUFUv0KQP72wS8YG4br0hr2Z610cwMMF9TQ4fbMbQs9CWlqk_HSVBhtwWSSLCremBbiBAcjtq2nrMwK3lumw9BV2vuc9eSMMrvnfEK2W0ruHeHe35SxqPlL0H-cNuHmRj7qZ8OlSipP5rKRYw-Z2Bm-TgpulZh7kmZAk3jMvCHCtfJ7LXSi7yq08cZ6Po2v1xj_Fvrf4HgZhUNb1-K8saQBCo5dr06RP3nbRZvUfaIw8UqLNYnTMS7U7maWa0qYkunAgu55pm9jATvigV8Yp4YW2y39D4l9Jm4BoVlLc0YCcrYU0nKX0ZiTZ7nkX11Zf050MT96FxRcRiXZPry3CC9XoDCBp1DuuhKXTSVXjq_gd6vh9R98wm5XfKKJgztc-UWmxQy6PLG1W7seC8uh-V9mRPqAP3EKNDD&geoId=103644278)[Revantage, A Blackstone Portfolio Company](https://www.linkedin.com/jobs/search-results/?keywords=Associate%2C+Business+Transformation+Project+Manager&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4432896243&originToLandingJobPostings=4432896243&trackingId=T27UsDJi7ITaQhyq6n4Dww%3D%3D&eBP=CwEAAAGfQjOfNKGeu6YlqvuZwN5rN2cq1ztOUyhBnT4IR62nVf_i8X_BgjGxdmkPZbNnvAE9sxGAvGOuQgTZpFhZpTUnWXzQG6Bw6vaIce2ospxHkkU-kL-8GX3kFLppTd5XNUvmeXloB-2Inu_J-EBqC0OXsgAaeoSb3kxUUznLa065KSI2cU3uFZALzpGlnjad0_zRC2rY9oAL4ouUY1VkKa6I307VZPu3Ch0gwEm-fnvfxEZzlrfo51Lk2WwH3rdxfivG-vRoBFqVhgr824R9ksRMC1Pd6W6PMM57-mGA--Nqbtjlo9KOrHwDX-4rN7mvHPmrRbgyGVwkFAQfy-NZOawAGEUu_yRQ9lFBZtGvP_QgjlRk4fzv3t1apxpkWGrpUR51L1z7OnSUW6_6r70MK-6IPx2agWL8LI6d0n_9_agvpeE_ZKH3XeYd6OcpFTCB5JbJEBENfIFxBxXe-TBT8sS1eAsfGo001sfgVJv1ThFoWQ&geoId=103644278)
+
+[
+
+Dallas, TX (Hybrid)
+
+Medical, 401(k)
+
+Promoted
+
+·
+
+Posted 1 week ago
+
+](https://www.linkedin.com/jobs/search-results/?keywords=Associate%2C+Business+Transformation+Project+Manager&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4432896243&originToLandingJobPostings=4432896243&trackingId=T27UsDJi7ITaQhyq6n4Dww%3D%3D&eBP=CwEAAAGfQjOfNKGeu6YlqvuZwN5rN2cq1ztOUyhBnT4IR62nVf_i8X_BgjGxdmkPZbNnvAE9sxGAvGOuQgTZpFhZpTUnWXzQG6Bw6vaIce2ospxHkkU-kL-8GX3kFLppTd5XNUvmeXloB-2Inu_J-EBqC0OXsgAaeoSb3kxUUznLa065KSI2cU3uFZALzpGlnjad0_zRC2rY9oAL4ouUY1VkKa6I307VZPu3Ch0gwEm-fnvfxEZzlrfo51Lk2WwH3rdxfivG-vRoBFqVhgr824R9ksRMC1Pd6W6PMM57-mGA--Nqbtjlo9KOrHwDX-4rN7mvHPmrRbgyGVwkFAQfy-NZOawAGEUu_yRQ9lFBZtGvP_QgjlRk4fzv3t1apxpkWGrpUR51L1z7OnSUW6_6r70MK-6IPx2agWL8LI6d0n_9_agvpeE_ZKH3XeYd6OcpFTCB5JbJEBENfIFxBxXe-TBT8sS1eAsfGo001sfgVJv1ThFoWQ&geoId=103644278)[Visa](https://www.linkedin.com/jobs/search-results/?keywords=Associate%2C+Business+Transformation+Project+Manager&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4429727526&originToLandingJobPostings=4429727526&trackingId=IzaH0rKmWipy60SRjDIK4w%3D%3D&eBP=CwEAAAGfQjOfNIurEdC61vjGBXlFsIwZkJ5R3bQxRtr6Eykjnnhvutt7X4ePRZRq5DZlZ_FAM47pTMVwdYpzSf8tP0rw6-88MUIXZHhzyNPfqSjRA2LBKSUJQu_XYlEp7-39rxCp0mW5bD3yI_WxdPJ2crOMgryf3mm_p-VK-Zn3REs-pR7TmMHeFhH3HCtrUcTEl4GPqEjgraXRbz65fQ9TjL4_HsUc8V4qgImPSt2iCUmDaRJxNZWLd9nfiUYpJx8Vd8ztgZuYwfyGKApuccBebl6RkRyrxtKToa65c7ySVKLgcNizkoPnWWiuhJ36YJpVYj3kfbzDzoRHaQ5SXoO2KjQNutPRiJ8NbzZ9eJYgPGBw57KoYMM6Qkj5AzUFB-LR-5ED2xgSEvEBCGURrZabDgYKj0GAAb48xWILagjSw6cVdxoGLwSVw1Hg0437nl1G4o7bvdiepj1NbM0zhLdWQTqi6b9ZFgN95cqP90hIlrrmw-OMo6EAig&geoId=103644278)
+
+[
+
+Austin, TX (On-site)
+
+401(k) benefit
+
+1 company alumni works here
+
+Promoted
+
+·
+
+Posted 4 hours ago
+
+](https://www.linkedin.com/jobs/search-results/?keywords=Associate%2C+Business+Transformation+Project+Manager&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4429727526&originToLandingJobPostings=4429727526&trackingId=IzaH0rKmWipy60SRjDIK4w%3D%3D&eBP=CwEAAAGfQjOfNIurEdC61vjGBXlFsIwZkJ5R3bQxRtr6Eykjnnhvutt7X4ePRZRq5DZlZ_FAM47pTMVwdYpzSf8tP0rw6-88MUIXZHhzyNPfqSjRA2LBKSUJQu_XYlEp7-39rxCp0mW5bD3yI_WxdPJ2crOMgryf3mm_p-VK-Zn3REs-pR7TmMHeFhH3HCtrUcTEl4GPqEjgraXRbz65fQ9TjL4_HsUc8V4qgImPSt2iCUmDaRJxNZWLd9nfiUYpJx8Vd8ztgZuYwfyGKApuccBebl6RkRyrxtKToa65c7ySVKLgcNizkoPnWWiuhJ36YJpVYj3kfbzDzoRHaQ5SXoO2KjQNutPRiJ8NbzZ9eJYgPGBw57KoYMM6Qkj5AzUFB-LR-5ED2xgSEvEBCGURrZabDgYKj0GAAb48xWILagjSw6cVdxoGLwSVw1Hg0437nl1G4o7bvdiepj1NbM0zhLdWQTqi6b9ZFgN95cqP90hIlrrmw-OMo6EAig&geoId=103644278)[JPMorgan - XML](https://www.linkedin.com/jobs/search-results/?keywords=Associate%2C+Business+Transformation+Project+Manager&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4406171476&originToLandingJobPostings=4406171476&trackingId=2wq9De5hBvh%2BHGHyQ%2Fhw%2Fw%3D%3D&eBP=CwEAAAGfQjOfNB_PwAUHWqtaiTDGmQP0Dhmv73g8jxn4wT23MhmbwVWtRQLnfkXxgExThdZk1rpVUSRQRWUUWCvuYXCsDRRzPn63KIX757Q747Of3X2uNG0jOjqAcIpLaPGm994AIiYFdEaF-duzwPxPLhwAB-JUE0nT85leK4_y9875jxjL1NvLlw-HrKL2By2lHHxZs5_tZ6xeXZZQ_xgdwBv8f4VWURrB0awgV3sm9ite2pW1MPLNMs7LEkFyKjoN5wtcMy6RZ72oeWsMb8y5X7Id_LnI0TfUnVVo1dUoQ1LcsKgOMgiMI5IkYzy6Pv7LRxMs8IlUnfCDV7ojFX3Xu9vx7yviam1hDwU3MqcGjY7Jw5M1enTtOyI9rBUWrakPaofEyp9YGsTtbi-_aEXxdEQYRErKOhSqJJICiOWuIEXQl5zhV4MaPnETmvV_XA2h2-oQlfZ6doktTtEpiN5rxrBvaY3fR52E2xeEIfq0RN_YKLk3&geoId=103644278)
+
+[
+
+Newark, DE (On-site)
+
+1 company alumni works here
+
+Promoted
+
+·
+
+Posted 1 week ago
+
+](https://www.linkedin.com/jobs/search-results/?keywords=Associate%2C+Business+Transformation+Project+Manager&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4406171476&originToLandingJobPostings=4406171476&trackingId=2wq9De5hBvh%2BHGHyQ%2Fhw%2Fw%3D%3D&eBP=CwEAAAGfQjOfNB_PwAUHWqtaiTDGmQP0Dhmv73g8jxn4wT23MhmbwVWtRQLnfkXxgExThdZk1rpVUSRQRWUUWCvuYXCsDRRzPn63KIX757Q747Of3X2uNG0jOjqAcIpLaPGm994AIiYFdEaF-duzwPxPLhwAB-JUE0nT85leK4_y9875jxjL1NvLlw-HrKL2By2lHHxZs5_tZ6xeXZZQ_xgdwBv8f4VWURrB0awgV3sm9ite2pW1MPLNMs7LEkFyKjoN5wtcMy6RZ72oeWsMb8y5X7Id_LnI0TfUnVVo1dUoQ1LcsKgOMgiMI5IkYzy6Pv7LRxMs8IlUnfCDV7ojFX3Xu9vx7yviam1hDwU3MqcGjY7Jw5M1enTtOyI9rBUWrakPaofEyp9YGsTtbi-_aEXxdEQYRErKOhSqJJICiOWuIEXQl5zhV4MaPnETmvV_XA2h2-oQlfZ6doktTtEpiN5rxrBvaY3fR52E2xeEIfq0RN_YKLk3&geoId=103644278)[Rogo](https://www.linkedin.com/jobs/search-results/?keywords=Associate%2C+Business+Transformation+Project+Manager&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4428675505&originToLandingJobPostings=4428675505&trackingId=%2BT0C2ZcStUlbNYKi8iROGA%3D%3D&eBP=CwEAAAGfQjOfNPMyMm8SdlPeA_JXJy7NZRyrJ8zj2ELJYTwGMqxgulsOh7UzL1MS6pFOHK0KqU5AEJ-PS49iE9PiF1800b1_K-TA2aFanLksbbJdNFgVG9GL-zfEdxrr6OD-wR96Az5tUUBkJGcPxxalYfBlvDbgwiH1SA3jfsqrwM5crc_vMPvqew-p1JIuDyH1uezOfzYTdnEzlmHu-Ic4jQNfc9LlDi848vbyrCVkb8NSAkPxr_shWkHdXQ_KIMvYX0mOhSDJkqfo1LGNEYV_4ST4vgq01i7fLpDN4KGSVcS4iJZnbLqYUtT-7vF-F1GKNjzlg7F1TKKT7O8Z-74HuzXNVFpZtOcqqmO0TCPnyzsRD8w73XoPzfdkiguX4FSkLn2PuQWlMJ4G2ipn_fcXtSlLsjBDidQlN16SeTpFNyd1Tga4Ijz0BMVbduWXUgTkz2svN7ZiZQ04jAYfXodLMcAkiUAzBXl-JK07if1NEM4uatP3&geoId=103644278)
+
+[
+
+New York, NY (On-site)
+
+1 school alumni works here
+
+Promoted
+
+·
+
+Posted 2 days ago
+
+](https://www.linkedin.com/jobs/search-results/?keywords=Associate%2C+Business+Transformation+Project+Manager&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4428675505&originToLandingJobPostings=4428675505&trackingId=%2BT0C2ZcStUlbNYKi8iROGA%3D%3D&eBP=CwEAAAGfQjOfNPMyMm8SdlPeA_JXJy7NZRyrJ8zj2ELJYTwGMqxgulsOh7UzL1MS6pFOHK0KqU5AEJ-PS49iE9PiF1800b1_K-TA2aFanLksbbJdNFgVG9GL-zfEdxrr6OD-wR96Az5tUUBkJGcPxxalYfBlvDbgwiH1SA3jfsqrwM5crc_vMPvqew-p1JIuDyH1uezOfzYTdnEzlmHu-Ic4jQNfc9LlDi848vbyrCVkb8NSAkPxr_shWkHdXQ_KIMvYX0mOhSDJkqfo1LGNEYV_4ST4vgq01i7fLpDN4KGSVcS4iJZnbLqYUtT-7vF-F1GKNjzlg7F1TKKT7O8Z-74HuzXNVFpZtOcqqmO0TCPnyzsRD8w73XoPzfdkiguX4FSkLn2PuQWlMJ4G2ipn_fcXtSlLsjBDidQlN16SeTpFNyd1Tga4Ijz0BMVbduWXUgTkz2svN7ZiZQ04jAYfXodLMcAkiUAzBXl-JK07if1NEM4uatP3&geoId=103644278)[Oscar Insurance Corporation](https://www.linkedin.com/jobs/search-results/?keywords=Associate%2C+Business+Transformation+Project+Manager&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4433125996&originToLandingJobPostings=4433125996&trackingId=nzJJppT6PYAcic3wQLHP9g%3D%3D&eBP=CwEAAAGfQjOfNYmKn6QKiWdJlaG2ilFsW9tfmx-LqyDsxj7mZI-SseInk04Ik1cvXbwNtYwRFPRQbMgpzTRCq-_uyM8opxqBoN0ciQpgj_Ly-Q75nkaBm4tzOW51Xpg-4ejSvZJhyiTV-MIWunC45QOM2A1O1l9JVFpBr3qbLvoHmmxNWCEsMzHRn1-l3miFkXITQ62dy_nuj3U305vdJdwEIhKgt9y4m8PSWsWATMawt_yP_TJsPzZyotntkDvS90qO352M68K3TJ6YvHe9zvCrX1mgdiiltZZiJJk0vRI-twvx2M6Y7C-nP6OtsZkarKiGBisxxRj3QWDlI5XkTuGH2J9vom-YIuPPNiYFx0iIkNFUplvZMDYRWrnYO5l03aKTH9X9MGoKNFw-2_2qUgEoEKUKSYyoaM6X9c9II4RJgE4tSGdZ7YpUkx6eVxNQxtVIjWa9ALXVS9naHSzTs67eDFsybScqeQDjEoILdwEJYoDGVPTDC6I&geoId=103644278)
+
+[
+
+New York, NY (Hybrid)
+
+Medical, 401(k), +1 benefit
+
+7 school alumni work here
+
+Promoted
+
+·
+
+Posted 5 days ago
+
+](https://www.linkedin.com/jobs/search-results/?keywords=Associate%2C+Business+Transformation+Project+Manager&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4433125996&originToLandingJobPostings=4433125996&trackingId=nzJJppT6PYAcic3wQLHP9g%3D%3D&eBP=CwEAAAGfQjOfNYmKn6QKiWdJlaG2ilFsW9tfmx-LqyDsxj7mZI-SseInk04Ik1cvXbwNtYwRFPRQbMgpzTRCq-_uyM8opxqBoN0ciQpgj_Ly-Q75nkaBm4tzOW51Xpg-4ejSvZJhyiTV-MIWunC45QOM2A1O1l9JVFpBr3qbLvoHmmxNWCEsMzHRn1-l3miFkXITQ62dy_nuj3U305vdJdwEIhKgt9y4m8PSWsWATMawt_yP_TJsPzZyotntkDvS90qO352M68K3TJ6YvHe9zvCrX1mgdiiltZZiJJk0vRI-twvx2M6Y7C-nP6OtsZkarKiGBisxxRj3QWDlI5XkTuGH2J9vom-YIuPPNiYFx0iIkNFUplvZMDYRWrnYO5l03aKTH9X9MGoKNFw-2_2qUgEoEKUKSYyoaM6X9c9II4RJgE4tSGdZ7YpUkx6eVxNQxtVIjWa9ALXVS9naHSzTs67eDFsybScqeQDjEoILdwEJYoDGVPTDC6I&geoId=103644278)[Landing Point Search Group, LLC](https://www.linkedin.com/jobs/search-results/?keywords=Associate%2C+Business+Transformation+Project+Manager&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4435812632&originToLandingJobPostings=4435812632&trackingId=yjFVwHgoq6MDsWwRfvwqDQ%3D%3D&eBP=CwEAAAGfQjOfNQ-FuObSEINi6ZQFAuhKUKjQUQkDb0gx3KVYikHPZjIrChMAuoZZV88XsxyIInTYE2jFb8m0Yd_9WhHiXavu5I2F8S5dipcfezzaqElOx9oCX-lsZcIPmWiqFFFt1CNmTH9qh13_TA2hgLVdVmq_S3uJyusA6JC9MCi9ZBCnrI8-GhxK47EZVkXZTc9a1NykD7sKMSQ0c8o53JPcTEal61nUrBJ56HmIsz21qIymAQwIPfUwrx294QbwdqpEBlTIodAMraE3JuFHzwL3_PeH8O9Ojb9wwxM-UeHotKOCfiAoIg8MqS-tlfTiCxKa7gZXMMWnt-F4CMlXI96GlsraHYbruZC5k1rkL0ottuu8-1Od5KzcJOXpLKaUp_FAZDogAaVemBZnCuJBZkCGnWuTQ4Mlmta0uTEJtAvAnzo9QMvd0izXlC8r-LtGV1yt5pvS0aeiHJd6MHMyeMvgfRaYvWtL42VMDLY3TmNJfg&geoId=103644278)
+
+[
+
+New York, NY (On-site)
+
+$120K/yr - $130K/yr
+
+Promoted
+
+·
+
+Posted 6 days ago
+
+](https://www.linkedin.com/jobs/search-results/?keywords=Associate%2C+Business+Transformation+Project+Manager&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4435812632&originToLandingJobPostings=4435812632&trackingId=yjFVwHgoq6MDsWwRfvwqDQ%3D%3D&eBP=CwEAAAGfQjOfNQ-FuObSEINi6ZQFAuhKUKjQUQkDb0gx3KVYikHPZjIrChMAuoZZV88XsxyIInTYE2jFb8m0Yd_9WhHiXavu5I2F8S5dipcfezzaqElOx9oCX-lsZcIPmWiqFFFt1CNmTH9qh13_TA2hgLVdVmq_S3uJyusA6JC9MCi9ZBCnrI8-GhxK47EZVkXZTc9a1NykD7sKMSQ0c8o53JPcTEal61nUrBJ56HmIsz21qIymAQwIPfUwrx294QbwdqpEBlTIodAMraE3JuFHzwL3_PeH8O9Ojb9wwxM-UeHotKOCfiAoIg8MqS-tlfTiCxKa7gZXMMWnt-F4CMlXI96GlsraHYbruZC5k1rkL0ottuu8-1Od5KzcJOXpLKaUp_FAZDogAaVemBZnCuJBZkCGnWuTQ4Mlmta0uTEJtAvAnzo9QMvd0izXlC8r-LtGV1yt5pvS0aeiHJd6MHMyeMvgfRaYvWtL42VMDLY3TmNJfg&geoId=103644278)
+
+[See more jobs like this](https://www.linkedin.com/jobs/search-results/?keywords=Associate%2C+Business+Transformation+Project+Manager&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_SEE_MORE&geoId=103644278)
