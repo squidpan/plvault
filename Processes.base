@@ -1,0 +1,23 @@
+filters:
+  and:
+    - categories == ["[[Processes]]"]
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - created
+      - tags
+      - source
+    columnSize:
+      file.name: 101
+  - type: table
+    name: Chatgpt responses
+    filters:
+      and:
+        - source == "chatgpt-manual"
+    order:
+      - file.name
+      - categories
+      - source
+      - tags
