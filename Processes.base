@@ -10,7 +10,7 @@ views:
       - tags
       - source
     columnSize:
-      file.name: 101
+      file.name: 255
   - type: table
     name: Chatgpt responses
     filters:
@@ -19,5 +19,8 @@ views:
     order:
       - file.name
       - categories
+      - created
       - source
-      - tags
+    sort:
+      - property: created
+        direction: DESC

@@ -245,10 +245,11 @@ git status --short
 
 Yes: make the diagrams and handoff docs here, then move to fresh chats.
 
+New Project: Career System V2
 New chat 1:
 
 ```text
-Career Center Functional Recovery v2
+Career Center System Functional Recovery v2
 Goal: reconnect new JD pipeline to proven application-package workflow.
 Use LSEG/Broadridge as regression tests.
 ```
