@@ -1,0 +1,27 @@
+{
+  "type": "candidate_match",
+  "status": "draft",
+  "run_id": "run-2026-06-08-candidate-matching-v4",
+  "source": "career-system",
+  "company": "Payabli",
+  "title": "Operational Specialist",
+  "source_title": "Operational Specialist",
+  "role_code": "ops",
+  "resume_family": "ops",
+  "score": 93,
+  "recommendation": "apply_now",
+  "strengths": [
+    "api",
+    "application support",
+    "data validation",
+    "devops",
+    "incident",
+    "jira",
+    "oracle",
+    "production support",
+    "release",
+    "rest"
+  ],
+  "gaps": [],
+  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-payabli-ops-2026.json"
+}

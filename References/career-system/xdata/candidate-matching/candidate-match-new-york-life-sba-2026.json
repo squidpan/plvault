@@ -1,0 +1,29 @@
+{
+  "type": "candidate_match",
+  "status": "draft",
+  "run_id": "run-2026-06-08-candidate-matching-v4",
+  "source": "career-system",
+  "company": "New York Life",
+  "title": "Senior Associate - Technical Business Analyst",
+  "source_title": "Senior Associate - Technical Business Analyst",
+  "role_code": "sba",
+  "resume_family": "ba",
+  "score": 96,
+  "recommendation": "apply_now",
+  "strengths": [
+    "application support",
+    "aws",
+    "business analyst",
+    "deployment",
+    "devops",
+    "incident",
+    "jira",
+    "release",
+    "requirements",
+    "runbook"
+  ],
+  "gaps": [
+    "salesforce"
+  ],
+  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-new-york-life-sba-2026.json"
+}

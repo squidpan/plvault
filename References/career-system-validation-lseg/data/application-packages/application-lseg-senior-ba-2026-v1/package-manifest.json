@@ -1,0 +1,21 @@
+{
+  "application_id": "application-lseg-senior-ba-2026-v1",
+  "job_slug": "lseg-senior-ba",
+  "package_dir": "/tmp/career-system-validation-lseg/data/application-packages/application-lseg-senior-ba-2026-v1",
+  "generator": "career-system-v0.9.0",
+  "files": {
+    "resume-recommendation.json": false,
+    "interview-recommendation.json": false,
+    "resume-generated.md": false,
+    "resume-tailored.md": false,
+    "resume-enhanced.md": false,
+    "application-summary.md": true,
+    "full-resume.md": true,
+    "full-resume.html": true,
+    "ats-resume.md": true,
+    "ats-resume.html": true,
+    "ats-resume.txt": true,
+    "submission-notes.md": true,
+    "README.md": true
+  }
+}

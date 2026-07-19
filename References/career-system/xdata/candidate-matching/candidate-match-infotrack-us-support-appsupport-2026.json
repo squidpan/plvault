@@ -1,0 +1,32 @@
+{
+  "type": "candidate_match",
+  "status": "draft",
+  "run_id": "run-2026-06-08-candidate-matching-v4",
+  "source": "career-system",
+  "company": "InfoTrack US",
+  "title": "Technical Support Specialist",
+  "source_title": "Technical Support Specialist",
+  "role_code": "support-appsupport",
+  "resume_family": "support",
+  "score": 84,
+  "recommendation": "apply_selectively",
+  "strengths": [
+    "api",
+    "application support",
+    "data validation",
+    "deployment",
+    "devops",
+    "incident",
+    "jira",
+    "monitoring",
+    "oracle",
+    "production support"
+  ],
+  "gaps": [
+    "gis",
+    "hris",
+    "salesforce",
+    "workday"
+  ],
+  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-infotrack-us-support-appsupport-2026.json"
+}

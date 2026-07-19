@@ -1,0 +1,29 @@
+{
+  "type": "candidate_match",
+  "status": "draft",
+  "run_id": "run-2026-06-08-candidate-matching-v4",
+  "source": "career-system",
+  "company": "Michael Baker International",
+  "title": "Software Requirements Analyst (GIS)",
+  "source_title": "Software Requirements Analyst (GIS)",
+  "role_code": "ba-requirements",
+  "resume_family": "ba",
+  "score": 93,
+  "recommendation": "apply_now",
+  "strengths": [
+    "api",
+    "application support",
+    "data validation",
+    "devops",
+    "incident",
+    "jira",
+    "oracle",
+    "release",
+    "requirements",
+    "rest"
+  ],
+  "gaps": [
+    "gis"
+  ],
+  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-michael-baker-international-ba-requirements-2026.json"
+}

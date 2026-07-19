@@ -1,0 +1,25 @@
+{
+  "type": "candidate_match",
+  "status": "draft",
+  "run_id": "run-2026-06-08-candidate-matching-v4",
+  "source": "career-system",
+  "company": "The Depository Trust & Clearing Corporation (DTCC)",
+  "title": "Lead Business Systems Analyst",
+  "source_title": "Lead Business Systems Analyst",
+  "role_code": "bsa",
+  "resume_family": "ba",
+  "score": 96,
+  "recommendation": "apply_now",
+  "strengths": [
+    "application support",
+    "devops",
+    "incident",
+    "release",
+    "requirements",
+    "runbook",
+    "stakeholder",
+    "uat"
+  ],
+  "gaps": [],
+  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-the-depository-trust-and-clearing-corporation-dtcc-bsa-2026.json"
+}

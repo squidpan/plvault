@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "0.1.0",
+  "name": "Career System - Raw JD Capture",
+  "behavior": "create",
+  "noteContentFormat": "# Raw JD Capture\n\n## Capture Metadata\n\n- Source URL: {{url}}\n- Captured Date: {{date|date:\"YYYY-MM-DD\"}}\n- Browser Page Title: {{title}}\n- Source System: linkedin\n- Capture Method: Obsidian Web Clipper\n\n## Clipped Content\n\n{{content}}\n",
+  "properties": [
+    {
+      "name": "id",
+      "value": "",
+      "type": "text"
+    },
+    {
+      "name": "slug",
+      "value": "",
+      "type": "text"
+    },
+    {
+      "name": "type",
+      "value": "jd",
+      "type": "multitext"
+    },
+    {
+      "name": "title",
+      "value": "",
+      "type": "text"
+    },
+    {
+      "name": "categories",
+      "value": "[[Clippings]], [[Careers]], [[JDs]]",
+      "type": "multitext"
+    },
+    {
+      "name": "tags",
+      "value": "clippings, career, jd, raw",
+      "type": "multitext"
+    },
+    {
+      "name": "status",
+      "value": "raw",
+      "type": "text"
+    },
+    {
+      "name": "version",
+      "value": "v1",
+      "type": "text"
+    },
+    {
+      "name": "capture_template_version",
+      "value": "v1",
+      "type": "text"
+    },
+    {
+      "name": "created",
+      "value": "{{date|date:\"YYYY-MM-DD\"}}",
+      "type": "date"
+    },
+    {
+      "name": "last",
+      "value": "{{date|date:\"YYYY-MM-DD\"}}",
+      "type": "date"
+    },
+    {
+      "name": "company",
+      "value": "",
+      "type": "text"
+    },
+    {
+      "name": "company_slug",
+      "value": "",
+      "type": "text"
+    },
+    {
+      "name": "source_system",
+      "value": "linkedin",
+      "type": "text"
+    },
+    {
+      "name": "source_file",
+      "value": "",
+      "type": "text"
+    },
+    {
+      "name": "source_url",
+      "value": "{{url}}",
+      "type": "text"
+    },
+    {
+      "name": "origin",
+      "value": "webclipper",
+      "type": "text"
+    },
+    {
+      "name": "run_id",
+      "value": "",
+      "type": "text"
+    },
+    {
+      "name": "captured_date",
+      "value": "{{date|date:\"YYYY-MM-DD\"}}",
+      "type": "date"
+    },
+    {
+      "name": "source_title",
+      "value": "",
+      "type": "text"
+    },
+    {
+      "name": "normalized_title",
+      "value": "",
+      "type": "text"
+    },
+    {
+      "name": "role_id",
+      "value": "",
+      "type": "text"
+    },
+    {
+      "name": "role_family",
+      "value": "",
+      "type": "text"
+    },
+    {
+      "name": "role_level",
+      "value": "",
+      "type": "text"
+    },
+    {
+      "name": "role_qualifiers",
+      "value": "",
+      "type": "multitext"
+    },
+    {
+      "name": "role_code",
+      "value": "",
+      "type": "text"
+    },
+    {
+      "name": "role_code_confidence",
+      "value": "",
+      "type": "text"
+    },
+    {
+      "name": "role_summary",
+      "value": "",
+      "type": "text"
+    },
+    {
+      "name": "jd_file_name",
+      "value": "",
+      "type": "text"
+    },
+    {
+      "name": "jd_source_type",
+      "value": "clipped",
+      "type": "text"
+    },
+    {
+      "name": "jd_text_status",
+      "value": "raw",
+      "type": "text"
+    },
+    {
+      "name": "role_source_type",
+      "value": "jd",
+      "type": "text"
+    },
+    {
+      "name": "normalization_status",
+      "value": "pending",
+      "type": "text"
+    },
+    {
+      "name": "normalized_jd_id",
+      "value": "",
+      "type": "text"
+    }
+  ],
+  "triggers": [
+    "https://www.linkedin.com/jobs"
+  ],
+  "noteNameFormat": "jd-raw-{{date|date:\"YYYYMMDD-HHmmss\"}}",
+  "path": "Clippings/Careers/JDs/Raw"
+}

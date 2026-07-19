@@ -1,0 +1,27 @@
+{
+  "type": "candidate_match",
+  "status": "draft",
+  "run_id": "run-2026-06-08-candidate-matching-v4",
+  "source": "career-system",
+  "company": "Atlas Search",
+  "title": "Business Analyst",
+  "source_title": "Business Analyst",
+  "role_code": "ba",
+  "resume_family": "ba",
+  "score": 96,
+  "recommendation": "apply_now",
+  "strengths": [
+    "application support",
+    "business analyst",
+    "data validation",
+    "deployment",
+    "devops",
+    "financial",
+    "release",
+    "requirements",
+    "runbook",
+    "stakeholder"
+  ],
+  "gaps": [],
+  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-atlas-search-ba-2026.json"
+}

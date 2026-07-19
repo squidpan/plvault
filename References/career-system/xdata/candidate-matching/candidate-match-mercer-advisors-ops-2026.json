@@ -1,0 +1,30 @@
+{
+  "type": "candidate_match",
+  "status": "draft",
+  "run_id": "run-2026-06-08-candidate-matching-v4",
+  "source": "career-system",
+  "company": "Mercer Advisors",
+  "title": "Infrastructure Operations Specialist",
+  "source_title": "Infrastructure Operations Specialist",
+  "role_code": "ops",
+  "resume_family": "ops",
+  "score": 86,
+  "recommendation": "apply_selectively",
+  "strengths": [
+    "api",
+    "application support",
+    "aws",
+    "data validation",
+    "deployment",
+    "devops",
+    "incident",
+    "monitoring",
+    "operations",
+    "production support"
+  ],
+  "gaps": [
+    "hris",
+    "workday"
+  ],
+  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-mercer-advisors-ops-2026.json"
+}

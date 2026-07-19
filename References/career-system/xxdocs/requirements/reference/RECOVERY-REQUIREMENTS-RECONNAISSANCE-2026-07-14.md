@@ -31,13 +31,13 @@ Capture the verified repository state before beginning the Career System Functio
 
 # Repository Baseline
 
-| Item | Value |
-|------|-------|
-| Repository | career-system |
-| Branch | `ops/recover-ats-html-workflow` |
-| HEAD | `ca5b3ae` |
-| Working Tree | Clean |
-| Date | 2026-07-14 |
+| Item            | Value                                      |
+| --------------- | ------------------------------------------ |
+| Repository      | career-system                              |
+| Branch          | `ops/recover-ats-html-workflow`            |
+| HEAD            | `ca5b3ae`                                  |
+| Working Tree    | Clean                                      |
+| Date            | 2026-07-14                                 |
 | Preserved Stash | `ops: preserve EPIC-CS-003 recovery draft` |
 
 The preserved stash was inspected but intentionally not applied.

@@ -5,8 +5,8 @@ type: epic
 status: draft
 
 categories:
-  - [[Epics]]
-  - [[Requirements]]
+  - "[Epics]]"
+  - "[Requirements]]"
 
 tags:
   - career-system
@@ -184,6 +184,7 @@ The following recovery stories are planned:
 - [[US-CS-058-regression-validation-against-historical-application-packages]]
 - [[US-CS-059-operational-verification-and-recovery-runbook]]
 - [[US-CS-060-recovery-traceability-and-implementation-updates]]
+
 
 Additional stories may be introduced as recovery progresses.
 

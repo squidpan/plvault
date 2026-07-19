@@ -1,0 +1,30 @@
+{
+  "type": "candidate_match",
+  "status": "draft",
+  "run_id": "run-2026-06-08-candidate-matching-v4",
+  "source": "career-system",
+  "company": "Con Edison",
+  "title": "Senior Technical Analyst",
+  "source_title": "Senior Technical Analyst",
+  "role_code": "ba",
+  "resume_family": "ba",
+  "score": 89,
+  "recommendation": "apply_now",
+  "strengths": [
+    "api",
+    "application support",
+    "data validation",
+    "deployment",
+    "devops",
+    "incident",
+    "monitoring",
+    "production support",
+    "release",
+    "requirements"
+  ],
+  "gaps": [
+    "hris",
+    "workday"
+  ],
+  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-con-edison-ba-2026.json"
+}

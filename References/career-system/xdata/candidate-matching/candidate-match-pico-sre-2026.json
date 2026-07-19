@@ -1,0 +1,27 @@
+{
+  "type": "candidate_match",
+  "status": "draft",
+  "run_id": "run-2026-06-08-candidate-matching-v4",
+  "source": "career-system",
+  "company": "Pico",
+  "title": "Site Reliability Engineer",
+  "source_title": "Site Reliability Engineer",
+  "role_code": "sre",
+  "resume_family": "sre",
+  "score": 96,
+  "recommendation": "apply_now",
+  "strengths": [
+    "application support",
+    "deployment",
+    "devops",
+    "financial",
+    "incident",
+    "linux",
+    "market data",
+    "monitoring",
+    "operations",
+    "production support"
+  ],
+  "gaps": [],
+  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-pico-sre-2026.json"
+}

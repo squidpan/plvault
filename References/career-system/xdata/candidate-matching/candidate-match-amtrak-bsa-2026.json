@@ -1,0 +1,27 @@
+{
+  "type": "candidate_match",
+  "status": "draft",
+  "run_id": "run-2026-06-08-candidate-matching-v4",
+  "source": "career-system",
+  "company": "Amtrak",
+  "title": "Lead Business Systems Analyst - Integrated Control Systems",
+  "source_title": "Lead Business Systems Analyst - Integrated Control Systems",
+  "role_code": "bsa",
+  "resume_family": "ba",
+  "score": 96,
+  "recommendation": "apply_now",
+  "strengths": [
+    "application support",
+    "deployment",
+    "devops",
+    "incident",
+    "jira",
+    "release",
+    "requirements",
+    "runbook",
+    "stakeholder",
+    "uat"
+  ],
+  "gaps": [],
+  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-amtrak-bsa-2026.json"
+}

@@ -1,0 +1,31 @@
+{
+  "type": "candidate_match",
+  "status": "draft",
+  "run_id": "run-2026-06-08-candidate-matching-v4",
+  "source": "career-system",
+  "company": "AirOps",
+  "title": "Technical Support Lead",
+  "source_title": "Technical Support Lead",
+  "role_code": "support-appsupport",
+  "resume_family": "support",
+  "score": 86,
+  "recommendation": "apply_selectively",
+  "strengths": [
+    "api",
+    "application support",
+    "data validation",
+    "devops",
+    "incident",
+    "oracle",
+    "production support",
+    "release",
+    "requirements",
+    "rest"
+  ],
+  "gaps": [
+    "gis",
+    "hris",
+    "workday"
+  ],
+  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-airops-support-appsupport-2026.json"
+}

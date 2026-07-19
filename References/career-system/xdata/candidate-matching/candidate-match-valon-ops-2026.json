@@ -1,0 +1,27 @@
+{
+  "type": "candidate_match",
+  "status": "draft",
+  "run_id": "run-2026-06-08-candidate-matching-v4",
+  "source": "career-system",
+  "company": "Valon",
+  "title": "Product Operations Senior Associate",
+  "source_title": "Product Operations Senior Associate",
+  "role_code": "ops",
+  "resume_family": "ops",
+  "score": 96,
+  "recommendation": "apply_now",
+  "strengths": [
+    "application support",
+    "data validation",
+    "deployment",
+    "devops",
+    "financial",
+    "incident",
+    "operations",
+    "production support",
+    "release",
+    "requirements"
+  ],
+  "gaps": [],
+  "source_file": "/home/pl/pjs/repos/career-system/data/jd-intelligence/jd-intelligence-valon-ops-2026.json"
+}
