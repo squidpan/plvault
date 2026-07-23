@@ -5,19 +5,20 @@ status: draft
 source: mrprice-docs
 categories:
 
-* "[[MRPrice]]"
-* "[[Governance]]"
-* "[[Controls]]"
-  tags:
-* governance
-* controls
-* inspector
-* guardian
-* workflow
-* audit
-  created: 2026-06-10
-  last: 2026-06-10
-  origin: chatgpt
+ - "[[MRPrice]]"
+ - "[[Governance]]"
+ - "[[Controls]]"
+tags:
+ - governance
+ - controls
+ - inspector
+ - guardian
+ - workflow
+ - audit
+  
+created: 2026-06-10
+last: 2026-06-10
+origin: chatgpt
 
 ---
 

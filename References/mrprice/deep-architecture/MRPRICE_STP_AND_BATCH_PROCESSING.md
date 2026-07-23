@@ -5,20 +5,21 @@ status: draft
 source: mrprice-docs
 categories:
 
-* "[[MRPrice]]"
-* "[[Operations]]"
-* "[[Production Support]]"
-  tags:
-* mrprice
-* stp
-* batch
-* cron
-* shell-scripts
-* operations
-* production-support
-  created: 2026-06-10
-  last: 2026-06-10
-  origin: chatgpt
+ - "[[MRPrice]]"
+ - "[[Operations]]"
+ - "[[Production Support]]"
+tags:
+ - mrprice
+ - stp
+ - batch
+ - cron
+ - shell-scripts
+ - operations
+ - production-support
+
+created: 2026-06-10
+last: 2026-06-10
+origin: chatgpt
 
 ---
 

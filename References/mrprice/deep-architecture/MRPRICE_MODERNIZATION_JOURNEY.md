@@ -5,19 +5,19 @@ status: draft
 source: mrprice-docs
 categories:
 
-* "[[MRPrice]]"
-* "[[Modernization]]"
-* "[[Architecture]]"
-  tags:
-* modernization
-* technical-refresh
-* cloud-migration
-* acplus
-* alveo
-* architecture
-  created: 2026-06-10
-  last: 2026-06-10
-  origin: chatgpt
+ - [[MRPrice]]
+ - [[Modernization]]
+ - [[Architecture]]
+tags:
+ - modernization
+ - technical-refresh
+ - cloud-migration
+ - acplus
+ - alveo
+ - architecture
+created: 2026-06-10
+last: 2026-06-10
+origin: chatgpt
 
 ---
 

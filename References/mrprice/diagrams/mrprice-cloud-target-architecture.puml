@@ -1,0 +1,47 @@
+@startuml
+
+title MRPrice Cloud Target Architecture
+
+skinparam backgroundColor white
+
+rectangle "Vendor Feeds" as Vendors
+
+rectangle "Messaging Layer" as Kafka
+
+rectangle "Business Services" as Services
+
+rectangle "REST APIs" as API
+
+database "PostgreSQL" as PG
+
+database "Cassandra" as Cass
+
+rectangle "Consumer Applications" as Consumers
+
+Vendors --> Kafka
+
+Kafka --> Services
+
+Services --> PG
+
+Services --> Cass
+
+Services --> API
+
+API --> Consumers
+
+note bottom
+
+Roadmap Components
+
+* Alveo
+* Kafka
+* PostgreSQL
+* Cassandra
+* REST APIs
+* Service Layer
+
+end note
+
+@enduml
+

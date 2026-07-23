@@ -1,0 +1,74 @@
+@startuml
+' Epic E6 — Issue and Settle Security
+' Use-case view
+
+title E6 — Issue and Settle Security: Use Cases
+left to right direction
+skinparam shadowing false
+skinparam packageStyle rectangle
+skinparam actorStyle awesome
+
+actor "Issuance Officer" as IO
+actor "Issuance Approver /\nTreasury Manager" as AP
+actor "Settlement Operations\nAnalyst" as SO
+actor "Finance / Accounting\nAnalyst" as FA
+actor "Operations Support" as OS
+actor "Fedwire Securities /\nBook-Entry Interface" as FED <<External System>>
+actor "CUSIP / Security\nIdentifier Service" as CUSIP <<External System>>
+actor "General Ledger /\nCash System" as GL <<External System>>
+
+rectangle "Modern Debt Platform — Epic E6" {
+  usecase "UC-E6-01\nConfirm final approved\nsecurity terms" as UC1
+  usecase "UC-E6-02\nObtain / validate\nsecurity identifier" as UC2
+  usecase "UC-E6-03\nGenerate issuance\ninstruction" as UC3
+  usecase "UC-E6-04\nValidate instruction\nbefore submission" as UC4
+  usecase "UC-E6-05\nSubmit issuance /\nsettlement instruction" as UC5
+  usecase "UC-E6-06\nMonitor instruction and\nsettlement status" as UC6
+  usecase "UC-E6-07\nInvestigate and correct\nrejected instruction" as UC7
+  usecase "UC-E6-08\nResubmit corrected\ninstruction" as UC8
+  usecase "UC-E6-09\nReconcile security and\ncash settlement" as UC9
+  usecase "UC-E6-10\nRetain immutable\naudit history" as UC10
+  usecase "UC-E6-11\nEscalate unresolved\nsettlement exception" as UC11
+}
+
+IO --> UC1
+AP --> UC1
+SO --> UC2
+SO --> UC3
+SO --> UC5
+SO --> UC6
+SO --> UC7
+SO --> UC8
+SO --> UC9
+SO --> UC11
+FA --> UC9
+OS --> UC7
+OS --> UC11
+CUSIP --> UC2
+FED --> UC5
+FED --> UC6
+GL --> UC9
+
+UC3 .> UC1 : <<include>>
+UC3 .> UC2 : <<include>>
+UC3 .> UC4 : <<include>>
+UC5 .> UC4 : <<include>>
+UC7 .> UC6 : <<extend>>\nwhen rejected
+UC8 .> UC7 : <<include>>
+UC9 .> UC6 : <<include>>
+UC11 .> UC7 : <<extend>>\nwhen not resolved
+
+UC1 .> UC10 : <<include>>
+UC2 .> UC10 : <<include>>
+UC3 .> UC10 : <<include>>
+UC5 .> UC10 : <<include>>
+UC6 .> UC10 : <<include>>
+UC7 .> UC10 : <<include>>
+UC8 .> UC10 : <<include>>
+UC9 .> UC10 : <<include>>
+
+note bottom of UC5
+The platform submits only after
+final approval and validation.
+end note
+@enduml

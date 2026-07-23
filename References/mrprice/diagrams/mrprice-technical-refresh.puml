@@ -1,0 +1,44 @@
+@startuml
+
+title MRPrice Technical Refresh
+
+skinparam backgroundColor white
+
+rectangle "Legacy AC Server" as Legacy
+
+rectangle "Custom Code" as Custom
+
+rectangle "Technical Refresh" as Refresh
+
+rectangle "ACPlus OOB Features" as OOB
+
+rectangle "Redesigned Data Loads" as DataLoads
+
+rectangle "Simplified Operations" as Ops
+
+Legacy --> Refresh
+
+Custom --> Refresh
+
+Refresh --> OOB
+
+Refresh --> DataLoads
+
+OOB --> Ops
+
+DataLoads --> Ops
+
+note bottom
+
+Primary Goals
+
+* Reduce custom code
+* Improve maintainability
+* Improve supportability
+* Leverage ACPlus functionality
+* Redesign legacy ksh processing
+
+end note
+
+@enduml
+

@@ -25,7 +25,7 @@ Refresh --> ACPlus
 ACPlus --> Cloud
 
 Cloud --> Alveo
-P
+
 note right of Refresh
 
 Major Activities

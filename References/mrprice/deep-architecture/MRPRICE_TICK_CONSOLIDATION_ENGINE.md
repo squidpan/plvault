@@ -5,19 +5,20 @@ status: draft
 source: mrprice-docs
 categories:
 
-* "[[MRPrice]]"
-* "[[Market Data]]"
-* "[[Pricing Engine]]"
-  tags:
-* mrprice
-* market-data
-* consolidation
-* pricing
-* cusip
-* fixed-income
-  created: 2026-06-10
-  last: 2026-06-10
-  origin: chatgpt
+  - "[[MRPrice]]"
+  - "[[Market Data]]"
+  - "[[Pricing Engine]]"
+tags:
+  - mrprice
+  - market-data
+  - consolidation
+  - pricing
+  - cusip
+  - fixed-income
+
+created: 2026-06-10
+last: 2026-06-10
+origin: chatgpt
 
 ---
 

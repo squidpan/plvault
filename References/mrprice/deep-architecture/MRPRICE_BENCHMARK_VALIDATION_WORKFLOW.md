@@ -1,21 +1,24 @@
 ---
+
 type: workflow
 status: draft
 source: mrprice-docs
 categories:
+  - "[[MRPrice]]"
+  - "[[Benchmark Processing]]"
+  - "[[Data Quality]]"
 
-- "[[MRPrice]]"
-- "[[Benchmark Processing]]"
-- "[[Data Quality]]"
-- tags:
-	- benchmark
-	- validation
-	- workflow
-	- pricing
-	- governance
+tags:
+  - benchmark
+  - validation
+  - workflow
+  - pricing
+  - governance
+  
 created: 2026-06-10
 last: 2026-06-10
 origin: chatgpt
+
 ---
 
 # MRPrice Benchmark Validation Workflow

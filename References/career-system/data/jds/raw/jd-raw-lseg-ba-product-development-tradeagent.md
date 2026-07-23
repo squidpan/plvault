@@ -2,27 +2,27 @@
 id:
 slug:
 type:
-  - "jd"
+  - jd
 title:
 categories:
   - "[[Clippings]]"
   - "[[Careers]]"
   - "[[JDs]]"
 tags:
-  - "clippings"
-  - "career"
-  - "jd"
-  - "raw"
-status: "raw"
-version: "v1"
+  - clippings
+  - career
+  - jd
+  - raw
+status: raw
+version: v1
 created: 2026-06-15
 last: 2026-06-15
-company:
+company: LSEG
 company_slug:
-source_system: "teal"
+source_system: linkedin
 source_file:
-source_url: "https://app.tealhq.com/job-tracker/ddb3fe61-50db-4575-a591-384d74650dcf"
-origin: "webclipper"
+source_url: https://app.tealhq.com/job-tracker/ddb3fe61-50db-4575-a591-384d74650dcf
+origin: webclipper
 run_id:
 captured_date: 2026-06-15
 source_title:
@@ -35,10 +35,10 @@ role_code:
 role_code_confidence:
 role_summary:
 jd_file_name:
-jd_source_type: "clipped"
-jd_text_status: "raw"
-role_source_type: "jd"
-normalization_status: "pending"
+jd_source_type: clipped
+jd_text_status: raw
+role_source_type: jd
+normalization_status: pending
 normalized_jd_id:
 ---
 # Raw JD Capture

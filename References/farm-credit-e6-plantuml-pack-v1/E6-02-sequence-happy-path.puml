@@ -1,0 +1,83 @@
+@startuml
+' Epic E6 — Issue and Settle Security
+' Happy-path sequence
+
+title E6 — Successful Issuance and Settlement
+hide footbox
+autonumber "<b>[E6-%02d]"
+skinparam shadowing false
+skinparam maxMessageSize 70
+skinparam sequenceMessageAlign center
+
+actor "Issuance Officer" as IO
+actor "Treasury Approver" as AP
+actor "Settlement Operations Analyst" as SO
+
+box "Modern Debt Platform"
+participant "Transaction &\nApproval Service" as TX
+participant "Issuance Instruction\nService" as IIS
+participant "Settlement Status &\nException Service" as SES
+database "Audit / Transaction Store" as DB
+participant "Reconciliation Service" as REC
+end box
+
+participant "CUSIP / Security\nIdentifier Service" as CUSIP
+participant "Fedwire Securities /\nBook-Entry Interface" as FED
+participant "General Ledger /\nCash System" as GL
+actor "Finance Analyst" as FA
+
+== Final terms and approval ==
+IO -> TX : Submit final security terms\n(principal, dates, product, rate terms)
+TX -> TX : Validate product-specific fields\nand date relationships
+TX -> DB : Store terms and validation result
+TX --> AP : Present transaction for approval
+AP -> TX : Approve transaction
+TX -> DB : Record approver, timestamp, decision
+TX --> SO : Transaction ready for issuance
+
+== Security identifier ==
+SO -> TX : Request issuance preparation
+TX -> CUSIP : Request / confirm security identifier\nusing approved terms
+CUSIP --> TX : Return CUSIP / identifier
+TX -> DB : Associate CUSIP with transaction
+
+== Instruction generation and validation ==
+SO -> IIS : Generate issuance instruction
+IIS -> TX : Retrieve approved terms and CUSIP
+TX --> IIS : Approved terms + identifier
+IIS -> IIS : Validate required fields, authorization,\nduplicate status, and settlement date
+IIS -> DB : Store instruction payload and version
+IIS --> SO : Show validated instruction for submission
+
+== Submission and status monitoring ==
+SO -> IIS : Submit validated instruction
+IIS -> DB : Record submitter and submission timestamp
+IIS -> FED : Send issuance / settlement instruction
+FED --> SES : Accepted / pending acknowledgment
+SES -> DB : Record external response and message ID
+SES --> SO : Display accepted / pending status
+
+... Settlement date ...
+
+FED -> SES : Final settlement confirmation\n(security movement and status)
+SES -> DB : Record final settlement status
+SES --> SO : Display Settled status
+FED -> GL : Post related cash settlement entry
+GL --> REC : Cash / ledger posting details
+FED --> REC : Final security quantity and settlement status
+
+== Reconciliation ==
+FA -> REC : Run settlement reconciliation
+REC -> DB : Retrieve approved amount, allocations,\nand instruction history
+DB --> REC : Transaction and audit data
+REC -> REC : Compare security quantity, cash proceeds,\nand final approved amount
+alt Reconciliation successful
+  REC -> DB : Store reconciled result
+  REC --> FA : Reconciled — no breaks
+  REC --> SO : Settlement complete
+else Break detected
+  REC -> DB : Store reconciliation exception
+  REC --> FA : Display break details
+  REC --> SO : Create operations exception
+end
+@enduml

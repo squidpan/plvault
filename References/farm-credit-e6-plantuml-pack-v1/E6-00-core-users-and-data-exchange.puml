@@ -1,0 +1,81 @@
+@startuml
+' Epic E6 — Issue and Settle Security
+' Context / actor-data-flow view
+
+title E6 — Core Users, Systems, and Data Exchange
+left to right direction
+skinparam shadowing false
+skinparam packageStyle rectangle
+skinparam linetype ortho
+skinparam actorStyle awesome
+
+actor "Issuance Officer" as IO
+actor "Issuance Approver /\nTreasury Manager" as AP
+actor "Settlement Operations\nAnalyst" as SO
+actor "Finance / Accounting\nAnalyst" as FA
+actor "Dealer / Investor-side\nSettlement Participant" as DP
+actor "Operations Support" as OS
+
+rectangle "Modern Debt Platform" as MDP {
+  component "Transaction &\nSecurity Terms" as TERMS
+  component "Approval Workflow" as APPROVAL
+  component "Issuance Instruction\nService" as IIS
+  component "Settlement Status &\nException Management" as SEM
+  component "Reconciliation &\nReporting" as REC
+  database "Debt Transaction &\nAudit Store" as DB
+}
+
+cloud "Security Identifier /\nCUSIP Service" as CUSIP
+cloud "Federal Reserve Book-Entry /\nFedwire Securities Interface" as FED
+cloud "Cash / General Ledger\nSystems" as GL
+
+IO --> TERMS : Draft transaction terms\nprincipal, dates, product, rate
+TERMS --> IO : Validation results\ntransaction ID, status
+
+AP --> APPROVAL : Approval / rejection\ncomments, limits, exceptions
+APPROVAL --> AP : Review package\nterms, controls, audit history
+
+SO --> IIS : Generate / submit\nissuance instruction
+IIS --> SO : Pre-transmission validation\nand submission status
+
+SO --> SEM : Review settlement status\nresolve exceptions
+SEM --> SO : Accepted / pending / rejected\nreason and corrective action
+
+FA --> REC : Run reconciliation\nreview cash and positions
+REC --> FA : Proceeds, security quantity,\nbreaks, ledger status
+
+OS --> SEM : Investigate technical or\noperational failure
+SEM --> OS : Error context, timestamps,\nmessage IDs, retry status
+
+TERMS --> CUSIP : Security terms request
+CUSIP --> TERMS : Security identifier / CUSIP
+
+IIS --> FED : Issuance / settlement instruction\nCUSIP, principal, settlement date, terms
+FED --> SEM : Acknowledgment and lifecycle status\naccepted, pending, rejected, settled
+
+DP --> FED : Settlement-side cash /\nsecurities participation
+FED --> DP : Book-entry security /\nsettlement confirmation
+
+FED --> GL : Cash settlement entries / status
+GL --> REC : Cash and ledger postings
+FED --> REC : Final security movement / status
+
+TERMS --> DB : Transaction and security terms
+APPROVAL --> DB : Decisions and approvals
+IIS --> DB : Instruction payload and version
+SEM --> DB : Responses, exceptions, retries
+REC --> DB : Reconciliation results
+
+note bottom of FED
+Conceptual external infrastructure actor.
+Exact interfaces and message formats
+must be confirmed during discovery.
+end note
+
+legend right
+|= Direction |= Typical information |
+| User -> Platform | commands, approvals, corrections |
+| Platform -> User | statuses, validation, exceptions |
+| Platform <-> External | identifiers, instructions, settlement responses |
+endlegend
+@enduml

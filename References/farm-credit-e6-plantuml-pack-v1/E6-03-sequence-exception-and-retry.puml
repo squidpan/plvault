@@ -1,0 +1,75 @@
+@startuml
+' Epic E6 — Issue and Settle Security
+' Rejection, correction, retry, escalation
+
+title E6 — Rejected Instruction, Correction, and Resubmission
+hide footbox
+autonumber "<b>[EX-%02d]"
+skinparam shadowing false
+skinparam maxMessageSize 72
+
+actor "Settlement Operations Analyst" as SO
+actor "Operations Support" as OS
+actor "Treasury Approver" as AP
+
+box "Modern Debt Platform"
+participant "Issuance Instruction\nService" as IIS
+participant "Settlement Status &\nException Service" as SES
+participant "Approval Workflow" as AW
+database "Audit / Transaction Store" as DB
+end box
+
+participant "Fedwire Securities /\nBook-Entry Interface" as FED
+
+== Initial rejection ==
+SO -> IIS : Submit validated issuance instruction
+IIS -> FED : Send issuance / settlement instruction
+FED --> SES : Rejected\n(reason code + descriptive message)
+SES -> DB : Store rejection, response payload,\nmessage ID, and timestamp
+SES --> SO : Display Rejected status\nand corrective-action context
+
+== Investigation ==
+SO -> SES : Open settlement exception
+SES -> DB : Retrieve instruction, terms, history,\nand external response
+DB --> SES : Exception investigation package
+SES --> SO : Show rejected field(s), prior values,\nand allowed actions
+
+alt Correctable operational data error
+  SO -> IIS : Enter corrected value(s)\nand correction reason
+  IIS -> IIS : Revalidate instruction
+  IIS -> DB : Preserve original version and\nstore corrected version
+
+  alt Material term changed
+    IIS -> AW : Request reapproval
+    AW --> AP : Present changed terms and reason
+    AP -> AW : Approve correction
+    AW -> DB : Record approval and timestamp
+    AW --> IIS : Correction approved
+  else Non-material operational correction
+    IIS -> DB : Record rule permitting correction\nwithout reapproval
+  end
+
+  SO -> IIS : Resubmit corrected instruction
+  IIS -> DB : Record retry count, submitter, timestamp
+  IIS -> FED : Send corrected instruction\nwith correlation to prior attempt
+  FED --> SES : Accepted / pending
+  SES -> DB : Record successful resubmission response
+  SES --> SO : Display Accepted / Pending status
+
+else Technical or connectivity failure
+  SO -> OS : Escalate with message ID, timestamps,\npayload version, and error context
+  OS -> SES : Record investigation and recovery action
+  SES -> DB : Update exception history
+  OS --> SO : Recovery completed / safe to retry
+  SO -> IIS : Retry unchanged instruction
+  IIS -> FED : Resubmit instruction
+  FED --> SES : Accepted / pending
+  SES --> SO : Display updated status
+
+else Unresolved business or compliance issue
+  SO -> SES : Escalate exception
+  SES -> DB : Record owner, severity, due time,\nand blocked status
+  SES --> AP : Notify approver / control owner
+  AP --> SO : Resolution decision or cancellation
+end
+@enduml

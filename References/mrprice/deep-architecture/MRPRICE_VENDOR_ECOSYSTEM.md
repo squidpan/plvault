@@ -3,16 +3,16 @@ type: deep-architecture
 status: draft
 source: mrprice-docs
 categories:
-  - "[[MRPrice]]"
-  - "[[Market Data]]"
-  - "[[Vendor Feeds]]"
+   - "[[MRPrice]]"
+   - "[[Market Data]]"
+   - "[[Vendor Feeds]]"
 tags:
-  - mrprice
-  - market-data
-  - bloomberg
-  - trep
-  - vendor-feeds
-  - normalization
+   - mrprice
+   - market-data
+   - bloomberg
+   - trep
+   - vendor-feeds
+   - normalization
 created: 2026-06-10
 last: 2026-06-10
 origin: chatgpt

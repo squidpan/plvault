@@ -1,0 +1,46 @@
+@startuml
+title E6-01 — Propose and Approve Debt Transaction\nActor and Decision View
+
+left to right direction
+
+skinparam shadowing false
+skinparam actorStyle awesome
+skinparam packageStyle rectangle
+skinparam linetype ortho
+skinparam defaultTextAlignment center
+
+actor "Issuance\nOfficer" as Officer
+
+rectangle "Debt Issuance Platform" as Platform {
+  rectangle "Create and\nValidate Proposal" as Create
+  rectangle "Control Approval\nWorkflow" as Control
+  rectangle "Record Final\nDecision" as Record
+}
+
+actor "Treasury\nApprover" as Approver
+
+Officer --> Create : Enters proposed\ntransaction terms
+
+Create --> Officer : Returns validation\nresults
+
+Officer --> Control : Submits valid\nproposal
+
+Control --> Approver : Presents terms,\nexceptions and changes
+
+Approver --> Control : Approves or\nreturns with reason
+
+Control --> Record : Stores decision\nand status
+
+Record --> Officer : Approved or\nchanges required
+
+legend bottom
+|= Actor |= Main question |
+| Issuance Officer | What debt transaction are we proposing? |
+| Platform | Is it complete, valid and properly controlled? |
+| Treasury Approver | Should this transaction proceed? |
+
+Main flow:
+Propose → Validate → Submit → Decide → Record
+endlegend
+
+@enduml

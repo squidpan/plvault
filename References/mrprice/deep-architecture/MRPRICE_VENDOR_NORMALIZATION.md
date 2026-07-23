@@ -4,20 +4,20 @@ type: deep-architecture
 status: draft
 source: mrprice-docs
 categories:
+ - "[[MRPrice]]"
+ - "[[Market Data]]"
+ - "[[Normalization]]"
+tags:
+ - mrprice
+ - normalization
+ - market-data
+ - bloomberg
+ - trep
+ - cusip
 
-* "[[MRPrice]]"
-* "[[Market Data]]"
-* "[[Normalization]]"
-  tags:
-* mrprice
-* normalization
-* market-data
-* bloomberg
-* trep
-* cusip
-  created: 2026-06-10
-  last: 2026-06-10
-  origin: chatgpt
+created: 2026-06-10
+last: 2026-06-10
+origin: chatgpt
 
 ---
 
