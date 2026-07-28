@@ -9,6 +9,9 @@ views:
       - created
       - tags
       - source
+    sort:
+      - property: created
+        direction: DESC
     columnSize:
       file.name: 255
   - type: table
