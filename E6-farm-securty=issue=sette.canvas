@@ -1,9 +1,9 @@
 {
 	"nodes":[
 		{"id":"ea53ad75d95faa16","type":"text","text":"farm-credit-e6","x":-600,"y":-1000,"width":250,"height":60},
-		{"id":"697597b130a95e7b","x":-980,"y":-1740,"width":224,"height":80,"color":"4","type":"text","text":"500 Foot Business View"},
-		{"id":"2a1a7c2d345f1275","x":-1100,"y":-1620,"width":964,"height":737,"type":"file","file":"out/References/farm-credit-ba-exercise/docs/requirements/diagrams/plantuml/e6-propose-and-approve-debt-transaction/E6-00-issue-and-settle-security-500-foot-business-view/E6-00-issue-and-settle-security-500-foot-business-view.svg"},
-		{"id":"3cdd20706c2edae5","type":"file","file":"References/farm-credit-ba-exercise/docs/requirements/diagrams/plantuml/e6-propose-and-approve-debt-transaction/E6-00-issue-and-settle-security-500-foot-business-view.md","x":-60,"y":-1580,"width":560,"height":818}
+		{"id":"697597b130a95e7b","type":"text","text":"500 Foot Business View","x":-980,"y":-1740,"width":224,"height":80,"color":"4"},
+		{"id":"3cdd20706c2edae5","type":"file","file":"References/farm-credit-ba-exercise/docs/requirements/diagrams/plantuml/e6-propose-and-approve-debt-transaction/E6-00-issue-and-settle-security-500-foot-business-view.md","x":-180,"y":-1580,"width":660,"height":818},
+		{"id":"2a1a7c2d345f1275","type":"file","file":"out/References/farm-credit-ba-exercise/docs/requirements/diagrams/plantuml/e6-propose-and-approve-debt-transaction/E6-00-issue-and-settle-security-500-foot-business-view/E6-00-issue-and-settle-security-500-foot-business-view.svg","x":-1180,"y":-1499,"width":964,"height":737}
 	],
 	"edges":[
 		{"id":"451d28f37b70ba3c","fromNode":"3cdd20706c2edae5","fromSide":"right","toNode":"2a1a7c2d345f1275","toSide":"right"}
