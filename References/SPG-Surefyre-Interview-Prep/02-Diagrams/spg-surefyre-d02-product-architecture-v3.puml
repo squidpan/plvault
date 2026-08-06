@@ -1,0 +1,94 @@
+@startuml
+title D2 — Surefyre Product Architecture
+caption How submissions move through Surefyre and connect to enterprise systems
+
+left to right direction
+
+skinparam shadowing false
+skinparam linetype polyline
+skinparam defaultTextAlignment center
+skinparam wrapWidth 220
+skinparam maxMessageSize 140
+skinparam nodesep 85
+skinparam ranksep 95
+skinparam padding 20
+
+skinparam rectangle {
+  RoundCorner 14
+  BorderThickness 1.4
+}
+skinparam package {
+  RoundCorner 16
+  BorderThickness 1.8
+}
+skinparam note {
+  BackgroundColor #FFF8D6
+  BorderColor #C8A84E
+}
+
+actor "Retail Agent /\nAgency User" as Agent
+
+package "SUREFYRE PLATFORM" as Surefyre #EAF4EA {
+  rectangle "Agent Portal\n\nExternal entry point for:\n• new submissions\n• document uploads\n• status and messages" as Portal #EAF2FF
+
+  rectangle "Rules and Workflow Engine\n\n• field validation\n• completeness checks\n• eligibility checks\n• routing and referrals\n• task creation" as Rules #F3F8E8
+
+  rectangle "Underwriting Workbench\n\nInternal workspace for:\n• review and analysis\n• requests for information\n• rating and quoting\n• decisions and referrals\n• activity and notes" as Workbench #EAF2FF
+
+  Portal -right-> Rules : 1. Submit and validate
+  Rules -right-> Workbench : 2. Route work
+}
+
+rectangle "AIM\n\nCore insurance operations\nand transaction data" as AIM #FFF1DF
+rectangle "ImageRight\n\nDocuments, correspondence\nand workflow references" as ImageRight #FFF1DF
+rectangle "Carrier / Rating /\nThird-Party Services\n\nExternal rates, decisions\nand enrichment data" as External #FFF1DF
+
+Agent -right-> Portal : New submission,\ndocuments and messages
+
+' Keep downstream systems vertically separated.
+AIM -[hidden]down-> ImageRight
+ImageRight -[hidden]down-> External
+
+' Use dedicated interface points so labels and arrows remain separated.
+circle " " as AOut
+circle " " as AIn
+circle " " as IOut
+circle " " as IIn
+circle " " as EOut
+circle " " as EIn
+
+Workbench -right-> AOut
+AOut -right-> AIM : 3. Transaction and\npolicy data
+AIM -left-> AIn : 4. Status and\nresults
+AIn -left-> Workbench
+
+Workbench -right-> IOut
+IOut -right-> ImageRight : 5. Document metadata\nand requests
+ImageRight -left-> IIn : 6. Document IDs\nand status
+IIn -left-> Workbench
+
+Workbench -right-> EOut
+EOut -right-> External : 7. Rating, inquiry or\npolicy request
+External -left-> EIn : 8. Response,\ndecision or enrichment
+EIn -left-> Workbench
+
+Workbench -[dashed]left-> Portal : Status, requests,\nquote and documents
+Portal -[dashed]left-> Agent : User-facing response
+
+legend bottom
+|= Component |= Primary purpose |
+| Agent Portal | External submission and communication |
+| Rules and Workflow Engine | Validation, eligibility, routing, referrals and tasks |
+| Underwriting Workbench | Internal review, rating, quoting and decisions |
+| AIM | Core insurance operations and transaction processing |
+| ImageRight | Insurance document and workflow management |
+| Carrier / Rating / Third-Party Services | External rating, policy and data services |
+endlegend
+
+note bottom of Surefyre
+Simplified interview model.
+Exact system-of-record ownership, message direction,
+and integration behavior should be confirmed with SPG.
+end note
+
+@enduml

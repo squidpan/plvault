@@ -1,0 +1,195 @@
+@startuml
+title D4 — Underwriter Decision Workflow
+caption How an underwriter moves from review to quote, referral, decline, or request for information
+
+skinparam shadowing false
+skinparam linetype ortho
+skinparam defaultTextAlignment center
+skinparam wrapWidth 220
+skinparam maxMessageSize 120
+skinparam nodesep 65
+skinparam ranksep 75
+skinparam padding 16
+
+skinparam activity {
+  BackgroundColor #F8FBFF
+  BorderColor #5B6B7A
+  FontColor #1F2933
+  DiamondBackgroundColor #FFF4CC
+  DiamondBorderColor #A67C00
+  StartColor #6B46A1
+  EndColor #6B46A1
+}
+
+skinparam partition {
+  BorderColor #8A99A8
+  FontColor #243447
+  BackgroundColor #FFFFFF
+}
+
+start
+
+partition "Underwriter" #F1ECFA {
+  :1. Open assigned submission;
+  :2. Review application,\nexposures, loss history\nand documents;
+}
+
+if (Information complete?) then (Yes)
+else (No)
+
+  partition "Underwriter" #F1ECFA {
+    :3A. Identify missing or\nunclear information;
+    :3B. Request information\nor documents;
+  }
+
+  partition "Surefyre Workflow" #EAF4EA {
+    :3C. Update status;
+    :3D. Notify retail agent;
+  }
+
+  partition "Retail Agent" #EAF2FF {
+    :3E. Supply requested\ninformation;
+  }
+
+  partition "Underwriter" #F1ECFA {
+    :3F. Review updated submission;
+  }
+
+endif
+
+partition "Underwriter" #F1ECFA {
+  :4. Evaluate eligibility\nand carrier appetite;
+}
+
+if (Eligible for program?) then (Yes)
+else (No)
+
+  if (Alternative or referral possible?) then (Yes)
+
+    partition "Underwriter" #F1ECFA {
+      :5A. Record referral reason;
+    }
+
+    partition "Surefyre Workflow" #EAF4EA {
+      :5B. Route to specialist,\nsenior underwriter or\nalternative program;
+    }
+
+    partition "Approver / Specialist" #FFF1DF {
+      :5C. Review exception;
+    }
+
+    if (Exception approved?) then (Yes)
+
+      partition "Underwriter" #F1ECFA {
+        :5D. Continue underwriting\nwith approved conditions;
+      }
+
+    else (No)
+
+      partition "Underwriter" #F1ECFA {
+        :5E. Decline submission;
+        :5F. Record rationale;
+      }
+
+      partition "Surefyre Workflow" #EAF4EA {
+        :5G. Publish decline status\nand communication;
+      }
+
+      stop
+
+    endif
+
+  else (No)
+
+    partition "Underwriter" #F1ECFA {
+      :5H. Decline submission;
+      :5I. Record rationale;
+    }
+
+    partition "Surefyre Workflow" #EAF4EA {
+      :5J. Publish decline status\nand communication;
+    }
+
+    stop
+
+  endif
+
+endif
+
+partition "Underwriter" #F1ECFA {
+  :6. Confirm authority level;
+}
+
+if (Within authority?) then (Yes)
+else (No)
+
+  partition "Surefyre Workflow" #EAF4EA {
+    :7A. Route to authorized\napprover;
+  }
+
+  partition "Approver / Specialist" #FFF1DF {
+    :7B. Review terms and risk;
+  }
+
+  if (Approved?) then (Yes)
+
+    partition "Underwriter" #F1ECFA {
+      :7C. Continue with\napproved terms;
+    }
+
+  else (No)
+
+    partition "Underwriter" #F1ECFA {
+      :7D. Revise terms,\nrefer again or decline;
+    }
+
+    partition "Surefyre Workflow" #EAF4EA {
+      :7E. Record decision and\nupdate status;
+    }
+
+    stop
+
+  endif
+
+endif
+
+partition "Underwriter" #F1ECFA {
+  :8. Obtain or calculate rating;
+  :9. Determine coverage terms,\nlimits, deductible and premium;
+}
+
+if (Terms acceptable?) then (Yes)
+
+  partition "Underwriter" #F1ECFA {
+    :10. Prepare quote;
+    :11. Record rationale and\nunderwriting notes;
+  }
+
+  partition "Surefyre Workflow" #EAF4EA {
+    :12. Publish quote and status;
+  }
+
+else (No)
+
+  partition "Underwriter" #F1ECFA {
+    :10A. Revise terms,\nrefer or decline;
+    :10B. Record rationale;
+  }
+
+  partition "Surefyre Workflow" #EAF4EA {
+    :10C. Publish outcome\nand status;
+  }
+
+endif
+
+stop
+
+legend bottom
+|= Lane |= Primary responsibility |
+| Underwriter | Reviews the risk, applies guidelines, determines terms and records rationale |
+| Surefyre Workflow | Routes work, updates status, sends notifications and preserves workflow history |
+| Retail Agent | Supplies requested information and communicates with the insured |
+| Approver / Specialist | Handles exceptions or decisions beyond the underwriter's authority |
+endlegend
+
+@enduml

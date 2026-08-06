@@ -1,0 +1,173 @@
+@startuml
+title D7 — Customer Implementation Roadmap
+caption Typical Surefyre implementation from kickoff through stabilization
+
+skinparam shadowing false
+skinparam defaultTextAlignment center
+skinparam activityBackgroundColor #F8FBFF
+skinparam activityBorderColor #5B6B7A
+skinparam activityFontColor #1F2933
+skinparam activityDiamondBackgroundColor #FFF4CC
+skinparam activityDiamondBorderColor #A67C00
+skinparam ArrowColor #4F6172
+
+start
+
+:1. Project Kickoff;
+
+note right
+  Confirm:
+  - customer and stakeholders
+  - implementation scope
+  - project objectives
+  - roles and responsibilities
+  - schedule and milestones
+end note
+
+:2. Requirements Workshops;
+
+note right
+  Understand:
+  - current business process
+  - users and user roles
+  - application forms
+  - underwriting rules
+  - integrations
+  - migration requirements
+end note
+
+:3. Solution Design;
+
+note right
+  Define:
+  - future-state workflow
+  - form structure
+  - fields and validation
+  - routing and referrals
+  - permissions
+  - integration mappings
+end note
+
+:4. Configure Surefyre;
+
+note right
+  Configure:
+  - form builder
+  - JSON schema
+  - HTML and JavaScript
+  - workflow rules
+  - notifications
+  - calculations
+end note
+
+:5. Configure Integrations;
+
+note right
+  Support:
+  - REST and SOAP APIs
+  - endpoint configuration
+  - authentication
+  - field mappings
+  - request and response testing
+end note
+
+:6. Prepare and Migrate Data;
+
+note right
+  Activities may include:
+  - source-data analysis
+  - data cleanup
+  - Python transformations
+  - import-file preparation
+  - reconciliation
+end note
+
+:7. Execute Testing;
+
+note right
+  Testing includes:
+  - functional testing
+  - negative testing
+  - integration testing
+  - regression testing
+  - migration validation
+end note
+
+:8. Business UAT;
+
+if (UAT approved?) then (Yes)
+
+  :9. Prepare Production Deployment;
+
+  note right
+    Confirm:
+    - production configuration
+    - permissions
+    - endpoints
+    - credentials
+    - documentation
+    - support readiness
+  end note
+
+  :10. Go Live;
+
+  :11. Run Production Smoke Tests;
+
+  :12. Stabilization and Hypercare;
+
+  note right
+    Support:
+    - early production usage
+    - issue reproduction
+    - defect correction
+    - user questions
+    - operational handoff
+  end note
+
+  :13. Capture Lessons Learned;
+
+  :14. Identify Reusable Patterns
+  and Product Improvements;
+
+else (No)
+
+  :8A. Correct Configuration
+  or Integration Defects;
+
+  :8B. Retest;
+
+  :8C. Repeat Business UAT;
+
+  if (Retest approved?) then (Yes)
+    :9. Prepare Production Deployment;
+    :10. Go Live;
+    :11. Run Production Smoke Tests;
+    :12. Stabilization and Hypercare;
+    :13. Capture Lessons Learned;
+    :14. Identify Reusable Patterns
+    and Product Improvements;
+  else (No)
+    :Return to Solution Design
+    and Reassess the Approach;
+  endif
+
+endif
+
+stop
+
+legend bottom
+|= Stage |= Main focus |
+| Kickoff | Scope, stakeholders, roles and schedule |
+| Requirements | Current process, forms, rules, users and integrations |
+| Design | Future workflow and configuration approach |
+| Configuration | Forms, JSON, JavaScript, workflow and calculations |
+| Integration | APIs, authentication, mappings and error handling |
+| Migration | Data transformation, import and reconciliation |
+| Testing | Functional, negative, integration and regression validation |
+| UAT | Business confirmation that the solution meets its needs |
+| Deployment | Production configuration and operational readiness |
+| Hypercare | Go-live support, troubleshooting and stabilization |
+| Improvement | Lessons learned and reusable practices |
+endlegend
+
+@enduml

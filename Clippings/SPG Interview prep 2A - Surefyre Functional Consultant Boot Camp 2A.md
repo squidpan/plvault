@@ -286,19 +286,12 @@ A safe statement is:
 The risk may be:
 
 - unusual
-    
 - complex
-    
 - high-value
-    
 - hazardous
-    
 - new or emerging
-    
 - difficult to price
-    
 - outside a standard carrier’s guidelines
-    
 - in a niche industry requiring specialist expertise
     
 
@@ -313,29 +306,17 @@ The application, rating, and coverage may be relatively predictable.
 A carrier may consider the following more specialized:
 
 - coastal property exposed to hurricanes
-    
 - cyber risk for a technology company
-    
 - professional liability for a medical specialist
-    
 - insurance for a nightclub
-    
 - aviation
-    
 - marine cargo
-    
 - entertainment events
-    
 - cannabis businesses
-    
 - high-risk construction
-    
 - trucking fleets
-    
 - directors and officers liability
-    
 - unusual product liability
-    
 - excess or surplus coverage
     
 
@@ -346,21 +327,13 @@ Specialty insurance exists because the risks cannot always be handled using one 
 Each specialty program may require different:
 
 - application questions
-    
 - forms
-    
 - underwriting rules
-    
 - referral thresholds
-    
 - rating logic
-    
 - carrier integrations
-    
 - documents
-    
 - approval workflows
-    
 - agent experiences
     
 
@@ -377,27 +350,16 @@ A **program** is a packaged insurance offering designed for a defined type of cu
 A program may specify:
 
 - eligible businesses
-    
 - coverage provided
-    
 - supported states
-    
 - carrier
-    
 - underwriting guidelines
-    
 - rates
-    
 - limits
-    
 - deductibles
-    
 - exclusions
-    
 - required forms
-    
 - delegated authority
-    
 - referral conditions
     
 
@@ -406,23 +368,14 @@ A program may specify:
 A restaurant insurance program might define:
 
 - eligible restaurant types
-    
 - maximum annual sales
-    
 - allowable liquor-sales percentage
-    
 - required fire-suppression equipment
-    
 - acceptable prior-loss history
-    
 - supported states
-    
 - maximum building value
-    
 - coverage limits
-    
 - pricing formulas
-    
 - conditions requiring senior-underwriter review
     
 
@@ -431,23 +384,14 @@ A restaurant insurance program might define:
 The Technical Consultant converts that program into Surefyre configuration:
 
 - form fields
-    
 - conditional questions
-    
 - validation
-    
 - rules
-    
 - calculations
-    
 - workflows
-    
 - document requirements
-    
 - integration mappings
-    
 - notifications
-    
 - user permissions
     
 
@@ -458,7 +402,6 @@ This is why the JD emphasizes applying product expertise to unique customer scen
 # 9. The insured or policyholder
 
 The **insured** is the person or organization protected by the policy.
-
 The **policyholder** is the person or organization named on the insurance contract.
 
 Often they are the same entity.
@@ -466,17 +409,11 @@ Often they are the same entity.
 Examples:
 
 - restaurant owner
-    
 - trucking company
-    
 - manufacturer
-    
 - medical practice
-    
 - technology company
-    
 - property owner
-    
 - event organizer
     
 
@@ -495,46 +432,28 @@ The **underwriter** evaluates whether the insurer or MGA should accept a risk an
 The underwriter considers:
 
 - nature of the business
-    
 - location
-    
 - exposure
-    
 - prior claims
-    
 - financial information
-    
 - safety practices
-    
 - requested limits
-    
 - deductibles
-    
 - risk controls
-    
 - carrier guidelines
-    
 - profitability
-    
 - completeness and reliability of the information
     
 
 The underwriter may decide to:
 
 - accept
-    
 - request more information
-    
 - refer for senior approval
-    
 - modify terms
-    
 - apply exclusions
-    
 - increase premium
-    
 - adjust limits or deductibles
-    
 - decline the risk
     
 
@@ -549,9 +468,7 @@ Surefyre’s underwriting workbench centralizes these submissions, data, tasks, 
 For example, a junior underwriter may be allowed to:
 
 - quote businesses with revenue below $2 million
-    
 - accept risks with no more than one prior loss
-    
 - provide limits up to $1 million
     
 
@@ -560,17 +477,11 @@ A senior underwriter may have greater authority.
 An MGA’s agreement with a carrier may define:
 
 - industries it may write
-    
 - states it may cover
-    
 - maximum limits
-    
 - pricing flexibility
-    
 - prohibited risks
-    
 - referral thresholds
-    
 - binding authority
     
 
@@ -583,17 +494,11 @@ The business rule:
 May become:
 
 - calculate liquor-sales percentage
-    
 - set referral flag
-    
 - prevent automatic quote
-    
 - route task to senior-underwriter queue
-    
 - display referral reason
-    
 - create audit record
-    
 - notify the responsible user
     
 
@@ -615,11 +520,8 @@ SPG operates specialty insurance businesses. Surefyre provides the agent-facing 
 The exact legal and operating role may vary among SPG business units:
 
 - some may function as MGAs
-    
 - some may be wholesalers
-    
 - some may be program administrators
-    
 - some may operate specialty underwriting programs
     
 
@@ -656,15 +558,10 @@ An organization receiving submissions from retail agents and placing business wi
 A large insurance organization with:
 
 - multiple programs
-    
 - many agents
-    
 - complex integrations
-    
 - security requirements
-    
 - multiple user roles
-    
 - high transaction volume
     
 
@@ -685,25 +582,15 @@ In enterprise implementation work, **the business** usually means the people who
 For Surefyre, “the business” may include:
 
 - underwriting managers
-    
 - underwriters
-    
 - underwriting assistants
-    
 - operations
-    
 - program managers
-    
 - product management
-    
 - sales
-    
 - Professional Services
-    
 - compliance
-    
 - finance
-    
 - agent-distribution management
     
 
@@ -714,21 +601,13 @@ The retail agent uses the portal and has important usability needs.
 However, the internal underwriting and operations stakeholders generally define:
 
 - eligibility
-    
 - required data
-    
 - underwriting rules
-    
 - routing
-    
 - referral logic
-    
 - quote process
-    
 - carrier requirements
-    
 - controls
-    
 - service-level expectations
     
 
@@ -758,34 +637,22 @@ Used primarily by external agents to:
 ### Inputs
 
 - insured information
-    
 - business details
-    
 - locations
-    
 - exposure data
-    
 - prior losses
-    
 - requested coverage
-    
 - supporting documents
     
 
 ### Outputs
 
 - validation messages
-    
 - requests for missing information
-    
 - quote information
-    
 - status updates
-    
 - messages from underwriting
-    
 - downloadable documents
-    
 - policy-related files
     
 
@@ -796,38 +663,24 @@ Used primarily by internal underwriters and operations to:
 ### Inputs
 
 - agent submission
-    
 - documents
-    
 - third-party data
-    
 - carrier guidelines
-    
 - rating results
-    
 - workflow tasks
-    
 - prior communications
     
 
 ### Outputs
 
 - eligibility decision
-    
 - request for information
-    
 - referral
-    
 - quote
-    
 - decline
-    
 - underwriting notes
-    
 - task assignment
-    
 - bind decision
-    
 - data passed to downstream systems
     
 
@@ -856,13 +709,9 @@ The portal validates required information and documents.
 Rules determine:
 
 - correct program
-    
 - underwriting queue
-    
 - required review
-    
 - missing information
-    
 - potential referral
     
 
@@ -871,15 +720,10 @@ Rules determine:
 The underwriter reviews:
 
 - exposure
-    
 - eligibility
-    
 - losses
-    
 - documents
-    
 - carrier rules
-    
 - rating information
     
 
@@ -920,35 +764,20 @@ You enable their work.
 ## Your likely responsibilities
 
 - interview underwriting and operations stakeholders
-    
 - understand the specialty program
-    
 - model the agent-submission process
-    
 - identify required fields and documents
-    
 - translate underwriting rules into form and workflow logic
-    
 - configure the Agent Portal
-    
 - configure the Underwriting Workbench
-    
 - create or modify JSON schemas
-    
 - add JavaScript behavior
-    
 - configure integrations
-    
 - prepare Python migration utilities
-    
 - test APIs in Postman
-    
 - support UAT
-    
 - document instance changes
-    
 - reproduce problems
-    
 - coordinate with Engineering, Product, IT, and Security
     
 
@@ -981,15 +810,10 @@ That interpretation closely follows the actual SPG JD.
 For Friday, reduce this session to six ideas:
 
 1. **The insured needs coverage.**
-    
 2. **The retail agent gathers information and submits the risk.**
-    
 3. **The MGA or wholesaler evaluates and processes specialty business.**
-    
 4. **The carrier ultimately accepts the financial risk.**
-    
 5. **The Agent Portal supports the external agent.**
-    
 6. **The Underwriting Workbench supports internal underwriting and operations.**
     
 

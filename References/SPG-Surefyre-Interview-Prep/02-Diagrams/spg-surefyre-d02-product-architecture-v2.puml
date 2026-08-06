@@ -1,0 +1,77 @@
+@startuml
+title D2 — SPG / Surefyre — Product Architecture
+
+left to right direction
+
+skinparam shadowing false
+skinparam linetype ortho
+skinparam defaultTextAlignment center
+skinparam wrapWidth 220
+skinparam maxMessageSize 120
+skinparam nodesep 70
+skinparam ranksep 85
+skinparam padding 18
+skinparam rectangle {
+  RoundCorner 12
+  BorderThickness 1.4
+}
+skinparam package {
+  RoundCorner 14
+  BorderThickness 1.6
+}
+skinparam note {
+  BackgroundColor #FFF8D6
+  BorderColor #C8A84E
+}
+
+actor "Retail Agent /\nAgency User" as Agent
+actor "Underwriter /\nOperations User" as Underwriter
+
+package "SUREFYRE PLATFORM" as Surefyre #EAF4EA {
+  rectangle "Agent Portal\n\nExternal entry point for:\n• new submissions\n• documents\n• status and messages" as Portal #EAF2FF
+
+  rectangle "Rules and Workflow\n\n• field validation\n• completeness checks\n• routing and referrals\n• task creation" as Rules #F3F8E8
+
+  rectangle "Underwriting Workbench\n\nInternal workspace for:\n• review\n• requests for information\n• rating and quoting\n• decisions and referrals" as Workbench #EAF2FF
+
+  Portal -right-> Rules : Submit and validate
+  Rules -right-> Workbench : Route work
+}
+
+rectangle "AIM\n\nCore insurance\noperations and\ntransaction data" as AIM #FFF1DF
+
+rectangle "ImageRight\n\nDocuments,\ncorrespondence and\nworkflow references" as ImageRight #FFF1DF
+
+rectangle "Carrier, Rating and\nThird-Party Services\n\nExternal decisions,\nrates and enrichment" as External #FFF1DF
+
+Agent -right-> Portal : Application data,\ndocuments and messages
+Workbench -right-> Underwriter : Assigned work,\nstatus and decisions
+
+Workbench -down-> AIM : Transaction and\npolicy-related data
+Workbench -down-> ImageRight : Documents and\nmetadata
+Workbench -down-> External : Rating, data or\ncarrier request
+
+AIM -up-> Workbench : Transaction result\nor status
+ImageRight -up-> Workbench : Document ID or\nworkflow status
+External -up-> Workbench : Rate, response or\nenrichment data
+
+Workbench ..left..> Portal : Status, requests,\nquote and documents
+Portal ..left..> Agent : User-facing response
+
+legend bottom
+|= Component |= Primary purpose |
+| Agent Portal | External submission and communication |
+| Rules and Workflow | Validation, routing, referrals and tasks |
+| Underwriting Workbench | Internal review, rating, quoting and decisions |
+| AIM | Core insurance operations and transaction processing |
+| ImageRight | Insurance document and workflow management |
+| External Services | Carrier, rating and third-party integrations |
+endlegend
+
+note bottom of Surefyre
+Simplified interview model.
+Exact system-of-record ownership and integration direction
+should be confirmed with SPG during implementation discovery.
+end note
+
+@enduml

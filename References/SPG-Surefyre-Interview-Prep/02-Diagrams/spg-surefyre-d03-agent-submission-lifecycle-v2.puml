@@ -1,0 +1,96 @@
+@startuml
+title D3 — Agent Submission Lifecycle
+caption High-level flow from application start through underwriting response
+
+left to right direction
+
+skinparam shadowing false
+skinparam linetype ortho
+skinparam defaultTextAlignment center
+skinparam wrapWidth 200
+skinparam maxMessageSize 110
+skinparam nodesep 72
+skinparam ranksep 82
+skinparam padding 18
+
+skinparam rectangle {
+  RoundCorner 14
+  BorderThickness 1.4
+}
+skinparam diamond {
+  BackgroundColor #FFF8D6
+  BorderColor #C8A84E
+}
+
+rectangle "1. Start Submission\n\nRetail agent selects the\ninsurance program and begins\na new application." as Start #EAF2FF
+
+rectangle "2. Enter Risk Information\n\nApplicant, locations,\nexposures, coverage needs\nand prior-loss details." as Enter #EAF2FF
+
+rectangle "3. Upload Documents\n\nApplications, loss runs,\nphotos, financials and other\nrequired supporting files." as Upload #EAF2FF
+
+rectangle "4. Portal Validation\n\nRequired fields, formats,\nconditional questions and\ndocument completeness." as Validate #F3F8E8
+
+diamond "Submission\ncomplete?" as Complete
+
+rectangle "5. Correct Submission\n\nAgent fixes missing,\ninvalid or inconsistent\ninformation." as Correct #FFF1DF
+
+rectangle "6. Create Submission\n\nSurefyre assigns an ID,\nrecords submitted status and\ncreates the work item." as Create #F3F8E8
+
+rectangle "7. Route to Underwriting\n\nProgram rules determine\nqueue, assignment, eligibility\nand referral indicators." as Route #F3F8E8
+
+rectangle "8. Underwriting Review\n\nUnderwriter reviews risk,\ndocuments, guidelines,\nauthority and rating." as Review #EAF2FF
+
+diamond "More information\nrequired?" as MoreInfo
+
+rectangle "9. Request Information\n\nUnderwriter sends questions\nor document requests back\nto the retail agent." as Request #FFF1DF
+
+rectangle "10. Respond to Request\n\nAgent supplies missing\ninformation or updated\ndocuments." as Respond #EAF2FF
+
+rectangle "11. Underwriting Outcome\n\nQuote, referral, decline,\nor other status is recorded\nand returned to the portal." as Outcome #EAF2FF
+
+' Main lifecycle row
+Start -right-> Enter
+Enter -right-> Upload
+Upload -right-> Validate
+Validate -right-> Complete
+
+Complete -right-> Create : Yes
+Create -right-> Route
+Route -right-> Review
+Review -right-> MoreInfo
+MoreInfo -right-> Outcome : No
+
+' Correction loop beneath validation
+Complete -down-> Correct : No
+Correct -left-> Validate : Revalidate
+
+' Information-request loop beneath underwriting
+MoreInfo -down-> Request : Yes
+Request -right-> Respond
+Respond -up-> Review : Re-review
+
+' Hidden links stabilize the intended row order
+Start -[hidden]right-> Enter
+Enter -[hidden]right-> Upload
+Upload -[hidden]right-> Validate
+Validate -[hidden]right-> Complete
+Complete -[hidden]right-> Create
+Create -[hidden]right-> Route
+Route -[hidden]right-> Review
+Review -[hidden]right-> MoreInfo
+MoreInfo -[hidden]right-> Outcome
+
+legend bottom
+|= Area |= Meaning |
+| Blue | Agent or underwriting user activity |
+| Green | Surefyre validation, workflow and routing |
+| Orange | Exception or correction activity |
+endlegend
+
+note bottom
+This diagram intentionally stops at the first underwriting outcome.
+Quote acceptance, bind, policy issuance and renewal are covered
+in later insurance-domain and underwriting lifecycle material.
+end note
+
+@enduml

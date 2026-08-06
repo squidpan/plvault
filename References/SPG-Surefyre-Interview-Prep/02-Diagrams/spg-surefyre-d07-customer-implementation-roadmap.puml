@@ -1,0 +1,32 @@
+@startuml
+title D7 — Customer Implementation Roadmap
+
+left to right direction
+skinparam rectangle RoundCorner 12
+
+rectangle "Kickoff" as A
+rectangle "Requirements
+Workshops" as B
+rectangle "Solution
+Design" as C
+rectangle "Configure
+Surefyre" as D
+rectangle "Integrate
+Systems" as E
+rectangle "Migration" as F
+rectangle "Testing
+& UAT" as G
+rectangle "Go Live" as H
+rectangle "Hypercare" as I
+
+A-->B
+B-->C
+C-->D
+D-->E
+E-->F
+F-->G
+G-->H
+H-->I
+
+I ..> B : Enhancement cycle
+@enduml

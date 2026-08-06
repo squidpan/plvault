@@ -1,0 +1,62 @@
+@startuml
+
+title D1 — SPG / Surefyre — Insurance Ecosystem\n<size:18>High-Level Industry View</size>
+
+left to right direction
+
+skinparam backgroundColor white
+skinparam shadowing false
+skinparam roundcorner 14
+skinparam linetype ortho
+skinparam defaultFontName Arial
+skinparam defaultFontSize 16
+skinparam titleFontSize 24
+skinparam ArrowFontSize 14
+skinparam ArrowThickness 1.5
+skinparam nodesep 85
+skinparam ranksep 70
+skinparam Padding 18
+
+skinparam rectangle {
+  BorderColor #5A5A5A
+  BackgroundColor white
+  FontColor #202020
+}
+
+rectangle "<b>Business Owner\nor Organization</b>\n\n• Needs insurance coverage\n• Provides business and risk information\n• Receives coverage, policy and service" as INSURED #F3FAF1
+
+rectangle "<b>Retail Insurance\nAgent / Broker</b>\n\n• Advises the client\n• Gathers risk information\n• Prepares the submission\n• Presents quotes and terms\n• Supports ongoing service" as AGENT #F2F7FF
+
+rectangle "<b>SPG Specialty Business</b>\n<b>MGA / Wholesaler /</b>\n<b>Program Administrator</b>\n\n• Evaluates the submission\n• Applies underwriting rules\n• Quotes and binds within authority\n• Manages program operations\n• Administers policies and transactions" as SPG #FFF8E8
+
+rectangle "<b>Insurance Carrier</b>\n\n• Provides insurance capacity\n• Defines risk appetite and guidelines\n• Delegates underwriting authority\n• Bears the insured risk\n• Pays valid claims" as CARRIER #F8F2FB
+
+INSURED -right-> AGENT : <b>Coverage need</b>\nRisk and business information
+AGENT -right-> SPG : <b>Submission</b>\nApplication and documents
+SPG -right-> CARRIER : <b>Risk placement / administration</b>\nApproved specialty business
+
+rectangle "<b>Response to insured</b>\nCoverage options • pricing • service" as R1 #FFFFFF
+rectangle "<b>Response to agent</b>\nQuote • terms • status • documents" as R2 #FFFFFF
+rectangle "<b>Carrier support to SPG</b>\nCapacity • guidelines • authority" as R3 #FFFFFF
+
+INSURED -[hidden]down-> R1
+AGENT -[hidden]down-> R2
+SPG -[hidden]down-> R3
+
+R3 -left-> R2
+R2 -left-> R1
+
+note bottom of SPG
+  <b>Working interview model</b>
+  SPG businesses may operate as an MGA,
+  wholesaler or program administrator.
+  The exact operating model varies by program.
+end note
+
+legend bottom
+  |= Line |= Meaning |
+  | Solid arrow → | Primary flow of information or business |
+  | Bottom response row ← | Quote, status, terms, capacity and support |
+endlegend
+
+@enduml

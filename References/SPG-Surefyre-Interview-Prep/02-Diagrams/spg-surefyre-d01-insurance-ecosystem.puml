@@ -1,0 +1,31 @@
+@startuml
+title SPG / Surefyre — Insurance Ecosystem
+
+left to right direction
+skinparam shadowing false
+skinparam linetype ortho
+skinparam defaultTextAlignment center
+skinparam nodesep 55
+skinparam ranksep 70
+
+actor "Business Owner\nor Organization" as Insured
+
+rectangle "Retail Insurance\nAgent / Broker" as Agent
+rectangle "SPG Specialty Business\nMGA / Wholesaler" as SPG
+rectangle "Insurance Carrier" as Carrier
+
+Insured --> Agent : Requests coverage\nProvides risk information
+Agent --> SPG : Submits application\nand documents
+SPG --> Carrier : Places or administers\napproved specialty risk
+
+Carrier --> SPG : Capacity,\nguidelines and authority
+SPG --> Agent : Quote, terms,\nstatus and documents
+Agent --> Insured : Presents coverage\nand pricing
+
+note bottom of SPG
+  SPG operating businesses may perform
+  MGA, wholesale or program functions.
+  The exact model can vary by program.
+end note
+
+@enduml

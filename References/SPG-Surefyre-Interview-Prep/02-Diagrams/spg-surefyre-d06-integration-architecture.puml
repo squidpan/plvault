@@ -1,0 +1,71 @@
+@startuml
+title D6 — Surefyre Integration Architecture
+caption How Surefyre exchanges transaction, document, rating and identity data
+
+left to right direction
+
+skinparam shadowing false
+skinparam linetype ortho
+skinparam defaultTextAlignment center
+skinparam wrapWidth 210
+skinparam maxMessageSize 120
+skinparam nodesep 75
+skinparam ranksep 85
+skinparam padding 18
+
+skinparam rectangle {
+  RoundCorner 14
+  BorderThickness 1.4
+}
+
+rectangle "Surefyre\n\nAgent Portal\nUnderwriting Workbench\nRules and Workflow" as Surefyre #EAF4EA
+
+rectangle "Integration Configuration\n\n• Endpoint URLs\n• Authentication\n• Field mappings\n• Request / response rules\n• Error handling" as Integration #FFF4CC
+
+rectangle "AIM\n\nCore insurance operations\nand policy transactions" as AIM #FFF1DF
+
+rectangle "ImageRight\n\nDocuments, correspondence\nand workflow references" as ImageRight #EAF2FF
+
+rectangle "Carrier / Rating Services\n\nRates, quote results,\npolicy or bind responses" as Carrier #F1ECFA
+
+rectangle "Third-Party Data Services\n\nAddress validation,\nrisk enrichment,\nreference data" as ThirdParty #F3F8E8
+
+rectangle "Identity and Access\n\nOAuth, API tokens,\nBasic Auth, SSO" as Identity #E8F7F5
+
+Surefyre -right-> Integration : Business event\nor user action
+
+Integration -right-> AIM : JSON / XML\nREST or SOAP
+AIM -left-> Integration : Transaction ID,\nstatus or error
+
+Integration -right-> ImageRight : Document metadata,\nindex values or request
+ImageRight -left-> Integration : Document ID,\nlink or workflow status
+
+Integration -right-> Carrier : Rating, quote,\nbind or policy request
+Carrier -left-> Integration : Rate, decision,\nconfirmation or error
+
+Integration -right-> ThirdParty : Data inquiry
+ThirdParty -left-> Integration : Enriched or\nvalidated data
+
+Surefyre -down-> Identity : Login or service\nauthentication request
+Identity -up-> Surefyre : Token, session\nor access result
+
+Integration -left-> Surefyre : Normalized response,\nstatus or error message
+
+legend bottom
+|= Integration concern |= Technical Consultant focus |
+| Endpoint | Correct environment-specific URL and service path |
+| Authentication | OAuth, tokens, Basic Auth, SSO or customer-specific security |
+| Mapping | Surefyre fields mapped to JSON, XML or target-system fields |
+| Validation | Required headers, parameters, payload structure and data types |
+| Testing | Postman requests, positive and negative cases, response verification |
+| Error handling | Reproduce failure, inspect response, log evidence and coordinate resolution |
+| Documentation | Record configuration, mappings, dependencies and deployed changes |
+endlegend
+
+note bottom of Integration
+Interview model only.
+Actual protocols, system-of-record ownership and integration direction
+must be confirmed with SPG for each customer and program.
+end note
+
+@enduml

@@ -1,0 +1,49 @@
+@startmindmap
+title D8 — Technical Consultant Capability Map
+
+* Technical Consultant
+** Business and Customer Skills
+*** Requirements discovery
+*** Customer workshops
+*** Process analysis
+*** Solution recommendations
+*** Documentation
+** Surefyre Configuration
+*** Drag-and-drop forms
+*** JSON schema
+*** Workflow rules
+*** Calculations
+*** Customer instance changes
+** Web Technologies
+*** HTML
+*** CSS
+*** JavaScript
+*** Jinja2 templates
+** Integration Skills
+*** REST APIs
+*** SOAP APIs
+*** JSON and XML payloads
+*** OAuth
+*** API tokens
+*** Basic Auth
+** Data and Automation
+*** Python scripts
+*** Import and export
+*** Data migration
+*** Validation and reconciliation
+*** Excel formulas
+** Testing and Support
+*** Postman
+*** Functional testing
+*** Negative testing
+*** Regression testing
+*** Issue reproduction
+*** Production support
+** Cross-Functional Delivery
+*** Professional Services
+*** Product
+*** Engineering
+*** Operations
+*** HUB IT
+*** Security
+@endmindmap

@@ -1,0 +1,59 @@
+@startuml
+title D5 — Technical Consultant Implementation Lifecycle
+caption From business need to configured, tested, deployed and supported Surefyre solution
+
+left to right direction
+
+skinparam shadowing false
+skinparam linetype ortho
+skinparam defaultTextAlignment center
+skinparam wrapWidth 200
+skinparam maxMessageSize 110
+skinparam nodesep 55
+skinparam ranksep 75
+skinparam padding 16
+
+skinparam rectangle {
+  RoundCorner 14
+  BorderThickness 1.4
+}
+
+rectangle "1. Discovery\n\n• Stakeholders\n• Current process\n• Pain points\n• Business goals" as Discovery #EAF2FF
+
+rectangle "2. Solution Design\n\n• Future workflow\n• Forms and rules\n• Roles and access\n• Integration needs" as Design #F3F8E8
+
+rectangle "3. Configuration\n\n• Form builder\n• JSON schema\n• JavaScript behavior\n• Workflow and calculations" as Configure #FFF4CC
+
+rectangle "4. Integration and Migration\n\n• REST / SOAP\n• Field mapping\n• Authentication\n• Python import/export scripts" as Integrate #FFF1DF
+
+rectangle "5. Testing and UAT\n\n• Functional\n• Negative\n• Integration\n• Regression\n• Business acceptance" as Test #F1ECFA
+
+rectangle "6. Deployment Readiness\n\n• Production settings\n• Permissions\n• Endpoints\n• Documentation\n• Support plan" as Deploy #EAF4EA
+
+rectangle "7. Go-Live and Stabilization\n\n• Smoke tests\n• Issue reproduction\n• Defect correction\n• User support" as Stabilize #EAF2FF
+
+rectangle "8. Continuous Improvement\n\n• Enhancements\n• Reusable patterns\n• Product feedback\n• Best practices" as Improve #F3F8E8
+
+Discovery -right-> Design
+Design -right-> Configure
+Configure -right-> Integrate
+Integrate -right-> Test
+Test -right-> Deploy
+Deploy -right-> Stabilize
+Stabilize -right-> Improve
+
+Improve -[dashed]left-> Discovery : New program,\nchange or enhancement
+
+legend bottom
+|= Phase |= Technical Consultant focus |
+| Discovery | Understand the customer, users, process and business problem |
+| Solution Design | Translate business needs into a configuration approach |
+| Configuration | Build forms, rules, workflows, calculations and instance changes |
+| Integration and Migration | Connect systems and prepare or transform data |
+| Testing and UAT | Validate behavior and support business acceptance |
+| Deployment Readiness | Prepare production configuration, documentation and support |
+| Go-Live and Stabilization | Verify production, reproduce issues and correct defects |
+| Continuous Improvement | Reuse patterns, recommend changes and improve the product |
+endlegend
+
+@enduml

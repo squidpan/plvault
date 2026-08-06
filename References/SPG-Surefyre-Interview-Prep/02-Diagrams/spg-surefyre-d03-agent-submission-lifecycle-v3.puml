@@ -1,0 +1,165 @@
+@startuml
+title D3 — Agent Submission Lifecycle
+caption High-level flow from application start through underwriting response
+
+skinparam shadowing false
+skinparam linetype ortho
+skinparam defaultTextAlignment center
+skinparam wrapWidth 220
+skinparam maxMessageSize 120
+skinparam nodesep 70
+skinparam ranksep 80
+skinparam padding 16
+
+skinparam activity {
+  BackgroundColor #F8FBFF
+  BorderColor #5B6B7A
+  FontColor #1F2933
+  DiamondBackgroundColor #FFF4CC
+  DiamondBorderColor #A67C00
+  StartColor #2E5EAA
+  EndColor #2E5EAA
+}
+
+skinparam partition {
+  BorderColor #8A99A8
+  FontColor #243447
+  BackgroundColor #FFFFFF
+}
+
+start
+
+partition "Retail Agent" #EAF2FF {
+  :1. Start submission;
+  :2. Enter applicant,\ncoverage and risk information;
+  :3. Upload required documents;
+}
+
+partition "Surefyre Agent Portal" #EAF4EA {
+  :4. Validate required fields,\nformats, conditional questions\nand document completeness;
+}
+
+if (Submission complete?) then (Yes)
+
+  partition "Surefyre Agent Portal" #EAF4EA {
+    :5. Create submission ID;
+    :6. Apply program rules;
+    :7. Assign underwriting queue;
+    :8. Notify underwriting team;
+  }
+
+else (No)
+
+  partition "Surefyre Agent Portal" #EAF4EA {
+    :5A. Display missing or\ninvalid information;
+  }
+
+  partition "Retail Agent" #EAF2FF {
+    :5B. Correct submission;
+    :5C. Resubmit;
+  }
+
+  partition "Surefyre Agent Portal" #EAF4EA {
+    :5D. Revalidate submission;
+    :5E. Create submission ID;
+    :5F. Apply program rules;
+    :5G. Assign underwriting queue;
+    :5H. Notify underwriting team;
+  }
+
+endif
+
+partition "Underwriter / Internal User" #F1ECFA {
+  :9. Review submission,\nrisk and documents;
+}
+
+if (More information required?) then (Yes)
+
+  partition "Underwriter / Internal User" #F1ECFA {
+    :10. Request additional\ninformation or documents;
+  }
+
+  partition "Surefyre Agent Portal" #EAF4EA {
+    :11. Send request and\nupdate status;
+  }
+
+  partition "Retail Agent" #EAF2FF {
+    :12. Respond with requested\ninformation or documents;
+  }
+
+  partition "Underwriter / Internal User" #F1ECFA {
+    :13. Review updated submission;
+  }
+
+endif
+
+partition "Underwriter / Internal User" #F1ECFA {
+  :14. Obtain rating;
+  :15. Determine underwriting outcome;
+}
+
+if (Quote available?) then (Yes)
+
+  partition "Surefyre Agent Portal" #EAF4EA {
+    :16. Publish quote and status;
+  }
+
+  partition "Retail Agent" #EAF2FF {
+    :17. Review quote with insured;
+  }
+
+  if (Customer accepts?) then (Yes)
+
+    partition "Retail Agent" #EAF2FF {
+      :18. Request binding;
+    }
+
+    partition "Underwriter / Internal User" #F1ECFA {
+      :19. Confirm requirements;
+      :20. Bind coverage;
+    }
+
+    partition "Enterprise Systems" #FFF1DF {
+      :21. Create or update\npolicy transaction;
+      :22. Store policy documents;
+    }
+
+    partition "Surefyre Agent Portal" #EAF4EA {
+      :23. Display bound or\nissued status;
+    }
+
+    partition "Retail Agent" #EAF2FF {
+      :24. Deliver confirmation\nand documents;
+    }
+
+  else (No)
+
+    partition "Retail Agent" #EAF2FF {
+      :18A. Decline quote or\nrequest revision;
+    }
+
+  endif
+
+else (No)
+
+  partition "Underwriter / Internal User" #F1ECFA {
+    :16A. Refer, decline or\nrequest another action;
+  }
+
+  partition "Surefyre Agent Portal" #EAF4EA {
+    :16B. Publish status and\nnext-step instructions;
+  }
+
+endif
+
+stop
+
+legend bottom
+|= Lane |= Primary responsibility |
+| Retail Agent | Starts the application, supplies data and documents, and works with the insured |
+| Surefyre Agent Portal | Validates data, applies workflow, communicates status and presents results |
+| Underwriter / Internal User | Reviews risk, requests information, obtains rating and makes decisions |
+| Enterprise Systems | Records policy transactions and stores policy-related documents |
+endlegend
+
+@enduml

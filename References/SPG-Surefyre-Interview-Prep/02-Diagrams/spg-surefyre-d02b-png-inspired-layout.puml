@@ -1,0 +1,91 @@
+@startuml
+title D2B — Surefyre Product Architecture
+caption PNG-inspired layout with separated integration lanes
+
+left to right direction
+
+skinparam shadowing false
+skinparam linetype polyline
+skinparam defaultTextAlignment center
+skinparam wrapWidth 220
+skinparam maxMessageSize 120
+skinparam nodesep 90
+skinparam ranksep 95
+skinparam padding 20
+
+skinparam rectangle {
+  RoundCorner 14
+  BorderThickness 1.4
+}
+skinparam package {
+  RoundCorner 16
+  BorderThickness 1.8
+}
+
+rectangle "EXTERNAL USER\n\nRetail Agent\n\n• Submits new business\n• Uploads documents\n• Tracks status\n• Responds to requests\n• Receives quotes and decisions" as Agent #EAF2FF
+
+package "SUREFYRE PLATFORM" as Surefyre #EAF4EA {
+  rectangle "Agent Portal\n\n• Online submission\n• Document uploads\n• Validation\n• Message center\n• Status tracking" as Portal #F4FAF0
+
+  rectangle "Rules and Workflow Engine\n\n• Validation and rules\n• Eligibility checks\n• Routing and queues\n• Task creation\n• Notifications" as Rules #F4FAF0
+
+  rectangle "Underwriting Workbench\n\n• Review and analyze\n• Request information\n• Quote / refer / bind\n• Decisioning\n• Activity and notes" as Workbench #EAF2FF
+
+  Portal -right-> Rules
+  Rules -right-> Workbench
+}
+
+rectangle "AIM\n(Core System)\n\n• Policy administration\n• Transactions\n• Premium and billing\n• Accounts and producers" as AIM #FFF1DF
+rectangle "ImageRight\n(Document System)\n\n• Document storage\n• Workflow\n• Audit trail\n• Correspondence" as ImageRight #FFF1DF
+rectangle "Carrier / Rating /\nThird-Party Services\n\n• Rating\n• Policy services\n• Claims reference\n• Data enrichment" as External #FFF1DF
+
+Agent -right-> Portal : 1. New submission\nInformation and documents
+Portal -[dashed]left-> Agent : 8. Status, quote,\nrequests, decisions\nand documents
+
+AIM -[hidden]down-> ImageRight
+ImageRight -[hidden]down-> External
+
+' Dedicated lane nodes to emulate the clean PNG flow structure.
+rectangle " " as LaneA1 #FFFFFF
+rectangle " " as LaneA2 #FFFFFF
+rectangle " " as LaneI1 #FFFFFF
+rectangle " " as LaneI2 #FFFFFF
+rectangle " " as LaneE1 #FFFFFF
+rectangle " " as LaneE2 #FFFFFF
+
+skinparam rectangle<<lane>> {
+  BorderColor transparent
+  BackgroundColor transparent
+}
+
+Workbench -right-> LaneA1
+LaneA1 -right-> AIM : 2. Transaction and\npolicy data
+
+AIM -left-> LaneA2 : 3. Status and results
+LaneA2 -left-> Workbench
+
+Workbench -right-> LaneI1
+LaneI1 -right-> ImageRight : 4. Document metadata\nand requests
+
+ImageRight -left-> LaneI2 : 5. Document IDs\nand status
+LaneI2 -left-> Workbench
+
+Workbench -right-> LaneE1
+LaneE1 -right-> External : 6. Rating, inquiry or\npolicy request
+
+External -left-> LaneE2 : 7. Response,\ndecision or data
+LaneE2 -left-> Workbench
+
+legend bottom
+|= Flow |= Meaning |
+| Solid arrow | Primary submission or request flow |
+| Dashed arrow | Response flow back to the agent |
+endlegend
+
+note bottom of Surefyre
+Simplified interview model.
+Actual integrations and data flows may vary by SPG business unit,
+insurance program and customer configuration.
+end note
+
+@enduml

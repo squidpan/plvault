@@ -1,0 +1,842 @@
+---
+categories:
+  - "[[Clippings]]"
+title: SPG Interview prep 12 session 1 — JavaScript Through the Eyes of a Surefyre Consultant
+source: https://chatgpt.com/g/g-p-6a5517dc2a148191b5c289c2f4d2ce72/c/6a6b4867-a174-83ea-8e69-f7608b9878cc
+author:
+published:
+created: 2026-08-05
+description: SPG Interview prep 12 session 1 — JavaScript Through the Eyes of a Surefyre Consultant
+tags:
+  - chatgpt/conversation
+---
+Perfect.
+
+Now we get to what I think is the **highest value technical topic** remaining.
+
+After reviewing the SPG JD several times, I would rank the remaining technical topics like this:
+
+1. ⭐⭐⭐⭐⭐ **Postman**
+    
+2. ⭐⭐⭐⭐ Swagger/OpenAPI
+    
+3. ⭐⭐⭐ Python for Technical Consultants
+    
+
+I actually think **Postman is more important than JavaScript** for this role.
+
+Why?
+
+Because Technical Consultants spend far more time **testing and troubleshooting integrations** than writing JavaScript.
+
+---
+
+# POSTMAN FOR TECHNICAL CONSULTANTS
+
+## Session 1 — What Is Postman?
+
+Forget everything you've seen on YouTube.
+
+For SPG...
+
+Postman is simply:
+
+> **A tool for testing APIs without using the application.**
+
+Think of it this way.
+
+Normally
+
+```text
+Retail Agent
+
+↓
+
+Surefyre
+
+↓
+
+REST API
+
+↓
+
+Rating Engine
+
+↓
+
+Premium Returned
+```
+
+With Postman
+
+you remove Surefyre.
+
+```text
+Postman
+
+↓
+
+REST API
+
+↓
+
+Rating Engine
+
+↓
+
+Response
+```
+
+Now you know
+
+whether the problem is
+
+Surefyre
+
+or
+
+the API.
+
+That's why consultants use it.
+
+---
+
+# A Real SPG Example
+
+Customer calls.
+
+> "No premium is being returned."
+
+Instead of guessing...
+
+Open Postman.
+
+Send the same request.
+
+Now you know
+
+whether:
+
+- API works
+    
+- Authentication works
+    
+- Payload is wrong
+    
+- Response is wrong
+    
+- Surefyre configuration is wrong
+    
+
+Very powerful.
+
+---
+
+# Anatomy of a Postman Request
+
+Think of every request having six pieces.
+
+```text
+Method
+
+↓
+
+URL
+
+↓
+
+Headers
+
+↓
+
+Authentication
+
+↓
+
+Body
+
+↓
+
+Response
+```
+
+That's it.
+
+---
+
+# Example
+
+Suppose Surefyre needs a quote.
+
+POST
+
+```
+https://rating.company.com/api/quote
+```
+
+Headers
+
+```
+Content-Type
+
+application/json
+```
+
+Authentication
+
+Bearer Token
+
+Body
+
+```json
+{
+    "coverage":"Cyber",
+    "revenue":5000000
+}
+```
+
+Response
+
+```json
+{
+    "premium":12850
+}
+```
+
+That is probably 80% of what consultants do.
+
+---
+
+# HTTP Methods
+
+Know these.
+
+GET
+
+Retrieve
+
+Example
+
+Retrieve Submission
+
+---
+
+POST
+
+Create
+
+Example
+
+Create Quote
+
+---
+
+PUT
+
+Replace
+
+Example
+
+Replace Submission
+
+---
+
+PATCH
+
+Update
+
+Example
+
+Update Address
+
+---
+
+DELETE
+
+Remove
+
+Example
+
+Delete Draft
+
+---
+
+# URL
+
+Example
+
+```
+https://api.company.com
+```
+
+Think
+
+Server
+
+Endpoint
+
+---
+
+Endpoint
+
+```
+/quotes
+```
+
+Full URL
+
+```
+https://api.company.com/quotes
+```
+
+---
+
+# Query Parameters
+
+Example
+
+```
+?state=NJ
+```
+
+or
+
+```
+?id=12345
+```
+
+Means
+
+Give me
+
+Submission
+
+---
+
+# Headers
+
+Think
+
+Instructions.
+
+Example
+
+```
+Content-Type
+
+application/json
+```
+
+Another
+
+```
+Accept
+
+application/json
+```
+
+Another
+
+```
+Authorization
+
+Bearer XXXXX
+```
+
+---
+
+# Authorization
+
+Most APIs need authentication.
+
+Know these.
+
+Basic Auth
+
+↓
+
+Username
+
+Password
+
+---
+
+Bearer Token
+
+↓
+
+Authorization Header
+
+---
+
+API Key
+
+↓
+
+Secret Key
+
+---
+
+OAuth
+
+↓
+
+Token
+
+Refresh Token
+
+You don't need to implement OAuth.
+
+Just recognize it.
+
+---
+
+# Body
+
+The Body
+
+contains
+
+the JSON.
+
+Example
+
+```json
+{
+   "coverage":"Cyber",
+   "revenue":5000000
+}
+```
+
+Think
+
+Insurance Application.
+
+---
+
+# Response
+
+The API returns
+
+```json
+{
+   "premium":12500,
+   "status":"Approved"
+}
+```
+
+Now Surefyre displays it.
+
+---
+
+# Environment Variables
+
+This is one of my favorite interview topics.
+
+Instead of typing
+
+```
+https://dev.company.com
+```
+
+and later
+
+```
+https://qa.company.com
+```
+
+Create
+
+Variable
+
+```
+{{baseUrl}}
+```
+
+Development
+
+↓
+
+dev.company.com
+
+QA
+
+↓
+
+qa.company.com
+
+Production
+
+↓
+
+prod.company.com
+
+Same request.
+
+Different environment.
+
+Huge productivity improvement.
+
+---
+
+# Variables
+
+Another example.
+
+POST
+
+Create Submission
+
+returns
+
+```json
+{
+"id":45678
+}
+```
+
+Save
+
+```
+submissionId
+```
+
+Later
+
+GET
+
+uses
+
+```
+{{submissionId}}
+```
+
+No typing.
+
+Everything chains together.
+
+---
+
+# Collections
+
+Think
+
+Folder.
+
+Example
+
+```
+Surefyre APIs
+
+Create Submission
+
+Get Submission
+
+Update Submission
+
+Delete Submission
+```
+
+Very organized.
+
+---
+
+# Tests
+
+Postman can automatically verify things.
+
+Example
+
+Expected
+
+HTTP
+
+200
+
+Expected
+
+Premium
+
+Exists
+
+Expected
+
+Quote ID
+
+Exists
+
+Think
+
+Mini regression testing.
+
+---
+
+# Typical Troubleshooting
+
+Customer says
+
+Quote fails.
+
+What do you check?
+
+1
+
+URL
+
+Correct?
+
+---
+
+2
+
+Authentication
+
+Expired?
+
+---
+
+3
+
+Headers
+
+Correct?
+
+---
+
+4
+
+JSON
+
+Valid?
+
+---
+
+5
+
+Status Code
+
+200?
+
+400?
+
+401?
+
+500?
+
+---
+
+6
+
+Response
+
+Correct?
+
+---
+
+7
+
+Surefyre
+
+Configuration?
+
+Very systematic.
+
+---
+
+# My Troubleshooting Flow
+
+This is what I'd actually tell SPG.
+
+```
+Customer reports issue
+
+↓
+
+Reproduce
+
+↓
+
+Run API in Postman
+
+↓
+
+Authentication?
+
+↓
+
+Payload?
+
+↓
+
+Status Code?
+
+↓
+
+Response?
+
+↓
+
+Configuration?
+
+↓
+
+Engineering?
+```
+
+I think they'll love that answer.
+
+---
+
+# Status Codes
+
+Know these.
+
+200
+
+OK
+
+---
+
+201
+
+Created
+
+---
+
+400
+
+Bad Request
+
+Usually your JSON.
+
+---
+
+401
+
+Authentication
+
+---
+
+403
+
+No permission.
+
+---
+
+404
+
+Wrong URL.
+
+---
+
+500
+
+Server.
+
+---
+
+# What I Would Say
+
+If asked
+
+How do you use Postman?
+
+I'd answer
+
+> I primarily use Postman as an independent API testing and troubleshooting tool. It allows me to verify whether issues originate in the application, the request payload, authentication, or the downstream service. I organize requests into collections, use environment variables to switch between Development, QA, and Production environments, and validate both request and response payloads to support implementation and troubleshooting.
+
+That's a very strong answer.
+
+---
+
+# Things I Would Know
+
+Collections
+
+Folders
+
+Environment Variables
+
+Variables
+
+Headers
+
+Authorization
+
+Body
+
+JSON
+
+Status Codes
+
+Response
+
+Tests
+
+---
+
+# Things I Would NOT Worry About
+
+Mock Servers
+
+Monitors
+
+Flows
+
+GraphQL
+
+WebSockets
+
+AI Features
+
+Those are beyond what I expect SPG to ask.
+
+---
+
+# POSTMAN CHEAT SHEET
+
+|Postman Feature|Why Consultants Use It|
+|---|---|
+|Collections|Organize API requests by project or workflow|
+|Environment Variables|Switch easily between Dev, QA, and Production|
+|Variables|Reuse values such as IDs and tokens across requests|
+|Headers|Set content type, authorization, and other request metadata|
+|Authorization|Test API authentication (Basic, Bearer, API Key, OAuth)|
+|Body|Send JSON payloads to the API|
+|Response|Verify returned data and status|
+|Tests|Validate expected API behavior automatically|
+
+---
+
+# Interview Questions I Expect
+
+- What is Postman?
+    
+- How have you used Postman?
+    
+- What are Collections?
+    
+- What are Environment Variables?
+    
+- How do you troubleshoot an API?
+    
+- What is the difference between Swagger and Postman?
+    
+- How would you validate a REST integration?
+    
+
+---
+
+# One refinement
+
+There is one topic I think will impress them if it comes up:
+
+> **Swagger tells me what the API is supposed to do. Postman tells me whether it actually does it.**
+
+That one sentence nicely captures the relationship between the two tools.
+
+---
+
+## Next Module — Swagger/OpenAPI
+
+This one will be much shorter (about 30–40 minutes) because, unlike Postman, you **consume** Swagger more than you create it. We'll focus on how to read an OpenAPI specification, understand endpoints, request/response schemas, authentication, and use it to drive testing and troubleshooting during a Surefyre implementation.

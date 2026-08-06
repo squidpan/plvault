@@ -1,0 +1,75 @@
+@startuml
+title D2A — Surefyre Product Architecture
+caption Horizontal platform layout for improved legibility
+
+left to right direction
+
+skinparam shadowing false
+skinparam linetype ortho
+skinparam defaultTextAlignment center
+skinparam wrapWidth 210
+skinparam maxMessageSize 120
+skinparam nodesep 80
+skinparam ranksep 90
+skinparam padding 18
+
+skinparam rectangle {
+  RoundCorner 14
+  BorderThickness 1.4
+}
+skinparam package {
+  RoundCorner 16
+  BorderThickness 1.8
+}
+
+actor "Retail Agent /\nAgency User" as Agent
+
+package "SUREFYRE PLATFORM" as Surefyre #EAF4EA {
+  rectangle "Agent Portal\n\n• New submissions\n• Document uploads\n• Validation feedback\n• Status and messages" as Portal #EAF2FF
+
+  rectangle "Rules and Workflow Engine\n\n• Validation\n• Eligibility checks\n• Routing and queues\n• Referrals and tasks" as Rules #F3F8E8
+
+  rectangle "Underwriting Workbench\n\n• Review and analyze\n• Request information\n• Quote / refer / bind\n• Decisioning and notes" as Workbench #EAF2FF
+
+  Portal -right-> Rules : 1. Validate
+  Rules -right-> Workbench : 2. Route
+}
+
+rectangle "AIM\n\nCore insurance operations\nand transaction data" as AIM #FFF1DF
+rectangle "ImageRight\n\nDocuments and\nworkflow references" as ImageRight #FFF1DF
+rectangle "Carrier / Rating /\nThird-Party Services\n\nRates, policy services\nand enrichment" as External #FFF1DF
+
+Agent -right-> Portal : New submission,\ndocuments and messages
+
+Workbench -right-> AIM : 3. Transaction and\npolicy data
+AIM -left-> Workbench : 4. Status and results
+
+Workbench -right-> ImageRight : 5. Document metadata\nand requests
+ImageRight -left-> Workbench : 6. Document IDs\nand status
+
+Workbench -right-> External : 7. Rating or\npolicy request
+External -left-> Workbench : 8. Response,\ndecision or data
+
+Workbench -[dashed]left-> Portal : Status, requests,\nquote and documents
+Portal -[dashed]left-> Agent : User-facing response
+
+AIM -[hidden]down-> ImageRight
+ImageRight -[hidden]down-> External
+
+legend bottom
+|= Component |= Primary purpose |
+| Agent Portal | External submission and communication |
+| Rules and Workflow Engine | Validation, eligibility, routing and tasks |
+| Underwriting Workbench | Internal review, quoting and decisions |
+| AIM | Core insurance operations and transaction processing |
+| ImageRight | Document and workflow management |
+| External Services | Rating, policy and third-party integrations |
+endlegend
+
+note bottom of Surefyre
+Simplified interview model.
+Exact system-of-record ownership and integration direction
+should be confirmed with SPG.
+end note
+
+@enduml

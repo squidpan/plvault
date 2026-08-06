@@ -1,0 +1,39 @@
+@startuml
+title D6 — Surefyre Integration Architecture (v2)
+
+left to right direction
+skinparam linetype polyline
+skinparam nodesep 90
+skinparam ranksep 90
+
+rectangle "Surefyre" as S
+rectangle "Integration Layer" as I
+rectangle "AIM" as A
+rectangle "ImageRight" as G
+rectangle "Carrier / Rating" as C
+rectangle "3rd Party Data" as T
+rectangle "Identity & Access" as ID
+
+S --> I : Business event
+
+I --> A : JSON / REST
+A ..> I : Status
+
+I --> G : Document metadata
+G ..> I : Document ID
+
+I --> C : Quote / Bind
+C ..> I : Decision
+
+I --> T : Lookup
+T ..> I : Validated data
+
+S --> ID : Authentication
+ID ..> S : Token / Session
+
+legend bottom
+Solid = outbound request
+Dashed = response
+Each integration has its own dedicated lane for readability.
+endlegend
+@enduml

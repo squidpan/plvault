@@ -1,0 +1,75 @@
+@startuml
+title D2B — Surefyre Product Architecture
+caption PNG-inspired layout with forced horizontal platform components
+
+left to right direction
+
+skinparam shadowing false
+skinparam linetype polyline
+skinparam defaultTextAlignment center
+skinparam wrapWidth 220
+skinparam maxMessageSize 120
+skinparam nodesep 95
+skinparam ranksep 100
+skinparam padding 20
+
+skinparam rectangle {
+  RoundCorner 14
+  BorderThickness 1.4
+}
+skinparam package {
+  RoundCorner 16
+  BorderThickness 1.8
+}
+
+rectangle "EXTERNAL USER\n\nRetail Agent\n\n• Submits new business\n• Uploads documents\n• Tracks status\n• Responds to requests\n• Receives quotes and decisions" as Agent #EAF2FF
+
+package "SUREFYRE PLATFORM" as Surefyre #EAF4EA {
+  together {
+    rectangle "Agent Portal\n\n• Online submission\n• Document uploads\n• Validation\n• Message center\n• Status tracking" as Portal #F4FAF0
+
+    rectangle "Rules and Workflow Engine\n\n• Validation and rules\n• Eligibility checks\n• Routing and queues\n• Task creation\n• Notifications" as Rules #F4FAF0
+
+    rectangle "Underwriting Workbench\n\n• Review and analyze\n• Request information\n• Quote / refer / bind\n• Decisioning\n• Activity and notes" as Workbench #EAF2FF
+  }
+
+  Portal -right-> Rules : 1. Validate
+  Rules -right-> Workbench : 2. Route
+
+  ' Force PlantUML to preserve the left-to-right row.
+  Portal -[hidden]right-> Rules
+  Rules -[hidden]right-> Workbench
+}
+
+rectangle "AIM\n(Core System)\n\n• Policy administration\n• Transactions\n• Premium and billing\n• Accounts and producers" as AIM #FFF1DF
+rectangle "ImageRight\n(Document System)\n\n• Document storage\n• Workflow\n• Audit trail\n• Correspondence" as ImageRight #FFF1DF
+rectangle "Carrier / Rating /\nThird-Party Services\n\n• Rating\n• Policy services\n• Claims reference\n• Data enrichment" as External #FFF1DF
+
+Agent -right-> Portal : New submission\nInformation and documents
+Portal -[dashed]left-> Agent : Status, quote,\nrequests, decisions\nand documents
+
+Workbench -right-> AIM : Transaction and\npolicy data
+AIM -[dashed]left-> Workbench : Status and results
+
+Workbench -right-> ImageRight : Document metadata\nand requests
+ImageRight -[dashed]left-> Workbench : Document IDs\nand status
+
+Workbench -right-> External : Rating, inquiry or\npolicy request
+External -[dashed]left-> Workbench : Response,\ndecision or data
+
+AIM -[hidden]down-> ImageRight
+ImageRight -[hidden]down-> External
+
+legend bottom
+|= Flow |= Meaning |
+| Solid arrow | Primary submission or request flow |
+| Dashed arrow | Response flow back to the requester |
+endlegend
+
+note bottom of Surefyre
+Simplified interview model.
+Actual integrations and data flows may vary by SPG business unit,
+insurance program and customer configuration.
+end note
+
+@enduml
