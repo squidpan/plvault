@@ -80,13 +80,9 @@ Structure of a web page.
 ## Why Surefyre Uses It
 
 - Forms
-    
 - Labels
-    
 - Buttons
-    
 - Tables
-    
 - Input fields
     
 
@@ -95,11 +91,8 @@ Structure of a web page.
 ## What I Would Do
 
 - Read forms
-    
 - Understand layouts
-    
 - Configure fields
-    
 - Troubleshoot UI issues
     
 
@@ -124,11 +117,8 @@ Presentation.
 Controls
 
 - colors
-    
 - spacing
-    
 - fonts
-    
 - layout
     
 
@@ -165,13 +155,9 @@ Programming language that runs in the browser.
 ## Why Surefyre Uses It
 
 - Dynamic forms
-    
 - Validation
-    
 - Show/Hide fields
-    
 - Calculations
-    
 - User interaction
     
 
@@ -200,11 +186,8 @@ Hide them
 ## What I Would Do
 
 - Read existing logic
-    
 - Modify simple rules
-    
 - Troubleshoot
-    
 - Validate behavior
     
 
@@ -216,9 +199,7 @@ Partner with Engineering for larger changes.
 
 Working knowledge.
 
-Learning.
-
-Comfortable reading and modifying simple logic.
+Learning. Comfortable reading and modifying simple logic.
 
 ---
 
@@ -233,11 +214,8 @@ Structured data format.
 ## Why Surefyre Uses It
 
 Configuration
-
 REST requests
-
 REST responses
-
 Import/Export
 
 ---
@@ -277,7 +255,7 @@ FRBNY modernization.
 
 ---
 
-# REST APIs
+# REST APIs - system to system communication
 
 ## What are they?
 
@@ -614,7 +592,7 @@ Excellent fit.
 
 ---
 
-# OAuth / Authentication
+# OAuth / Authentication - API key
 
 Know these words.
 

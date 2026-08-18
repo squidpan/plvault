@@ -16,11 +16,9 @@ tags:
 
 The goal is not to turn you into an insurance underwriter overnight. It is to help you explain how you would take a customer’s business process and turn it into a configured, tested, supportable Surefyre solution.
 
-Your best mental model is:
+## Surefyr is
 
 > **Surefyre is a configurable digital front door and workbench for specialty-insurance submissions, quoting, underwriting, and agent collaboration.**
-
-SPG selected it to modernize the experience for retail agencies, streamline underwriting, and connect with SPG’s core AIM and ImageRight systems. ([Vertafore](https://www.vertafore.com/resources/press-releases/specialty-program-group-partners-vertafore-streamline-submissions-and-boost-operational-efficiency?utm_source=chatgpt.com "Specialty Program Group partners with Vertafore"))
 
 ---
 
@@ -41,7 +39,9 @@ The external insurance agent or broker can use the portal to:
 - retrieve documents
     
 
-Vertafore describes the portal as supporting the complete policy lifecycle and enabling collaboration between agents and underwriters. ([Vertafore](https://www.vertafore.com/products/underwriting-workbench/surefyre?utm_source=chatgpt.com "Surefyre - Underwriting Workbench & Agent Portal"))
+> [!Vertafore]-
+> 
+> Vertafore describes the portal as supporting the complete policy lifecycle and enabling collaboration between agents and underwriters. ([Vertafore](https://www.vertafore.com/products/underwriting-workbench/surefyre?utm_source=chatgpt.com "Surefyre - Underwriting Workbench & Agent Portal"))
 
 ## Underwriting workbench
 
@@ -65,14 +65,10 @@ An underwriting **workbench centralizes tools, data, rules, and workflows so und
 Think of the basic lifecycle as:
 
 **Agent starts submission  
-→ completes application  
-→ uploads supporting documents  
-→ Surefyre validates and routes it  
-→ underwriter reviews risk  
-→ external systems provide rates or data  
-→ quote is generated  
-→ agent accepts  
-→ coverage is bound  
+→ completes application  → uploads supporting documents  
+→ Surefyre validates and routes it  → underwriter reviews risk  
+→ external systems provide rates or data  → quote is generated  
+→ agent accepts  → coverage is bound  
 → policy information continues into downstream systems**
 
 Surefyre can connect with policy administration systems, rating engines, third-party data sources, and other insurance technologies through APIs. ([Vertafore](https://www.vertafore.com/products/underwriting-workbench/surefyre?utm_source=chatgpt.com "Surefyre - Underwriting Workbench & Agent Portal"))
@@ -214,46 +210,26 @@ This combines form design, calculation, conditional logic, routing, and control 
 
 ## Phase 3 — Configuration
 
-This is the hands-on center of the role.
-
-The JD says you may configure Surefyre using HTML, JavaScript, and JSON; create JSON-based forms; write Python migration or import/export scripts; configure integrations; create Excel calculations; and document instance changes.
-
 A typical configuration effort may include:
-
 ### Forms
 
-- create pages and sections in the form builder
-- add text, numeric, date, selection, and upload fields
-- define required fields
-- set validation rules
-- create conditional questions
+- create pages and sections in the form builder - add text, numeric, date, selection, and upload fields
+- define required fields - set validation rules - create conditional questions
 - edit the underlying JSON schema for advanced behavior
     
+### Workflow - frbny cleansing workflow transitions
 
-### Workflow
-
-- define submission statuses
-- assign work to queues or individuals
-- configure referral conditions
-- trigger notifications
-- create tasks
-- control which actions are available at each stage
-
-Surefyre supports configurable workflows and a rules engine that can automate routine tasks and refer risks requiring approval. ([Vertafore](https://www.vertafore.com/products/underwriting-workbench/surefyre?utm_source=chatgpt.com "Surefyre - Underwriting Workbench & Agent Portal"))
-
+- define submission statuses - assign work to queues or individuals
+- configure referral conditions - trigger notifications
+- create tasks - control which actions are available at each stage
 ### Calculations
 
-- premium worksheets
-- percentage calculations
-- eligibility scoring
-- fees or taxes
-- field transformations
-- rating inputs
+- premium worksheets - percentage calculations - eligibility scoring
+- fees or taxes - field transformations - rating inputs
     
-
 The SPG JD specifically mentions Excel-based worksheets to support Surefyre calculations.
 
-### Integrations
+### Integrations - targets AIM ImageRight
 
 - map Surefyre fields to downstream fields
 - build or validate JSON/XML payloads
@@ -263,9 +239,6 @@ The SPG JD specifically mentions Excel-based worksheets to support Surefyre calc
 - handle errors and responses
 - coordinate advanced integration work with Engineering
     
-
-At SPG, the key known integration targets include AIM and ImageRight. ([Vertafore](https://www.vertafore.com/resources/press-releases/specialty-program-group-partners-vertafore-streamline-submissions-and-boost-operational-efficiency?utm_source=chatgpt.com "Specialty Program Group partners with Vertafore"))
-
 ### Documents
 
 - convert existing PDF applications into online forms
@@ -273,9 +246,6 @@ At SPG, the key known integration targets include AIM and ImageRight. ([Vertafor
 - populate templates
 - validate formatting and field placement
     
-
-Vertafore introduced AI-assisted PDF-to-web-form conversion in Surefyre in January 2026, but the JD still suggests that consultants perform advanced form and PDF configuration work where automation is insufficient. ([Vertafore](https://www.vertafore.com/resources/press-releases/vertafore-expands-ai-capabilities-surefyre-save-hours-during-program-submissions?utm_source=chatgpt.com "Vertafore expands AI capabilities in Surefyre"))
-
 ---
 
 ## Phase 4 — Data migration and setup
@@ -284,48 +254,30 @@ Existing information may need to be loaded into Surefyre.
 
 Examples might include:
 
-- agencies
-- users
-- contacts
-- existing submissions
-- policy records
-- product data
-- lookup values
-- underwriting classifications
-- program configuration data
-
+- agencies - users - contacts - existing submissions
+- policy records - product data -lookup values
+- underwriting classifications - program configuration data
 
 The consultant might:
 
-- receive CSV or Excel extracts
-- profile and clean the data
-- map source fields to Surefyre fields
-- transform values
-- create import files
-- run Python scripts
-- validate record counts
-- reconcile rejected records
-- document migration results
-
-This is why the JD asks for Python scripting for data migration, import, export, and advanced configuration.
-
-You should connect this to your FRBNY work mapping legacy relational pricing data into REST/JSON structures and validating large datasets, plus your earlier Asset Control implementation work with reference and price data.
-
+- receive CSV or Excel extracts - profile and clean the data - map source fields to Surefyre fields
+- transform values - create import files - run Python scripts - validate record counts
+- reconcile rejected records - document migration results
 ---
 
 ## Phase 5 — Testing
 
 Testing probably occurs at several levels.
 
-### Configuration testing
+### Configuration testing - form fields, rule, calc, workflow transition ok?
 
 Does each form field, rule, calculation, and workflow transition behave correctly?
 
-### Integration testing
+### Integration testing - send and receive to fro AIM Imageright?
 
 Does Surefyre send and receive the expected data from AIM, ImageRight, raters, and other services?
 
-### Negative testing
+### Negative testing - data missing auth fail, dups, downstream service unavailable?
 
 What happens when:
 
@@ -336,11 +288,11 @@ What happens when:
 - the risk violates an underwriting rule?
 - a duplicate record is submitted?
 
-### User acceptance testing
+### User acceptance testing - underwriters, agents validate
 
 Underwriters, operations staff, or agent representatives validate that the configured process supports actual business use.
 
-### Regression testing
+### Regression testing - change in 1 program shouldn't break others
 
 A change for one insurance program should not break another workflow, form, integration, or document.
 
@@ -352,32 +304,18 @@ This is one of your strongest areas. Your resume documents test-plan creation, P
 
 Before go-live, the consultant may verify:
 
-- production configuration
-- user accounts and permissions
-- integration endpoints
-- authentication credentials
-- data migration
-- workflows and queues
-- email notifications
-- document templates
-- support procedures
-- rollback or contingency plans
-- release documentation
+- production configuration - user accounts and permissions - integration endpoints
+- authentication credentials - data migration - workflows and queues
+- email notifications - document templates
+- support procedures - rollback or contingency plans - release documentation
     
 
 After deployment:
 
-- run smoke tests
-- verify integrations
-- inspect initial submissions
-- confirm notification delivery
-- monitor errors
-- assist users
+- run smoke tests - verify integrations - inspect initial submissions
+- confirm notification delivery - monitor errors - assist users
 - resolve configuration defects
     
-
-This maps extremely well to your FRBNY release-coordination background: environment readiness, release deployment, validation, health checks, documentation, and coordination with system, database, and operations teams.
-
 ---
 
 ## Phase 7 — Stabilization and continuous improvement
@@ -386,14 +324,9 @@ After launch, the work continues.
 
 You could:
 
-- reproduce customer issues
-- correct configuration defects
-- refine forms
-- improve routing
-- adjust underwriting rules
-- add new insurance products
-- document lessons learned
-- identify reusable configuration patterns
+- reproduce customer issues - correct configuration defects - refine forms
+- improve routing - adjust underwriting rules - add new insurance products
+- document lessons learned - identify reusable configuration patterns
 - request product enhancements from Vertafore or internal Engineering
     
 
@@ -592,27 +525,18 @@ That is likely much closer to the actual job than “write an application in Jav
 
 # 7. How this relates to MRPrice
 
-Your strongest transferable example is MRPrice because it demonstrates an enterprise platform where business requirements, data models, cleansing rules, interfaces, releases, and operational controls had to work together.
-
-Use this bridge:
-
-> “MRPrice was not an insurance platform, but the implementation pattern was similar. We had business rules governing incoming market data, data cleansing and validation, mappings between legacy database structures and JSON API payloads, multiple environments, operational users, downstream consumers, release controls, and production-support requirements. My role was to translate business and operational needs into testable requirements, work with the technical teams, validate the data and workflows, coordinate releases, and ensure the solution was production-ready.”
-
-That is credible and directly relevant to Surefyre.
-
-Do not claim that MRPrice was a configurable low-code platform unless you can support that from your actual experience. The transferable point is the **implementation lifecycle and integration discipline**, not identical product architecture.
+> “MRPrice was not an insurance platform, but **the implementation pattern was similar.** We had **business rules governing incoming market data**, data **cleansing and validation, mappings between legacy database structures and JSON API payloads**, multiple environments, operational users, **downstream consumers,** release controls, and production-support requirements. My role was to **translate business and operational needs into testable requirements, work with the technical teams, validate the data and workflows, coordinate releases, and ensure the solution was production-ready.**”
 
 ---
 
 # 8. Your interview explanation
 
-A strong answer to “What do you understand about Surefyre and this role?” would be:
 
-> “My understanding is that Surefyre is a configurable agent portal and underwriting workbench for MGAs and wholesalers. It supports the process from agent submission through underwriting, quoting, and policy-related workflows, while integrating with core insurance systems and third-party services.
+> “My understanding is that Surefyre is a configurable agent portal and underwriting workbench for MGAs and wholesalers. **It supports the process from agent submission through underwriting, quoting, and policy-related workflows, while integrating with core insurance systems and third-party services.**
 > 
 > “For SPG, it appears to be part of a broader modernization effort to improve the retail-agent experience, streamline underwriting, and connect with AIM and ImageRight.
 > 
-> “I see the Technical Consultant as the person who helps turn each business program’s requirements into working forms, rules, workflows, calculations, integrations, and documented configurations. That includes understanding the business process, configuring and testing the solution, supporting data migration, resolving issues, and coordinating with Professional Services, Product, Engineering, Operations, IT, and Security.
+> “I see the Technical Consultant as the person **who helps turn each business program’s requirements into working forms, rules, workflows, calculations, integrations, and documented configurations.** That includes understanding the business process, configuring and testing the solution, supporting data migration, resolving issues, and coordinating with Professional Services, Product, Engineering, Operations, IT, and Security.
 > 
 > “That is attractive to me because it combines the parts of my background I am strongest in: business analysis, enterprise implementation, integration, testing, troubleshooting, release readiness, and production support.”
 

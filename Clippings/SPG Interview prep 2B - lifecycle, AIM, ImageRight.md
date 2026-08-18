@@ -340,15 +340,9 @@ AIM probably becomes the system of record.
 
 ### What flows into AIM?
 
-1. Applicant
-2. Coverage
-3. Premium
-4. Policy
-5. Producer
-6. Dates
-7. Carrier
-8. Transaction
-9. Status
+1. Applicant 2. Coverage 2. Premium 2. Policy
+2. Producer 3. Dates 3. Carrier 3. Transaction
+3. Status
 
 ---
 
@@ -358,23 +352,13 @@ ImageRight is easier.
 
 Think
 
-1. SharePoint
-2. Document Management
-3. Workflow
-4. Scanning
-5. built specifically for insurance.
+1. SharePoint 2. Document Management
+2. Workflow 3. Scanning 3. built specifically for insurance.
 
 Everything gets stored.
 
-1. Applications
-2. Loss Runs
-3. Emails
-4. Photos
-5. Signed documents
-6. Certificates
-7. Correspondence
-8. Audit records
-9. Generated PDFs
+1. Applications 2. Loss Runs 2. Emails 2. Photos 2. Signed documents
+2. Certificates 3. Correspondence 3. Audit records 3. Generated PDFs
 
 ---
 
@@ -577,9 +561,6 @@ This is one of the strongest analogies you can make during the interview.
 |Runbooks|Configuration documentation|
 |Dev/Ops coordination|Product/Engineering/Professional Services coordination|
 
-Notice that almost everything transfers except the business domain.
-
-The interviewers know you haven't spent years underwriting commercial insurance. They're looking to see whether you can **learn the domain while applying enterprise implementation skills you already have**.
 
 ---
 

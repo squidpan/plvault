@@ -80,87 +80,62 @@ It **IS**
 
 # 3. Primary Users
 
-## Retail Agent
+## Retail Agent - agent portal
 
-Uses
-
-Agent Portal
+Uses Agent Portal
 
 Responsibilities
 
 - Submit applications
-    
 - Upload documents
-    
 - Track status
-    
 - Receive quote
-    
 - Bind policy
     
 
 ---
 
-## Underwriter
+## Underwriter - underwriting Workbench
 
-Uses
-
-Underwriting Workbench
+Uses Underwriting Workbench
 
 Responsibilities
 
 - Review submissions
-    
 - Evaluate risk
-    
 - Request more information
-    
 - Refer
-    
 - Quote
-    
 - Bind
     
 
 ---
 
-## Operations
+## Operations - Surefyre
 
-Uses
-
-Surefyre
+Uses Surefyre
 
 Responsibilities
 
 - Process policies
-    
 - Verify documents
-    
 - Monitor workflow
-    
 - Handle exceptions
     
 
 ---
 
-## Administrator / Technical Consultant
+## Administrator / Technical Consultant - configure forms, etc
 
 Responsibilities
 
 - Configure forms
-    
 - Configure workflows
-    
 - Configure business rules
-    
 - Configure users
-    
 - Configure integrations
-    
 - Test changes
-    
 - Deploy changes
-    
 - Troubleshoot
     
 
@@ -214,18 +189,18 @@ This mirrors your FRBNY experience.
 
 Think in terms of configuration—not coding.
 
-|Business Need|Configuration|
-|---|---|
-|New insurance product|New application|
-|New field|Form configuration|
-|Eligibility|Business rule|
-|Approval|Workflow|
-|User permissions|Roles|
-|Email|Notification|
-|Quote PDF|Document template|
-|Rating|REST API|
-|Policy creation|AIM integration|
-|Documents|ImageRight integration|
+| Business Need         | Configuration          |
+| --------------------- | ---------------------- |
+| New insurance product | New application        |
+| New field             | Form configuration     |
+| Eligibility           | Business rule          |
+| Approval              | Workflow               |
+| User permissions      | Roles                  |
+| Email                 | Notification           |
+| Quote PDF             | Document template      |
+| Rating                | REST API               |
+| Policy creation       | AIM integration        |
+| Documents             | ImageRight integration |
 
 ---
 
@@ -250,13 +225,9 @@ Gather requirements
 Configure
 
 - Forms
-    
 - Rules
-    
 - Workflows
-    
 - Users
-    
 - Notifications
     
 
@@ -267,9 +238,7 @@ Configure
 Configure
 
 - REST APIs
-    
 - Authentication
-    
 - Data mapping
     
 
@@ -280,13 +249,9 @@ Configure
 Verify
 
 - Happy path
-    
 - Negative cases
-    
 - Integrations
-    
 - UAT
-    
 - Regression
     
 
@@ -297,11 +262,8 @@ Verify
 Prepare
 
 - Production
-    
 - Documentation
-    
 - Training
-    
 - Support
     
 
@@ -375,29 +337,25 @@ Renewal
 
 # 8. Where Technology Fits
 
-|Technology|Purpose|
-|---|---|
-|HTML|Forms|
-|CSS|Layout|
-|JavaScript|Dynamic behavior|
-|JSON|Data & configuration|
-|REST|Integrations|
-|SOAP|Legacy integrations|
-|Swagger|API documentation|
-|Postman|API testing|
-|Python|Automation|
-|SQL|Validation|
-|Excel|Analysis|
+| Technology | Purpose              |
+| ---------- | -------------------- |
+| HTML       | Forms                |
+| CSS        | Layout               |
+| JavaScript | Dynamic behavior     |
+| JSON       | Data & configuration |
+| REST       | Integrations         |
+| SOAP       | Legacy integrations  |
+| Swagger    | API documentation    |
+| Postman    | API testing          |
+| Python     | Automation           |
+| SQL        | Validation           |
+| Excel      | Analysis             |
 
 Notice
 
-Technology supports
+Technology supports the workflow.
 
-the workflow.
-
-It isn't
-
-the workflow.
+It isn't the workflow.
 
 ---
 

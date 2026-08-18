@@ -17,22 +17,16 @@ That's a huge difference.
 You are **not** interviewing for:
 
 - React Developer
-    
 - JavaScript Developer
-    
 - Front-end Engineer
     
 
 You're interviewing for someone who can:
 
 - read JavaScript
-    
 - understand what it's doing
-    
 - troubleshoot it
-    
 - make simple changes
-    
 - communicate intelligently with Engineering
     
 
@@ -556,6 +550,10 @@ Repeat.
 
 Very important.
 
+
+
+**JSON (JavaScript Object Notation) is a text-based data format derived from the syntax of JavaScript object literals.** While JSON looks like a JavaScript object, they are fundamentally different:JSON is a **string-based data standard** used to transmit data across different systems, whereas a JavaScript object is a **live data structure** that exists in a computer's memory during code execution
+
 JavaScript Object
 
 ```javascript
@@ -700,7 +698,7 @@ Perfect Surefyre example.
 
 ---
 
-# Browser Developer Tools
+# Browser Developer Tools - F12 Console etc
 
 Know these words.
 

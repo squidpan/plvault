@@ -10,6 +10,10 @@ The diagram is intentionally simplified. It is not meant to show every legal rel
 
 A business needs insurance coverage. A retail insurance agent gathers the business and risk information and submits it to a specialty insurance organization such as an SPG business. That SPG business may operate as an MGA, wholesaler, or program administrator. It evaluates or administers the submission within carrier guidelines and authority. The insurance carrier provides capacity and ultimately bears the covered insurance risk.
 
+![[References/SPG-Surefyre-Interview-Prep/02-Diagrams/spg-surefyre-d01-insurance-ecosystem-v2_PNG.png]]
+
+
+
 ## Participants
 
 ### Business Owner or Organization

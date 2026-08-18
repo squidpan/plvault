@@ -1,29 +1,3 @@
-I agree with that decision.
-
-Let's **freeze D2** for now.
-
-* ✅ The **PNG becomes the canonical interview artifact**.
-* ⏸️ The **PlantUML remains a work-in-progress**. We'll revisit it after the interview when we're not under time pressure. The limitation is more about PlantUML's automatic layout engine than the architecture itself.
-
-**TODO (post-interview):**
-
-* Revisit D2 PlantUML.
-* Investigate using nested `together`, hidden alignment anchors, or C4-PlantUML.
-* If PlantUML still can't faithfully reproduce the PNG, adopt **draw.io as the canonical diagram source** and generate SVG/PNG from there, keeping PlantUML only where it produces high-quality output.
-
-I actually think this is a good engineering decision: **don't let the tool dictate the design**.
-
----
-
-# D2 — How to Explain
-
-Suggested filename:
-
-```
-spg-surefyre-d02-product-architecture-how-to-explain.md
-```
-
----
 
 # D2 — Surefyre Product Architecture
 
@@ -46,6 +20,10 @@ Surefyre is the digital platform that connects:
 * carrier and rating services
 
 The Technical Consultant configures and supports this platform.
+
+
+---
+![[spg-surefyre-d02-product-architecture-v2_PNG.png]]
 
 ---
 

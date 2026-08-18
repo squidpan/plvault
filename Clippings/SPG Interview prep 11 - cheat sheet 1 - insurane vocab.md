@@ -51,15 +51,15 @@ Reinsurance Company
 
 ### Remember
 
-Customer buys insurance.
+1. Customer buys insurance.
+2. Retail Agent sells insurance.
+3. MGA underwrites insurance.
 
-Retail Agent sells insurance.
+> [!Underwriting]-
+> Underwriting in insurance is the process of evaluating the risk of insuring a person or asset to determine eligibility for coverage and the appropriate premium to charge
 
-MGA underwrites insurance.
-
-Carrier assumes the financial risk.
-
-Surefyre helps manage the workflow between them.
+4. Carrier assumes the financial risk.
+5. Surefyre helps manage the workflow between them.
 
 ---
 
@@ -72,17 +72,11 @@ When SPG says:
 They usually mean:
 
 - Underwriters
-    
 - Operations
-    
 - Product Owners
-    
 - Customer Service
-    
 - Compliance
-    
 - Professional Services
-    
 
 NOT software developers.
 
@@ -90,48 +84,37 @@ NOT software developers.
 
 # 3. Key Organizations
 
-## Retail Agent
+## Retail Agent - acts on behalf of customers
 
 - Works with customer
-    
 - Collects information
-    
 - Submits application
-    
 - Answers customer questions
     
 
 Examples
 
 - HUB International
-    
 - Marsh McLennan
-    
 - Brown & Brown
-    
 - Lockton
     
 
 ---
 
-## MGA
+## MGA - acts on behalf of carriers
 
 Managing General Agent
 
-Acts on behalf of insurance carriers.
+***Acts on behalf of insurance carriers.***
 
 Responsibilities
 
 - Receive submissions
-    
 - Underwrite
-    
 - Request more information
-    
 - Quote
-    
 - Bind
-    
 - Issue policies
     
 
@@ -141,22 +124,17 @@ Think
 
 ---
 
-## Carrier
+## Carrier - owns financial risks
 
 Insurance company.
 
 Examples
 
 - Travelers
-    
 - Chubb
-    
 - AIG
-    
 - CNA
-    
 - Liberty Mutual
-    
 - Zurich
     
 
@@ -175,27 +153,16 @@ Complex risks.
 Examples
 
 - Cyber
-    
 - Construction
-    
 - Marine
-    
 - Aviation
-    
 - Professional Liability
-    
 - Environmental
-    
 - Healthcare
-    
 - Energy
-    
 
-More complex underwriting.
 
-More configurable workflows.
-
-This is why Surefyre exists.
+More complex underwriting. ***More configurable workflows. This is why Surefyre exists.***
 
 ---
 
@@ -203,41 +170,23 @@ This is why Surefyre exists.
 
 ```text
 Submission
-
 ↓
-
 Validation
-
 ↓
-
 Underwriting
-
 ↓
-
 Rating
-
 ↓
-
 Quote
-
 ↓
-
 Bind
-
 ↓
-
 Issue Policy
-
 ↓
-
 Policy Service
-
 ↓
-
 Renewal
-
 ↓
-
 Cancellation
 ```
 
@@ -445,24 +394,22 @@ Senior Underwriter
 
 or
 
-Manager
-
-approval.
+Manager approval.
 
 ---
 
 # 9. Surefyre Mapping
 
-|Business Process|Surefyre Feature|
-|---|---|
-|Submission|Agent Portal|
-|Underwriting|Workbench|
-|Validation|Business Rules|
-|Rating|API Integration|
-|Documents|ImageRight|
-|Policy|AIM|
-|Notifications|Workflow|
-|Referral|Approval Routing|
+| Business Process | Surefyre Feature |
+| ---------------- | ---------------- |
+| Submission       | Agent Portal     |
+| Underwriting     | Workbench        |
+| Validation       | Business Rules   |
+| Rating           | API Integration  |
+| Documents        | ImageRight       |
+| Policy           | AIM              |
+| Notifications    | Workflow         |
+| Referral         | Approval Routing |
 
 ---
 

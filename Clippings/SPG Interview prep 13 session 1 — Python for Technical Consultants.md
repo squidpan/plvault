@@ -44,7 +44,7 @@ That's the right mindset.
 
 ---
 
-# Where Python Fits
+# Where Python Fits - customer data (csv) to python (validation) to json to Rest
 
 ```text
 Customer Data
@@ -78,13 +78,11 @@ Surefyre
 AIM
 ```
 
-Python is
-
-the glue.
+Python is the glue.
 
 ---
 
-# Typical Uses at SPG
+# Typical Python Uses at SPG
 
 I expect Python would be used for:
 
@@ -110,7 +108,7 @@ Building Surefyre.
 
 ---
 
-# Example 1
+# Example 1 - customer exports to csv python converts to JSON and imports uploads to AIM
 
 Customer sends
 
@@ -120,23 +118,19 @@ customers.csv
 
 Contains
 
-Business Name
+1. Business Name
+2. Revenue
+3. Coverage
+4. State
 
-Revenue
 
-Coverage
-
-State
 
 Python
 
-reads it.
-
-Validates it.
-
-Converts it.
-
-Uploads it.
+1. reads it.
+2. Validates it.
+3. Converts it.
+4. Uploads it.
 
 ---
 
@@ -177,29 +171,15 @@ Exactly what implementation consultants do.
 
 # Example 2
 
-Validation
+Validation Business Rule
 
-Business Rule
+Revenue must be greater than zero.
 
-Revenue
+Python checks every record.
 
-must be
+Instead of finding errors during migration,
 
-greater than zero.
-
-Python
-
-checks every record.
-
-Instead of
-
-finding errors
-
-during migration,
-
-find them
-
-before migration.
+find them before migration.
 
 Very valuable.
 
@@ -221,7 +201,7 @@ Import Failed.
 
 ---
 
-# Example 3
+# Example 3 - 1000 policies exported validate if imported
 
 Compare Two Files
 
@@ -283,7 +263,7 @@ automation.
 
 ---
 
-# Example
+# Example - python automates quotes batch processing
 
 Python
 
@@ -307,7 +287,7 @@ Perfect.
 
 ---
 
-# Example 5
+# Example 5 - python reports 100 imported 2 rejected
 
 Generate Report
 
@@ -365,7 +345,10 @@ JSON
 
 ---
 
-## pandas
+## pandas - library for data manipulation tabular csv data
+
+> [!Pandas]-
+> Pandas is a powerful, open-source Python library used for data manipulation, analysis, and cleaning. It provides fast and flexible tools designed to work with structured, tabular data—making it behave much like a supercharged, programmable version of Microsoft Excel or an SQL database
 
 Spreadsheets
 
@@ -421,35 +404,15 @@ That's almost certainly realistic.
 
 # Why Python?
 
-Because
+Because people make mistakes. Python doesn't.
 
-people make mistakes.
+Example 5000 records. No one wants to validate 5000 rows manually.
 
-Python doesn't.
-
-Example
-
-5000 records.
-
-No one
-
-wants
-
-to validate
-
-5000 rows
-
-manually.
-
-Python
-
-does it
-
-in seconds.
+Python does it in seconds.
 
 ---
 
-# My Experience
+# My Experience - python need examples
 
 This is how I'd answer.
 
@@ -702,7 +665,7 @@ Not for SPG.
 
 ---
 
-# SPG Example
+# SPG Example - csv to json
 
 Imagine this customer request:
 

@@ -32,49 +32,23 @@ That's really the whole relationship.
 
 Technically
 
-Swagger
+Swagger = tools
 
-=
+OpenAPI = the specification
 
-tools
+People often say "Swagger" when they mean OpenAPI.
 
-OpenAPI
-
-=
-
-the specification
-
-People often say
-
-"Swagger"
-
-when they mean
-
-OpenAPI.
-
-In interviews,
-
-that's perfectly normal.
+In interviews, that's perfectly normal.
 
 ---
 
 # What is OpenAPI?
 
-Think of OpenAPI as
+Think of OpenAPI as the API contract.
 
-the API contract.
+Imagine hiring a contractor. Before they build your house, you need Blueprints.
 
-Imagine hiring a contractor.
-
-Before they build your house
-
-you need
-
-Blueprints.
-
-Swagger/OpenAPI
-
-is the blueprint.
+Swagger/OpenAPI is the blueprint.
 
 ---
 
@@ -305,11 +279,7 @@ what the API expects.
 
 Very important word.
 
-Endpoint
-
-=
-
-specific API.
+Endpoint = specific API.
 
 Example
 
@@ -337,11 +307,7 @@ Example
 GET /submission/12345
 ```
 
-12345
-
-=
-
-Path Parameter.
+12345 = Path Parameter.
 
 ---
 
@@ -351,11 +317,7 @@ Another
 GET /submission?state=NJ
 ```
 
-state
-
-=
-
-Query Parameter.
+state  = Query Parameter.
 
 Know the difference.
 
@@ -400,29 +362,19 @@ What comes back.
 
 # Schema
 
-You'll hear
+You'll hear Schema.
 
-Schema.
-
-Means
-
-Structure.
+Means Structure.
 
 Example
 
-Customer
+Customer must contain 
 
-must contain
-
-Business Name
-
-Coverage
-
-Revenue
-
-State
-
-etc.
+1. Business Name
+2. Coverage
+3. Revenue
+4. State
+5. etc.
 
 Swagger defines
 
@@ -432,19 +384,14 @@ that structure.
 
 # Authentication
 
-Swagger tells you
-
-how to authenticate.
+Swagger tells you how to authenticate.
 
 Example
 
-Bearer Token
-
-Basic Auth
-
-API Key
-
-OAuth
+1. Bearer Token 
+2. Basic Auth
+3. API Key
+4. OAuth
 
 Very useful.
 
@@ -490,13 +437,9 @@ Server Error
 
 # Why This Matters
 
-Suppose
+Suppose  Customer says "No quote."
 
-Customer says
-
-"No quote."
-
-Swagger tells you
+Swagger tells you 
 
 Expected Request
 
@@ -504,13 +447,7 @@ Expected Response
 
 Expected Status
 
-Now
-
-compare
-
-with
-
-Postman.
+Now compare with Postman.
 
 ---
 
@@ -565,7 +502,7 @@ Deploy
 
 ---
 
-# What I Would Say
+# How do you use swagger?
 
 If interviewer asks
 
@@ -573,7 +510,7 @@ How do you use Swagger?
 
 I'd answer
 
-> I primarily use Swagger as the authoritative API reference. It helps me understand the available endpoints, authentication requirements, request and response schemas, expected status codes, and data structures before configuring integrations or testing them in Postman. I see Swagger and Postman as complementary—Swagger defines the contract, and Postman verifies the implementation.
+> I primarily use Swagger as the **authoritative API reference**. It helps me understand the **available endpoints**, authentication requirements, **request and response schemas**, expected status codes, and **data structures** before configuring integrations or testing them in Postman. I see Swagger and Postman as complementary—Swagger defines the contract, and Postman verifies the implementation.
 
 Excellent answer.
 
@@ -657,7 +594,7 @@ Those are developer topics.
 
 ---
 
-# SPG Example
+# SPG Example - Policies not created in AIM
 
 Imagine a customer reports:
 
@@ -697,7 +634,7 @@ This is exactly how a Technical Consultant thinks.
 
 ---
 
-# Key Interview Sound Bites
+# Key Interview Sound Bites - Swagger Postman
 
 These are worth memorizing:
 

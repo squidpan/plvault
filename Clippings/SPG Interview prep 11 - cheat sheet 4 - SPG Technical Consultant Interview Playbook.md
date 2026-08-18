@@ -44,15 +44,10 @@ Keep every answer focused on one central message:
 ## Past
 
 - 30+ years implementing enterprise systems
-    
 - Financial Services
-    
 - Business Analysis
-    
 - Enterprise Software
-    
 - Technical Consulting
-    
 - Customer-facing implementations
     
 
@@ -63,17 +58,11 @@ Keep every answer focused on one central message:
 Federal Reserve (MRPrice)
 
 - Requirements
-    
 - APIs
-    
 - JSON
-    
 - Testing
-    
 - Release Readiness
-    
 - Production Support
-    
 - Cross-functional delivery
     
 
@@ -136,25 +125,25 @@ Remember these five phrases.
 
 # Story Index
 
-|If They Ask...|Story|
-|---|---|
-|Tell me about yourself|Story 0|
-|Biggest project|Story 1|
-|Enterprise implementation|Story 1|
-|APIs|Story 1|
-|Modernization|Story 1|
-|Testing|Story 2|
-|Quality improvement|Story 2|
-|Business rules|Story 2|
-|Deployment|Story 3|
-|Go-live|Story 3|
-|Release readiness|Story 3|
-|Production issue|Story 4|
-|Troubleshooting|Story 4|
-|Customer support|Story 4|
-|Documentation|Story 5|
-|Knowledge transfer|Story 5|
-|Continuous improvement|Story 5|
+| If They Ask...            | Story   |
+| ------------------------- | ------- |
+| Tell me about yourself    | Story 0 |
+| Biggest project           | Story 1 |
+| Enterprise implementation | Story 1 |
+| APIs                      | Story 1 |
+| Modernization             | Story 1 |
+| Testing                   | Story 2 |
+| Quality improvement       | Story 2 |
+| Business rules            | Story 2 |
+| Deployment                | Story 3 |
+| Go-live                   | Story 3 |
+| Release readiness         | Story 3 |
+| Production issue          | Story 4 |
+| Troubleshooting           | Story 4 |
+| Customer support          | Story 4 |
+| Documentation             | Story 5 |
+| Knowledge transfer        | Story 5 |
+| Continuous improvement    | Story 5 |
 
 ---
 
@@ -422,21 +411,15 @@ Customer Success
 
 # Three Things I Want Them to Remember
 
-## 1
-
-Paul understands enterprise implementations.
+## 1 - Paul understands enterprise implementations.
 
 ---
 
-## 2
-
-Paul communicates well with customers and developers.
+## 2 - Paul communicates well with customers and developers.
 
 ---
 
-## 3
-
-Paul can learn Surefyre quickly.
+## 3 - Paul can learn Surefyre quickly.
 
 ---
 

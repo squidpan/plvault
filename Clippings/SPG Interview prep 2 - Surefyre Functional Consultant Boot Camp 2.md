@@ -57,32 +57,20 @@ This will cover questions 8 and 10–13:
 ### Part A — JSON and configuration
 
 - JSON objects, arrays, nesting, and types
-- JSON Schema concepts
-- required fields
-- validation
-- conditional fields
-- field identifiers
-- lookup values
-- form-builder output
-- configuration troubleshooting
+- JSON Schema concepts - required fields
+- validation - conditional fields - field identifiers
+- lookup values - form-builder output - configuration troubleshooting
     
 
 ### Part B — JavaScript refresher
 
 We will focus on what a Surefyre Technical Consultant is likely to need, not front-end software engineering:
 
-- variables and constants
-- strings, numbers, arrays, and objects
-- functions
-- arrow functions
-- conditionals
-- loops and array methods
-- accessing nested JSON
-- optional chaining
-- template literals
-- form-event logic
-- validation functions
-- transforming request data
+- variables and constants - strings, numbers, arrays, and objects
+- functions - arrow functions - conditionals
+- loops and array methods - accessing nested JSON
+- optional chaining - template literals - form-event logic
+- validation functions - transforming request data
 - reading existing JavaScript safely
 - debugging with browser developer tools
     
@@ -93,16 +81,11 @@ Your React job-application project is useful evidence. You can truthfully say yo
 
 We will use practical consultant examples:
 
-- read and write CSV
-- read and write JSON
-- transform field names
-- normalize dates and states
-- validate required data
-- split valid and rejected records
-- compare source and target counts
-- call REST APIs
-- handle responses and errors
-- create migration logs
+- read and write CSV - read and write JSON
+- transform field names - normalize dates and states
+- validate required data - split valid and rejected records
+- compare source and target counts - call REST APIs
+- handle responses and errors - create migration logs
 - generate import files
     
 
@@ -114,23 +97,14 @@ We will treat these as one connected module rather than four isolated subjects:
 
 - HTTP versus HTTPS
 - methods: GET, POST, PUT, PATCH, DELETE
-- path parameters
-- query parameters
-- headers
-- request body
-- response body
-- status codes
-- authentication
-- JSON payloads
-- REST versus SOAP
-- OpenAPI specification
-- Swagger UI
-- Postman collections
-- environments
-- variables
-- pre-request scripts
-- test scripts
-- passing IDs and tokens between requests
+- path parameters - query parameters
+- headers - request body - response body
+- status codes - authentication
+- JSON payloads - REST versus SOAP
+- OpenAPI specification - Swagger UI
+- Postman collections - environments
+- variables - pre-request scripts
+- test scripts - passing IDs and tokens between requests
 - positive and negative testing
     
 
@@ -144,47 +118,23 @@ After Boot Camp Session 2, we will deepen the domain knowledge:
 
 ### Module 1 — Insurance participants
 
-- insured or policyholder
-- retail agent
-- broker
-- wholesale broker
-- MGA
-- carrier
-- underwriter
-- program administrator
-- claims organization
-- regulators
+- insured or policyholder - retail agent
+- broker - wholesale broker - MGA
+- carrier - underwriter - program administrator
+- claims organization - regulators
 
 ### Module 2 — Insurance product lifecycle
 
-- submission
-- eligibility
-- underwriting
-- rating
-- quote
-- bind
-- issue
-- endorsement
-- renewal
-- cancellation
-- claim
+- submission - eligibility - underwriting - rating
+- quote - bind - issue - endorsement - renewal
+- cancellation - claim
     
 
 ### Module 3 — Underwriting fundamentals
 
-- risk
-- exposure
-- hazard
-- loss history
-- eligibility
-- appetite
-- limits
-- deductible
-- premium
-- referral
-- decline
-- authority
-- audit trail
+- risk - exposure - hazard - loss history - eligibility
+- appetite - limits - deductible - premium
+- referral - decline - authority - audit trail
     
 
 ### Module 4 — Specialty insurance
