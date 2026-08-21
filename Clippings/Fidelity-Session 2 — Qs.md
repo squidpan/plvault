@@ -438,4 +438,73 @@ That will start showing you what a **Trading-focused BA on Rep Code Expansion** 
 
 ---
 
+# Summary
 
+Absolutely. Here's a compact **Session 1 + Session 2 review sheet**, incorporating the corrections we made to your answers. The Fidelity-specific framing is grounded in the JD, particularly its description of Rep Codes being used for advisors, teams, compensation structures, and order-handling roles.
+
+---
+
+# Session 2 — Rep Codes 101
+
+|#|Review Question|Answer to Remember|
+|---|---|---|
+|**1**|**Why isn't an Employee ID sufficient to replace a Rep Code?**|**Employee ID identifies the person/employee. Rep Code represents a brokerage business relationship, assignment, team, compensation structure, order-handling role, etc.** They're identifiers for different business concepts.|
+|**2**|**If Account 12345 contains `REP_CODE = ABC`, is ABC the client's identifier?**|**No.** The client and account have their own identifiers. `ABC` represents the relevant rep/advisor business relationship or other Rep Code construct associated with that account/activity.|
+|**3**|**Why could reusing an old Rep Code create problems?**|Historical transactions may still contain the old code. Reassigning it to a different relationship could create **historical ambiguity, incorrect attribution and reconciliation/traceability problems.**|
+|**4**|**What is a System of Record (SOR)?**|The **authoritative source of truth** for particular data. Other systems may copy or transform the data, but when they disagree, the SOR establishes the authoritative value/meaning.|
+|**5**|**What is data lineage?**|The end-to-end path of data: **where it originated → where it traveled → how it was transformed → which systems consumed it.** You can trace backward to the source or forward to determine downstream impact.|
+|**6**|**What happens if Fidelity introduces `ABCD` but a legacy system only accepts 3 characters?**|That's a **compatibility/dependency problem**. Fidelity's JD describes a **centralized translation approach** to allow new 4-character Rep Codes while maintaining compatibility with legacy systems. Don't assume whether that implementation is a database, API, service, repository, etc.—we don't know yet.|
+
+## Session 2 flow to remember
+
+The biggest conceptual change from Session 1 is:
+
+**DON'T think:**
+
+**Rep Code = Mary's employee ID**
+
+Think:
+
+**Mary / Advisor / Team**
+
+↓
+
+**business relationship / assignment / role**
+
+↓
+
+**REP CODE**
+
+↓
+
+**Account / Activity**
+
+↓
+
+**Order / Trading / Clearing / Supervision / Reporting**
+
+And separately:
+
+**System of Record**
+
+↓
+
+**authoritative Rep Code meaning**
+
+↓
+
+**downstream consumers**
+
+---
+
+## Three definitions I especially want you to remember
+
+|Term|Simple definition|
+|---|---|
+|**System of Record**|**Where is the authoritative truth?**|
+|**Data Lineage**|**Where did the data come from, where did it go, and how did it change along the way?**|
+|**Data Mapping**|**How does a data element in one system correspond to the data element/representation in another system?**|
+
+Those three concepts are going to become increasingly important because the Fidelity JD specifically calls for **data lineage and data mapping, understanding systems of record/system changes, and working through complex systems and dependencies.**
+
+When we resume, we should first finish the **two Session 3 questions (A and B)** I gave you rather than jumping ahead to Session 4.

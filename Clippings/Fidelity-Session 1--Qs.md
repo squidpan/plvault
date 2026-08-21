@@ -184,3 +184,25 @@ You're getting the model. **Q1, Q2, and Q5 are essentially right. Q3 needs one i
 
 
 ---
+
+# Summary
+
+Absolutely. Here's a compact **Session 1 + Session 2 review sheet**, incorporating the corrections we made to your answers. The Fidelity-specific framing is grounded in the JD, particularly its description of Rep Codes being used for advisors, teams, compensation structures, and order-handling roles.
+
+Absolutely. Here's a compact **Session 1 + Session 2 review sheet**, incorporating the corrections we made to your answers. The Fidelity-specific framing is grounded in the JD, particularly its description of Rep Codes being used for advisors, teams, compensation structures, and order-handling roles.
+
+## Session 1 — Brokerage & Wealth Management 101
+
+|#|Review Question|Answer to Remember|
+|---|---|---|
+|**1**|**What's the difference between a client and an account?**|**Client = customer/person or entity. Account = financial/legal container holding the client's assets/activity.** One client can have multiple accounts. A client does not necessarily need an advisor.|
+|**2**|**What's the difference between an order and a trade?**|**Order = instruction** to buy/sell. **Execution = the order (or part of it) gets filled. Trade = resulting transaction.** One order can have multiple executions.|
+|**3**|**Why use a Rep Code instead of simply the advisor's name?**|Names aren't reliable unique business identifiers. A **Rep Code represents a relevant rep/advisor business relationship, assignment, team, role, etc.** It can be associated with accounts and activity and referenced consistently across systems.|
+|**4**|**Why could changing a Rep Code from 3 → 4 characters affect trading systems?**|Systems may have been designed around exactly 3 characters—database fields, validations, APIs, files, business rules, interfaces, etc. A 4-character code could be **rejected, truncated, lost, mistranslated, or processed incorrectly.**|
+|**5**|**What's the difference between clearing and settlement?**|**Clearing = determine and prepare what everyone owes. Settlement = fulfill those obligations**, completing delivery of securities and payment.|
+
+### Session 1 flow to remember
+
+**Client → Advisor/Rep → Rep Code → Account → Order → Execution → Trade → Clearing → Settlement**
+
+One correction to keep in mind: an advisor isn't automatically assigned just because someone opens a brokerage account. The account may be **self-directed**.
