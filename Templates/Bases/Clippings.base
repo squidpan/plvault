@@ -105,3 +105,17 @@ views:
     columnSize:
       file.name: 259
       file.ctime: 88
+  - type: table
+    name: fidelity
+    filters:
+      and:
+        - file.tags.contains("fidelity")
+    order:
+      - file.name
+      - description
+      - file.tags
+      - file.ctime
+    columnSize:
+      file.name: 167
+      note.description: 582
+      file.ctime: 88

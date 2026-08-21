@@ -484,7 +484,7 @@ And your real-world recovery test adds another important clue: **rebooting with 
 
 There is also prior history of MT7922 Linux connectivity problems with the `mt7921e` driver, including Pop!_OS reports involving authentication problems, although the older issue I found focused on 5 GHz rather than your exact suspend/USB-C scenario. ([GitHub](https://github.com/pop-os/linux-firmware/issues/47?utm_source=chatgpt.com "Mediatek MT7922 wireless adapter 5GHz connectivity issue")) Your MT7922 is indeed a device supported by the Linux `mt7921e` driver. ([Cateee](https://cateee.net/lkddb/web-lkddb/MT7921E.html?utm_source=chatgpt.com "CONFIG_MT7921E: MediaTek MT7921E (PCIe) support"))
 
-### What I want to do next
+### What I want to do next if wifi is dead again
 
 For now, **do not install the pending OS update yet**. We finally have a reproducible-looking pre-update failure mode, so this is a good point to run one controlled experiment.
 
