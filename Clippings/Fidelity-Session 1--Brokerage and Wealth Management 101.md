@@ -29,40 +29,29 @@ The Fidelity JD tells us that Rep Code Expansion ultimately touches **advisor st
 
 ---
 
-## 1. Start with you and $10,000
+## 1. Start with you and $10,000 - Visible parts
 
 Suppose you have $10,000 and want to buy 20 shares of Apple. You can't normally walk directly onto a stock exchange and say:
 
 > "Hi, I'd like 20 shares of Apple."
 
-You need access to the securities marketplace.
-
-So you open an account with a financial-services company such as Fidelity.
+You need **access to the securities marketplace.** So you open an account with a **financial-services company**, **Fidelity**.
 
 At the simplest level:
 
 **You**
-
 ↓
-
 **Your brokerage account**
-
 ↓
-
 **Brokerage firm / broker-dealer**
-
 ↓
-
 **Market**
-
 ↓
-
 **AAPL**
 
 But that's only the visible part.
 
 Behind that transaction is a collection of people, accounts, identifiers, systems, business rules and organizations.
-
 That's the world we're going to unpack.
 
 ---
@@ -231,17 +220,11 @@ Now we have another actor:
 The advisor may help the client with things such as:
 
 - investment strategy
-    
 - asset allocation
-    
 - portfolio decisions
-    
 - financial planning
-    
 - securities transactions
-    
 - account servicing
-    
 
 This brings us much closer to the Fidelity project.
 
@@ -399,14 +382,14 @@ For example:
 
 An order could contain information such as:
 
-|Field|Example|
-|---|---|
-|Account|12345|
-|Side|BUY|
-|Security|AAPL|
-|Quantity|20|
-|Order Type|Market|
-|Rep Code|DEF|
+| Field      | Example |
+| ---------- | ------- |
+| Account    | 12345   |
+| Side       | BUY     |
+| Security   | AAPL    |
+| Quantity   | 20      |
+| Order Type | Market  |
+| Rep Code   | DEF     |
 
 Don't treat this as Fidelity's actual schema. We're constructing a conceptual model.
 
@@ -485,21 +468,13 @@ The transaction must go through post-trade processing.
 At a high level:
 
 **Order**
-
 ↓
-
 **Execution**
-
 ↓
-
 **Trade**
-
 ↓
-
 **Clearing**
-
 ↓
-
 **Settlement**
 
 These last two words matter.
@@ -656,13 +631,9 @@ Now Fidelity says:
 
 > We're expanding three-character Rep Codes to four characters.
 
-Old:
+Old: **DEF**
 
-**DEF**
-
-New:
-
-**DEF1**
+New: **DEF1**
 
 Immediately, the BA should ask:
 
@@ -719,17 +690,11 @@ Broader relationship/advisory model.
 It may encompass:
 
 - financial planning
-    
 - investment advice
-    
 - portfolio management
-    
 - retirement planning
-    
 - tax-aware strategies
-    
 - estate considerations
-    
 - advisor relationships
     
 
