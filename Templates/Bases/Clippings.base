@@ -112,10 +112,12 @@ views:
         - file.tags.contains("fidelity")
     order:
       - file.name
-      - description
       - file.tags
       - file.ctime
+    sort:
+      - property: file.ctime
+        direction: DESC
     columnSize:
-      file.name: 167
+      file.name: 300
       note.description: 582
       file.ctime: 88

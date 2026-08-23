@@ -5,7 +5,7 @@ title: Fidelity-Session 5 — Fidelity Rep Code Expansion
 source: https://chatgpt.com/g/g-p-69dd57df00d0819198410a853ec753d1/c/6a85c8ce-c900-83ea-a3c8-ebc097bd9285
 author:
 published:
-created: 2026-08-21
+created: 2026-08-22
 description: Now we're going to take Sessions 1–4 and apply them specifically to the project described in the JD.
 tags:
   - clippings

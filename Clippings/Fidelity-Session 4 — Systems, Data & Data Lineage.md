@@ -5,7 +5,7 @@ title: Fidelity-Session 4 — Systems, Data & Data Lineage
 source: https://chatgpt.com/g/g-p-69dd57df00d0819198410a853ec753d1/c/6a85c8ce-c900-83ea-a3c8-ebc097bd9285
 author:
 published:
-created: 2026-08-21
+created: 2026-08-22
 description: This is a major session for your Fidelity role because the JD specifically calls for data lineage/mapping experience, understanding systems of record/system changes, data flows/APIs/business logic, and the ability to work through complex systems and dependencies.
 tags:
   - clippings
