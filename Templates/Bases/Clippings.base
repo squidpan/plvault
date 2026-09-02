@@ -17,8 +17,6 @@ views:
     order:
       - file.name
       - tags
-      - author
-      - description
       - file.ctime
     sort:
       - property: file.ctime
@@ -34,9 +32,7 @@ views:
       - property: created
         direction: DESC
     columnSize:
-      file.name: 167
-      note.author: 191
-      note.description: 357
+      file.name: 370
       file.ctime: 88
   - type: table
     name: Author
@@ -118,6 +114,5 @@ views:
       - property: file.ctime
         direction: DESC
     columnSize:
-      file.name: 300
-      note.description: 582
+      file.name: 502
       file.ctime: 88

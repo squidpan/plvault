@@ -57,16 +57,66 @@
     },
     {
       "type": "file",
-      "ctime": 1786048727122,
-      "path": "Clippings/SPG Interview prep 13 session 1 — Python for Technical Consultants.md",
-      "title": "spg - python how I used it"
-    },
-    {
-      "type": "file",
       "ctime": 1787066601720,
       "path": "Wi-Fi Disconnect Troubleshooting.md",
       "subpath": "#What I want to do next if wifi is dead again",
       "title": "do this if wifi dead again"
+    },
+    {
+      "type": "file",
+      "ctime": 1788125132471,
+      "path": "Clippings/Fidelity-Session 8 — SQL.md",
+      "subpath": "#8C-3 — `HAVING`",
+      "title": "HAVING"
+    },
+    {
+      "type": "file",
+      "ctime": 1788125276099,
+      "path": "Clippings/Fidelity-Session 8 — SQL.md",
+      "subpath": "#First, run only the JOIN",
+      "title": "JOIN-match"
+    },
+    {
+      "type": "file",
+      "ctime": 1788125289589,
+      "path": "Clippings/Fidelity-Session 8 — SQL.md",
+      "subpath": "#Then we'll find the mismatch",
+      "title": "JOIN-mismatch"
+    },
+    {
+      "type": "file",
+      "ctime": 1788126326261,
+      "path": "Clippings/Fidelity-Session 8 — SQL.md",
+      "subpath": "#Next `LEFT JOIN` for missing mappings",
+      "title": "LEFT JOIN for missing mappings"
+    },
+    {
+      "type": "file",
+      "ctime": 1788127378275,
+      "path": "Clippings/Fidelity-Session 8 — SQL.md",
+      "subpath": "#Step 1 — Show all trade/mapping pairs",
+      "title": "JOIN-show all trades with rep_code mapping pairs"
+    },
+    {
+      "type": "file",
+      "ctime": 1788127439443,
+      "path": "Clippings/Fidelity-Session 8 — SQL.md",
+      "subpath": "#Next — find actual mismatches",
+      "title": "JOIN - find actual mismatched rep_code mappings"
+    },
+    {
+      "type": "file",
+      "ctime": 1788127730244,
+      "path": "Clippings/Fidelity-Session 8 — SQL.md",
+      "subpath": "#8E — `CASE` turn data into a business classification",
+      "title": "CASE-turn data into business classification"
+    },
+    {
+      "type": "file",
+      "ctime": 1788189025732,
+      "path": "Clippings/Fidelity-Session 10 Apex Fidelity Screener Preparation.md",
+      "subpath": "#Your five things to remember if everything else disappears",
+      "title": "5 things to remember"
     }
   ]
 }

@@ -14,6 +14,55 @@ url: https://chatgpt.com/g/g-p-69dd57df00d0819198410a853ec753d1/c/6a85c8ce-c900-
 ---
 ---
 
+Absolutely. Here is the **compact review table from the voice practice we just did**. I kept the answers close to the language that was working naturally for you rather than turning them into scripted interview speeches.
+
+### Apex / Fidelity Screening — Q&A Review
+
+| Question / Topic                                                    | Simple answer to remember                                                                                                                                                                                                                                                                          |
+| ------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Tell me about yourself.**                                         | “I’m a Senior Business Analyst with a financial services background. Most recently at the New York Fed, I supported a streaming fixed-income market data application and its modernization from an Oracle-based environment to AWS and APIs.” **STOP.** Let them ask the next question.            |
+| **What did the Fed application do?**                                | “It consolidated fixed-income market data from multiple sources and distributed it in real time to downstream consumers.”                                                                                                                                                                          |
+| **Why are you interested in this role?**                            | “I’m interested because it’s very close to the type of work I’ve been doing—data analysis and data lineage involving complex systems and helping teams make safe changes.”                                                                                                                         |
+| **What do you understand about Rep Code Expansion?**                | “It sounds simple at first—expanding a three-character Rep Code to four characters—but it’s much more than a database field change. You have to understand the impact across downstream trading, operational and regulatory systems and maintain legacy compatibility.”                            |
+| **How do you approach discovery in an unfamiliar system/domain?**   | “I start with the high-level business flow and identify the systems, interfaces, data and actors involved. I like to draw that out because it quickly shows me what I understand and what I don’t. Then I work with the SMEs and drill into the inputs, outputs, business rules and dependencies.” |
+| **What if what an SME tells you doesn't match what you're seeing?** | “If something doesn’t line up, I validate it against the actual data—using things like SQL, logs or data samples—and then circle back with the SME to make sure my understanding is correct.”                                                                                                      |
+| **What if SMEs disagree?**                                          | “I’d bring the appropriate SMEs together and work through the disagreement using the available data and evidence. Once we reach agreement, I document the decision and share it so everyone has a single source of truth.”                                                                         |
+| **How do you keep everyone aligned afterward?**                     | “Keep the main documentation updated, send a short summary after important discussions, and flag changes early so everyone is working from the same understanding.”                                                                                                                                |
+| **INNER JOIN**                                                      | Keeps only records that **match on both sides**.                                                                                                                                                                                                                                                   |
+| **LEFT JOIN**                                                       | Keeps **all records from the left table** and brings in matching records from the right table. If there’s no match, the right-side values are **NULL**.                                                                                                                                            |
+| **LEFT JOIN — Rep Code example**                                    | “I could left join orders to the Rep Code master so that I keep every order and can identify orders whose Rep Code has no corresponding master record.”                                                                                                                                            |
+| **FULL OUTER JOIN**                                                 | Keeps records from **both tables**, matching them where possible. Where one side has no match, that side contains NULLs.                                                                                                                                                                           |
+| **GROUP BY**                                                        | Groups rows by one or more fields so you can calculate aggregate values such as `COUNT`, `SUM` or `AVG`.                                                                                                                                                                                           |
+| **WHERE vs. HAVING**                                                | **WHERE filters individual rows before GROUP BY. HAVING filters the grouped results after GROUP BY.**                                                                                                                                                                                              |
+| **How would you characterize your SQL experience?**                 | “I’ve used SQL for data analysis and validation, including filtering, joins and aggregate functions with GROUP BY.” Don't oversell yourself as a SQL developer.                                                                                                                                    |
+
+### The three things to have in your head
+
+Don't try to memorize the whole table. For this afternoon, remember these patterns:
+
+**Your introduction**
+
+> Senior BA → financial services → New York Fed → streaming fixed-income market data → Oracle → AWS/APIs.
+
+**Your BA discovery method**
+
+> Understand the flow → identify systems/interfaces/data/actors → draw it → talk to SMEs → drill into dependencies → validate with data → document → communicate.
+
+**Your SQL foundation**
+
+> INNER JOIN = matches  
+> LEFT JOIN = keep left + matches + NULL  
+> GROUP BY = aggregate  
+> WHERE = before grouping  
+> HAVING = after grouping
+
+One thing I noticed during the voice practice: **your answers improved considerably when you stopped trying to reproduce my wording and explained the concept in your own words.** That's what I want you doing at 5:30. Know the sequence and concepts; don't memorize paragraphs.
+
+And your short **“Tell me about yourself”** answer was working well. Resist the temptation to immediately explain the entire Fed application, data lineage, REST mapping, QA/UAT, deployment coordination, etc. Give them the clean two-sentence opener and **let the interviewer choose where to drill down**.
+
+---
+
+
 # Fidelity — Session 10: Apex/Fidelity Screener Preparation
 
 Now we switch from **learning** to **performing**.
@@ -28,18 +77,18 @@ The JD supports that emphasis: trading experience is preferred rather than requi
 
 We'll prepare these in the order you're likely to encounter them:
 
-|Part|Screener topic|Goal|
-|---|---|---|
-|**10.1**|Tell me about yourself|60–90 sec opening|
-|**10.2**|Why this role / why Fidelity?|Connect your background to Rep Code|
-|**10.3**|What do you understand about Rep Code Expansion?|Demonstrate preparation without pretending insider knowledge|
-|**10.4**|Technical / systems questions|Lineage, APIs, SQL, dependencies, SOR|
-|**10.5**|Trading-domain questions|Demonstrate sufficient working vocabulary|
-|**10.6**|Behavioral / discovery|How you actually operate as a BA|
-|**10.7**|Weakness/gap questions|Trading, SQL, regulatory without self-disqualifying|
-|**10.8**|Recruiter logistics|Contract, rate, hybrid, availability|
-|**10.9**|Questions you ask them|Strong closing|
-|**10.10**|Mock screener|Rapid spoken practice|
+| Part      | Screener topic                                   | Goal                                                         |
+| --------- | ------------------------------------------------ | ------------------------------------------------------------ |
+| **10.1**  | Tell me about yourself                           | 60–90 sec opening                                            |
+| **10.2**  | Why this role / why Fidelity?                    | Connect your background to Rep Code                          |
+| **10.3**  | What do you understand about Rep Code Expansion? | Demonstrate preparation without pretending insider knowledge |
+| **10.4**  | Technical / systems questions                    | Lineage, APIs, SQL, dependencies, SOR                        |
+| **10.5**  | Trading-domain questions                         | Demonstrate sufficient working vocabulary                    |
+| **10.6**  | Behavioral / discovery                           | How you actually operate as a BA                             |
+| **10.7**  | Weakness/gap questions                           | Trading, SQL, regulatory without self-disqualifying          |
+| **10.8**  | Recruiter logistics                              | Contract, rate, hybrid, availability                         |
+| **10.9**  | Questions you ask them                           | Strong closing                                               |
+| **10.10** | Mock screener                                    | Rapid spoken practice                                        |
 
 We should be able to build the core material in about **30–45 minutes**.
 
@@ -59,7 +108,9 @@ Use:
 
 > I'm a Senior Business Analyst with a financial-services background, and most of my career has been at the intersection of business, data and technology.
 > 
-> Most recently, I worked at the Federal Reserve Bank of New York supporting a streaming fixed-income market-data application and its modernization from an Oracle-based environment toward AWS and REST APIs. My work included requirements analysis, data mapping from relational schemas to JSON payloads, JIRA user stories and acceptance criteria, QA and UAT, release coordination, and working closely with developers and infrastructure teams across Linux, Oracle, OpenShift and AWS.
+> Most recently, I worked at the Federal Reserve Bank of New York supporting a streaming fixed-income market-data application and **its modernization from an Oracle based system to AWS and REST API**. 
+> 
+  My work included requirements analysis, data mapping from relational schemas to JSON payloads, JIRA user stories and acceptance criteria, QA and UAT, release coordination, and working closely with developers and infrastructure teams across Linux, Oracle, OpenShift and AWS.
 > 
 > Earlier in my career, I also worked at Fidelity through Capgemini, supporting fixed-income feeds and reference, pricing and security-master data used by downstream trading and other financial platforms.
 > 
@@ -71,29 +122,9 @@ That answer is well supported by your resume.
 
 Within about a minute, you've already planted:
 
-**Senior BA**
+**Senior BA**, **financial services**, **fixed income**, **market data**, **Fidelity**
 
-**financial services**
-
-**fixed income**
-
-**market data**
-
-**Fidelity**
-
-**Oracle**
-
-**AWS**
-
-**REST**
-
-**data mapping**
-
-**requirements**
-
-**UAT**
-
-**complex systems**
+**Oracle**, **AWS**, **REST**, **data mapping**, **requirements**, **UAT**, **complex systems**
 
 And you haven't claimed direct brokerage trading experience.
 
@@ -129,7 +160,7 @@ This is where all those domain sessions start paying off.
 
 I'd use approximately **45 seconds**:
 
-> My understanding from the project description is that the existing three-character Rep Code namespace has become constrained as Fidelity's business and advisor structures have grown more complex. The target state expands that identifier to four characters.
+> My understanding from the project description is that the **existing three-character Rep Code namespace has become constrained as Fidelity's business and advisor structures have grown more complex**. The target state expands that identifier to four characters.
 > 
 > The real challenge isn't simply increasing the field length. You have multiple systems and interfaces with different capabilities and release cycles, so the new four-character representation has to coexist with legacy three-character processing. That creates questions around the authoritative source, data lineage, validation, translation, downstream compatibility and exception handling.
 > 

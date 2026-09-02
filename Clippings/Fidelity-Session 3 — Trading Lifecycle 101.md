@@ -12,6 +12,381 @@ tags:
   - fidelity
 url: https://chatgpt.com/g/g-p-69dd57df00d0819198410a853ec753d1/c/6a85c8ce-c900-83ea-a3c8-ebc097bd9285
 ---
+---
+
+# Pre-Trade - layer 1
+
+```puml
+@startuml
+
+title TRD-10 — Pre-Trade (Layer 1)
+
+top to bottom direction
+
+skinparam componentStyle rectangle
+
+actor Client
+
+actor "Advisor / Registered Rep" as Advisor
+
+rectangle "Client / Account System" as AccountSys
+
+rectangle "Rep Code System of Record" as RepSOR
+
+rectangle "Order Entry" as OrderEntry
+
+rectangle "Pre-Trade Validation" as Validation
+
+rectangle "Order Management System (OMS)" as OMS
+
+rectangle "Order Routing" as Routing
+
+rectangle "Execution Venue" as Venue
+
+Client -right-> Advisor : Trade instruction\nBuy 100 IBM
+
+RepSOR -right-> AccountSys : Rep Code assignment /\nrelationship data
+
+Advisor -down-> OrderEntry : Account #\nSecurity / Side / Qty\nRep Code
+
+AccountSys -right-> OrderEntry : Account #\nStatus\nRep relationship
+
+OrderEntry -down-> Validation : Order + Account #\nRep Code + Security\nSide + Qty
+
+Validation -left-> RepSOR : Validate Rep Code\n(if required)
+
+Validation -right-> AccountSys : Validate account /\npermissions / status
+
+Validation -down-> OMS : Validated order\nOrder ID + Account #\nRep Code + Security\nSide + Qty
+
+OMS -down-> Routing : Routed order\nOrder ID + Account #\nRep Code? + Security\nSide + Qty
+
+Routing -down-> Venue : Execution request\n(fields depend on interface)
+
+note right of Validation
+
+[[TRD-11-pre-trade-rep-code-lineage.puml Drill down: TRD-11]]
+
+Rep Code Data Lineage
+
+covers Rep SOR + Account +
+
+Order Entry + Validation + OMS
+
+end note
+
+note right of Routing
+
+BA discovery:
+
+Does Rep Code continue,
+
+get transformed,
+
+or get dropped?
+
+end note
+
+@enduml
+```
+
+
+---
+```puml
+@startuml
+
+title TRD-11 — Pre-Trade Rep Code Data Lineage (Layer 2)
+
+caption Parent: TRD-10 | Boundary: Rep SOR + Account + Order Entry + Validation + OMS
+
+top to bottom direction
+
+skinparam componentStyle rectangle
+
+rectangle "Rep Code SOR" as SOR
+
+rectangle "Client / Account System" as ACCT
+
+rectangle "Order Entry" as OE
+
+rectangle "Pre-Trade Validation" as VAL
+
+rectangle "OMS" as OMS
+
+rectangle "Next Boundary:\nOrder Routing" as NEXT
+
+SOR -right-> ACCT : authoritative Rep Code\n+ business relationship
+
+ACCT -down-> OE : account_id\nadvisor_rep_code\naccount status
+
+OE -down-> VAL : account_id\nrep_code\nsecurity_id\nside / qty
+
+VAL -left-> SOR : Rep Code lookup / validation\n(if required)
+
+VAL -right-> ACCT : account / Rep relationship\nvalidation
+
+VAL -down-> OMS : order_id\naccount_id\nrep_code\nsecurity_id\nside / qty
+
+OMS -down-> NEXT : flow continues\n(field contract = discovery item)
+
+note right of OE
+
+Example mapping questions:
+
+Account.advisor_rep_code
+
+-> OrderEntry.rep_code
+
+-> OMS.repCd
+
+  
+
+Exact Fidelity field names
+
+are NOT known.
+
+end note
+
+note right of VAL
+
+Impact checks:
+
+field length / UI / validation
+
+business rules / interfaces
+
+transformations
+
+end note
+
+note bottom of NEXT
+
+Forward lineage = downstream impact.
+
+Backward lineage = origin.
+
+  
+
+[[TRD-10-pre-trade.puml Back to parent: TRD-10]]
+
+end note
+
+@enduml
+```
+
+---
+# Post-Trade
+
+```puml
+@startuml
+
+title TRD-20 — Post-Trade Processing (Layer 1)
+
+top to bottom direction
+
+skinparam componentStyle rectangle
+
+actor "Trading / Operations User" as OpsUser
+
+actor "Business / Supervisory User" as BizUser
+
+rectangle "Execution Venue" as Venue
+
+rectangle "Order Management System (OMS)" as OMS
+
+rectangle "Trade Processing" as TradeProc
+
+rectangle "Rep Code Translation" as Translation
+
+rectangle "Rep Code System of Record" as RepSOR
+
+rectangle "Clearing" as Clearing
+
+rectangle "Settlement" as Settlement
+
+rectangle "Positions / Books & Records" as Books
+
+rectangle "Supervisory Workflow" as Supervision
+
+rectangle "Reporting" as Reporting
+
+Venue -down-> OMS : Execution(s)\nExecution ID + Order ID\nSecurity / Qty / Price
+
+OMS -down-> TradeProc : Trade details\nOrder ID + Execution ID\nAccount # + Rep Code\nSecurity / Qty / Price
+
+TradeProc -down-> Clearing : Trade obligation data\nAccount #\nRep Code / translated code\nSecurity / Qty / Price
+
+Clearing -down-> Settlement : Cleared obligations\nCash owed\nSecurities owed
+
+Settlement -down-> Books : Settled trade\nAccount # + Security / Qty\nTrade status
+
+TradeProc -left-> Translation : Rep Code\n(e.g. ABC1)
+
+Translation -left-> RepSOR : Resolve / validate\nmapping context
+
+Translation -right-> TradeProc : Legacy / target mapping\n(e.g. ABC1 -> XYZ)
+
+TradeProc -right-> Supervision : Trade + advisor context\nAccount # + Rep Code\nOrder / Trade IDs
+
+TradeProc -right-> Reporting : Trade / activity data\nAccount # + Rep Code\nSecurity / Qty / Price
+
+RepSOR --> Supervision : Authoritative Rep Code meaning
+
+RepSOR --> Reporting : Authoritative Rep Code meaning
+
+OpsUser --> TradeProc : Investigate exceptions /\nreconcile trade
+
+Books -[hidden]left-> BizUser
+
+BizUser -[hidden]up-> RepSOR
+
+BizUser -up-> Supervision : Review / supervise activity
+
+BizUser -up-> Reporting : Consume reports / insights
+
+note left of Translation
+
+Conceptual only:
+
+centralized translation approach;
+
+actual implementation unknown.
+
+  
+
+[[TRD-21-rep-code-translation-legacy-compatibility.puml Drill down: TRD-21]]
+
+end note
+
+note right of Supervision
+
+Candidate only:
+
+TRD-31 Supervision &
+
+Traceability — build only
+
+if visual review says useful.
+
+end note
+
+@enduml
+```
+
+
+---
+```puml
+@startuml
+
+title TRD-21 — Rep Code Translation & Legacy Compatibility (Layer 2)
+
+caption Parent: TRD-20 | Boundary: OMS + Trade Processing + Translation + Clearing
+
+top to bottom direction
+
+skinparam componentStyle rectangle
+
+rectangle "OMS" as OMS
+
+rectangle "Trade Processing" as TP
+
+rectangle "Centralized Translation\nCapability (conceptual)" as XLATE
+
+database "Rep Code / Mapping\nAuthoritative Data" as MAP
+
+rectangle "Clearing / Legacy-Compatible\nConsumer Boundary" as CLR
+
+rectangle "Exception Behavior\nTBD by Fidelity" as EXC
+
+OMS -down-> TP : order_id / execution_id\naccount_id / rep_code\nsecurity / qty / price
+
+  
+
+' Keep the request and response as two separate solid flows.
+
+' Hidden spacers help PlantUML route the labels apart without changing semantics.
+
+rectangle " " as GAP1 #transparent
+
+rectangle " " as GAP2 #transparent
+
+GAP1 -[hidden]- GAP2
+
+  
+
+TP -left-> XLATE : new-world Rep Code\nwhen translation is required
+
+XLATE -left-> MAP : resolve mapping /\nauthoritative meaning
+
+MAP -right-> XLATE : mapping result
+
+XLATE -right-> TP : translated legacy-compatible\nRep representation
+
+  
+
+' Direct path when translation is not required.
+
+TP -down-> CLR : trade + account\nnew/legacy Rep Code\nwhen translation is not required\nsecurity / qty / price
+
+  
+
+XLATE -down-> EXC : no/invalid mapping or\ntranslation unavailable
+
+note bottom of XLATE
+
+Conceptual example only:
+
+ABC1 <-> XYZ
+
+  
+
+Business-identity mapping,
+
+NOT truncation.
+
+  
+
+Exact implementation and
+
+translation location unknown.
+
+end note
+
+note right of TP
+
+BA checks:
+
+3 vs 4 consumers?
+
+translation direction?
+
+cardinality?
+
+effective dating/history?
+
+ownership/approval?
+
+reconciliation?
+
+end note
+
+note bottom of EXC
+
+Do not invent behavior.
+
+Discover reject / hold / queue /
+
+retry / other requirement.
+
+  
+
+[[TRD-20-post-trade.puml Back to parent: TRD-20]]
+
+end note
+
+@enduml
+```
+
 
 ---
 
@@ -93,14 +468,14 @@ Information needs to be captured.
 
 Conceptually:
 
-|Attribute|Value|
-|---|---|
-|Account|12345|
-|Security|IBM|
-|Side|BUY|
-|Quantity|100|
-|Order Type|Market|
-|Rep Code|ABC|
+| Attribute  | Value  |
+| ---------- | ------ |
+| Account    | 12345  |
+| Security   | IBM    |
+| Side       | BUY    |
+| Quantity   | 100    |
+| Order Type | Market |
+| Rep Code   | ABC    |
 
 There could be many additional fields and controls in a real brokerage environment.
 
