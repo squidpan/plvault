@@ -1,0 +1,40 @@
+@startuml
+title TRD-11 — Pre-Trade Rep Code Data Lineage (Layer 2)
+caption Parent: TRD-10 | Boundary: Rep SOR + Account + Order Entry + Validation + OMS
+top to bottom direction
+skinparam componentStyle rectangle
+rectangle "Rep Code SOR" as SOR
+rectangle "Client / Account System" as ACCT
+rectangle "Order Entry" as OE
+rectangle "Pre-Trade Validation" as VAL
+rectangle "OMS" as OMS
+rectangle "Next Boundary:\nOrder Routing" as NEXT
+SOR -right-> ACCT : authoritative Rep Code\n+ business relationship
+ACCT -down-> OE : account_id\nadvisor_rep_code\naccount status
+OE -down-> VAL : account_id\nrep_code\nsecurity_id\nside / qty
+VAL -left-> SOR : Rep Code lookup / validation\n(if required)
+VAL -right-> ACCT : account / Rep relationship\nvalidation
+VAL -down-> OMS : order_id\naccount_id\nrep_code\nsecurity_id\nside / qty
+OMS -down-> NEXT : flow continues\n(field contract = discovery item)
+note right of OE
+Example mapping questions:
+Account.advisor_rep_code
+ -> OrderEntry.rep_code
+ -> OMS.repCd
+
+Exact implementation field names
+are intentionally unspecified.
+end note
+note right of VAL
+Impact checks:
+field length / UI / validation
+business rules / interfaces
+transformations
+end note
+note bottom of NEXT
+Forward lineage = downstream impact.
+Backward lineage = origin.
+
+[[TRD-10-pre-trade.puml Back to parent: TRD-10]]
+end note
+@enduml

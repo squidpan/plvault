@@ -1,0 +1,60 @@
+@startuml
+title TRD-21 — Rep Code Translation & Legacy Compatibility (Layer 2)
+caption Parent: TRD-20 | Boundary: OMS + Trade Processing + Translation + Clearing
+top to bottom direction
+skinparam componentStyle rectangle
+rectangle "OMS" as OMS
+rectangle "Trade Processing" as TP
+rectangle "Centralized Translation\nCapability (conceptual)" as XLATE
+database "Rep Code / Mapping\nAuthoritative Data" as MAP
+rectangle "Modern Consumer\n(4-character capable)" as MODERN
+rectangle "Legacy Consumer\n(3-character contract)" as LEGACY
+rectangle "Controlled Exception\nQueue / support workflow" as EXC
+OMS -down-> TP : order_id / execution_id\naccount_id / rep_code\nsecurity / qty / price
+
+' Keep the request and response as two separate solid flows.
+' Hidden spacers help PlantUML route the labels apart without changing semantics.
+rectangle " " as GAP1 #transparent
+rectangle " " as GAP2 #transparent
+GAP1 -[hidden]- GAP2
+
+TP -left-> XLATE : new-world Rep Code\nwhen translation is required
+XLATE -left-> MAP : resolve mapping /\nauthoritative meaning
+MAP -right-> XLATE : mapping result
+XLATE -right-> TP : translated legacy-compatible\nRep representation
+
+' Modern path preserves the authoritative value.
+TP -down-> MODERN : trade + account\n4-character Rep Code\nsecurity / qty / price
+
+' Legacy path receives only a resolved, governed alias.
+XLATE -down-> LEGACY : trade + account\n3-character alias + mapping version\nsecurity / qty / price
+
+XLATE -down-> EXC : no/invalid mapping or\ntranslation unavailable
+note bottom of XLATE
+Conceptual example only:
+ABC1 <-> XYZ
+
+Business-identity mapping,
+NOT truncation.
+
+Fictional training design;
+not an employer architecture.
+end note
+note right of TP
+BA checks:
+3 vs 4 consumers?
+translation direction?
+cardinality?
+effective dating/history?
+ownership/approval?
+reconciliation?
+end note
+note bottom of EXC
+Synthetic chosen behavior:
+fail closed, queue, alert,
+remediate under governance,
+then authorize replay.
+
+[[TRD-20-post-trade.puml Back to parent: TRD-20]]
+end note
+@enduml

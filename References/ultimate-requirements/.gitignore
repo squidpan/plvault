@@ -1,0 +1,13 @@
+# Obsidian workspace state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Generated exports and operating-system files
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Local scratch output
+tmp/
+dist/

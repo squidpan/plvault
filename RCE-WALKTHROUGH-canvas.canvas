@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"e4c36a1b0e689e41","x":-1196,"y":-1120,"width":2270,"height":1310,"type":"group","label":"US-RCE-101"},
+		{"id":"78af9e8276ab31cf","x":-1196,"y":-1760,"width":1550,"height":560,"type":"group","label":"FEATURE-RCE-010"},
+		{"id":"f9324bff5f25973d","x":-240,"y":-2160,"width":1188,"height":280,"type":"group","label":"EPIC-RCE-001"},
+		{"id":"7a02090480f597fb","type":"file","file":"References/synthetic-rep-code-ba-lab/docs/requirements/00-RCE-WALKTHROUGH.md","x":-1180,"y":-2155,"width":872,"height":220},
+		{"id":"54d8578b8cc16f2e","type":"text","text":"EPIC-RCE-001","x":-220,"y":-2140,"width":160,"height":50},
+		{"id":"cbc83988b61acb53","type":"file","file":"References/synthetic-rep-code-ba-lab/docs/requirements/EPIC-RCE-001.md","x":-25,"y":-2135,"width":920,"height":240},
+		{"id":"2c3a01499a8a04bf","type":"file","file":"References/synthetic-rep-code-ba-lab/docs/requirements/FEATURE-RCE-010.md","x":-940,"y":-1695,"width":1272,"height":395},
+		{"id":"bc595e6775840d46","type":"text","text":"FEATURE-RCE-010","x":-1176,"y":-1695,"width":205,"height":60},
+		{"id":"b88c598558fca5a0","type":"text","text":"US-RCE-101","x":-1176,"y":-1100,"width":140,"height":60},
+		{"id":"1a55d5509dc0aed0","type":"text","text":"AC-RCE-101","x":-1016,"y":-1100,"width":140,"height":60},
+		{"id":"27b81b1edc06fb07","x":-755,"y":-1070,"width":649,"height":1120,"type":"file","file":"References/synthetic-rep-code-ba-lab/docs/requirements/US-RCE-101.md"},
+		{"id":"04f8e9d9945b3eac","x":60,"y":-1070,"width":889,"height":1240,"type":"file","file":"References/synthetic-rep-code-ba-lab/docs/requirements/AC-RCE-101.md"},
+		{"id":"8984bc1f1c2340f8","type":"text","text":"DATA-RCE-001","x":435,"y":-1805,"width":250,"height":60},
+		{"id":"113e8e0d2fc4302e","type":"text","text":"INT-RCE-001","x":435,"y":-1715,"width":250,"height":60},
+		{"id":"9e12c2af71a9f74a","type":"text","text":"DEC-RCE-001","x":435,"y":-1595,"width":250,"height":60},
+		{"id":"580e80944e217f8e","type":"text","text":"RISK-RCE-001","x":435,"y":-1495,"width":250,"height":60},
+		{"id":"7cac022fa9255035","type":"text","text":"LINEAGE-RCE-001","x":435,"y":-1395,"width":250,"height":60},
+		{"id":"5e21cd55d9a92a81","type":"text","text":"MAPPING-RCE-001","x":770,"y":-1795,"width":250,"height":60},
+		{"id":"db460b054390f362","type":"text","text":"TEST-RCE-101-01","x":770,"y":-1685,"width":250,"height":60},
+		{"id":"4f512e070bf7d45d","type":"text","text":"TEST-RCE-101-02","x":770,"y":-1575,"width":250,"height":60},
+		{"id":"9e41fee816ef5fad","type":"text","text":"RTM-RCE-001.csv","x":770,"y":-1425,"width":250,"height":60}
+	],
+	"edges":[]
+}

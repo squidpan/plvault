@@ -1,0 +1,42 @@
+schema_version: "0.1"
+collection:
+  id: bibleproject-reference-pack
+  title: BibleProject reference pack
+  owner: BibleProject
+  usage: private-personal-noncommercial-reference
+  downloads_url: https://bibleproject.com/downloads/
+  terms_url: https://bibleproject.com/terms/
+  retrieved_on: 2026-09-08
+
+artifacts:
+  - id: bp-genesis-poster
+    title: Genesis overview poster
+    type: poster
+    path: examples/genesis/attachments/genesis-bibleproject-poster.jpg
+    role: reconstruction-reference
+    related_sections: [genesis-1-11, genesis-12-50]
+
+  - id: bp-genesis-1-11-transcript
+    title: Genesis 1-11 transcript
+    type: transcript
+    path: references/bibleproject/genesis/genesis-1-11-transcript.pdf
+    role: narrative-source
+
+  - id: bp-genesis-12-50-transcript
+    title: Genesis 12-50 transcript
+    type: transcript
+    path: references/bibleproject/genesis/genesis-12-50-transcript.pdf
+    role: narrative-source
+
+  - id: bp-genesis-part-1-study-guide
+    title: Genesis Part 1 study guide
+    type: study-guide
+    path: references/bibleproject/genesis/genesis-part-1-study-guide.pdf
+    role: supporting-source
+
+  - id: bp-comparative-posters
+    title: Comparative one-page posters
+    type: poster-collection
+    path: references/bibleproject/comparative-posters
+    role: later-pattern-validation
+    status: parked

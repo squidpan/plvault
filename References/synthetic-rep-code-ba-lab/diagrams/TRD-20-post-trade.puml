@@ -1,0 +1,47 @@
+@startuml
+title TRD-20 — Post-Trade Processing (Layer 1)
+top to bottom direction
+skinparam componentStyle rectangle
+actor "Trading / Operations User" as OpsUser
+actor "Business / Supervisory User" as BizUser
+rectangle "Execution Venue" as Venue
+rectangle "Order Management System (OMS)" as OMS
+rectangle "Trade Processing" as TradeProc
+rectangle "Rep Code Translation" as Translation
+rectangle "Rep Code System of Record" as RepSOR
+rectangle "Clearing" as Clearing
+rectangle "Settlement" as Settlement
+rectangle "Positions / Books & Records" as Books
+rectangle "Supervisory Workflow" as Supervision
+rectangle "Reporting" as Reporting
+Venue -down-> OMS : Execution(s)\nExecution ID + Order ID\nSecurity / Qty / Price
+OMS -down-> TradeProc : Trade details\nOrder ID + Execution ID\nAccount # + Rep Code\nSecurity / Qty / Price
+TradeProc -down-> Clearing : Trade obligation data\nAccount #\nRep Code / translated code\nSecurity / Qty / Price
+Clearing -down-> Settlement : Cleared obligations\nCash owed\nSecurities owed
+Settlement -down-> Books : Settled trade\nAccount # + Security / Qty\nTrade status
+TradeProc -left-> Translation : Rep Code\n(e.g. ABC1)
+Translation -left-> RepSOR : Resolve / validate\nmapping context
+Translation -right-> TradeProc : Legacy / target mapping\n(e.g. ABC1 -> XYZ)
+TradeProc -right-> Supervision : Trade + advisor context\nAccount # + Rep Code\nOrder / Trade IDs
+TradeProc -right-> Reporting : Trade / activity data\nAccount # + Rep Code\nSecurity / Qty / Price
+RepSOR --> Supervision : Authoritative Rep Code meaning
+RepSOR --> Reporting : Authoritative Rep Code meaning
+OpsUser --> TradeProc : Investigate exceptions /\nreconcile trade
+Books -[hidden]left-> BizUser
+BizUser -[hidden]up-> RepSOR
+BizUser -up-> Supervision : Review / supervise activity
+BizUser -up-> Reporting : Consume reports / insights
+note left of Translation
+Conceptual only:
+centralized translation approach;
+actual implementation unknown.
+
+[[TRD-21-rep-code-translation-legacy-compatibility.puml Drill down: TRD-21]]
+end note
+note right of Supervision
+Candidate only:
+TRD-31 Supervision &
+Traceability — build only
+if visual review says useful.
+end note
+@enduml

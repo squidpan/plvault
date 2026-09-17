@@ -1,0 +1,36 @@
+@startuml
+title TRD-10 — Pre-Trade (Layer 1)
+top to bottom direction
+skinparam componentStyle rectangle
+actor Client
+actor "Advisor / Registered Rep" as Advisor
+rectangle "Client / Account System" as AccountSys
+rectangle "Rep Code System of Record" as RepSOR
+rectangle "Order Entry" as OrderEntry
+rectangle "Pre-Trade Validation" as Validation
+rectangle "Order Management System (OMS)" as OMS
+rectangle "Order Routing" as Routing
+rectangle "Execution Venue" as Venue
+Client -right-> Advisor : Trade instruction\nBuy 100 IBM
+RepSOR -right-> AccountSys : Rep Code assignment /\nrelationship data
+Advisor -down-> OrderEntry : Account #\nSecurity / Side / Qty\nRep Code
+AccountSys -right-> OrderEntry : Account #\nStatus\nRep relationship
+OrderEntry -down-> Validation : Order + Account #\nRep Code + Security\nSide + Qty
+Validation -left-> RepSOR : Validate Rep Code\n(if required)
+Validation -right-> AccountSys : Validate account /\npermissions / status
+Validation -down-> OMS : Validated order\nOrder ID + Account #\nRep Code + Security\nSide + Qty
+OMS -down-> Routing : Routed order\nOrder ID + Account #\nRep Code? + Security\nSide + Qty
+Routing -down-> Venue : Execution request\n(fields depend on interface)
+note right of Validation
+[[TRD-11-pre-trade-rep-code-lineage.puml Drill down: TRD-11]]
+Rep Code Data Lineage
+covers Rep SOR + Account +
+Order Entry + Validation + OMS
+end note
+note right of Routing
+BA discovery:
+Does Rep Code continue,
+get transformed,
+or get dropped?
+end note
+@enduml

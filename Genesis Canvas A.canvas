@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"0426da10a36b275a","x":-900,"y":-640,"width":1240,"height":560,"type":"file","file":"Genesis summary.md"},
+		{"id":"d3c552733a7a8998","type":"file","file":"References/farm-credit-ba-exercise/docs/requirements/diagrams/plantuml/e6-propose-and-approve-debt-transaction/E6-00-issue-and-settle-security-500-foot-business-view.md","x":-780,"y":-1140,"width":420,"height":440}
+	],
+	"edges":[]
+}

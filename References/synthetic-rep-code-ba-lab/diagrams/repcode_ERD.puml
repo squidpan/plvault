@@ -1,0 +1,94 @@
+@startuml
+title Synthetic Rep Code BA Lab
+title Effective-Dated Consumer Translation Model
+
+hide circle
+skinparam linetype ortho
+
+entity "rep_code_master" as rep_code_master {
+    * rep_code : varchar(4) <<PK>>
+    --
+    * rep_name : varchar(100)
+    * rep_type : varchar(30)
+    * active_flag : boolean
+}
+
+entity "interface_consumer" as interface_consumer {
+    * consumer_id : bigint <<PK>>
+    --
+    * consumer_name : varchar(100) <<UK>>
+    * supported_code_length : smallint
+    * active_flag : boolean
+}
+
+entity "rep_code_translation" as rep_code_translation {
+    * translation_id : bigint <<PK>>
+    --
+    * new_rep_code : varchar(4) <<FK>>
+    * consumer_id : bigint <<FK>>
+    * legacy_rep_code : varchar(3)
+    * effective_from : timestamp
+    effective_to : timestamp
+    * mapping_status : varchar(20)
+    * mapping_version : integer
+}
+
+entity "client_account" as client_account {
+    * account_id : bigint <<PK>>
+    --
+    * client_name : varchar(100)
+    * rep_code : varchar(4) <<FK>>
+    * account_status : varchar(20)
+}
+
+entity "orders" as orders {
+    * order_id : bigint <<PK>>
+    --
+    * account_id : bigint <<FK>>
+    * rep_code : varchar(4) <<FK>>
+    * symbol : varchar(12)
+    * side : varchar(4)
+    * quantity : integer
+    * order_status : varchar(30)
+    * created_at : timestamp
+}
+
+entity "executions" as executions {
+    * execution_id : bigint <<PK>>
+    --
+    * order_id : bigint <<FK>>
+    * executed_qty : integer
+    * executed_price : numeric(12,2)
+    * executed_at : timestamp
+}
+
+entity "trades" as trades {
+    * trade_id : bigint <<PK>>
+    --
+    * order_id : bigint <<FK>>
+    * account_id : bigint <<FK>>
+    * consumer_id : bigint <<FK>>
+    * rep_code : varchar(4) <<FK>>
+    legacy_rep_code : varchar(3)
+    mapping_version : integer
+    * trade_status : varchar(30)
+}
+
+rep_code_master ||--o{ rep_code_translation : "versioned mapping"
+interface_consumer ||--o{ rep_code_translation : "consumer policy"
+rep_code_master ||--o{ client_account : "assigned code"
+rep_code_master ||--o{ orders : "captured code"
+client_account ||--o{ orders : "places"
+orders ||--o{ executions : "fills"
+orders ||--o{ trades : "books"
+client_account ||--o{ trades : "owns"
+interface_consumer ||--o{ trades : "receives"
+rep_code_master ||--o{ trades : "attribution"
+
+note right of rep_code_translation
+  Preserve history; do not overwrite mappings.
+  Enforce one approved active mapping per
+  rep code + consumer + point in time.
+end note
+
+@enduml

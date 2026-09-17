@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"epic-header","type":"text","text":"# EPIC-E6: SECURITY ISSUANCE & SETTLEMENT PIPELINE\n*God's Plan to Rescue a Broken Transaction Lifecycle*","x":-150,"y":-500,"width":800,"height":120},
+		{"id":"macro-1","type":"text","text":"## LEFT ZONE: THE FRONT OFFICE (Act 1-11)\n### FEATURE-E6-01 & 02: Transaction Genesis & Window Management\n* Establishing order from market chaos via systematic scheduling, capital checks, and baseline window reservation constraints.","x":-600,"y":-300,"width":400,"height":200},
+		{"id":"downward-spiral","type":"text","text":"## THE DOWNWARD LOOP: THE REJECTION SPIRAL\n### US-E6-104 ➔ US-E6-105: Human / User Failures\n* **The Fall:** Flawed trades undergo mandatory structural correction.\n* **The Echo:** `(🔗 Echoes Front Office Input Errors)`\n* Returning flawed metrics to baseline author states.","x":-600,"y":-20,"width":400,"height":360},
+		{"id":"hinge-node","type":"text","text":"# ⬇ THE CENTRAL HINGE PIN (Genesis 12 Anchor) ⬇\n## FEATURE-E6-05: POST-TRADE COMPLIANCE REPORTING\n* **The Master Resolution Hook:** Out of trade volatility, compliance reconciliation platforms generate authoritative regulatory records.\n* **Fulfillment:** Transmitting absolute transparency logs to downstream regulatory nodes.","x":-150,"y":280,"width":800,"height":220},
+		{"id":"macro-2","type":"text","text":"## RIGHT ZONE: THE BACK OFFICE (Act 12-50)\n### FEATURE-E6-03 & 04: Clearing Execution & Settlement Delivery\n* Order allocations propagate through complex matrix networks, binding clearing obligations across independent custodian agents.","x":500,"y":-300,"width":400,"height":200},
+		{"id":"remediation-loop","type":"text","text":"## THE REMEDIATION: COVENANT AMENDMENT\n### US-E6-404 ➔ US-E6-505: Exception Management\n* **The Resolution:** Balancing structural trade variance.\n* System discrepancies undergo proactive settlement correction, translating processing anomalies into pure systemic balance states.","x":500,"y":-20,"width":400,"height":220}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"epic-header","fromSide":"bottom","toNode":"macro-1","toSide":"top"},
+		{"id":"e2","fromNode":"epic-header","fromSide":"bottom","toNode":"macro-2","toSide":"top"},
+		{"id":"e3","fromNode":"macro-1","fromSide":"bottom","toNode":"downward-spiral","toSide":"top"},
+		{"id":"e4","fromNode":"macro-2","fromSide":"bottom","toNode":"remediation-loop","toSide":"top"},
+		{"id":"e5","fromNode":"downward-spiral","fromSide":"bottom","toNode":"hinge-node","toSide":"left"},
+		{"id":"e6","fromNode":"remediation-loop","fromSide":"bottom","toNode":"hinge-node","toSide":"right"}
+	]
+}
