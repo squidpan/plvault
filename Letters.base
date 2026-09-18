@@ -1,6 +1,0 @@
-filters:
-  and:
-    - categories == ["[[Letters]]"]
-views:
-  - type: table
-    name: Letters

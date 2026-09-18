@@ -1,0 +1,26 @@
+filters:
+  and:
+    - categories == ["[[Letters]]"]
+views:
+  - type: table
+    name: Letters
+    order:
+      - file.name
+      - file.tags
+      - subject
+      - file.backlinks
+      - file.links
+      - type
+      - created
+      - url
+    sort:
+      - property: file.ctime
+        direction: DESC
+    columnSize:
+      file.name: 197
+      file.tags: 96
+      note.subject: 280
+      file.backlinks: 105
+      note.type: 76
+  - type: table
+    name: job-search

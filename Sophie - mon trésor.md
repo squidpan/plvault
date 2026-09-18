@@ -4,10 +4,10 @@ categories:
 author: []
 rating:
 topics: []
-last:
+last: 2026-08-15
 tags:
   - letter
-created:
+created: 2026-08-15
 subject:
 recipients:
 type:

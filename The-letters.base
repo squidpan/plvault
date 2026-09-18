@@ -1,0 +1,15 @@
+filters:
+  and:
+    - categories == ["[[Letters]]"]
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - categories
+      - file.tags
+    columnSize:
+      file.name: 223
+      note.categories: 113
+  - type: cards
+    name: View

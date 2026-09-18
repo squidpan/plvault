@@ -3,4 +3,4 @@ tags:
   - categories
 ---
 
-![[Letters.base]]
+![[Templates/Bases/Letters.base]]
