@@ -1,19 +1,21 @@
 ---
 title: Audioslave - Show Me How to Live (Official Video)
-source: https://www.youtube.com/watch?v=vVXIK1xCRpY&list=RDMM&index=27
-author:
-  - "[[AudioslaveVEVO]]"
-published: 2009-10-25
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[AudioslaveVEVO]]'
+album: []
+published: '2009-10-25'
 url: https://www.youtube.com/watch?v=vVXIK1xCRpY&list=RDMM&index=27
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=vVXIK1xCRpY)
 

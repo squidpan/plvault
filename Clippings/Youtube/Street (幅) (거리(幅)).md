@@ -1,15 +1,22 @@
 ---
-title: "YouTube Video: (8) Street (幅) (거리(幅)) - YouTube"
-source: "https://www.youtube.com/watch?v=4GUmh7zY7tk&list=PLenc09-d686KxBZ0fqSUPMQK5pdW0_xKp&index=4"
-author: "[[Boohwal - Topic]]"
-created: "2026-03-20"
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
-published: "07/31/2023"
-tags: ["clippings", "videos"]
-url: "https://www.youtube.com/watch?v=4GUmh7zY7tk&list=PLenc09-d686KxBZ0fqSUPMQK5pdW0_xKp&index=4"
-album: "album name"
+title: 'YouTube Video: (8) Street (幅) (거리(幅)) - YouTube'
+type:
+- video
+categories:
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- youtube
+- music
+author:
+- '[[Boohwal]]'
+album: []
+published: '2023-07-31'
+url: https://www.youtube.com/watch?v=4GUmh7zY7tk&list=PLenc09-d686KxBZ0fqSUPMQK5pdW0_xKp&index=4
+created: '2026-03-20'
+last: '2026-03-20'
 ---
-
 <iframe
   src="https://www.youtube-nocookie.com/embed/4GUmh7zY7tk?rel=0&modestbranding=1"
   title="(8) Street (幅) (거리(幅)) - YouTube"

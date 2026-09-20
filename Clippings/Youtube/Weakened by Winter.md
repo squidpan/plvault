@@ -1,19 +1,21 @@
 ---
 title: Nick Johnston - Weakened by Winter
-source: https://www.youtube.com/watch?v=FQBKNxAagic&list=RDEMEXc-YUwhULcXK1yj_E4-Cw&index=3
-author:
-  - "[[Nick Johnston]]"
-published: 2017-01-30
-created: 2026-03-14
-description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Nick Johnston]]'
+album: []
+published: '2017-01-30'
 url: https://www.youtube.com/watch?v=FQBKNxAagic&list=RDEMEXc-YUwhULcXK1yj_E4-Cw&index=3
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=FQBKNxAagic)
 

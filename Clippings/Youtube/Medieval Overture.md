@@ -1,20 +1,22 @@
 ---
 title: Return To Forever - Medieval Overture 1976
-source: https://www.youtube.com/watch?v=XjOYscEN6Qc&list=RDGMEMTmC-2iNKH_l8gQ1LHo9FeQ&index=13
-author:
-  - "[[Karel Cuelenaere ROIO Archive]]"
-  - "[[Return To Forever]]"
-published: 2012-02-28
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Karel Cuelenaere ROIO Archive]]'
+- '[[Return To Forever]]'
+album: []
+published: '2012-02-28'
 url: https://www.youtube.com/watch?v=XjOYscEN6Qc&list=RDGMEMTmC-2iNKH_l8gQ1LHo9FeQ&index=13
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=XjOYscEN6Qc)
 

@@ -1,20 +1,22 @@
 ---
 title: Joe Satriani - Crystal Planet
-source: https://www.youtube.com/watch?v=Do7PdIQ2fkE&list=RDSWj7daF8A3w&index=7
-author:
-  - "[[FogoLabs]]"
-  - "[[Joe Satriani ]]"
-published: 2014-02-07
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[FogoLabs]]'
+- '[[Joe Satriani ]]'
+album: []
+published: '2014-02-07'
 url: https://www.youtube.com/watch?v=Do7PdIQ2fkE&list=RDSWj7daF8A3w&index=7
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=Do7PdIQ2fkE)
 

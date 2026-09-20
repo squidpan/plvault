@@ -1,19 +1,21 @@
 ---
 title: Astronomy
-source: https://www.youtube.com/watch?v=U0t_wb0lUW0&list=RDJvcrcf7fpE8&index=13
-author:
-  - "[[Blue Öyster Cult - Topic]]"
-published: 2014-11-08
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Blue Öyster Cult]]'
+album: []
+published: '2014-11-08'
 url: https://www.youtube.com/watch?v=U0t_wb0lUW0&list=RDJvcrcf7fpE8&index=13
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=U0t_wb0lUW0)
 

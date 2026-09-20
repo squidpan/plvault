@@ -1,19 +1,21 @@
 ---
 title: Kings Of Leon - Pyro (Official Video)
-source: https://www.youtube.com/watch?v=gFp7q-IJqno&list=RDMM&index=29
-author:
-  - "[[kingsofleonVEVO]]"
-published: 2010-12-09
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[kingsofleonVEVO]]'
+album: []
+published: '2010-12-09'
 url: https://www.youtube.com/watch?v=gFp7q-IJqno&list=RDMM&index=29
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=gFp7q-IJqno)
 

@@ -1,19 +1,21 @@
 ---
 title: Cinderella Man
-source: https://www.youtube.com/watch?v=MrvPLbuHInM&list=RDMrvPLbuHInM&start_radio=1
-author:
-  - "[[Rush - Topic]]"
-published: 2018-07-26
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Rush]]'
+album: []
+published: '2018-07-26'
 url: https://www.youtube.com/watch?v=MrvPLbuHInM&list=RDMrvPLbuHInM&start_radio=1
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=MrvPLbuHInM)
 

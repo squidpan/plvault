@@ -1,19 +1,21 @@
 ---
 title: Electric Eye
-source: https://www.youtube.com/watch?v=3dbRdzATXBE&list=RDGMEMJQXQAmqrnmK1SEjY_rKBGA&index=12
-author:
-  - "[[Judas Priest - Topic]]"
-published: 2017-02-20
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Judas Priest]]'
+album: []
+published: '2017-02-20'
 url: https://www.youtube.com/watch?v=3dbRdzATXBE&list=RDGMEMJQXQAmqrnmK1SEjY_rKBGA&index=12
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=3dbRdzATXBE)
 

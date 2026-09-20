@@ -1,13 +1,21 @@
 ---
-title: "Guthrie Govan - Fives from \"Erotic Cakes\" at JTCGuitar.com"
-source: "https://www.youtube.com/watch?v=-yPEewaalik&list=RD7v24zNx5Gaw&index=19"
-author:
-  - "[[JTC Guitar]]"
-published: 2007-05-17
-created: 2026-03-14
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+title: Guthrie Govan - Fives from "Erotic Cakes" at JTCGuitar.com
+type:
+- video
+categories:
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
 tags:
-  - "clippings"
+- youtube
+- music
+author:
+- '[[JTC Guitar]]'
+album: []
+published: '2007-05-17'
+url: https://www.youtube.com/watch?v=-yPEewaalik&list=RD7v24zNx5Gaw&index=19
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=-yPEewaalik)
 

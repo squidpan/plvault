@@ -1,20 +1,22 @@
 ---
 title: Maybe
-source: https://www.youtube.com/watch?v=TI7S3an8iSc&list=RDX9bcztN7NmA&index=12
-author: "[[Alice in Chains - Topic]]"
-created: 2026-03-15
-description: "Rainbow  - The Temple Of The King ( HQ 320 Kbps )Album: Ritchie Blackmore's Rainbow(1975)"
-published: 07/21/2021
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Alice in Chains]]'
+album: []
+published: '2021-07-21'
 url: https://www.youtube.com/watch?v=TI7S3an8iSc&list=RDX9bcztN7NmA&index=12
+created: '2026-03-15'
+last: '2026-03-15'
 ---
-
 <iframe
   src="https://www.youtube-nocookie.com/embed/TI7S3an8iSc?rel=0&modestbranding=1"
   title="(4) Maybe - YouTube"

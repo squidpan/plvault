@@ -1,19 +1,21 @@
 ---
 title: Nick Johnston - Sandmonster
-source: https://www.youtube.com/watch?v=h2RBJwHyiQk&list=RDEMEXc-YUwhULcXK1yj_E4-Cw&index=15
-author:
-  - "[[Nick Johnston]]"
-published: 2013-07-19
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Nick Johnston]]'
+album: []
+published: '2013-07-19'
 url: https://www.youtube.com/watch?v=h2RBJwHyiQk&list=RDEMEXc-YUwhULcXK1yj_E4-Cw&index=15
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=h2RBJwHyiQk)
 

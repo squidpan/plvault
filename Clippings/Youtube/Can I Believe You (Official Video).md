@@ -1,19 +1,21 @@
 ---
 title: Fleet Foxes - "Can I Believe You" (Official Video)
-source: https://www.youtube.com/watch?v=L2E2DpWO3-Y&list=RDgtQW8Ehi1mE&index=11
-author:
-  - "[[Fleet Foxes]]"
-published: 2020-10-07
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Fleet Foxes]]'
+album: []
+published: '2020-10-07'
 url: https://www.youtube.com/watch?v=L2E2DpWO3-Y&list=RDgtQW8Ehi1mE&index=11
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=L2E2DpWO3-Y)
 

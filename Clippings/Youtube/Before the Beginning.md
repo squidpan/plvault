@@ -1,19 +1,21 @@
 ---
 title: Before the Beginning
-source: https://www.youtube.com/watch?v=_AJCiuubBU8&list=RDSWj7daF8A3w&index=16
-author:
-  - "[[John Frusciante - Topic]]"
-published: 2017-01-25
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[John Frusciante]]'
+album: []
+published: '2017-01-25'
 url: https://www.youtube.com/watch?v=_AJCiuubBU8&list=RDSWj7daF8A3w&index=16
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=_AJCiuubBU8)
 

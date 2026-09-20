@@ -1,19 +1,21 @@
 ---
-categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
 title: ANIMALS AS LEADERS - Red Miso (Official Music Video)
-source: https://www.youtube.com/watch?v=gu-_kyU4dWk&list=RDgu-_kyU4dWk&start_radio=1
-author:
-  - "[[SUMERIAN]]"
-published: 2023-01-13
-created: 2026-03-14
-description:
+type:
+- video
+categories:
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
 tags:
-  - videos
-  - music
-  - clippings
+- music
+- youtube
+author:
+- '[[SUMERIAN]]'
+album: []
+published: '2023-01-13'
 url: https://www.youtube.com/watch?v=gu-_kyU4dWk&list=RDgu-_kyU4dWk&start_radio=1
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=gu-_kyU4dWk)
 

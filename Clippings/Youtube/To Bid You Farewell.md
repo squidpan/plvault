@@ -1,20 +1,22 @@
 ---
 title: Opeth - To Bid You Farewell
-source: https://www.youtube.com/watch?v=qxu1bku4wN0&list=RDMM&index=48
-author:
-  - "[[Dak Murdocks]]"
-  - "[[Opeth]]"
-published: 2014-09-21
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Dak Murdocks]]'
+- '[[Opeth]]'
+album: []
+published: '2014-09-21'
 url: https://www.youtube.com/watch?v=qxu1bku4wN0&list=RDMM&index=48
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=qxu1bku4wN0)
 

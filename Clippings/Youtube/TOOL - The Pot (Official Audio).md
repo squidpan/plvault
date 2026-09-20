@@ -1,19 +1,21 @@
 ---
 title: TOOL - The Pot (Official Audio)
-source: https://www.youtube.com/watch?v=civuoU_NE38&list=RDSWj7daF8A3w&index=8
-author:
-  - "[[TOOLVEVO]]"
-published: 2019-08-02
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[TOOLVEVO]]'
+album: []
+published: '2019-08-02'
 url: https://www.youtube.com/watch?v=civuoU_NE38&list=RDSWj7daF8A3w&index=8
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=civuoU_NE38)
 

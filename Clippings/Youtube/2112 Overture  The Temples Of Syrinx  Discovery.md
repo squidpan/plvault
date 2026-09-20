@@ -1,19 +1,21 @@
 ---
+title: '2112: Overture / The Temples Of Syrinx / Discovery'
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
-title: "2112: Overture / The Temples Of Syrinx / Discovery"
-source: https://www.youtube.com/watch?v=osN-dGs2d2A&list=OLAK5uy_miQ0aViBzxOZj7XbA6Q61Mo5FM84xvTdU&t=420s
-author:
-  - "[[Rush - Topic]]"
-published: 2020-03-19
-created: 2026-03-14
-description:
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
 tags:
-  - videos
-  - music
-  - clippings
+- music
+- youtube
+author:
+- '[[Rush]]'
+album: []
+published: '2020-03-19'
 url: https://www.youtube.com/watch?v=osN-dGs2d2A&list=OLAK5uy_miQ0aViBzxOZj7XbA6Q61Mo5FM84xvTdU&t=420s
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=osN-dGs2d2A)
 

@@ -1,19 +1,21 @@
 ---
 title: The French Inhaler (2008 Remaster)
-source: https://www.youtube.com/watch?v=OaA70iCSDJs&list=RDgtQW8Ehi1mE&index=27
-author:
-  - "[[Warren Zevon - Topic]]"
-published: 2014-11-08
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Warren Zevon]]'
+album: []
+published: '2014-11-08'
 url: https://www.youtube.com/watch?v=OaA70iCSDJs&list=RDgtQW8Ehi1mE&index=27
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=OaA70iCSDJs)
 

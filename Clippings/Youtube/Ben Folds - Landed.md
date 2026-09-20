@@ -1,19 +1,21 @@
 ---
-categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
 title: Ben Folds - Landed
-source: https://www.youtube.com/watch?v=0vPygzPSg8M&list=RDSWj7daF8A3w&index=5
-author:
-  - "[[BenFoldsVEVO]]"
-published: 2009-10-25
-created: 2026-03-14
-description: Level up your Java code and explore what Spring can do for you.
+type:
+- video
+categories:
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
 tags:
-  - videos
-  - music
-  - clippings
+- music
+- youtube
+author:
+- '[[BenFoldsVEVO]]'
+album: []
+published: '2009-10-25'
 url: https://www.youtube.com/watch?v=0vPygzPSg8M&list=RDSWj7daF8A3w&index=5
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=0vPygzPSg8M)
 

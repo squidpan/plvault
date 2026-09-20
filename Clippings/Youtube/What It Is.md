@@ -1,19 +1,21 @@
 ---
 title: What It Is
-source: https://www.youtube.com/watch?v=VCP93emyJ-c&list=RDSWj7daF8A3w&index=4
-author:
-  - "[[Mark Knopfler - Topic]]"
-published: 2014-11-06
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Mark Knopfler]]'
+album: []
+published: '2014-11-06'
 url: https://www.youtube.com/watch?v=VCP93emyJ-c&list=RDSWj7daF8A3w&index=4
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=VCP93emyJ-c)
 

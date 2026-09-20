@@ -1,19 +1,21 @@
 ---
 title: '"Waste" – Page McConnell & Trey Anastasio from The Barn'
-source: https://www.youtube.com/watch?v=LnjXTPJ2XKI&list=RDMM&index=3
-author:
-  - "[[Phish]]"
-published: 2020-11-02
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Phish]]'
+album: []
+published: '2020-11-02'
 url: https://www.youtube.com/watch?v=LnjXTPJ2XKI&list=RDMM&index=3
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=LnjXTPJ2XKI)
 

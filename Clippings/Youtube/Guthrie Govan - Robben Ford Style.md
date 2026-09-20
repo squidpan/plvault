@@ -1,20 +1,22 @@
 ---
 title: Guthrie Govan - Robben Ford Style Track at JTCGuitar.com
-source: https://www.youtube.com/watch?v=5GOs7iLKaTI&list=RDGMEMJQXQAmqrnmK1SEjY_rKBGA&index=19
-author:
-  - "[[JTC Guitar]]"
-  - "[[Guthrie Govan]]"
-published: 2007-04-02
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[JTC Guitar]]'
+- '[[Guthrie Govan]]'
+album: []
+published: '2007-04-02'
 url: https://www.youtube.com/watch?v=5GOs7iLKaTI&list=RDGMEMJQXQAmqrnmK1SEjY_rKBGA&index=19
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=5GOs7iLKaTI)
 

@@ -1,13 +1,19 @@
 ---
-title: "YouTube Video: (4) David Gilmour: The Studio Interview 2025 - YouTube"
-source: "https://www.youtube.com/watch?v=OT_KFCidz_s"
-author: "[[Rick Beato]]"
-created: "2026-03-15"
-description: "Rainbow  - The Temple Of The King ( HQ 320 Kbps )Album: Ritchie Blackmore's Rainbow(1975)"
-published: "09/02/2025"
-tags: ["clippings"]
+title: 'YouTube Video: (4) David Gilmour: The Studio Interview 2025 - YouTube'
+type:
+- video
+categories:
+- '[[Clippings]]'
+- '[[Videos]]'
+tags:
+- youtube
+author:
+- '[[Rick Beato]]'
+published: '2025-09-02'
+url: https://www.youtube.com/watch?v=OT_KFCidz_s
+created: '2026-03-15'
+last: '2026-03-15'
 ---
-
 <iframe
   src="https://www.youtube-nocookie.com/embed/OT_KFCidz_s?rel=0&modestbranding=1"
   title="(4) David Gilmour: The Studio Interview 2025 - YouTube"

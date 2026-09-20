@@ -1,19 +1,21 @@
 ---
 title: The Weeknd - Can't Feel My Face (Official Video)
-source: https://www.youtube.com/watch?v=KEI4qSrkPAs&list=RDMM&index=37
-author:
-  - "[[TheWeekndVEVO]]"
-published: 2015-07-29
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[TheWeekndVEVO]]'
+album: []
+published: '2015-07-29'
 url: https://www.youtube.com/watch?v=KEI4qSrkPAs&list=RDMM&index=37
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=KEI4qSrkPAs)
 

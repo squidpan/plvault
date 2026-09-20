@@ -1,19 +1,21 @@
 ---
 title: Alison Krauss & Union Station - The Wrong Way (Official Lyric Video)
-source: https://www.youtube.com/watch?v=TqTB7KsEK7A&list=RDMM&index=14
-author:
-  - "[[Alison Krauss]]"
-published: 2025-03-28
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Alison Krauss]]'
+album: []
+published: '2025-03-28'
 url: https://www.youtube.com/watch?v=TqTB7KsEK7A&list=RDMM&index=14
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=TqTB7KsEK7A)
 

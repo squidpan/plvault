@@ -1,19 +1,21 @@
 ---
 title: The Night Chicago Died
-source: https://www.youtube.com/watch?v=p-L0NpaErkk&list=RDEMcTJOHGrNjNSw76pSUDekCQ&index=37
-author:
-  - "[[elvis633]]"
-published: 2007-04-07
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[elvis633]]'
+album: []
+published: '2007-04-07'
 url: https://www.youtube.com/watch?v=p-L0NpaErkk&list=RDEMcTJOHGrNjNSw76pSUDekCQ&index=37
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=p-L0NpaErkk)
 

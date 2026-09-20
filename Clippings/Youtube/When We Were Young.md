@@ -1,19 +1,21 @@
 ---
 title: When We Were Young
-source: https://www.youtube.com/watch?v=Xpc8mAJ_2nM&list=RDMM&index=30
-author:
-  - "[[Adele - Topic]]"
-published: 2020-12-15
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Adele]]'
+album: []
+published: '2020-12-15'
 url: https://www.youtube.com/watch?v=Xpc8mAJ_2nM&list=RDMM&index=30
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=Xpc8mAJ_2nM)
 

@@ -1,19 +1,21 @@
 ---
 title: The Jimi Hendrix Experience - All Along The Watchtower (Official Audio)
-source: https://www.youtube.com/watch?v=TLV4_xaYynY&list=RDscT-77nwRAo&index=9
-author:
-  - "[[JimiHendrixVEVO]]"
-published: 2012-10-05
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[JimiHendrixVEVO]]'
+album: []
+published: '2012-10-05'
 url: https://www.youtube.com/watch?v=TLV4_xaYynY&list=RDscT-77nwRAo&index=9
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=TLV4_xaYynY)
 

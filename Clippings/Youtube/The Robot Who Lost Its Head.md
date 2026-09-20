@@ -1,19 +1,21 @@
 ---
 title: The Robot Who Lost Its Head
-source: https://www.youtube.com/watch?v=ew8E7jJn0zA&list=RD7v24zNx5Gaw&index=3
-author:
-  - "[[Buckethead - Topic]]"
-published: 2020-03-04
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Buckethead]]'
+album: []
+published: '2020-03-04'
 url: https://www.youtube.com/watch?v=ew8E7jJn0zA&list=RD7v24zNx5Gaw&index=3
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=ew8E7jJn0zA)
 

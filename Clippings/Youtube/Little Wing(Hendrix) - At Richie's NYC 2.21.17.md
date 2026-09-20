@@ -1,19 +1,21 @@
 ---
 title: Little Wing(Hendrix)- Oz Noy, Brad Miller, Sean Rickman, Patrick Bartley Jr. At Richie's NYC 2.21.17
-source: https://www.youtube.com/watch?v=7WOj7GUYr10&list=RDEMJVNV-QG5rmzhUO_DiQTGuw&index=15
-author:
-  - "[[Brad Miller]]"
-published: 2017-03-14
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Brad Miller]]'
+album: []
+published: '2017-03-14'
 url: https://www.youtube.com/watch?v=7WOj7GUYr10&list=RDEMJVNV-QG5rmzhUO_DiQTGuw&index=15
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=7WOj7GUYr10)
 

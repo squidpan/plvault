@@ -1,19 +1,21 @@
 ---
 title: System Of A Down - Chop Suey! (Official HD Video)
-source: https://www.youtube.com/watch?v=CSvFpBOe8eY&list=RDGMEMJQXQAmqrnmK1SEjY_rKBGA&index=5
-author:
-  - "[[systemofadownVEVO]]"
-published: 2009-10-03
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[systemofadownVEVO]]'
+album: []
+published: '2009-10-03'
 url: https://www.youtube.com/watch?v=CSvFpBOe8eY&list=RDGMEMJQXQAmqrnmK1SEjY_rKBGA&index=5
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=CSvFpBOe8eY)
 

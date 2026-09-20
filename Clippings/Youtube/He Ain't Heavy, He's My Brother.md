@@ -1,14 +1,22 @@
 ---
 title: He Ain't Heavy, He's My Brother  THE HOLLIES (with lyrics)
-source: https://www.youtube.com/watch?v=fBI9i3HlFVE&list=RDMM&index=6
-author:
-  - "[[sunryse111]]"
-  - "[[Hollies]]"
-published: 2017-02-02
-created: 2026-03-14
-description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+type:
+- video
+categories:
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
 tags:
-  - clippings
+- youtube
+- music
+author:
+- '[[sunryse111]]'
+- '[[Hollies]]'
+album: []
+published: '2017-02-02'
+url: https://www.youtube.com/watch?v=fBI9i3HlFVE&list=RDMM&index=6
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=fBI9i3HlFVE)
 

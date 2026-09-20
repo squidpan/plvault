@@ -1,19 +1,21 @@
 ---
 title: Symphony Of Destruction (Remastered 2012)
-source: https://www.youtube.com/watch?v=wEPKIulCEhQ&list=RDwEPKIulCEhQ&start_radio=1
-author:
-  - "[[Megadeth - Topic]]"
-published: 2015-09-26
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Megadeth]]'
+album: []
+published: '2015-09-26'
 url: https://www.youtube.com/watch?v=wEPKIulCEhQ&list=RDwEPKIulCEhQ&start_radio=1
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=wEPKIulCEhQ)
 

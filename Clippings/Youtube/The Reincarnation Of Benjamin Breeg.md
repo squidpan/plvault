@@ -1,20 +1,22 @@
 ---
-categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
 title: The Reincarnation Of Benjamin Breeg
-source: https://www.youtube.com/watch?v=czB8R23SYRg&list=RDczB8R23SYRg&start_radio=1
-author:
-  - "[[mirkin78]]"
-  - "[[Iron Maiden]]"
-published: 2013-03-19
-created: 2026-03-14
-description:
+type:
+- video
+categories:
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
 tags:
-  - videos
-  - music
-  - clippings
+- music
+- youtube
+author:
+- '[[mirkin78]]'
+- '[[Iron Maiden]]'
+album: []
+published: '2013-03-19'
 url: https://www.youtube.com/watch?v=czB8R23SYRg&list=RDczB8R23SYRg&start_radio=1
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=czB8R23SYRg)
 

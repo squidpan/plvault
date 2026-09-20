@@ -1,19 +1,21 @@
 ---
 title: Nick Johnston - Remarkably Human
-source: https://www.youtube.com/watch?v=GZ7W3JvZBJQ&list=RDEMEXc-YUwhULcXK1yj_E4-Cw&index=7
-author:
-  - "[[Nick Johnston]]"
-published: 2016-08-30
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Nick Johnston]]'
+album: []
+published: '2016-08-30'
 url: https://www.youtube.com/watch?v=GZ7W3JvZBJQ&list=RDEMEXc-YUwhULcXK1yj_E4-Cw&index=7
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=GZ7W3JvZBJQ)
 

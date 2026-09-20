@@ -1,19 +1,21 @@
 ---
 title: Siege Engine
-source: https://www.youtube.com/watch?v=SWj7daF8A3w&list=RDSWj7daF8A3w&start_radio=1&rv=gkB9xkjF6n8
-author:
-  - "[[Buckethead - Topic]]"
-published: 2020-02-01
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Buckethead]]'
+album: []
+published: '2020-02-01'
 url: https://www.youtube.com/watch?v=SWj7daF8A3w&list=RDSWj7daF8A3w&start_radio=1&rv=gkB9xkjF6n8
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=SWj7daF8A3w)
 

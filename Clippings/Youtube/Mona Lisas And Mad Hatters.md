@@ -1,19 +1,21 @@
 ---
-categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
 title: Mona Lisas And Mad Hatters
-source: https://www.youtube.com/watch?v=zAKIOlZrLzw&list=RDgtQW8Ehi1mE&index=41
-author:
-  - "[[Elton John - Topic]]"
-published: 2018-07-31
-created: 2026-03-14
-description:
+type:
+- video
+categories:
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
 tags:
-  - videos
-  - music
-  - clippings
+- music
+- youtube
+author:
+- '[[Elton John]]'
+album: []
+published: '2018-07-31'
 url: https://www.youtube.com/watch?v=zAKIOlZrLzw&list=RDgtQW8Ehi1mE&index=41
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=zAKIOlZrLzw)
 

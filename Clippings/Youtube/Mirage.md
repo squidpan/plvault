@@ -1,19 +1,21 @@
 ---
 title: Mirage
-source: https://www.youtube.com/watch?v=Q_YRaFEOUiM&list=RDMM&index=19
-author:
-  - "[[Jean-Luc Ponty - Topic]]"
-published: 2017-04-08
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Jean-Luc Ponty]]'
+album: []
+published: '2017-04-08'
 url: https://www.youtube.com/watch?v=Q_YRaFEOUiM&list=RDMM&index=19
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=Q_YRaFEOUiM)
 

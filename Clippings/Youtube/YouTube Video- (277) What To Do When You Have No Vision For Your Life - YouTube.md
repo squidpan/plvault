@@ -1,16 +1,20 @@
 ---
-title: "YouTube Video: (277) What To Do When You Have No Vision For Your Life - YouTube"
-source: "https://www.youtube.com/watch?v=R6xonsRMQgY"
-author: "[[Jordan B Peterson]]"
-created: "2026-07-16"
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
-published: "07/12/2026"
-tags: ["clippings", "jordanpeterson", "videos"]
-url: "https://www.youtube.com/watch?v=R6xonsRMQgY"
-album: "album name"
-categories: "[[Clippings]]"
+title: 'YouTube Video: (277) What To Do When You Have No Vision For Your Life - YouTube'
+type:
+- video
+categories:
+- '[[Clippings]]'
+- '[[Videos]]'
+tags:
+- jordanpeterson
+- youtube
+author:
+- '[[Jordan B Peterson]]'
+published: '2026-07-12'
+url: https://www.youtube.com/watch?v=R6xonsRMQgY
+created: '2026-07-16'
+last: '2026-07-16'
 ---
-
 <iframe
   src="https://www.youtube-nocookie.com/embed/R6xonsRMQgY?rel=0&modestbranding=1"
   title="(277) What To Do When You Have No Vision For Your Life - YouTube"

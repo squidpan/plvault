@@ -1,19 +1,21 @@
 ---
 title: Alison Krauss & Union Station - Looks Like The End of The Road (Official Lyric Video)
-source: https://www.youtube.com/watch?v=oQNPvSNMEyo&list=RDgtQW8Ehi1mE&index=19
-author:
-  - "[[Alison Krauss]]"
-published: 2025-01-29
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Alison Krauss]]'
+album: []
+published: '2025-01-29'
 url: https://www.youtube.com/watch?v=oQNPvSNMEyo&list=RDgtQW8Ehi1mE&index=19
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=oQNPvSNMEyo)
 

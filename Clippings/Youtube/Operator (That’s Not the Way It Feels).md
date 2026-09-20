@@ -1,19 +1,21 @@
 ---
 title: Jim Croce - Operator (That’s Not the Way It Feels) [Official Music Video]
-source: https://www.youtube.com/watch?v=khYxP7TiFSA&list=RDxzE4wDfJ1QA&index=4
-author:
-  - "[[Jim Croce]]"
-published: 2024-04-22
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Jim Croce]]'
+album: []
+published: '2024-04-22'
 url: https://www.youtube.com/watch?v=khYxP7TiFSA&list=RDxzE4wDfJ1QA&index=4
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=khYxP7TiFSA)
 

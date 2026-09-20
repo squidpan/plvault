@@ -1,20 +1,22 @@
 ---
 title: Drift Away Dobie Gray HD
-source: https://www.youtube.com/watch?v=URw11Td8Zy0&list=RDxzE4wDfJ1QA&index=11
-author:
-  - "[[Cat Man]]"
-  - "[[Dobie Gray]]"
-published: 2015-08-11
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Cat Man]]'
+- '[[Dobie Gray]]'
+album: []
+published: '2015-08-11'
 url: https://www.youtube.com/watch?v=URw11Td8Zy0&list=RDxzE4wDfJ1QA&index=11
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=URw11Td8Zy0)
 

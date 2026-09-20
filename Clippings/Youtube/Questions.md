@@ -1,20 +1,22 @@
 ---
 title: Questions | Tommy Emmanuel
-source: https://www.youtube.com/watch?v=DTFCVwQNHVQ&list=RDMM&index=11
-author:
-  - "[[Tommy Emmanuel]]"
-  - "[[CGP]]"
-published: 2015-06-04
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Tommy Emmanuel]]'
+- '[[CGP]]'
+album: []
+published: '2015-06-04'
 url: https://www.youtube.com/watch?v=DTFCVwQNHVQ&list=RDMM&index=11
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=DTFCVwQNHVQ)
 

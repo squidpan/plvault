@@ -1,19 +1,21 @@
 ---
 title: I Got a Name (Stereo Version)
-source: https://www.youtube.com/watch?v=O_BEFyNNIvM&list=RDxzE4wDfJ1QA&index=2
-author:
-  - "[[Jim Croce - Topic]]"
-published: 2021-07-21
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Jim Croce]]'
+album: []
+published: '2021-07-21'
 url: https://www.youtube.com/watch?v=O_BEFyNNIvM&list=RDxzE4wDfJ1QA&index=2
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=O_BEFyNNIvM)
 

@@ -1,21 +1,22 @@
 ---
+title: 'YouTube Video: (8) Angine de Poitrine - Full Performance (Live on KEXP) - YouTube'
+type:
+- video
 categories:
-  - "[[Songs]]"
-  - "[[Clippings]]"
-title: "YouTube Video: (8) Angine de Poitrine - Full Performance (Live on KEXP) - YouTube"
-source: https://www.youtube.com/watch?v=0Ssi-9wS1so&list=RD0Ssi-9wS1so&start_radio=1&t=527s
-author:
-  - "[[KEXP]]"
-  - "[[Angine de Poitrine - Topic]]"
-created: 2026-03-20
-description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
-published: 02/05/2026
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
 tags:
-  - clippings
-  - videos
+- youtube
+- music
+author:
+- '[[KEXP]]'
+- '[[Angine de Poitrine]]'
+album: []
+published: '2026-02-05'
 url: https://www.youtube.com/watch?v=0Ssi-9wS1so&list=RD0Ssi-9wS1so&start_radio=1&t=527s
-album: album name
-versions:
+created: '2026-03-20'
+last: '2026-03-20'
 ---
 # About
 

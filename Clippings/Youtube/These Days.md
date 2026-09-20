@@ -1,19 +1,21 @@
 ---
 title: These Days
-source: https://www.youtube.com/watch?v=Aj3oy3IayM4&list=RDxzE4wDfJ1QA&index=7
-author:
-  - "[[Jackson Browne - Topic]]"
-published: 2017-11-28
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Jackson Browne]]'
+album: []
+published: '2017-11-28'
 url: https://www.youtube.com/watch?v=Aj3oy3IayM4&list=RDxzE4wDfJ1QA&index=7
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=Aj3oy3IayM4)
 

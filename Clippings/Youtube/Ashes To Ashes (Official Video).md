@@ -1,19 +1,21 @@
 ---
 title: David Bowie - Ashes To Ashes (Official Video) [4K]
-source: https://www.youtube.com/watch?v=HyMm4rJemtI&list=RDSWj7daF8A3w&index=28
-author:
-  - "[[David Bowie]]"
-published: 2015-08-07
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[David Bowie]]'
+album: []
+published: '2015-08-07'
 url: https://www.youtube.com/watch?v=HyMm4rJemtI&list=RDSWj7daF8A3w&index=28
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=HyMm4rJemtI)
 

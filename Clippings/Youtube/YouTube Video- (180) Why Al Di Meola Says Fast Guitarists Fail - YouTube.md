@@ -1,16 +1,19 @@
 ---
-title: "YouTube Video: (180) Why Al Di Meola Says Fast Guitarists Fail - YouTube"
-source: "https://www.youtube.com/watch?v=Y2hoP_bVDaA"
-author: "[[Playback]]"
-created: "2026-06-04"
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
-published: "05/21/2026"
-tags: ["clippings", "videos"]
-url: "https://www.youtube.com/watch?v=Y2hoP_bVDaA"
-album: "album name"
-categories: "[[Clippings]]"
+title: 'YouTube Video: (180) Why Al Di Meola Says Fast Guitarists Fail - YouTube'
+type:
+- video
+categories:
+- '[[Clippings]]'
+- '[[Videos]]'
+tags:
+- youtube
+author:
+- '[[Playback]]'
+published: '2026-05-21'
+url: https://www.youtube.com/watch?v=Y2hoP_bVDaA
+created: '2026-06-04'
+last: '2026-06-04'
 ---
-
 <iframe
   src="https://www.youtube-nocookie.com/embed/Y2hoP_bVDaA?rel=0&modestbranding=1"
   title="(180) Why Al Di Meola Says Fast Guitarists Fail - YouTube"

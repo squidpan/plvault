@@ -1,15 +1,22 @@
 ---
-title: "YouTube Video: (8) Sherpa - YouTube"
-source: "https://www.youtube.com/watch?v=2WpwnSvwkJw&list=PLqx_Wc2Yfdk1UuGkJyTPFRsskQqgjdgk3"
-author: "[[Angine de Poitrine - Topic]]"
-created: "2026-03-20"
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
-published: "06/08/2024"
-tags: ["clippings", "videos"]
-url: "https://www.youtube.com/watch?v=2WpwnSvwkJw&list=PLqx_Wc2Yfdk1UuGkJyTPFRsskQqgjdgk3"
-album: "album name"
+title: 'YouTube Video: (8) Sherpa - YouTube'
+type:
+- video
+categories:
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- youtube
+- music
+author:
+- '[[Angine de Poitrine]]'
+album: []
+published: '2024-06-08'
+url: https://www.youtube.com/watch?v=2WpwnSvwkJw&list=PLqx_Wc2Yfdk1UuGkJyTPFRsskQqgjdgk3
+created: '2026-03-20'
+last: '2026-03-20'
 ---
-
 <iframe
   src="https://www.youtube-nocookie.com/embed/2WpwnSvwkJw?rel=0&modestbranding=1"
   title="(8) Sherpa - YouTube"

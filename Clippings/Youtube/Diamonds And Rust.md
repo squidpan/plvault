@@ -1,19 +1,21 @@
 ---
 title: Diamonds And Rust
-source: https://www.youtube.com/watch?v=IrVD0bP_ybg&list=RDIrVD0bP_ybg&start_radio=1
-author:
-  - "[[Joan Baez - Topic]]"
-published: 2018-08-16
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Joan Baez]]'
+album: []
+published: '2018-08-16'
 url: https://www.youtube.com/watch?v=IrVD0bP_ybg&list=RDIrVD0bP_ybg&start_radio=1
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=IrVD0bP_ybg)
 

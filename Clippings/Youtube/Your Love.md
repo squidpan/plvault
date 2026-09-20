@@ -1,19 +1,21 @@
 ---
 title: The Outfield - Your Love (Official HD Video)
-source: https://www.youtube.com/watch?v=4N1iwQxiHrs&list=RDscT-77nwRAo&index=3
-author:
-  - "[[TheOutfieldVEVO]]"
-published: 2009-10-25
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[TheOutfieldVEVO]]'
+album: []
+published: '2009-10-25'
 url: https://www.youtube.com/watch?v=4N1iwQxiHrs&list=RDscT-77nwRAo&index=3
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=4N1iwQxiHrs)
 

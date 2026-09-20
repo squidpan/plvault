@@ -1,19 +1,21 @@
 ---
 title: Alison Krauss & Union Station - One Ray of Shine (Official Lyric Video)
-source: https://www.youtube.com/watch?v=tCjQOHvYRIo&list=RDMM&index=27
-author:
-  - "[[Alison Krauss]]"
-published: 2025-03-28
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Alison Krauss]]'
+album: []
+published: '2025-03-28'
 url: https://www.youtube.com/watch?v=tCjQOHvYRIo&list=RDMM&index=27
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=tCjQOHvYRIo)
 

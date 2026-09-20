@@ -1,19 +1,21 @@
 ---
 title: Buckethead - A Real Diamond In The Rough - Full Album
-source: https://www.youtube.com/watch?v=gkB9xkjF6n8&list=RDgkB9xkjF6n8&start_radio=1
-author:
-  - "[[Ion Gheorghe]]"
-published: 2013-03-16
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Ion Gheorghe]]'
+album: []
+published: '2013-03-16'
 url: https://www.youtube.com/watch?v=gkB9xkjF6n8&list=RDgkB9xkjF6n8&start_radio=1
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=gkB9xkjF6n8)
 

@@ -1,20 +1,22 @@
 ---
 title: Rory Gallagher - For The Last Time {BBC Sessions}
-source: https://www.youtube.com/watch?v=MRq38vUDQfQ&list=RDGMEMJQXQAmqrnmK1SEjY_rKBGA&index=6
-author:
-  - "[[Jimmy M.]]"
-  - "[[Rory Gallagher]]"
-published: 2013-04-17
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Jimmy M.]]'
+- '[[Rory Gallagher]]'
+album: []
+published: '2013-04-17'
 url: https://www.youtube.com/watch?v=MRq38vUDQfQ&list=RDGMEMJQXQAmqrnmK1SEjY_rKBGA&index=6
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=MRq38vUDQfQ)
 

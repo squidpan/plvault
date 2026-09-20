@@ -1,19 +1,21 @@
 ---
 title: Cafo
-source: https://www.youtube.com/watch?v=K-FrlY1EG_I&list=RDSWj7daF8A3w&index=6
-author:
-  - "[[Animals As Leaders - Topic]]"
-published: 2015-02-11
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Animals As Leaders]]'
+album: []
+published: '2015-02-11'
 url: https://www.youtube.com/watch?v=K-FrlY1EG_I&list=RDSWj7daF8A3w&index=6
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=K-FrlY1EG_I)
 

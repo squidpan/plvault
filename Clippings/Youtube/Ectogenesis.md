@@ -1,19 +1,21 @@
 ---
 title: Ectogenesis
-source: https://www.youtube.com/watch?v=KH2CX4F837Y&list=RDEMTpmjtntVtj7cYXJjebo_FA&index=23
-author:
-  - "[[Animals As Leaders - Topic]]"
-published: 2025-05-29
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Animals As Leaders]]'
+album: []
+published: '2025-05-29'
 url: https://www.youtube.com/watch?v=KH2CX4F837Y&list=RDEMTpmjtntVtj7cYXJjebo_FA&index=23
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=KH2CX4F837Y)
 

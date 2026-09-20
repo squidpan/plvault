@@ -1,19 +1,21 @@
 ---
 title: The Magician (Instrumental)
-source: https://www.youtube.com/watch?v=JSR2GodsNAM&list=RDMM&index=10
-author:
-  - "[[Return to Forever - Topic]]"
-published: 2015-04-20
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Return to Forever]]'
+album: []
+published: '2015-04-20'
 url: https://www.youtube.com/watch?v=JSR2GodsNAM&list=RDMM&index=10
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=JSR2GodsNAM)
 

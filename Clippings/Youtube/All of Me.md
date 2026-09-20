@@ -1,20 +1,22 @@
 ---
 title: John Legend - All of Me (Official Video)
-source: https://www.youtube.com/watch?v=450p7goxZqg&list=RDMM&index=18
-author:
-  - "[[johnlegendVEVO]]"
-  - "[[John Legend]]"
-published: 2013-10-02
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[johnlegendVEVO]]'
+- '[[John Legend]]'
+album: []
+published: '2013-10-02'
 url: https://www.youtube.com/watch?v=450p7goxZqg&list=RDMM&index=18
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=450p7goxZqg)
 

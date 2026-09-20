@@ -1,19 +1,21 @@
 ---
 title: Passenger | Let Her Go (Official Video)
-source: https://www.youtube.com/watch?v=RBumgq5yVrA&list=RDgtQW8Ehi1mE&index=10
-author:
-  - "[[Passenger]]"
-published: 2012-07-25
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Passenger]]'
+album: []
+published: '2012-07-25'
 url: https://www.youtube.com/watch?v=RBumgq5yVrA&list=RDgtQW8Ehi1mE&index=10
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=RBumgq5yVrA)
 

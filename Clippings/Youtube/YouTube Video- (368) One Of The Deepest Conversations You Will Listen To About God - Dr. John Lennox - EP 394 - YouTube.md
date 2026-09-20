@@ -1,16 +1,19 @@
 ---
-title: "YouTube Video: (368) One Of The Deepest Conversations You Will Listen To About God | Dr. John Lennox | EP 394 - YouTube"
-source: "https://www.youtube.com/watch?v=sfI2se3O80Q"
-author: "[[Jordan B Peterson]]"
-created: "2026-08-13"
-description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
-published: "11/06/2023"
-tags: ["clippings", "videos"]
-url: "https://www.youtube.com/watch?v=sfI2se3O80Q"
-album: "album name"
-categories: "[[Clippings]]"
+title: 'YouTube Video: (368) One Of The Deepest Conversations You Will Listen To About God | Dr. John Lennox | EP 394 - YouTube'
+type:
+- video
+categories:
+- '[[Clippings]]'
+- '[[Videos]]'
+tags:
+- youtube
+author:
+- '[[Jordan B Peterson]]'
+published: '2023-11-06'
+url: https://www.youtube.com/watch?v=sfI2se3O80Q
+created: '2026-08-13'
+last: '2026-08-13'
 ---
-
 <iframe
   src="https://www.youtube-nocookie.com/embed/sfI2se3O80Q?rel=0&modestbranding=1"
   title="(368) One Of The Deepest Conversations You Will Listen To About God | Dr. John Lennox | EP 394 - YouTube"

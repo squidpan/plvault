@@ -1,20 +1,22 @@
 ---
 title: Jigsaw - Sky High [HQ]
-source: https://www.youtube.com/watch?v=QjtD8A-MWBc&list=RDQjtD8A-MWBc&start_radio=1
-author:
-  - "[[NAOYALENNON]]"
-  - "[[Jigsaw]]"
-published: 2017-10-18
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[NAOYALENNON]]'
+- '[[Jigsaw]]'
+album: []
+published: '2017-10-18'
 url: https://www.youtube.com/watch?v=QjtD8A-MWBc&list=RDQjtD8A-MWBc&start_radio=1
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=QjtD8A-MWBc)
 

@@ -1,19 +1,21 @@
 ---
 title: For Mom
-source: https://www.youtube.com/watch?v=sMnzUUz8FHI&list=RDGMEMJQXQAmqrnmK1SEjY_rKBGA&index=17
-author:
-  - "[[Buckethead - Topic]]"
-published: 2017-05-23
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Buckethead]]'
+album: []
+published: '2017-05-23'
 url: https://www.youtube.com/watch?v=sMnzUUz8FHI&list=RDGMEMJQXQAmqrnmK1SEjY_rKBGA&index=17
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=sMnzUUz8FHI)
 

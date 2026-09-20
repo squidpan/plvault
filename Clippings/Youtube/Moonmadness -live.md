@@ -1,19 +1,21 @@
 ---
 title: Camel - Moonmadness (Royal Albert Hall)
-source: https://www.youtube.com/watch?v=fsWEbLkCvGE&list=RDfsWEbLkCvGE&start_radio=1
-author:
-  - "[[Camel - Topic]]"
-published: 2025-07-18
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Camel]]'
+album: []
+published: '2025-07-18'
 url: https://www.youtube.com/watch?v=fsWEbLkCvGE&list=RDfsWEbLkCvGE&start_radio=1
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=fsWEbLkCvGE)
 

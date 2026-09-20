@@ -1,20 +1,22 @@
 ---
-categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
 title: Air Born
-source: https://www.youtube.com/watch?v=KNJGkyCqtTU&list=RDSWj7daF8A3w&index=11
-author:
-  - "[[Camel - Topic]]"
-published: 2019-12-05
-created: 2026-03-14
-description:
+type:
+- video
+categories:
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
 tags:
-  - videos
-  - music
-  - clippings
+- music
+- youtube
+author:
+- '[[Camel]]'
+album:
+- '[[Moonmadness]]'
+published: '2019-12-05'
 url: https://www.youtube.com/watch?v=KNJGkyCqtTU&list=RDSWj7daF8A3w&index=11
-album: "[[Moonmadness]]"
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=KNJGkyCqtTU)
 

@@ -1,19 +1,21 @@
 ---
 title: Mark Knopfler - Brothers In Arms (A Night In London | Official Live Video)
-source: https://www.youtube.com/watch?v=Z3_HTGdLXL4&list=RDgtQW8Ehi1mE&index=39
-author:
-  - "[[Mark Knopfler]]"
-published: 2017-07-07
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Mark Knopfler]]'
+album: []
+published: '2017-07-07'
 url: https://www.youtube.com/watch?v=Z3_HTGdLXL4&list=RDgtQW8Ehi1mE&index=39
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=Z3_HTGdLXL4)
 

@@ -1,19 +1,21 @@
 ---
 title: Yesterday Once More
-source: https://www.youtube.com/watch?v=wawbhXQX2TQ&list=RDMM&index=23
-author:
-  - "[[The Carpenters - Topic]]"
-published: 2018-07-18
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[The Carpenters]]'
+album: []
+published: '2018-07-18'
 url: https://www.youtube.com/watch?v=wawbhXQX2TQ&list=RDMM&index=23
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=wawbhXQX2TQ)
 

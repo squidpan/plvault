@@ -1,19 +1,21 @@
 ---
-categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
 title: Rush - A Passage To Bangkok
-source: https://www.youtube.com/watch?v=Wy7cmGyKwek&list=OLAK5uy_miQ0aViBzxOZj7XbA6Q61Mo5FM84xvTdU
-author:
-  - "[[RushVEVO]]"
-published: 2016-04-04
-created: 2026-03-14
-description:
+type:
+- video
+categories:
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
 tags:
-  - videos
-  - music
-  - clippings
+- music
+- youtube
+author:
+- '[[RushVEVO]]'
+album: []
+published: '2016-04-04'
 url: https://www.youtube.com/watch?v=Wy7cmGyKwek&list=OLAK5uy_miQ0aViBzxOZj7XbA6Q61Mo5FM84xvTdU
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=Wy7cmGyKwek)
 

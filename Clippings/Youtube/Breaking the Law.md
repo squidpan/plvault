@@ -1,19 +1,21 @@
 ---
 title: Breaking the Law
-source: https://www.youtube.com/watch?v=BXtPycm5dGc&list=RDGMEMJQXQAmqrnmK1SEjY_rKBGA&index=23
-author:
-  - "[[Judas Priest - Topic]]"
-published: 2017-04-08
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[Judas Priest]]'
+album: []
+published: '2017-04-08'
 url: https://www.youtube.com/watch?v=BXtPycm5dGc&list=RDGMEMJQXQAmqrnmK1SEjY_rKBGA&index=23
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=BXtPycm5dGc)
 

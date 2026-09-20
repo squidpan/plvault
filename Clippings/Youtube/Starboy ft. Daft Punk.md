@@ -1,19 +1,21 @@
 ---
 title: The Weeknd - Starboy ft. Daft Punk (Official Video) ft. Daft Punk
-source: https://www.youtube.com/watch?v=34Na4j8AVgA&list=RDMM&index=17
-author:
-  - "[[TheWeekndVEVO]]"
-published: 2016-09-28
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[TheWeekndVEVO]]'
+album: []
+published: '2016-09-28'
 url: https://www.youtube.com/watch?v=34Na4j8AVgA&list=RDMM&index=17
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=34Na4j8AVgA)
 

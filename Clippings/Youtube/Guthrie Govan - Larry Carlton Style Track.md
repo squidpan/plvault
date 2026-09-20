@@ -1,20 +1,22 @@
 ---
 title: Guthrie Govan - Larry Carlton Style Track at JTCGuitar.com
-source: https://www.youtube.com/watch?v=bUZK9dasP8s&list=RDEMJVNV-QG5rmzhUO_DiQTGuw&index=3
-author:
-  - "[[JTC Guitar]]"
-  - "[[Guthrie Govan]]"
-published: 2007-01-16
-created: 2026-03-14
-description:
-tags:
-  - videos
-  - music
-  - clippings
+type:
+- video
 categories:
-  - "[[Clippings]]"
-  - "[[Songs]]"
+- '[[Clippings]]'
+- '[[Videos]]'
+- '[[Songs]]'
+tags:
+- music
+- youtube
+author:
+- '[[JTC Guitar]]'
+- '[[Guthrie Govan]]'
+album: []
+published: '2007-01-16'
 url: https://www.youtube.com/watch?v=bUZK9dasP8s&list=RDEMJVNV-QG5rmzhUO_DiQTGuw&index=3
+created: '2026-03-14'
+last: '2026-03-14'
 ---
 ![](https://www.youtube.com/watch?v=bUZK9dasP8s)
 
