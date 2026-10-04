@@ -56,6 +56,16 @@
     "versions": "multitext",
     "promts": "multitext",
     "prompts": "multitext",
-    "role_qualifiers": "multitext"
+    "role_qualifiers": "multitext",
+    "id": "text",
+    "project": "text",
+    "type": "multitext",
+    "description": "text",
+    "epic": "text",
+    "feature": "text",
+    "story": "text",
+    "organization": "text",
+    "classification": "text",
+    "source_artifact": "text"
   }
 }

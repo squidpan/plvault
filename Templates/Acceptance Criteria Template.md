@@ -1,102 +1,54 @@
 ---
-id: AC-
-project: 
+id: REPLACE-WITH-AC-ID
+project: REPLACE-WITH-PROJECT-ID
+organization: REPLACE-WITH-ORGANIZATION
 
-type: acceptance-criteria
+type:
+  - acceptance-criteria
 status: draft
+classification: REPLACE-WITH-CLASSIFICATION
 
-description: Defines the acceptance criteria for the US-___ Propose New Debt Transaction story.
+description: Replace with a concise description of the conditions that satisfy this Story.
 
 categories:
   - "[[Acceptance Criteria]]"
   - "[[Requirements]]"
   - "[[Reference Exercises]]"
 tags:
-  - farm-credit
   - requirements
 
-created: {{date}}
-last: {{date}}
+created: "{{date}}"
+last: "{{date}}"
 
-epic:
-feature:
-story:
+epic: REPLACE-WITH-EPIC-ID
+feature: REPLACE-WITH-FEATURE-ID
+story: REPLACE-WITH-STORY-ID
+# source_artifact: REPLACE-WITH-SOURCE-PATH
+
 ---
 
-# AC-E6-101 Propose New Debt Transaction
+# {{title}}
 
 ## Acceptance Criteria
 
-### AC-E6-101-01 Authorize Transaction Creation
+### REPLACE-WITH-AC-ID-01 — Describe observable behavior
 
-Given a user is authenticated,
+Given [business context or precondition],
 
-when the user attempts to create a debt transaction,
+when [action or event],
 
-then the platform permits the action only when the user is authorized to create debt transactions.
-
----
-
-### AC-E6-101-02 Capture Required Transaction Information
-
-Given an authorized Issuance Officer is creating a debt transaction,
-
-when the officer enters the proposal information,
-
-then the platform provides the required fields needed to establish the initial transaction record.
-
----
-
-### AC-E6-101-03 Identify Missing Required Information
-
-Given an authorized Issuance Officer is creating a debt transaction,
-
-when required information is missing,
-
-then the platform identifies the missing information and does not treat the proposal as ready for validation.
-
----
-
-### AC-E6-101-04 Create Draft Transaction
-
-Given the minimum information required to establish a transaction has been entered,
-
-when the Issuance Officer saves the proposal,
-
-then the platform creates the transaction in Draft status.
-
----
-
-### AC-E6-101-05 Assign Transaction Identity and Audit Information
-
-Given a new Draft transaction is created,
-
-when the platform saves the transaction,
-
-then it assigns a unique transaction identifier and records the creator identity and creation timestamp.
-
----
-
-### AC-E6-101-06 Detect Potential Active Duplicates
-
-Given a proposed transaction may duplicate an existing active transaction,
-
-when the Issuance Officer attempts to save the proposal,
-
-then the platform identifies the potential duplicate for resolution before the proposal proceeds.
-
----
+then [observable result].
 
 ## Related Artifacts
 
 ### User Story
 
-- [[US-E6-101-propose-new-debt-transaction]]
+- Link the parent Story note.
 
 ### Parent Feature
 
-- [[FEATURE-E6-01-propose-and-approve-debt-transaction]]
+- Link the parent Feature note.
 
 ### Business Rules
 
-- [[BR-FEATURE-E6-01]]
+- Link applicable Business Rule notes.

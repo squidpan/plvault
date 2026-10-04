@@ -1,0 +1,58 @@
+filters:
+  and:
+    - file.inFolder("References")
+    - note.categories.contains(link("Reference Exercises"))
+    - '!file.name.contains("Template")'
+properties:
+  file.name:
+    displayName: Reference
+  note.id:
+    displayName: ID
+  note.project:
+    displayName: Project
+  note.organization:
+    displayName: Organization
+  note.type:
+    displayName: Type
+  note.status:
+    displayName: Status
+  note.classification:
+    displayName: Classification
+  note.description:
+    displayName: Description
+  note.epic:
+    displayName: Epic
+  note.feature:
+    displayName: Feature
+  note.story:
+    displayName: Story
+  note.source_artifact:
+    displayName: Source Artifact
+  note.last:
+    displayName: Last
+  note.tags:
+    displayName: Tags
+views:
+  - type: table
+    name: All Reference Exercises
+    groupBy:
+      property: project
+      direction: ASC
+    order:
+      - file.name
+      - id
+      - type
+      - project
+      - organization
+      - status
+      - classification
+      - description
+      - epic
+      - feature
+      - story
+      - source_artifact
+      - last
+      - tags
+    sort:
+      - property: id
+        direction: ASC

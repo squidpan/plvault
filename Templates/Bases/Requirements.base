@@ -1,0 +1,143 @@
+filters:
+  and:
+    - file.inFolder("Notes/pjs")
+    - note.categories.contains(link("Requirements"))
+    - '!file.name.contains("Template")'
+properties:
+  file.name:
+    displayName: Requirement
+  note.id:
+    displayName: ID
+  note.project:
+    displayName: Project
+  note.organization:
+    displayName: Organization
+  note.type:
+    displayName: Type
+  note.status:
+    displayName: Status
+  note.classification:
+    displayName: Classification
+  note.description:
+    displayName: Description
+  note.epic:
+    displayName: Epic
+  note.feature:
+    displayName: Feature
+  note.story:
+    displayName: Story
+  note.source_artifact:
+    displayName: Source Artifact
+  note.last:
+    displayName: Last
+  note.tags:
+    displayName: Tags
+views:
+  - type: table
+    name: All Requirements
+    groupBy:
+      property: project
+      direction: ASC
+    order:
+      - file.name
+      - id
+      - type
+      - project
+      - organization
+      - status
+      - classification
+      - description
+      - source_artifact
+      - last
+      - tags
+    sort:
+      - property: id
+        direction: ASC
+  - type: table
+    name: Epics
+    filters:
+      and:
+        - note.categories.contains(link("Epics"))
+    groupBy:
+      property: project
+      direction: ASC
+    order:
+      - file.name
+      - id
+      - project
+      - status
+      - description
+      - last
+      - tags
+    sort:
+      - property: id
+        direction: ASC
+  - type: table
+    name: Features
+    filters:
+      and:
+        - note.categories.contains(link("Features"))
+    groupBy:
+      property: epic
+      direction: ASC
+    order:
+      - file.name
+      - id
+      - project
+      - epic
+      - status
+      - description
+      - last
+      - tags
+    sort:
+      - property: id
+        direction: ASC
+    columnSize:
+      file.name: 180
+      note.id: 59
+      note.epic: 89
+      note.status: 52
+      note.last: 90
+  - type: table
+    name: Stories
+    filters:
+      and:
+        - note.categories.contains(link("Stories"))
+    groupBy:
+      property: feature
+      direction: ASC
+    order:
+      - file.name
+      - id
+      - project
+      - epic
+      - feature
+      - status
+      - description
+      - last
+      - tags
+    sort:
+      - property: id
+        direction: ASC
+  - type: table
+    name: Acceptance Criteria
+    filters:
+      and:
+        - note.categories.contains(link("Acceptance Criteria"))
+    groupBy:
+      property: story
+      direction: ASC
+    order:
+      - file.name
+      - id
+      - project
+      - epic
+      - feature
+      - story
+      - status
+      - description
+      - last
+      - tags
+    sort:
+      - property: id
+        direction: ASC
